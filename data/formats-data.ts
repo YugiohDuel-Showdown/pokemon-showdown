@@ -16,5 +16,14 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	},
 	redeyesm: {
 		tier: "OU",
-	}
+	},
+	paladinow: {
+		tier: "LC",
+	},
+	blueeyes: {
+		tier: "NFE",
+	},
+	beudragon: {
+		tier: "OU",
+	},
 };
