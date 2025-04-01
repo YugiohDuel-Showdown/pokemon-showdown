@@ -32,4 +32,19 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	neaterb: {
 		tier: "OU",
 	},
+	petitmoth: {
+		tier: "LC",
+	},
+	larvaem: {
+		tier: "NFE",
+	},
+	cocoonoe: {
+		tier: "NFE",
+	},
+	greatmoth: {
+		tier: "OU",
+	},
+	pugmoth: {
+		tier: "OU",
+	}
 };
