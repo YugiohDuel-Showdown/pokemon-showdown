@@ -1,3 +1,35 @@
 export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
-
+	illusionm: {
+		learnset: {
+			tackle: ["9L1"],
+			leer: ["9L1"],
+			pursuit: ["9L7"],
+			focusenergy: ["9L10", "9T"],
+			negate: ["9L13"],
+			feintattack: ["9L16"],
+			disable: ["9L24"],
+			dkmagicatk: ["9L29", "9E"],
+			"1000knives": ["9L34", "9E"],
+			return: ["9L36"],
+			calmmind: ["9L45", "9M"],
+			ancientpower: ["9E"],
+			castlewalls: ["9E"],
+			carddestroy: ["9E"],
+			mrestoring: ["9E"],
+			endure: ["9E"],
+			lightscreen: ["9M"],
+			protect: ["9M"],
+			reflect: ["9M"],
+			cut: ["9M"],
+			snore: ["9T"],
+			megapunch: ["9T"],
+			snatch: ["9T"],
+			spite: ["9T"],
+			metronome: ["9T"],
+			magiccoat: ["9T"],
+			magicroom: ["9T"],
+			wonderroom: ["9T"],
+			yami: ["9T"],
+		}
+	},
 };
