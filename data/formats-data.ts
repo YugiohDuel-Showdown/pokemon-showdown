@@ -8,4 +8,13 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	darksage: {
 		tier: "OU",
 	},
+	bchick: {
+		tier: "LC",
+	},
+	redeyes: {
+		tier: "NFE",
+	},
+	redeyesm: {
+		tier: "OU",
+	}
 };
