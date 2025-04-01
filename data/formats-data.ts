@@ -53,4 +53,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	psnbtrfly: {
 		tier: "OU",
 	},
+	beaverw: {
+		tier: "OU",
+	}
 };

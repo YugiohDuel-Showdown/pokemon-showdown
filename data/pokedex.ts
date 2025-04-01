@@ -237,5 +237,16 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Parasite C",
 		evoLevel: 12,
 		eggGroups: ["Monster", "Bug"],
-	}
+	},
+	beaverw: {
+		num: 19,
+		name: "Beaver W",
+		types: ["Normal"],
+		baseStats: { hp: 50, atk: 70, def: 55, spa: 40, spd: 50, spe: 70 },
+		abilities: { 0: "Pickup", H: "Beast Boost"},
+		heightm: 0,
+		weightkg: 9.97,
+		color: "Blue",
+		eggGroups: ["Monster", "Field"],
+	},
 };
