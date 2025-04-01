@@ -46,5 +46,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	},
 	pugmoth: {
 		tier: "OU",
-	}
+	},
+	parasitec: {
+		tier: "LC",
+	},
+	psnbtrfly: {
+		tier: "OU",
+	},
 };
