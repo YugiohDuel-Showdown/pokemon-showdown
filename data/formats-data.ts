@@ -5,4 +5,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	dmagician: {
 		tier: "NFE",
 	},
+	darksage: {
+		tier: "OU",
+	},
 };
