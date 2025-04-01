@@ -26,4 +26,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	beudragon: {
 		tier: "OU",
 	},
+	maneater: {
+		tier: "LC",
+	},
+	neaterb: {
+		tier: "OU",
+	},
 };
