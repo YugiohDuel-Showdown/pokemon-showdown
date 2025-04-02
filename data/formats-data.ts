@@ -55,5 +55,20 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	},
 	beaverw: {
 		tier: "OU",
-	}
+	},
+	kuriboh: {
+		tier: "LC",
+	},
+	wingedkrb: {
+		tier: "NFE",
+	},
+	wkurlv10: {
+		tier: "OU",
+	},
+	kuribabyln: {
+		tier: "OU",
+	},
+	linkuriboh: {
+		tier: "OU",
+	},
 };
