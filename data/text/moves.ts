@@ -1,4 +1,61 @@
 export const MovesText: { [id: IDEntry]: MoveText } = {
+
+	// Yugioh Pokeduel custom moves
+	darkmagicattack: {
+		name: "Dark Magic Attack",
+		desc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
+		shortDesc: "10% chance to lower the target's Sp.Def by 1.",
+	},
+	whitelightning: {
+		name: "White Lightning",
+		desc: "Has a 10% chance to paralysis the target.",
+		shortDesc: "10% chance to paralysis.",
+	},
+	skyscraper: {
+		name: "Skyscraper",
+		desc: "Raises the user's Attack by 2 stages.",
+		shortDesc: "Raises the user's Attack by 2.",
+	},
+	obliterate: {
+		name: "Obliterate",
+		desc: "Deals damage to the target equal to the target's maximum HP. Ignores accuracy and evasiveness modifiers. This attack's accuracy is equal to (user's level - target's level + 30)%, and fails if the target is at a higher level. Pokemon with the Sturdy Ability are immune.",
+		shortDesc: "OHKOs the target. Fails if user is a lower level.",
+	},
+	darkburningattack: {
+		name: 'Dark Burning Attack',
+		desc: 'Has a 10% chance to burn the target.',
+		shortDesc: '10% chance to burn.',
+	},
+	burststream: {
+		name: 'Burst Stream',
+		shortDesc: 'No Additional Effects.',
+	},
+	dragonsword: {
+		name: 'Dragon Sword',
+		desc: "If a Dragon-type is knocked out, raises the user's Attack by 1 stage.",
+		shortDesc: "If a Dragon-type is knocked out, raises user's Attack by 1.",
+	},
+	skyscorcher: {
+		name: 'Sky Scorcher',
+		desc: 'Has a 10% chance to burn the target and a higher chance for a critical hit.',
+		shortDesc: 'High critical hit ratio. 10% chance to burn.',
+	},
+	flamesword: {
+		name: 'Flame Sword',
+		desc: "Has a 10% chance to burn the target.",
+		shortDesc: "10% chance to burn the target.",
+	},
+	chaosblade: {
+		name: 'Chaos Blade',
+		desc: "Has a 10% chance to lower the target's Speed by 1 stage. This move ignores type immunity.",
+		shortDesc: "10% chance to lower the target's Speed by 1. Can hit Ghost Types.",
+	},
+	spiralspear: {
+		name: 'Spiral Spear',
+		desc: "Has a 20% chance to lower the target's Def by 1 stage. Can't miss.",
+		shortDesc: "10% chance to lower the target's Def by 1. Can't miss.",
+	},
+	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",
 		desc: "Has a very high chance for a critical hit.",
