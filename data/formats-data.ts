@@ -80,4 +80,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	landstar: {
 		tier: "LC",
 	},
+	gilfordtl: {
+		tier: "OU",
+	}
 };
