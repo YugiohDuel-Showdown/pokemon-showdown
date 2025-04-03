@@ -1343,7 +1343,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	rkwarrior: {
 		learnset: {
 			headbutt: ["9L1", "9L13"],
-			multiply: ["9L1"],
+			multiply: ["9L1", "9M"],
 			bulletpunch: ["9L1", "9L19", "9T"],
 			quickattack: ["9L9"],
 			rollout: ["9L18"],
@@ -1367,7 +1367,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			thunder: ["9M"],
 			return: ["9M"],
 			brickbreak: ["9M"],
-			multiple: ["9M"],
 			focusblast: ["9M"],
 			chargebeam: ["9M"],
 			explosion: ["9M"],
