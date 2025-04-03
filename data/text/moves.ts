@@ -55,6 +55,380 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Has a 20% chance to lower the target's Def by 1 stage. Can't miss.",
 		shortDesc: "10% chance to lower the target's Def by 1. Can't miss.",
 	},
+	thundersword: {
+		name: 'Thunder Sword',
+		desc: 'Has a 10% chance to paralysis the target.',
+		shortDesc: '10% chance to paralysis the target.',
+	},
+	infernoblast: {
+		name: 'Inferno Blast',
+		desc: 'Has a 10% chance to burn the target.',
+		shortDesc: '10% chance to burn the target.',
+	},
+	axeslam: {
+		name: 'Axe Slam',
+		desc: 'Has a 30% chance to flinch the target.',
+		shortDesc: '30% chance to flinch the target.',
+	},
+	metalthrust: {
+		name: 'Metal Thrust',
+		desc: "Hits two to five times. Has a 35% chance to hit two or three times and a 15% chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
+		shortDesc: "Hits 2-5 times in one turn.",
+	},
+	cyberslash: {
+		name: 'Cyber Slash',
+		desc: "Has a higher chance for a critical hit.",
+		shortDesc: 'High critical hit ratio.',
+	},
+	tripleslice: {
+		name: 'Triple Slice',
+		desc: "its three times. Power increases to 40 for the second hit and 60 for the third. This move checks accuracy for each hit, and the attack ends if the target avoids a hit. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit three times.",
+		shortDesc: "Hits 3 times. Each hit can miss, but power rises.",
+	},
+	cybershock: {
+		name: "Cyber Shock",
+		desc: "Has a 10% chance to paralysis the target.",
+		shortDesc: "10% chance to paralysis the target.",
+	},
+	celticblade: {
+		name: "Celtic Blade",
+		desc: "Has a 30% chance to flinch the target.",
+		shortDesc: "30% chance to flinch the target.",
+	},
+	darklight: {
+		name: "Dark Light",
+		desc: "The user recovers 3/4 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
+		shortDesc: "User recovers 75% of the damage dealt.",
+	},
+	vengeance: {
+		name: "Vengeance",
+		desc: "Has a 10% chance to lower the target's Sp.Atk by 1 stage.",
+		shortDesc: "10% chance to lower the target's Sp.Atk by 1.",
+	},
+	magnetsword: {
+		name: "Magnet Sword",
+		desc: "Has a 10% chance to raise the user's Attack by 1 stage.",
+		shortDesc: "10% chance to raise the user's Attack by 1.",
+	},
+	fistoffate: {
+		name: "Fist of Fate",
+		desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
+		shortDesc: "User cannot move next turn.",
+	},
+	thunderforce: {
+		name: "Thunder Force",
+		desc: "Has a 10% chance to paralysis the target.",
+		shortDesc: "10% chance to paralysis the target.",
+	},
+	phoenixform: {
+		name: "Phoenix Form",
+		desc: "Has a 10% chance to raise the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage.",
+		shortDesc: "10% chance to raise all stats by 1 (not acc/eva).",
+	},
+	defensemode: {
+		name: "Defense Mode",
+		desc: "Raises the user's Defense and Special Defense by 1 stage.",
+		shortDesc: "Raises the user's Defense and Sp. Def by 1.",
+	},
+	bombardment: {
+		name: "Bombardment",
+		desc: "Damage doubles if the target is using Bounce or Fly",
+		shortDesc: "Double damage on Bounce or Fly",
+	},
+	destinyboard: {
+		name: "Destiny Board",
+		desc: "This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.",
+		shortDesc: "Charges turn 1. Hits turn 2.",
+		
+		prepare: "[POKEMON] became cloaked in the shadows!",
+	},
+	bubbleblast: {
+		name: "Bubble Blast",
+		desc: "Has a 30% chance to lower the target's Accuracy by 1 stage.",
+		shortDesc: "30% chance to lower the target's Accuracy by 1.",
+	},
+	scrapfist: {
+		name: "Scrap Fist",
+		desc: "No additional effect.",
+		shortDesc: "Usually goes first.",
+	},
+	toxicbreath: {
+		name: "Toxic Breath",
+		desc: "Has a 40% chance to badly poison the target.",
+		shortDesc: "40% chance to badly poison the target.",
+	},
+	silentburn: {
+		name: "Silent Burn",
+		desc: "Has a 10% chance to burn the target.",
+		shortDesc: "10% chance to burn the target.",
+	},
+	neutronblast: {
+		name: "Neutron Blast",
+		desc: "Has a 10% chance to paralysis the target.",
+		shortDesc: "10% chance to paralysis the target.",
+	},
+	negate: {
+		name: "Negate",
+		shortDesc: "Causes the target to become confused.",
+	},
+	shrink: {
+		name: "Shrink",
+		shortDesc: "Lowers the target's Attack by 2.",
+	},
+	mechanizedmelee: {
+		name: "Mechanized Melee",
+		desc: "Has a 10% chance to paralysis the target.",
+		shortDesc: "10% chance to paralysis the target.",
+	},
+	celestialsword: {
+		name: "Celestial Sword",
+		desc: "Has a 10% chance to raise the user's Attack by 1 stage.",
+		shortDesc: "10% chance to raise the user's Attack by 1.",
+	},
+	sparkblaster: {
+		name: "Spark Blaster",
+		desc: "Lowers the target's Special Defense by 1 stage.",
+		shortDesc: "Lowers the target's Sp. Def by 1.",
+	},
+	mysticalspacetyphoon: {
+		name: "Mystical Space Typhoon",
+		desc: "Has a 10% chance to confuse the target.",
+		shortDesc: "10% chance to confuse the target.",
+	},
+	parasiteparacide: {
+		name: "Parasite Paracide",
+		desc: "Causes the Bug type to be added to the target, effectively making it have two or three types. Fails if the target is already a Bug type. If Forest's Curse adds a type to the target, it replaces the type added by this move and vice versa.",
+		shortDesc: "Adds Bug to the target's type(s).",
+	},
+	swordsofrevealinglight: {
+		name: "Swords of Revealing Light",
+		shortDesc: "Causes the target to be frozen.",
+	},
+	stridentblaze: {
+		name: "Strident Blaze",
+		desc: "Has a 10% chance to paralysis the target.",
+		shortDesc: "10% chance to paralysis the target.",
+	},
+	metalmorph: {
+		name: "Metalmorph",
+		desc: "Raises the user's Attack by 2 stage, but lowers the user's Speed by 1 stage. The user's next Steel-type attack will have its power doubled; the effect ends when the user is no longer active, or the user attempts to use any Steel-type move besides Metalmorph, even if it is not successful.",
+		shortDesc: "+2 Atk, -1 Spe, user's next Steel move 2x power.",
+	},
+	mirrorwall: {
+		name: "Mirror Wall",
+		desc: "Raises the user's Defense by 12 in exchange for losing 1/2 of its maximum HP, rounded down. Fails if the user would faint or if its Defense stat stage is 6.",
+		shortDesc: "User loses 50% max HP. Maximizes Defense.",
+	},
+	ringofdestruction: {
+		name: "Ring of Destruction",
+		desc: "If the target lost HP, the user takes recoil damage equal to 100% of the HP lost by the target, rounded half up, but not less than 1 hp.",
+		shortDesc: "Has 100% recoil.",
+	},
+	chaosscepterblast: {
+		name: "Chaos Scepter Blast",
+		desc: "Has a 10% chance to paralysis the target.",
+		shortDesc: "10% chance to paralysis the target.",
+	},
+	silentslash: {
+		name: "Silent Slash",
+		shortDesc: "This move does not check accuracy.",
+	},
+	pointtopoint: {
+		name: "Point to Point",
+		desc: "Sacrifice all but 1 HP. Raises the user's Attack and Special Attack by 3 stages. Fails if the user's current HP is below 50% of their max HP. Moves Last.",
+		shortDesc: "Sacrifice all but 1 HP. +3 Atk and Sp. Atk. Moves Last. Fails if Above 50% Hp.",
+	},
+	naptime: {
+		name: "Nap Time",
+		shortDesc: "Causes both the user and target to fall asleep.",
+	},
+	ojamadeltahurricane: {
+		name: "Ojama Delta Hurricane",
+		desc: "This move combines Flying in its type effectiveness against the target. This move ignores immunity.",
+		shortDesc: "Combines Flying in its type effectiveness. Can Hit Ghost.",
+	},
+	transcendantwings: {
+		name: "Transcendant Wings",
+		desc: "This move becomes a physical attack if the user's Attack is greater than its Special Attack, including stat changes.",
+		shortDesc: "Physical if user's Attack > Sp. Atk.",
+	},
+	paralyzingpelletbarrage: {
+		name: "Paralyzing Pellet Barrage",
+		desc: "Has a 10% chance to paralysis the target.",
+		shortDesc: "10% chance to paralysis the target.",
+	},
+	clockprison: {
+		name: "Clock Prison",
+		desc: "Raises the user's Defense, Special Defense, and Speed by 1 stage.",
+		shortDesc: "Rasises the user's Def, Sp. Def, and Spe by 1.",
+	},
+	ultimatepound: {
+		name: "Ultimate Pound",
+		desc: "Ignores the target's stat changes, including evasiveness. Bypasses protection without breaking it.",
+		shortDesc: "Ignores the target's stat changes. Bypasses Protections.",
+	},
+	rainbowrefraction: {
+		name: "Rainbow Refraction",
+		shortDesc: "No Additional Effects.",
+	},
+	neosforce: {
+		name: "Neos Force",
+		desc: "This move's type change to the user's primary type.",
+		shortDesc: "Changes type to the user's primary type.",
+	},
+	megamorph: {
+		name: "Megamorph",
+		desc: "If the user's hp is greater than the target's hp, Increases Attack by 1 stage, else lowers the user's Attack by 1 stage.",
+		shortDesc: "If User's HP > Target's HP: +1 Atk, Else -1 Atk.",
+	},
+	forestterrain: {
+		name: "Forest Terrain",
+		desc: "Field turns into a forest for 5 turns, powering up Bug & Grass moves, also healing status of Bug/Grass types.",
+		shortDesc: "For 5 turns, Boosts Bug/Grass type moves; Cures Status of Bug/Grass types.",
+	},
+	exchange: {
+		name: "Exchange",
+		desc: "User and target swap places.",
+		shortDesc: "CURRENTLY DOES NOT WORK!",
+	},
+	legendaryocean: {
+		name: "Legendary Ocean",
+		desc: "Raises the user's Attack and Defense by 1 stage. If Rain is on the field, stats are increased by 2 instead.",
+		shortDesc: "Raises the user's Atk and Def by 1 stage. Double if Rain.",
+	},
+	leviastream: {
+		name: "Levia Stream",
+		desc: "Fails unless Rain is on the field. Removes Rain when used. Hits Everything.",
+		shortDesc: "Fails if no Rain. Removes Rain. Hits Everything.",
+	},
+	flameblast: {
+		name: "Flame Blast",
+		desc: "Increases the user's Attack by 1 stage, if knocks out the target.",
+		shortDesc: "If knocking out the target, raise the user's Atk by 1.",
+	},
+	mountain: {
+		name: "Mountain",
+		desc: "Field turns into mountains for 5 turns, powering up Dragon & Flying moves, also increases accuracy of Electric-type moves to 100%",
+		shortDesc: "For 5 turns, Boosts Dragon/Flying type moves; 100% accuracy on Electric-type moves.",
+	},
+	wasteland: {
+		name: "Wasteland",
+		desc: "Field turns into wasteland for 5 turns, powering up Ground, Rock, & Ghost moves, also decreases the power of Grass-type moves by half. Growth, Leech Seed, and Ingrain fails during the terrain.",
+		shortDesc: "For 5 turns, Boosts Ground/Rock/Ghost type moves; Halves the power of Grass-type moves.",
+	},
+	sparks: {
+		name: "Sparks",
+		shortDesc: "Causes the target to be burned.",
+	},
+	cosmicflare: {
+		name: "Cosmic Flare",
+		desc: "The target is forced to switch out and be replaced with a random unfainted all. Fails if the target is the last unfainted Monster in its party, or if the target used Ingrain previously or has the Suction Cups abilty.",
+		shortDesc: "Forces the target to switch to a random ally.",
+	},
+	thunderstroke: {
+		name: "Thunderstroke",
+		desc: "Has a 50% chance to paralysis the target.",
+		shortDesc: "50% chance to paralysis the target.",
+	},
+	yami: {
+		name: 'Yami',
+		desc: "Field becomes Yami for 5 turns, powering up Dark-type moves, and halves the power of Fairy-type moves.",
+		shortDesc: "For 5 turns, boosts Dark-type moves. Halves Fairy-type moves.",
+	},
+	hornofchaos: {
+		name: "Horn of Chaos",
+		shortDesc: "No Additional Effects.",
+	},
+	ectoplasmicfortification: {
+		name: "Ectoplasmic Fortification",
+		desc: "Raises the user's Special Attack and Special Defense by 1 stage. Recovers 1//16 of the user's max HP.",
+		shortDesc: "+1 Sp. Atk & +1 Sp. Def. Recovers 1/16 of max hp.",
+	},
+	spellbindingcircle: {
+		name: "Spellbinding Circle",
+		desc: "Prevents the target from switching out. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch.  If the target leaves the field using Baton Pass, the replacement will remain trapped. The effect ends if the user leaves the field.",
+		shortDesc: "Prevents the target from switching out.",
+	},
+	venomvapor: {
+		name: "Venom Vapor",
+		desc: "Hits everything on field. Recovers 50% of damage as HP.",
+		shortDesc: "Hits everything on field. Heals 50% of damage.",
+	},
+	heavystorm: {
+		name: "Heavy Storm",
+		desc: "If this move is successful, the effects of Reflect, Light Screen, Aurora Veil, Safeguard, Mist, Spikes, Toxic Spikes, Stealth Rock, and Sticky Web end for the target's side, and the effects of Spikes, Toxic Spikes, Stealth Rock, and Sticky Web end for the user's side.",
+		shortDesc: "Clears hazards on both sides.",
+	},
+	goatthrash: {
+		name: "Goat Thrash",
+		shortDesc: "Power doubles if user is behind scapegoat.",
+	},
+	goatheal: {
+		name: "Goat Heal",
+		shortDesc: "Heals 50%. Heals 75% if behind scapegoat.",
+	},
+	meltedice: {
+		name: "Melted Ice",
+		desc: "This move's type effectiveness against Fire is changed to be super effective no matter what this move's type is.",
+		shortDesc: "Super effective on Fire.",
+	},
+	fakehero: {
+		name: "Fake Hero",
+		desc: "If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members, or if the target switched out using an Eject Button or through the effect of the Emergency Exit or Wimp Out Abilities.",
+		shortDesc: "User switches out after damaging the target.",
+
+		switchOut: "#uturn",
+	},
+	manabreak: {
+		name: "Mana Break",
+		desc: "This move's type effectiveness against Bug is changed to be super effective no matter what this move's type is.",
+		shortDesc: "Super effective on Bug.",
+	},
+	graveoffire: {
+		name: "Grave of Fire",
+		desc: "Has a 50% chance to burn the target. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.",
+		shortDesc: "Charges turn 1. Hits turn 2. 50% burn.",
+
+		prepare: " [POKEMON] became cloaked in flames!",
+	},
+	rockcrushsword: {
+		name: "Rock Crush Sword",
+		desc: "Has a 40% chance to lower the target's accuracy.",
+		shortDesc: "40% chance to lower the target's accuracy.",
+	},
+	descroaking: {
+		name: "Des Croaking",
+		desc: "Powers up Frog Monsters for 5 Turns.",
+		shortDesc: "For 5 turns, powers up Frog Monsters.",
+	},
+	hungrybite: {
+		name: "Hungry Bite",
+		shortDesc: "Recovers 50% of damage as HP",
+	},
+	fiendishchain: {
+		name: "Fiendish Chain",
+		shortDesc: "Negates the target's Ability and traps them.",
+	},
+	zombieworld: {
+		name: "Zombie World",
+		desc: "For 5 turns, the terrain becomes Zombie World. All Monsters on the field become Ghost type. A small boost to Ghost-type Moves. Upon the destruction/end of the terrain will cause all monsters to revert back to their original types.",
+		shortDesc: "5 Turns. Grounded: Turn into Ghost Type. Small Boost to Ghost-type moves.",
+	},
+	wrathofneos: {
+		name: "Wrath of Neos",
+		desc: "This move becomes a special attack if the user's Special Attack is greater than its Special Attack, including stat stage changes. The user switches out after doing damage.",
+		shortDesc: "Special if Sp. Atk > Atk. Switches out.",
+	},
+	bookofmoon: {
+		name: "Book of Moon",
+		desc: "Raises the user's Defense by 1 stage. If the user is infliced with a status condition, doubles the effects of the stat boost, and cures the user of the status.",
+		shortDesc: "Raises the user's Def by 1. If status, Doubles the stat boost, and cures.",
+	},
+	diamondbladestrike: {
+		name: "Diamond Blade Strike",
+		desc: "Has a 10% chance to either raise or lower all stats of the user. (5% chance).",
+		shortDesc: "5% to increase all stats. 5% to decrease all stats.",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",
@@ -5145,8 +5519,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "The user spends two or three turns locked into this move and becomes confused immediately after its move on the last turn of the effect if it is not already. This move targets an opposing Pokemon at random on each turn. If the user is prevented from moving, is asleep at the beginning of a turn, or the attack is not successful against the target on the first turn of the effect or the second turn of a three-turn effect, the effect ends without causing confusion. If this move is called by Sleep Talk and the user is asleep, the move is used for one turn and does not confuse the user.",
 		shortDesc: "Lasts 2-3 turns. Confuses the user afterwards.",
 	},
-	raindance: {
-		name: "Rain Dance",
+	umi: {
+		name: "Umi",
 		desc: "For 5 turns, the weather becomes Rain Dance. The damage of Water-type attacks is multiplied by 1.5 and the damage of Fire-type attacks is multiplied by 0.5 during the effect. Lasts for 8 turns if the user is holding Damp Rock. Fails if the current weather is Rain Dance.",
 		shortDesc: "For 5 turns, heavy rain powers Water moves.",
 		gen3: {
@@ -6532,8 +6906,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 			desc: "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded down, but not less than 1 HP. If this move breaks the target's substitute, the user does not take any recoil damage.",
 		},
 	},
-	substitute: {
-		name: "Substitute",
+	scapegoat: {
+		name: "Scapegoat",
 		desc: "The user takes 1/4 of its maximum HP, rounded down, and puts it into a substitute to take its place in battle. The substitute is removed once enough damage is inflicted on it, if the user switches out or faints, or if any Pokemon uses Tidy Up. Baton Pass can be used to transfer the substitute to an ally, and the substitute will keep its remaining HP. Until the substitute is broken, it receives damage from all attacks made by other Pokemon and shields the user from status effects and stat stage changes caused by other Pokemon. Sound-based moves and Pokemon with the Infiltrator Ability ignore substitutes. The user still takes normal damage from weather and status effects while behind its substitute. If the substitute breaks during a multi-hit attack, the user will take damage from any remaining hits. If a substitute is created while the user is trapped by a binding move, the binding effect ends immediately. Fails if the user does not have enough HP remaining to create a substitute without fainting, or if it already has a substitute.",
 		shortDesc: "User takes 1/4 its max HP to put in a substitute.",
 		gen8: {

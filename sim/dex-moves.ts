@@ -46,6 +46,7 @@ interface MoveFlags {
 	heal?: 1; // Prevented from being executed or selected during Heal Block's effect.
 	metronome?: 1; // Can be selected by Metronome.
 	mirror?: 1; // Can be copied by Mirror Move.
+	moon?: 1; // Yu-Gi-Oh PokeDuel Change. Moon Move
 	mustpressure?: 1; // Additional PP is deducted due to Pressure when it ordinarily would not.
 	noassist?: 1; // Cannot be selected by Assist.
 	nonsky?: 1; // Prevented from being executed or selected in a Sky Battle.
