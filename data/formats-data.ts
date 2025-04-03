@@ -71,4 +71,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	linkuriboh: {
 		tier: "OU",
 	},
+	lwinguard: {
+		tier: "LC",
+	},
+	rkwarrior: {
+		tier: "OU",
+	},
 };
