@@ -429,6 +429,10 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Has a 10% chance to either raise or lower all stats of the user. (5% chance).",
 		shortDesc: "5% to increase all stats. 5% to decrease all stats.",
 	},
+	"1000knives": {
+		name: "1000 Knives",
+		shortDesc: "This move can't miss.",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",

@@ -1681,6 +1681,18 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Rock",
 	},
+	"1000knives": {
+		num: -1086,
+		accuracy: true,
+		basePower: 85,
+		category: "Special",
+		name: "1000 Knives",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1 },
+		target: "normal",
+		type: "Steel",
+	},
 
 	// Skill Dice Next move
 	// End of custom moves
