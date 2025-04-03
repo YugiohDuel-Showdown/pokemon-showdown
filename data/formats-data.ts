@@ -77,4 +77,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	rkwarrior: {
 		tier: "OU",
 	},
+	landstar: {
+		tier: "LC",
+	},
 };
