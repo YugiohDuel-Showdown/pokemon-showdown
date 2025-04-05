@@ -82,5 +82,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	},
 	gilfordtl: {
 		tier: "OU",
-	}
+	},
+	happylover: {
+		tier: "LC",
+	},
+	shfriend: {
+		tier: "OU",
+	},
 };
