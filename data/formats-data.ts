@@ -89,4 +89,13 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	shfriend: {
 		tier: "OU",
 	},
+	flamem: {
+		tier: "LC",
+	},
+	flameswrd: {
+		tier: "NFE",
+	},
+	dflarek: {
+		tier: "OU",
+	},
 };
