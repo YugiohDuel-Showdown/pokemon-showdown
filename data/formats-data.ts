@@ -104,4 +104,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	desfimp: {
 		tier: "OU",
 	},
+	babyd: {
+		tier: "LC",
+	},
+	thousandd: {
+		tier: "OU",
+	},
 };
