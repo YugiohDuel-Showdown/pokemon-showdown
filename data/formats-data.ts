@@ -98,4 +98,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	dflarek: {
 		tier: "OU",
 	},
+	feralimp: {
+		tier: "LC",
+	},
+	desfimp: {
+		tier: "OU",
+	},
 };
