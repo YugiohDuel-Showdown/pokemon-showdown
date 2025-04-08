@@ -1693,7 +1693,206 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Steel",
 	},
-
+	hammershot: {
+		num: -1087,
+		accuracy: 100,
+		basePower: 95,
+		category: "Physical",
+		name: "Hammer Shot",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, contact: 1 },
+		overrideOffensivePokemon: 'target',
+		target: "normal",
+		type: "Ground",
+	},
+	claycharge: {
+		num: -1088,
+		accuracy: 100,
+		basePower: 80,
+		category: "Physical",
+		name: "Clay Charge",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, contact: 1 },
+		secondary: {
+			chance: 100,
+			self: {
+				boosts: {
+					spe: 1,
+				},
+			},
+		},
+		target: "normal",
+		type: "Ground",
+	},
+	ookazi: {
+		num: -1089,
+		accuracy: 85,
+		basePower: 0,
+		category: "Status",
+		name: "Ookazi",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, reflectable: 1 },
+		onHit(pokemon, source) {
+			const item = pokemon.getItem();
+			if ((item.isBerry || item.isGem) && pokemon.takeItem(source)) {
+				this.add('-enditem', pokemon, item.name, '[from] move: Ookazi');
+			}
+		},
+		secondary: {
+			chance: 100,
+			status: "brn",
+		},
+		target: "normal",
+		type: 'Fire',
+	},
+	ravagingfist: {
+		num: -1090,
+		accuracy: 100,
+		basePower: 95,
+		category: "Physical",
+		name: "Ravaging Fist",
+		pp: 5,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, },
+		secondary: {
+			chance: 100,
+			boosts: {
+				atk: -1,
+			}
+		},
+		target: "normal",
+		type: "Fighting",
+	},
+	ceruleanskyfire: {
+		num: -1091,
+		accuracy: 100,
+		basePower: 95,
+		category: "Special",
+		name: "Cerulean Skyfire",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1 },
+		secondary: {
+			chance: 30,
+			onHit(target, source) {
+				const result = this.random(2);
+				if (result === 0) {
+					target.setStatus('par', source);
+				} else { // assuming 1
+					target.setStatus('brn', source);
+				}
+			}
+		},
+		target: "normal",
+		type: "Electric",
+	},
+	hyperblaze: {
+		num: -1092,
+		accuracy: 100,
+		basePower: 150,
+		category: "Special",
+		name: "Hyper Blaze",
+		pp: 5,
+		priority: 0,
+		flags: { recharge: 1, protect: 1, mirror: 1 },
+		self: {
+			volatileStatus: 'mustrecharge',
+		},
+		secondary: {
+			chance: 100,
+			status: 'brn',
+		},
+		target: "normal",
+		type: "Fire",
+	},
+	frenzyfang: {
+		num: -1093,
+		accuracy: 100,
+		basePower: 90,
+		category: "Physical",
+		name: "Frenzy Fang",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, contact: 1, bite: 1 },
+		secondary: {
+			chance: 10,
+			onHit(target, source) {
+				const result = this.random(2);
+				if (result === 0) {
+					target.addVolatile('flinch', source);
+				} else { // assuming 1
+					target.addVolatile('confusion', source);
+				}
+			}
+		},
+		target: "normal",
+		type: "Normal",
+	},
+	firehose: {
+		num: -1094,
+		accuracy: 100,
+		basePower: 70,
+		category: "Special",
+		name: "Firehose",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1 },
+		onTryHit(target, source, move) {
+			if (source.isAlly(target)) {
+				move.basePower = 0;
+				move.infiltrates = true;
+			}
+		},
+		onBasePower(basePower, pokemon, target) {
+			if (target.status === 'brn' && !target.isAlly(pokemon)) {
+				return this.chainModify(2);
+			}
+			
+		},
+		onHit(target, source) {
+			if (target.status === 'brn') {
+				target.cureStatus();
+			}
+		},
+		target: "normal",
+		type: "Normal",
+	},
+	"t.canbeonly1": {
+		num: -1095,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "T.CanBeOnly1",
+		pp: 10,
+		priority: 0,
+		flags: { mirror: 1 },
+		onHit(pokemon) {
+			if (pokemon.types.length === 1) return;
+			pokemon.setType(pokemon.types[0]);
+			this.add('-start', pokemon, 'typechange', pokemon.types[0], '[from] move: T.CanBeOnly1');
+		},
+		target: "allAdjacent",
+		type: "Normal",
+	},
+	clearstream: {
+		num: -1096,
+		accuracy: true,
+		basePower: 90,
+		category: "Special",
+		name: "Clear Stream",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1 },
+		onHit(target) {
+			target.clearBoosts();
+			this.add('-clearboost', target);
+		},
+		target: "normal",
+		type: "???",
+	},
 	// Skill Dice Next move
 	// End of custom moves
 	"10000000voltthunderbolt": {

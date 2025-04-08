@@ -433,6 +433,56 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "1000 Knives",
 		shortDesc: "This move can't miss.",
 	},
+	hammershot: {
+		name: "Hammer Shot",
+		desc: "Damage is calculated using the target's Attack stat, including stat stage changes. The user's Ability, item, and burn are used as normal.",
+		shortDesc: "Uses target's Attack stat in damage calculation.",
+	},
+	claycharge: {
+		name: "Clay Charge",
+		desc: "Has a 100% chance to raise the user's Speed by 1 stage.",
+		shortDesc: "100% chance to raise the user's Speed by 1.",
+	},
+	ookazi: {
+		name: "Ookazi",
+		desc: "Send the foe to the homeless realm by buring their house. The foe and any held berry is burned.",
+		shortDesc: "Burns the target and held berry.",
+	},
+	ravagingfist: {
+		name: "Ravaging Fist",
+		desc: "Has a 100% chance to lower the target's Attack by 1 stage.",
+		shortDesc: "100% chance to lower the target's Atk by 1.",
+	},
+	ceruleanskyfire: {
+		name: "Cerulean Skyfire",
+		desc: "Has a 30% chance to either burn or paraylsis the target.",
+		shortDesc: "30% chance to burn or paralysis the target.",
+	},
+	hyperblaze: {
+		name: "Hyper Blaze",
+		desc: "If this move is successful, the user must recharge on the following turn and cannot select a move. Always burns the target.",
+		shortDesc: "User cannot move next turn. Always burns the target.",
+	},
+	frenzyfang: {
+		name: "Frenzy Fang",
+		desc: "Has a 10% chance to either flinch or confuse the target.",
+		shortDesc: "10% chance to flinch or confuse the target.",
+	},
+	firehose: {
+		name: "Firehose",
+		desc: "Deals double damage if the target is burned, then cures them. If used on an ally, cures the ally's burn.",
+		shortDesc: "Deals 2x damage on target if burned. Cures Burn. If ally, Cures Burn.",
+	},
+	"t.canbeonly1": {
+		name: "T.CanBeOnly1",
+		desc: "Causes all monsters on the field to lose their secondary typing.",
+		shortDesc: "All monsters lose their secondary typing.",
+	},
+	clearstream: {
+		name: "Clear Stream",
+		desc: "This move does not check accuracy. Resets the target's stat changes.",
+		shortDesc: "Always hits. Resets the target's stat changes.",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",
