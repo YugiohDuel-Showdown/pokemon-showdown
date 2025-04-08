@@ -33,6 +33,22 @@ Ratings and how they work:
 */
 
 export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
+
+	royalflush: {
+		onModifyAtk(atk, pokemon) {
+			const party = pokemon.side.pokemon.filter(ally => ally.species.id === "queensk" && ally.ability === "Royal Flush");
+			if (party.length > 0) return this.chainModify(1.5);
+		},
+		onModifyDef(def, pokemon) {
+			const party = pokemon.side.pokemon.filter(ally => ally.species.id === "kingsk" && ally.ability === "Royal Flush");
+			if (party.length > 0) return this.chainModify(1.5);
+		},
+		onModifySpe(spe, pokemon) {
+			const party = pokemon.side.pokemon.filter(ally => ally.species.id === "jacksk" && ally.ability === "Royal Flush");
+			if (party.length > 0) return this.chainModify(1.5);
+		},
+		name: "Royal Flush",
+	},
 	noability: {
 		flags: {},
 		name: "No Ability",
@@ -1144,12 +1160,12 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 2,
 		num: 27,
 	},
-	electricsurge: {
+	thundersurge: {
 		onStart(source) {
 			this.field.setTerrain('electricterrain');
 		},
 		flags: {},
-		name: "Electric Surge",
+		name: "Thunder Surge",
 		rating: 4,
 		num: 226,
 	},
@@ -3313,7 +3329,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 5,
 		num: 211,
 	},
-	powerofalchemy: {
+	alchemypower: {
 		onAllyFaint(target) {
 			if (!this.effectState.target.hp) return;
 			const ability = target.getAbility();
@@ -3323,7 +3339,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			}
 		},
 		flags: { failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1 },
-		name: "Power of Alchemy",
+		name: "Alchemy Power",
 		rating: 0,
 		num: 223,
 	},
@@ -5278,7 +5294,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3.5,
 		num: 10,
 	},
-	wanderingspirit: {
+	roamingsoul: {
 		onDamagingHit(damage, target, source, move) {
 			if (source.getAbility().flags['failskillswap'] || target.volatiles['dynamax']) return;
 
@@ -5296,7 +5312,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			}
 		},
 		flags: {},
-		name: "Wandering Spirit",
+		name: "Roaming Soul",
 		rating: 2.5,
 		num: 254,
 	},
