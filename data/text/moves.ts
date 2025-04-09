@@ -562,6 +562,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Dragonic Attack",
 		shortDesc: "100% chance to raise the user's Atk and Def by 1. +Dragon type.",
 	},
+	// Stim Pack next move
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",
