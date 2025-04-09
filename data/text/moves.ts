@@ -886,15 +886,15 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 
 		activate: "  [NAME]'s attack!", // past gen only
 	},
-	behemothbash: {
-		name: "Behemoth Bash",
+	giantbash: {
+		name: "Giant Bash",
 		shortDesc: "No additional effect.",
 		gen8: {
 			shortDesc: "Damage doubles if the target is Dynamaxed.",
 		},
 	},
-	behemothblade: {
-		name: "Behemoth Blade",
+	giantblade: {
+		name: "Giant Blade",
 		shortDesc: "No additional effect.",
 		gen8: {
 			shortDesc: "Damage doubles if the target is Dynamaxed.",
@@ -1163,8 +1163,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 			shortDesc: "Has 1/3 recoil.",
 		},
 	},
-	breakingswipe: {
-		name: "Breaking Swipe",
+	breakswipe: {
+		name: "Break Swipe",
 		desc: "Has a 100% chance to lower the target's Attack by 1 stage.",
 		shortDesc: "100% chance to lower the foe(s) Attack by 1.",
 	},
@@ -1269,8 +1269,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "The user is protected from most attacks made by other Pokemon during this turn, and Pokemon trying to make contact with the user become burned. Non-damaging moves go through this protection. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails, if the user's last move used is not Baneful Bunker, Burning Bulwark, Detect, Endure, King's Shield, Max Guard, Obstruct, Protect, Quick Guard, Silk Trap, Spiky Shield, or Wide Guard, or if it was one of those moves and the user's protection was broken. Fails if the user moves last this turn.",
 		shortDesc: "Protects from damaging attacks. Contact: burn.",
 	},
-	burningjealousy: {
-		name: "Burning Jealousy",
+	jealousburn: {
+		name: "Jealous Burn",
 		desc: "Has a 100% chance to burn the target if it had a stat stage raised this turn.",
 		shortDesc: "100% burns a target that had a stat rise this turn.",
 	},
@@ -1371,8 +1371,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 			shortDesc: "For Chatot, 31% chance to confuse the target.",
 		},
 	},
-	chillingwater: {
-		name: "Chilling Water",
+	chilledwater: {
+		name: "Chilled Water",
 		desc: "Has a 100% chance to lower the target's Attack by 1 stage.",
 		shortDesc: "100% chance to lower the target's Attack by 1.",
 	},
@@ -1589,8 +1589,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Corkscrew Crash",
 		shortDesc: "Power is equal to the base move's Z-Power.",
 	},
-	corrosivegas: {
-		name: "Corrosive Gas",
+	corrodegas: {
+		name: "Corrode Gas",
 		desc: "The target loses its held item. This move cannot cause Pokemon with the Sticky Hold Ability to lose their held item or cause a Kyogre, a Groudon, a Giratina, an Arceus, a Genesect, a Silvally, a Zacian, or a Zamazenta to lose their Blue Orb, Red Orb, Griseous Orb, Plate, Drive, Memory, Rusted Sword, or Rusted Shield respectively. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
 		shortDesc: "Removes adjacent Pokemon's held items.",
 
@@ -1612,8 +1612,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Lowers the target's Speed by 2 stages.",
 		shortDesc: "Lowers the target's Speed by 2.",
 	},
-	counter: {
-		name: "Counter",
+	mgccylinder: {
+		name: "MGC Cylinder",
 		desc: "Deals damage to the last opposing Pokemon to hit the user with a physical attack this turn equal to twice the HP lost by the user from that attack. If the user did not lose HP from the attack, this move deals 1 HP of damage instead. If that opposing Pokemon's position is no longer in use and there is another opposing Pokemon on the field, the damage is done to it instead. Only the last hit of a multi-hit attack is counted. Fails if the user was not hit by an opposing Pokemon's physical attack this turn.",
 		shortDesc: "If hit by physical attack, returns double damage.",
 		gen6: {
@@ -2004,8 +2004,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 			desc: "Hits two to five times. Has a 3/8 chance to hit two or three times, and a 1/8 chance to hit four or five times. Damage is calculated once for the first hit and used for every hit. If one of the hits breaks the target's substitute, the move ends.",
 		},
 	},
-	doubleteam: {
-		name: "Double Team",
+	multiply: {
+		name: "Multiply",
 		desc: "Raises the user's evasiveness by 1 stage.",
 		shortDesc: "Raises the user's evasiveness by 1.",
 	},
@@ -2334,8 +2334,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
 		shortDesc: "User cannot move next turn.",
 	},
-	expandingforce: {
-		name: "Expanding Force",
+	expandforce: {
+		name: "Expand Force",
 		desc: "If the current terrain is Psychic Terrain and the user is grounded, this move hits all opposing Pokemon and has its power multiplied by 1.5.",
 		shortDesc: "User on Psychic Terrain: 1.5x power, hits foes.",
 	},
@@ -2410,8 +2410,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Lowers the target's Special Defense by 2 stages.",
 		shortDesc: "Lowers the target's Sp. Def by 2.",
 	},
-	falsesurrender: {
-		name: "False Surrender",
+	falseyield: {
+		name: "False Yield",
 		shortDesc: "This move does not check accuracy.",
 	},
 	falseswipe: {
@@ -2792,8 +2792,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 
 		prepare: "  [POKEMON] became cloaked in a freezing light!",
 	},
-	freezingglare: {
-		name: "Freezing Glare",
+	freezeglare: {
+		name: "Freeze Glare",
 		desc: "Has a 10% chance to freeze the target.",
 		shortDesc: "10% chance to freeze the target.",
 	},
@@ -2934,8 +2934,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
 		shortDesc: "User cannot move next turn.",
 	},
-	gigatonhammer: {
-		name: "Gigaton Hammer",
+	gigahammer: {
+		name: "Giga Hammer",
 		shortDesc: "Cannot be selected the turn after it's used.",
 	},
 	gigavolthavoc: {
@@ -4669,8 +4669,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 
 		start: "#foresight",
 	},
-	mirrorcoat: {
-		name: "Mirror Coat",
+	mirrorforce: {
+		name: "Mirror Force",
 		desc: "Deals damage to the last opposing Pokemon to hit the user with a special attack this turn equal to twice the HP lost by the user from that attack. If the user did not lose HP from the attack, this move deals 1 HP of damage instead. If that opposing Pokemon's position is no longer in use and there is another opposing Pokemon on the field, the damage is done to it instead. Only the last hit of a multi-hit attack is counted. Fails if the user was not hit by an opposing Pokemon's special attack this turn.",
 		shortDesc: "If hit by special attack, returns double damage.",
 		gen6: {
@@ -4733,8 +4733,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Has a 50% chance to lower the target's Special Attack by 1 stage.",
 		shortDesc: "50% chance to lower the target's Sp. Atk by 1.",
 	},
-	mistyexplosion: {
-		name: "Misty Explosion",
+	mistyexplode: {
+		name: "Misty Explode",
 		desc: "If the current terrain is Misty Terrain and the user is grounded, this move's power is multiplied by 1.5. The user faints after using this move, even if this move fails for having no target. This move is prevented from executing if any active Pokemon has the Damp Ability.",
 		shortDesc: "User faints. User on Misty Terrain: 1.5x power.",
 	},
@@ -7054,8 +7054,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 			shortDesc: "Hits foes. Power doubles against Dive.",
 		},
 	},
-	surgingstrikes: {
-		name: "Surging Strikes",
+	surgestrikes: {
+		name: "Surge Strikes",
 		desc: "Hits three times. This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities.",
 		shortDesc: "Always results in a critical hit. Hits 3 times.",
 	},
@@ -7437,8 +7437,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Has a 10% chance to paralyze the target and a 10% chance to make it flinch.",
 		shortDesc: "10% chance to paralyze. 10% chance to flinch.",
 	},
-	thunderouskick: {
-		name: "Thunderous Kick",
+	thunderkick: {
+		name: "Thunder Kick",
 		desc: "Has a 100% chance to lower the target's Defense by 1 stage.",
 		shortDesc: "100% chance to lower the target's Defense by 1.",
 	},
