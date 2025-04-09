@@ -3107,12 +3107,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Dark",
 		contestType: "Clever",
 	},
-	behemothbash: {
+	giantbash: {
 		num: 782,
 		accuracy: 100,
 		basePower: 100,
 		category: "Physical",
-		name: "Behemoth Bash",
+		name: "Giant Bash",
 		pp: 5,
 		priority: 0,
 		flags: { contact: 1, protect: 1, mirror: 1, failcopycat: 1, failmimic: 1 },
@@ -3120,12 +3120,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Steel",
 	},
-	behemothblade: {
+	giantblade: {
 		num: 781,
 		accuracy: 100,
 		basePower: 100,
 		category: "Physical",
-		name: "Behemoth Blade",
+		name: "Giant Blade",
 		pp: 5,
 		priority: 0,
 		flags: { contact: 1, protect: 1, mirror: 1, failcopycat: 1, failmimic: 1, slicing: 1 },
@@ -3741,12 +3741,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Flying",
 		contestType: "Cool",
 	},
-	breakingswipe: {
+	breakswipe: {
 		num: 784,
 		accuracy: 100,
 		basePower: 60,
 		category: "Physical",
-		name: "Breaking Swipe",
+		name: "Break Swipe",
 		pp: 15,
 		priority: 0,
 		flags: { contact: 1, protect: 1, mirror: 1 },
@@ -4036,12 +4036,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "self",
 		type: "Fire",
 	},
-	burningjealousy: {
+	jealousburn: {
 		num: 807,
 		accuracy: 100,
 		basePower: 70,
 		category: "Special",
-		name: "Burning Jealousy",
+		name: "Jealous Burn",
 		pp: 5,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1 },
@@ -4350,12 +4350,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Flying",
 		contestType: "Cute",
 	},
-	chillingwater: {
+	chilledwater: {
 		num: 886,
 		accuracy: 100,
 		basePower: 50,
 		category: "Special",
-		name: "Chilling Water",
+		name: "Chilled Water",
 		pp: 20,
 		priority: 0,
 		flags: { protect: 1, mirror: 1 },
@@ -4907,13 +4907,13 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Steel",
 		contestType: "Cool",
 	},
-	corrosivegas: {
+	corrodegas: {
 		num: 810,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
 		isNonstandard: "Unobtainable",
-		name: "Corrosive Gas",
+		name: "Corrode Gas",
 		pp: 40,
 		priority: 0,
 		flags: { protect: 1, reflectable: 1, mirror: 1, allyanim: 1, metronome: 1 },
@@ -4984,7 +4984,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		zMove: { effect: 'clearnegativeboost' },
 		contestType: "Beautiful",
 	},
-	counter: {
+	mgccylinder: {
 		num: 68,
 		accuracy: 100,
 		basePower: 0,
@@ -4993,7 +4993,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			return pokemon.volatiles['counter'].damage || 1;
 		},
 		category: "Physical",
-		name: "Counter",
+		name: "MGC Cylinder",
 		pp: 20,
 		priority: -5,
 		flags: { contact: 1, protect: 1, failmefirst: 1, noassist: 1, failcopycat: 1 },
@@ -5003,26 +5003,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		onTry(source) {
 			if (!source.volatiles['counter']) return false;
 			if (source.volatiles['counter'].slot === null) return false;
-		},
-		condition: {
-			duration: 1,
-			noCopy: true,
-			onStart(target, source, move) {
-				this.effectState.slot = null;
-				this.effectState.damage = 0;
-			},
-			onRedirectTargetPriority: -1,
-			onRedirectTarget(target, source, source2, move) {
-				if (move.id !== 'counter') return;
-				if (source !== this.effectState.target || !this.effectState.slot) return;
-				return this.getAtSlot(this.effectState.slot);
-			},
-			onDamagingHit(damage, target, source, move) {
-				if (!source.isAlly(target) && this.getCategory(move) === 'Physical') {
-					this.effectState.slot = source.getSlot();
-					this.effectState.damage = 2 * damage;
-				}
-			},
 		},
 		secondary: null,
 		target: "scripted",
@@ -6030,12 +6010,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Normal",
 		contestType: "Cute",
 	},
-	doubleteam: {
+	multiply: {
 		num: 104,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
-		name: "Double Team",
+		name: "Multiply",
 		pp: 15,
 		priority: 0,
 		flags: { snatch: 1, metronome: 1 },
@@ -7025,12 +7005,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Dragon",
 	},
-	expandingforce: {
+	expandforce: {
 		num: 797,
 		accuracy: 100,
 		basePower: 80,
 		category: "Special",
-		name: "Expanding Force",
+		name: "Expand Force",
 		pp: 10,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1 },
@@ -7217,12 +7197,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		zMove: { boost: { spa: 1 } },
 		contestType: "Cute",
 	},
-	falsesurrender: {
+	falseyield: {
 		num: 793,
 		accuracy: true,
 		basePower: 80,
 		category: "Physical",
-		name: "False Surrender",
+		name: "False Yield",
 		pp: 10,
 		priority: 0,
 		flags: { contact: 1, protect: 1, mirror: 1 },
@@ -8325,12 +8305,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Ice",
 		contestType: "Beautiful",
 	},
-	freezingglare: {
+	freezeglare: {
 		num: 821,
 		accuracy: 100,
 		basePower: 90,
 		category: "Special",
-		name: "Freezing Glare",
+		name: "Freeze Glare",
 		pp: 10,
 		priority: 0,
 		flags: { protect: 1, mirror: 1 },
@@ -8724,12 +8704,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Normal",
 		contestType: "Tough",
 	},
-	gigatonhammer: {
+	gigahammer: {
 		num: 893,
 		accuracy: 100,
 		basePower: 160,
 		category: "Physical",
-		name: "Gigaton Hammer",
+		name: "Giga Hammer",
 		pp: 5,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1, cantusetwice: 1 },
@@ -14331,7 +14311,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		zMove: { boost: { spa: 1 } },
 		contestType: "Clever",
 	},
-	mirrorcoat: {
+	mirrorforce: {
 		num: 243,
 		accuracy: 100,
 		basePower: 0,
@@ -14340,7 +14320,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			return pokemon.volatiles['mirrorcoat'].damage || 1;
 		},
 		category: "Special",
-		name: "Mirror Coat",
+		name: "Mirror Force",
 		pp: 20,
 		priority: -5,
 		flags: { protect: 1, failmefirst: 1, noassist: 1 },
@@ -14351,26 +14331,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			if (!source.volatiles['mirrorcoat']) return false;
 			if (source.volatiles['mirrorcoat'].slot === null) return false;
 		},
-		condition: {
-			duration: 1,
-			noCopy: true,
-			onStart(target, source, move) {
-				this.effectState.slot = null;
-				this.effectState.damage = 0;
-			},
-			onRedirectTargetPriority: -1,
-			onRedirectTarget(target, source, source2, move) {
-				if (move.id !== 'mirrorcoat') return;
-				if (source !== this.effectState.target || !this.effectState.slot) return;
-				return this.getAtSlot(this.effectState.slot);
-			},
-			onDamagingHit(damage, target, source, move) {
-				if (!source.isAlly(target) && this.getCategory(move) === 'Special') {
-					this.effectState.slot = source.getSlot();
-					this.effectState.damage = 2 * damage;
-				}
-			},
-		},
+
 		secondary: null,
 		target: "scripted",
 		type: "Psychic",
@@ -14483,12 +14444,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Psychic",
 		contestType: "Clever",
 	},
-	mistyexplosion: {
+	mistyexplode: {
 		num: 802,
 		accuracy: 100,
 		basePower: 100,
 		category: "Special",
-		name: "Misty Explosion",
+		name: "Misty Explode",
 		pp: 5,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1 },
@@ -21110,12 +21071,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Water",
 		contestType: "Beautiful",
 	},
-	surgingstrikes: {
+	surgestrikes: {
 		num: 818,
 		accuracy: 100,
 		basePower: 25,
 		category: "Physical",
-		name: "Surging Strikes",
+		name: "Surge Strikes",
 		pp: 5,
 		priority: 0,
 		flags: { contact: 1, protect: 1, mirror: 1, punch: 1 },
@@ -22152,12 +22113,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Electric",
 		contestType: "Cool",
 	},
-	thunderouskick: {
+	thunderkick: {
 		num: 823,
 		accuracy: 100,
 		basePower: 90,
 		category: "Physical",
-		name: "Thunderous Kick",
+		name: "Thunder Kick",
 		pp: 10,
 		priority: 0,
 		flags: { contact: 1, protect: 1, mirror: 1 },

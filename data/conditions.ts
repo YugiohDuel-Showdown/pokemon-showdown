@@ -520,6 +520,49 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 			return this.chainModify([5325, 4096]);
 		},
 	},
+	counter: {
+		name: "counter",
+		duration: 1,
+		noCopy: true,
+		onStart(target, source, move) {
+			this.effectState.slot = null;
+			this.effectState.damage = 0;
+		},
+		onRedirectTargetPriority: -1,
+		onRedirectTarget(target, source, source2, move) {
+			if (move.id !== 'counter') return;
+			if (source !== this.effectState.target || !this.effectState.slot) return;
+			return this.getAtSlot(this.effectState.slot);
+		},
+		onDamagingHit(damage, target, source, move) {
+			if (!source.isAlly(target) && this.getCategory(move) === 'Physical') {
+				this.effectState.slot = source.getSlot();
+				this.effectState.damage = 2 * damage;
+			}
+		},
+	},
+	mirrorcoat: {
+		name: "mirrorcoat",
+				
+		duration: 1,
+		noCopy: true,
+		onStart(target, source, move) {
+			this.effectState.slot = null;
+			this.effectState.damage = 0;
+		},
+		onRedirectTargetPriority: -1,
+		onRedirectTarget(target, source, source2, move) {
+			if (move.id !== 'mirrorcoat') return;
+			if (source !== this.effectState.target || !this.effectState.slot) return;
+			return this.getAtSlot(this.effectState.slot);
+		},
+		onDamagingHit(damage, target, source, move) {
+			if (!source.isAlly(target) && this.getCategory(move) === 'Special') {
+				this.effectState.slot = source.getSlot();
+				this.effectState.damage = 2 * damage;
+			}
+		},
+	},
 
 	// weather is implemented here since it's so important to the game
 
