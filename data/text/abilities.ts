@@ -1,4 +1,17 @@
 export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
+	harpiesurge: {
+		name: 'Harpie Surge',
+		shortDesc: "On switch-in, this Monster summons Harpies Hunting Ground.",
+	},
+	royalflush: {
+		name: "Royal Flush",
+		desc: "Increases a stat by 50% for every \"Royal Knight\" on the users field or party (including itself): Queens Knight will increase Attack, Kings Knight will increase Defense, and Jacks Knight will increase Speed",
+		shortDesc: "+50% to a stat for every \"Royal Knight\" on the users field or party (including itself)"
+	},
+	honestpower: {
+		name: "Honest Power",
+		shortDesc: "This Monster's Special Attack is doubled.",
+	},
 	noability: {
 		name: "No Ability",
 		shortDesc: "Does nothing.",
@@ -425,8 +438,8 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 			shortDesc: "10% chance of poison/paralysis/sleep on others making contact with this Pokemon.",
 		},
 	},
-	electricsurge: {
-		name: "Electric Surge",
+	thundersurge: {
+		name: "Thunder Surge",
 		shortDesc: "On switch-in, this Pokemon summons Electric Terrain.",
 	},
 	electromorphosis: {
@@ -1298,8 +1311,8 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		activate: "  You sense the presence of many!",
 		transform: "[POKEMON] transformed into its Complete Forme!",
 	},
-	powerofalchemy: {
-		name: "Power of Alchemy",
+	alchemypower: {
+		name: "Alchemy Power",
 		desc: "This Pokemon copies the Ability of an ally that faints. Abilities that cannot be copied are As One, Battle Bond, Comatose, Commander, Disguise, Embody Aspect, Flower Gift, Forecast, Hunger Switch, Ice Face, Illusion, Imposter, Multitype, Neutralizing Gas, Poison Puppeteer, Power Construct, Power of Alchemy, Protosynthesis, Quark Drive, Receiver, RKS System, Schooling, Shields Down, Stance Change, Tera Shell, Tera Shift, Teraform Zero, Trace, Wonder Guard, Zen Mode, and Zero to Hero.",
 		shortDesc: "This Pokemon copies the Ability of an ally that faints.",
 		gen8: {
@@ -2150,8 +2163,8 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 			shortDesc: "This Pokemon heals 1/4 its max HP when hit by a damaging Electric move; immunity.",
 		},
 	},
-	wanderingspirit: {
-		name: "Wandering Spirit",
+	roamingsoul: {
+		name: "Roaming Soul",
 		desc: "Pokemon making contact with this Pokemon have their Ability swapped with this one. Does not affect Pokemon with the Abilities As One, Battle Bond, Comatose, Commander, Disguise, Embody Aspect, Hunger Switch, Ice Face, Illusion, Multitype, Neutralizing Gas, Poison Puppeteer, Power Construct, Protosynthesis, Quark Drive, RKS System, Schooling, Shields Down, Stance Change, Tera Shell, Tera Shift, Teraform Zero, Wonder Guard, Zen Mode, or Zero to Hero.",
 		shortDesc: "Pokemon making contact with this Pokemon have their Ability swapped with this one.",
 		gen8: {

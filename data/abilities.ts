@@ -33,7 +33,15 @@ Ratings and how they work:
 */
 
 export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
-
+	// Custom YuGiOh Abilities
+	harpiesurge: {
+		onStart(source) {
+			this.field.setTerrain('harpieshuntingground');
+		},
+		flags: {},
+		name: "Harpie Surge",
+		num: -1001,
+	},
 	royalflush: {
 		onModifyAtk(atk, pokemon) {
 			const party = pokemon.side.pokemon.filter(ally => ally.species.id === "queensk" && ally.ability === "Royal Flush");
@@ -47,8 +55,20 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			const party = pokemon.side.pokemon.filter(ally => ally.species.id === "jacksk" && ally.ability === "Royal Flush");
 			if (party.length > 0) return this.chainModify(1.5);
 		},
+		flags: {},
 		name: "Royal Flush",
+		num: -1002,
 	},
+	honestpower: {
+		onModifySpAPriority: 5,
+		onModifySpA(spa) {
+			return this.chainModify(2);
+		},
+		flags: {},
+		name: "Honest Power",
+		num: -1003,
+	},
+	// End of Custom Abilities
 	noability: {
 		flags: {},
 		name: "No Ability",

@@ -1893,7 +1893,471 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "???",
 	},
-	// Skill Dice Next move
+	harpieshuntingground: {
+		num: -1097,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Harpies Hunting Ground",
+		pp: 10,
+		priority: 0,
+		flags: { nonsky: 1 },
+		terrain: 'harpieshuntingground',
+		condition: {
+			duration: 5,
+			durationCallback(target, source, effect) {
+				if (source.hasItem('terrainextender')) return 8;
+				return 5;
+			},
+			onBasePowerPriority: 6,
+			onBasePower(basePower, attacker, defender, move) {
+				if (move.type === 'Flying' && attacker.isGrounded() && !attacker.isSemiInvulnerable()) {
+					this.debug('harpies hunting ground boost');
+					return this.chainModify([5325, 4096]);
+				}
+			},
+			onSwitchIn(pokemon) {
+				if (!pokemon.species.tags.includes('Harpie')) return;
+				for (const target of pokemon.foes()) {
+					this.boost({ def: -1 }, target);
+				}
+			},
+			onFieldStart(field, source, effect) {
+				if (effect.effectType === 'Ability') {
+					this.add('-fieldstart', 'move: Harpie Hunting Ground', '[from] ability: ' + effect.name, '[of] ' + source);
+				} else {
+					this.add('-fieldstart', 'move: Harpie Hunting Ground');
+				}
+			},
+			onFieldResidualOrder: 27,
+			onFieldResidualSubOrder: 7,
+			onFieldEnd() {
+				this.add('-fieldend', 'move: Harpie Hunting Ground');
+			}
+		},
+		target: "all",
+		type: "Flying",
+	},
+	silverbowandarrow: {
+		num: -1098,
+		accuracy: 100,
+		basePower: 60,
+		category: "Physical",
+		name: "Silver Bow and Arrow",
+		pp: 20,
+		priority: 0,
+		flags: { protect: 1, mirror: 1 },
+		secondary: {
+			chance: 10,
+			onHit(target, source) {
+				const result = this.random(2);
+				if (result === 0) {
+					this.boost({ atk: 1 }, source);
+				} else {
+					target.addVolatile('attract');
+				}
+			}
+		},
+		target: 'normal',
+		type: 'Fairy',
+	},
+	rainofmercy: {
+		num: -1099,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Rain of Mercy",
+		pp: 5,
+		priority: 0,
+		flags: { snatch: 1, heal: 1, metronome: 1 },
+		onHit(target, source) {
+			let factor = 0.25;
+			if (target.effectiveWeather() === "raindance") {
+				factor = 0.5;
+			}
+
+			let success = !!this.heal(this.modify(target.maxhp, factor));
+			if (!success) {
+				this.add('-fail', target, 'heal');
+				return this.NOT_FAIL;
+			}
+
+			success = !!this.heal(this.modify(source.maxhp, factor));
+			if (!success) {
+				this.add('-fail', source, 'heal');
+				return this.NOT_FAIL;
+			}
+
+			return success;
+		},
+		secondary: null,
+		target: "normal",
+		type: "Water",
+	},
+	flipthetable: {
+		num: -1100,
+		accuracy: 90,
+		basePower: 70,
+		basePowerCallback(pokemon, target, move) {
+			if (pokemon.moveLastTurnResult === false) {
+				this.debug('doubling Flip the Table BP due to previous move failure');
+				return move.basePower * 2;
+			}
+			return move.basePower;
+		},
+		category: "Physical",
+		name: "Flip the Table",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, contact: 1 },
+		onHit(target) {
+			let success = false;
+			let i: BoostID;
+			for (i in target.boosts) {
+				if (target.boosts[i] === 0) continue;
+				target.boosts[i] = -target.boosts[i];
+				success = true;
+			}
+			if (!success) return false;
+			this.add('-invertboost', target, '[from] move: Flip the Table');
+		},
+		target: "normal",
+		type: "Fighting",
+	},
+	blazeaccelerator: {
+		num: -1101,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Blaze Accelerator",
+		pp: 20,
+		priority: 0,
+		flags: { snatch: 1 },
+		volatileStatus: 'blazeaccelerator',
+		condition: {
+			duration: 2,
+			onStart(pokemon, source, effect) {
+				this.add('-start', pokemon, 'Blaze Accelerator');
+			},
+			onRestart(pokemon, source, effect) {
+				this.add('-start', pokemon, 'Blaze Accelerator');
+			},
+			onBasePowerPriority: 9,
+			onBasePower(basePower, attacker, defender, move) {
+				if (move.type === 'Fire') {
+					this.debug('blaze accelerator boost');
+						return this.chainModify(2);
+				}
+			},
+			onMoveAborted(pokemon, target, move) {
+				if (move.type === 'Fire' && move.id !== 'blazeaccelerator') {
+					pokemon.removeVolatile('blazeaccelerator');
+				}
+			},
+			onAfterMove(pokemon, target, move) {
+				if (move.type === 'Fire' && move.id !== 'blazeaccelerator') {
+					pokemon.removeVolatile('blazeaccelerator');
+				}
+			},
+			onEnd(pokemon) {
+				this.add('-end', pokemon, 'Blaze Accelerator', '[silent]');
+			},
+		},
+		boosts: {
+			spe: 1,
+		},
+		target: "self",
+		type: "Fire"
+	},
+	triblazeaccelerator: {
+		num: -1102,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Tri-Blaze Accelerator",
+		pp: 10,
+		priority: 0,
+		flags: { snatch: 1, cantusetwice: 1 },
+		onTryMove(source, target, move) {
+			if (!source.volatiles['blazeaccelerator']) {
+				return false;
+			}
+		},
+		onHit(pokemon) {
+			// refresh the blaze accelerator volatile.
+			pokemon.removeVolatile('blazeaccelerator');
+			pokemon.addVolatile('blazeaccelerator'); // Assuming this will refresh the duration of the status.
+		},
+		boosts: {
+			atk: 2,
+			spa: 2,
+			spe: 2
+		},
+		target: "self",
+		type: "Fire",
+	},
+	lastwill: {
+		num: -1103,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Last Will",
+		pp: 5,
+		priority: 0,
+		flags: { snatch: 1 },
+		onTry(pokemon) {
+			if (!pokemon.side.faintedLastTurn) {
+				return false;
+			}
+		},
+		boosts: {
+			atk: 1,
+			def: 1,
+			spa: 1,
+			spd: 1,
+			spe: 1,
+		},
+		target: "self",
+		type: "Ghost",
+	},
+	carderaser: {
+		num: -1104,
+		accuracy: 100,
+		basePower: 0,
+		category: "Status",
+		name: "Card Eraser",
+		pp: 1,
+		priority: -6,
+		flags: { protect: 1, reflectable: 1, bypasssub: 1 },
+		onHit(target) {
+			let move: Move | ActiveMove | null = target.lastMove;
+			if (!move || move.isZ) return false;
+			if (move.isMax && move.baseMove) move = this.dex.moves.get(move.baseMove);
+			
+			for (const moveSlot of target.moveSlots) {
+				if (moveSlot.id === move.id) {
+					moveSlot.pp = 0;
+					this.add('-activate', target, 'move: Card Eraser', move.name);
+				}
+			}
+		},
+		target: "normal",
+		type: "Ghost",
+	},
+	deliquentduo: {
+		num: -1105,
+		accuracy: 90,
+		basePower: 40,
+		category: "Physical",
+		name: "Deliqeunt Duo",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, contact: 1 },
+		multihit: 2,
+		onHit(target) {
+			const stats: BoostID[] = [];
+			let stat: BoostID;
+			for (stat in target.boosts) {
+				if (target.boosts[stat] > -6) {
+					stats.push(stat);
+				}
+			}
+			if (stats.length) {
+				const randomStat = this.sample(stats);
+				const boost: SparseBoostsTable = {};
+				boost[randomStat] = -1;
+				this.boost(boost);
+			} else {
+				return false;
+			}
+		},
+		target: 'normal',
+		type: "Dark",
+	},
+	marshglasses: {
+		num: -1106,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Marsh Glasses",
+		pp: 10,
+		priority: 0,
+		flags: { snatch: 1, failcopycat: 1 },
+		volatileStatus: 'marshglasses',
+		onHit(pokemon) {
+			pokemon.addVolatile('followme');
+			pokemon.addVolatile('marshglasses');
+		},
+		condition: {
+			duration: 2,
+			onModifyCritRatio(critRatio) {
+				return critRatio + 2
+			},
+		},
+		boosts: { accuracy: 1 },
+		target: 'self',
+		type: "Normal",
+	},
+	froggyforcefield: {
+		num: -1107,
+		accuracy: true,
+		basePower: 0,
+		category: 'Status',
+		name: 'Froggy Forcefield',
+		pp: 15,
+		priority: 0,
+		flags: { snatch: 1 },
+		sideCondition: 'froggyforcefield',
+		condition: {
+			duration: 5,
+			onModifyDef(def, pokemon) {
+				if (pokemon.species.tags.includes('Frog')) {
+					return this.chainModify(1.3);
+				}
+			},
+			onModifySpD(def, pokemon) {
+				if (pokemon.species.tags.includes('Frog')) {
+					return this.chainModify(1.3);
+				}
+			}
+		},
+		target: "allySide",
+		type: "Water",
+	},
+	majestyslash: {
+		num: -1108,
+		accuracy: 100,
+		basePower: 80,
+		category: 'Physical',
+		name: 'Majesty Slash',
+		pp: 15,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, contact: 1, slicing: 1 },
+		secondary: {
+			chance: 100,
+			onHit(target, source) {
+				const result = this.random(3);
+				if (result === 0) {
+					this.boost({ atk: 1 }, source);
+				} else if (result === 1) {
+					this.boost({ def: 1}, source);
+				} else {
+					this.boost({ spe: 1 }, source);
+				}
+			}
+		},
+		target: "normal",
+		type: "Normal",
+	},
+	ordertosmash: {
+		num: -1109,
+		accuracy: 100,
+		basePower: 75,
+		category: 'Special',
+		name: "Order to Smash",
+		pp: 15,
+		priority: 0,
+		flags: { protect: 1, mirror: 1 },
+		onTryHit(pokemon) {
+			// will shatter screens through sub before you hit
+			pokemon.side.removeSideCondition('reflect');
+			pokemon.side.removeSideCondition('lightscreen');
+			pokemon.side.removeSideCondition('auroraveil');
+			pokemon.side.removeSideCondition('froggyforcefield');
+		},
+		onAfterHit(target, source) {
+			if (source.hp) {
+				const item = target.takeItem();
+				if (item) {
+					this.add('-enditem', target, item.name, '[from] move: Order to Smash', `[of] ${source}`);
+				}
+			}
+		},
+		target: "normal",
+		type: "Dark",
+	},
+	badsimochi: {
+		num: -1110,
+		accuracy: true,
+		basePower: 0,
+		category: 'Status',
+		name: 'Bad Simochi',
+		pp: 10,
+		priority: 0,
+		flags: { snatch: 1 },
+		volatileStatus: 'badsimochi',
+		condition: {
+			duration: 5,
+			onSourceTryHeal(damage, target, source, effect) {
+				this.debug(`Heal is occurring: ${target} <- ${source} :: ${effect.id}`);
+				const canOoze = ['drain', 'leechseed', 'strengthsap'];
+				if (canOoze.includes(effect.id)) {
+					this.damage(damage);
+					return 0;
+				}
+			}
+		},
+		target: "self",
+		type: "Dark",
+	},
+	cupoface: {
+		num: -1111,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Cup of Ace",
+		pp: 20,
+		priority: 0,
+		flags: { snatch: 1 },
+		onHit(target, source) {
+			const result = this.random(2);
+			if (result === 0) {
+				this.boost({ spa: 2 }, target);
+			} else {
+				this.boost({ spa: 2 }, source);
+			}
+		},
+		target: "normal",
+		type: "Fairy",
+	},
+	recklessgreed: {
+		num: -1112,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Reckless Greed",
+		pp: 10,
+		priority: 0,
+		flags: { snatch: 1, recharge: 1 },
+		volatileStatus: "mustrecharge",
+		boosts: {
+			atk: 2,
+			spa: 2,
+		},
+		target: "self",
+		type: "Normal",
+	},
+	dragonicattack: {
+		num: -113,
+		accuracy: 100,
+		basePower: 20,
+		category: "Physical",
+		name: "Dragonic Attack",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, contact: 1 },
+		onHit(target, source) {
+			if (source.hasType('Dragon')) return false;
+			if (!source.addType('Dragon')) return false;
+			this.add('-start', source, 'typeadd', 'Dragon', '[from] move: Dragonic Attack');	
+		},
+		boosts: {
+			atk: 1,
+			def: 1,
+		},
+		target: "normal",
+		type: "Fighting",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		num: 719,

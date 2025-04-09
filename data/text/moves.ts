@@ -483,6 +483,85 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "This move does not check accuracy. Resets the target's stat changes.",
 		shortDesc: "Always hits. Resets the target's stat changes.",
 	},
+	harpieshuntingground: {
+		name: "Harpies Hunting Ground",
+		desc: "For 5 turns, the terrain becomes Harpies Hunting Ground. During the effect, the power of Flying-type attacks are boosted. If a harpie switches in during the effect, lowers all foes' Defense by 1 stage.",
+		shortDesc: "5 turns. Grounded: +Flying power, harpie switches in, lowers the foes' Def by 1.",
+	},
+	silverbowandarrow: {
+		name: 'Silver Bow and Arrow',
+		desc: "Has a 10% chance to either increase the user's Attack by 1 stage, or cause the target to fall in love with the user.",
+		shortDesc: "10% chance to either increase the user's Atk by 1, or cause the target to be in love witht he user.",
+	},
+	rainofmercy: {
+		name: "Rain of Mercy",
+		desc: "The target and the user recovers 25% of their max HP. In rain, 50% is recovered.",
+		shortDesc: "The target and user recovers 25% of their max HP. Doubles in rain.",
+	},
+	flipthetable: {
+		name: "Flip the Table",
+		desc: "Filled with energy after drinking hot sauce, the user flips the table. The target's stat changes become reversed. Deals double damage if user's attack failed on the previous turn.",
+		shortDesc: "Inverts the target's stat changes. Doubles in damage if the user's last attack failed.",
+	},
+	blazeaccelerator: {
+		name: "Blaze Accelerator",
+		desc: "Raises the user's Attack by 1 stage. The next turn, this Monster's Fire-type move deals double damage.",
+		shortDesc: "Raises the user's Attack by 1. Next turn, Fire-type moves are boosted.",
+	},
+	triblazeaccelerator: {
+		name: "Tri-Blaze Accelerator",
+		desc: "If Blaze Accelerator is in effect, raises the user's Attack, Special Attack, and Speed by 2 stages. Doubles Fire-type moves next turn. Can't be used twice in a row.",
+		shortDesc: "Can't be used in a row. If Blaze Accel in effect, raise Atk, Sp. Atk, and Speed by 2 stages. Refresh Blaze Accel's effect.",
+	},
+	lastwill: {
+		name: "Last Will",
+		desc: "If an ally fainted on the previous turn, raise all stats (not including Accuracy or Evasion) by 1 stage.",
+		shortDesc: "If an ally fainted on the previous turn, raise all stats by 1.",
+	},
+	carderaser: {
+		name: "Card Eraser",
+		shortDesc: "Erase all PP from the target's last move. This move will always move last.",
+	},
+	deliquentduo: {
+		name: "Deliquent Duo",
+		shortDesc: "Hits 2 times. Each strike will lower a random stat.",
+	},
+	marshglasses: {
+		name: "Marsh Glasses",
+		shortDesc: "The user becomes the center of attention. Also raises the user's Accuracy by 1 and next attack will crit.",
+	},
+	froggyforcefield: {
+		name: "Froggy Forcefield",
+		desc: "For 5 turns, all Frog monsters on your side will have their Defense and Special Defense boosted by 1.3x.",
+		shortDesc: "5 Turns, all Frog monsters on your side will have their Def and Sp. Def boosted by 1.3x.",
+	},
+	majestyslash: {
+		name: "Majesty Slash",
+		shortDesc: "100% chance to raise either the user's Atk, Def, or Spe by 1.",
+	},
+	ordertosmash: {
+		name: "Order to Smash",
+		desc: "Removes the target's held item if they are holding one. If this attack does not miss, the effects of Reflects, Light Screen, Aurora Veil, and Froggy Forcefield end for the target's side. This effect bypasses Scapegoat.",
+		shortDesc: "Destroys screens. Removes the target's item.",
+	},
+	badsimochi: {
+		name: "Bad Simochi",
+		shortDesc: "For 5 turns, the user damages those draining HP from it for as much as they would heal.",
+		
+		damage: " [POKEMON] had a bad reaction to Simochi!",
+	},
+	cupoface: {
+		name: "Cup of Ace",
+		shortDesc: "100% chance to either increase the user's Sp. Atk by 2 or the target's Sp. Atk by 2.",
+	},
+	recklessgreed: {
+		name: "Reckless Greed",
+		shortDesc: "Raises the user's Atk and Sp.Atk by 2. User must recharge next turn.",
+	},
+	dragonicattack: {
+		name: "Dragonic Attack",
+		shortDesc: "100% chance to raise the user's Atk and Def by 1. +Dragon type.",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",
