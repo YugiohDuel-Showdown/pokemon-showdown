@@ -562,7 +562,129 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Dragonic Attack",
 		shortDesc: "100% chance to raise the user's Atk and Def by 1. +Dragon type.",
 	},
-	// Stim Pack next move
+	stimpack: {
+		name: "Stim-Pack",
+		desc: "Raises the user's Attack by 3 stages. Each turn afterwards will decrease the user's Attack by 1 stage.",
+		shortDesc: "Raises the user's Atk by 3. Lowers Atk by 1 each turn afterwards.",
+	},
+	whiteelephantgift: {
+		name: "White Elephant Gift",
+		desc: "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage in exchange for the user losing 33% of its maximum HP, rounded down. Fails if the user would faint or if its Attack, Defense, Special Attack, Special Defense, and Speed stat stages would not change.",
+		shortDesc: "User loses 33% of its max HP. +1 to all stats.",
+	},
+	beastfangs: {
+		name: "Beast Fangs",
+		desc: "Has a 10% chance to either cause the target to flinch, increase the user's Attack by 1 stage, or increase the user's Defense by 1 stage.",
+		shortDesc: "10% chance to flinch the target, +1 Atk, +1 Def.",
+	},
+	yamiblow: {
+		name: "Yami Blow",
+		desc: "If the current terrain is Yami and the target is grounded, this move's power is doubled.",
+		shortDesc: "2x power if target is grounded in Yami.",
+	},
+	ivyshackles: {
+		name: "Ivy Shackles",
+		desc: "Lowers the target's Speed by 2 stages and inflicts Ingrain on the target.",
+		shortDesc: "Lowers the target's Spe by 2 and inflicts Ingrain on the target.",
+	},
+	redeyesburn: {
+		name: "RedEyes Burn",
+		desc: "Has a 100% chance to burn the target. Takes 100% of the damage dealt as recoil. Can thaw.",
+		shortDesc: "100% chance to burn the target. Takes 100% of the damage as recoil.",
+	},
+	callofthehaunted: {
+		name: "Call of the Haunted",
+		desc: "Switches out the user with another party membery. It becomes a Ghost type. If already a ghost type, Defense is raised.",
+		shortDesc: "Switches Out. Becomes Ghost type. If already ghost type, +1 Def.",
+	},
+	dshield: {
+		name: "D - Shield",
+		shortDesc: "Aside from protecting the user from attacks, this move raises the users D if the attack makes contact.",
+	},
+	twintwister: {
+		name: "Twin Twister",
+		shortDesc: "Hits 2 times.",
+	},
+	magicformula: {
+		name: "Magic Formula",
+		shortDesc: "Raises the user's Sp Atk by 1 stage and recovers 1/4 of the user's max HP.",
+	},
+	devilsclaw: {
+		name: "Devil's Claw",
+		desc: "Has a 100% chance to inflict the target with a perish counter.",
+		shortDesc: "100% chance to inflict the target with a perish counter.",
+	},
+	shockrocket: {
+		name: "Shock Rocket",
+		desc: "Hits 2-5 times. Has a 10% chance to burn the target each hit.",
+		shortDesc: "Hits 2-5 times. 10% chance to burn the target each hit.",
+	},
+	doomgaze: {
+		name: "Doom Gaze",
+		desc: "Has a 10% chance to put the target to sleep.",
+		shortDesc: "10% chance to put the target to sleep.",
+	},
+	darkrulernomore: {
+		name: "Dark Ruler No More",
+		desc: "Negates the abilities of the target side and lowers their speed. Dark-type Monsters have their Special Defense lower by 2 stages.",
+		shortDesc: "Surpresses the abilities of the foe. -1 Spe. If Dark, -2 Sp Def.",
+	},
+	darkhole: {
+		name: "Dark Hole",
+		desc: "The user sacrifices itself to activate Dark Hole, anhilating the entire field.",
+		shortDesc: "Kills self.",
+	},
+	skyripwing: {
+		name: "Skyrip Wing",
+		shortDesc: "Heals 1/2 of the damage dealt.",
+	},
+	minddrain: {
+		name: 'Mind Drain',
+		shortDesc: "Heals 1/2 of the damage. 10% chance to confuse the target.",
+	},
+	skilldrain: {
+		name: "Skill Drain",
+		shortDesc: "Heals 1/2 of the damage. Surpresses the target's ability.",
+	},
+	dusttornado: {
+		name: "Dust Tornado",
+		shortDesc: "10% chance to lower the target's Acc. 2x power in Sand.",
+	},
+	coldwave: {
+		name: "Cold Wave",
+		shortDesc: "Prevents the target from using status moves during this turn.",
+	},
+	dragoncapturejar: {
+		name: "Dragon Capture Jar",
+		shortDesc: "-1 Spe. If target is Dragon, 2x power and traps the target.",
+	},
+	burningland: {
+		name: "Burning Land",
+		desc: "Burns the target and the user. Destroys any weather/terrain that is on the field. Fails if the foe can't be burned.",
+		shortDesc: "Burns the user and target. Destroys weather/terrain. Fails if foe can't be burned.",
+	},
+	windstorm: {
+		name: "Windstorm",
+		desc: "Forces the target to switch out with another monster. That switched-in monster has it's Defense lowered by 1 stage.",
+		shortDesc: "Forces the target to switch. Switched-in monster has Def lowered by 1.",
+	},
+	thewarriorreturningalive: {
+		name: "The Warrior Returning Alive",
+		desc: "Increases the user's Attack by 1 stage. If the user's HP is <= 1/3 of their max HP, heals 50% of their max HP.",
+		shortDesc: "+1 Atk. If User's Hp <= 1/3 of Max HP, Heals 50% of max HP.",
+	},
+	powerbond: {
+		name: "Power Bond",
+		shortDesc: "Before Move, +2 Atk. After Move, user takes amount of original Atk as damage.",
+	},
+	emergencyprovisions: {
+		name: "Emergency Provisions",
+		shortDesc: "Heals 25% of max HP * number of positive stat boosts",
+	},
+	fluteofdragon: {
+		name: "Flute of Dragon",
+		shortDesc: "Lowers the target's def. Switch Out. If Dragon, +1 Atk & Sp. Atk.",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",
