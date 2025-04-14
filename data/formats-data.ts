@@ -119,7 +119,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	sangan: {
 		tier: "LC",
 	},
-	sandwitch: {
+	sanwitch: {
 		tier: "OU",
 	},
 };
