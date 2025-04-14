@@ -3221,12 +3221,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
-		name: "Ally Switch",
+		name: "Exchange",
 		pp: 15,
 		priority: 2,
 		flags: { metronome: 1 },
 		onPrepareHit(pokemon) {
-			return pokemon.addVolatile('allyswitch');
+			return pokemon.addVolatile('exchange');
 		},
 		onHit(pokemon) {
 			let success = true;
@@ -3240,11 +3240,11 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			if (!pokemon.side.active[newPosition]) success = false;
 			if (pokemon.side.active[newPosition].fainted) success = false;
 			if (!success) {
-				this.add('-fail', pokemon, 'move: Ally Switch');
+				this.add('-fail', pokemon, 'move: Exchange');
 				this.attrLastMove('[still]');
 				return this.NOT_FAIL;
 			}
-			this.swapPosition(pokemon, newPosition, '[from] move: Ally Switch');
+			this.swapPosition(pokemon, newPosition, '[from] move: Exchange');
 		},
 		condition: {
 			duration: 2,
@@ -3256,10 +3256,10 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				// this.effectState.counter should never be undefined here.
 				// However, just in case, use 1 if it is undefined.
 				const counter = this.effectState.counter || 1;
-				this.debug(`Ally Switch success chance: ${Math.round(100 / counter)}%`);
+				this.debug(`Exchange success chance: ${Math.round(100 / counter)}%`);
 				const success = this.randomChance(1, counter);
 				if (!success) {
-					delete pokemon.volatiles['allyswitch'];
+					delete pokemon.volatiles['exchange'];
 					return false;
 				}
 				if (this.effectState.counter < (this.effect as Condition).counterMax!) {
