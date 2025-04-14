@@ -981,18 +981,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "all",
 		type: "Grass",
 	},
-	exchange: {
-		num: -1057,
-		accuracy: 100,
-		basePower: 0,
-		category: 'Status',
-		name: "Exchange",
-		pp: 5,
-		priority: 0,
-		flags: { protect: 1, mirror: 1 },
-		target: "normal",
-		type: "Normal",
-	},
 	legendaryocean: {
 		num: -1058,
 		accuracy: true,
@@ -3228,7 +3216,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Fairy",
 	},
-	allyswitch: {
+	exchange: {
 		num: 502,
 		accuracy: true,
 		basePower: 0,
