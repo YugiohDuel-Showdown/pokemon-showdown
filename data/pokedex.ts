@@ -436,7 +436,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	feralimp: {
 		num: 34,
 		name: "Feral Imp",
-		types: ["Noraml", "Grass"],
+		types: ["Normal", "Grass"],
 		baseStats: { hp: 45, atk: 70, def: 50, spa: 65, spd: 50, spe: 70 },
 		abilities: { 0: "Prankster", 1: "Pickpocket" },
 		heightm: 0,
