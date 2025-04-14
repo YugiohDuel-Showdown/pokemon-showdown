@@ -110,4 +110,16 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	thousandd: {
 		tier: "OU",
 	},
+	jerrybean: {
+		tier: "OU",
+	},
+	witchotbf: {
+		tier: "OU",
+	},
+	sangan: {
+		tier: "LC",
+	},
+	sandwitch: {
+		tier: "OU",
+	},
 };
