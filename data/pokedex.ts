@@ -531,4 +531,17 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 24,
 		eggGroups: ["Monster", "Field"],
 	},
+
+	exodia: {
+		num: 276,
+		name: "Exodia",
+		gender: "N",
+		types: ["Psychic"],
+		baseStats: { hp: 100, atk: 115, def: 100, spa: 150, spd: 125, spe: 90 },
+		abilities: { 0: "Pressure" },
+		heightm: 0,
+		weightkg: 800,
+		eggGroups: ["Undiscovered"],
+
+	},
 };

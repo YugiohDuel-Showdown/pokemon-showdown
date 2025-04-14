@@ -122,4 +122,8 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	sanwitch: {
 		tier: "OU",
 	},
+
+	exodia: {
+		tier: "Uber",
+	},
 };
