@@ -2160,7 +2160,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			drainingkiss: ["9L26"],
 			moonlight: ["9L28"],
 			eeriespell: ["9L30"],
-			forestcurse: ["9L32"],
+			forestscurse: ["9L32"],
 			nastyplot: ["9L35", "9T"],
 			suckerpunch: ["9L38"],
 			partingshot: ["9L44"],
