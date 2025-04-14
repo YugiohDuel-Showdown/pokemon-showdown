@@ -1487,7 +1487,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				}
 			},
 		},
-		target: "normal",
+		target: "self",
 		type: "Water",
 	},
 	hungrybite: {
@@ -1846,19 +1846,19 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Normal",
 	},
-	"t.canbeonly1": {
+	"therecanbeonlyone": {
 		num: -1095,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
-		name: "T.CanBeOnly1",
+		name: "There Can Only Be One",
 		pp: 10,
 		priority: 0,
 		flags: { mirror: 1 },
 		onHit(pokemon) {
 			if (pokemon.types.length === 1) return;
 			pokemon.setType(pokemon.types[0]);
-			this.add('-start', pokemon, 'typechange', pokemon.types[0], '[from] move: T.CanBeOnly1');
+			this.add('-start', pokemon, 'typechange', pokemon.types[0], '[from] move: There Can Only Be One');
 		},
 		target: "allAdjacent",
 		type: "Normal",
