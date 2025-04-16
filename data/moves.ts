@@ -3047,6 +3047,75 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "self",
 		type: "Fairy",
 	},
+	appointeroftheredlotus: {
+		num: -1148,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Appointer of the Red Lotus",
+		pp: 20,
+		priority: 0,
+		flags: { snatch: 1, metronome: 1 },
+		onHit(pokemon, source) {
+			this.add('-ability', pokemon, pokemon.getAbility().name, '[from] move: Appointer of the Red Lotus', `[of] ${source}`);
+			if (pokemon.item) {
+				this.add('-item', pokemon, pokemon.getItem().name, '[from] move: Appointer of the Red Lotus', `[of] ${source}`);
+			}
+			for (const moveSlot of pokemon.moveSlots) {
+				this.add('-activate', source, 'move: Appointer of the Red Lotus', this.dex.moves.get(moveSlot.id).name, `[of] ${pokemon}`);
+			}
+		},
+		secondary: {
+			chance: 100,
+			boosts: { evasion: -1 },
+		},
+		target: "normal",
+		type: 'Normal',
+	},
+	blackpendant: {
+		num: -1149,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Black Pendant",
+		pp: 20,
+		priority: 0,
+		flags: { bypasssub: 1, noassist: 1, failcopycat: 1 },
+		volatileStatus: 'blackpendant',
+		onPrepareHit(pokemon) {
+			return !pokemon.removeVolatile('blackpendant');
+		},
+		condition: {
+			onStart(pokemon) {
+				this.add('-singlemove', pokemon, 'Black Pendant');
+			},
+			onFaint(target, source, effect) {
+				if (!source || !effect || target.isAlly(source)) return;
+				if (effect.effectType === 'Move' && !effect.flags['futuremove']) {
+					if (source.volatiles['dynamax']) {
+						this.add('-hint', 'Dynamaxed Pokemon are immune to Black Pendant');
+						return;
+					}
+					this.add('-activate', target, 'move: Black Pendant');
+					source.damage(source.baseMaxhp / 4, target);
+				}
+			},
+			onBeforeMovePriority: -1,
+			onBeforeMove(pokemon, target, move) {
+				if (move.id === 'blackpendant') return;
+				this.debug('-removing Black Pendant before attack');
+				pokemon.removeVolatile('blackpendant');
+			},
+			onMoveAborted(pokemon, target, move) {
+				pokemon.removeVolatile('blackpendant');
+			}
+		},
+		boosts: {
+			spa: 1,
+		},
+		target: "self",
+		type: "Dark",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		num: 719,

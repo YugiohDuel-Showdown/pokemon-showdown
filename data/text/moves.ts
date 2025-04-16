@@ -712,6 +712,16 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		start: " [POKEMON] made a wish to Solemn",
 		heal: " the wish was granted and restored [POKEMON]'s HP!",
 	},
+	appointeroftheredlotus: {
+		name: "Appointer of the Red Lotus",
+		desc: "Lowers the target's evasion. Also reveals the target's moveset, ability, and held item.",
+		shortDesc: "Lowers the target's evasion. Also reveals target's set",
+	},
+	blackpendant: {
+		name: "Black Pendant",
+		desc: "Increases the user's Special Attack by 1 stage. If a foe knocks out the user using a contact move, the foe will lose 25% of their max HP.",
+		shortDesc: "+1 Sp. Atk. If knocked out by contact move, attacker loses 25% of max HP.",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",
