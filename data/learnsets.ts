@@ -2422,9 +2422,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		learnset: {
 			teleport: ["9L1"],
 			confusion: ["9L1"],
-			anicentpower: ["9L1", "9L55"],
+			ancientpower: ["9L1", "9L55"],
 			obliterate: ["9L1", "9L80"],
-			spellcircle: ["9L10"],
+			spellbindingcircle: ["9L10"],
 			psybeam: ["9L15"],
 			zenheadbutt: ["9L20", "9T"],
 			shadowpunch: ["9L25"],
