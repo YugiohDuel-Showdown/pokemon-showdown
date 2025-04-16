@@ -437,7 +437,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			dragonrage: ["9L32"],
 			airslash: ["9L36", "9T"],
 			dragondance: ["9L50", "9T"],
-			netronblst: ["9L60"],
+			neutronblast: ["9L60"],
 			hyperbeam: ["9L70", "9M"],
 			thundershock: ["9E"],
 			metalclaw: ["9E"],

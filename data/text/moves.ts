@@ -680,6 +680,10 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Flute of Dragon",
 		shortDesc: "Lowers the target's def. Switch Out. If Dragon, +1 Atk & Sp. Atk.",
 	},
+	carddestroy: {
+		name: "carddestroy",
+		shortDesc: "All monsters on the field are shuffled into the deck and replaced by a random monster.",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",

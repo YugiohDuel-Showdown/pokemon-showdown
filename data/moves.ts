@@ -2904,6 +2904,19 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Dragon",
 	},
+	carddestroy: {
+		num: -1142,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Card Destroy",
+		pp: 20,
+		priority: 0,
+		flags: { bypasssub: 1 },
+		forceSwitch: true,
+		target: "all",
+		type: "Dark",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		num: 719,
