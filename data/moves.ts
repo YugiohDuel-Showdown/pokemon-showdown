@@ -3025,6 +3025,28 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Flying",
 	},
+	solemnwish: {
+		num: -1147,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Solemn Wish",
+		pp: 20,
+		priority: 0,
+		flags: { snatch: 1, metronome: 1 },
+		volatileStatus: 'solemnwish',
+		condition: {
+			onStart(pokemon) {
+				this.add('-start', pokemon, 'Solemn Wish');
+			},
+			onResidualOrder: 6,
+			onResidual(pokemon) {
+				this.heal(pokemon.baseMaxhp / 16);
+			}
+		},
+		target: "self",
+		type: "Fairy",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		num: 719,

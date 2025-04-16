@@ -704,6 +704,14 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Clears the field of any entrance hazards, then forces the target to switch out. Decreased priority.",
 		shortDesc: "Clear Entry Hazards on field. Force target to switch. -6 prio.",
 	},
+	solemnwish: {
+		name: "Solemn Wish",
+		desc: "The user has 1/16 of its maximum HP, rounded down, restored at the end of each turn while it remains active. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. If the user uses Baton Pass, the replacement will receive the healing effect.",
+		shortDesc: "User recovers 1/16 max HP per turn.",
+
+		start: " [POKEMON] made a wish to Solemn",
+		heal: " the wish was granted and restored [POKEMON]'s HP!",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",
