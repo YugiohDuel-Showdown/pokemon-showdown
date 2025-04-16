@@ -2917,6 +2917,32 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "all",
 		type: "Dark",
 	},
+	castlewalls: {
+		num: -1143,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Castle Walls",
+		pp: 15,
+		priority: 0,
+		flags: { snatch: 1, metronome: 1 },
+		condition: {
+			duration: 3,
+			onModifyDef(def, pokemon) {
+				return this.chainModify(1.5);
+			},
+			onSideStart(side) {
+				this.add('-sidestart', side, 'Castle Walls');
+			},
+			onSideResidualOrder: 26,
+			onSideResidualSubOrder: 1,
+			onSideEnd(side) {
+				this.add('-sideend', side, 'Castle Walls');
+			},
+		},
+		target: "allySide",
+		type: "Rock",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		num: 719,

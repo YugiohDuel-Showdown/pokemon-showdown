@@ -684,6 +684,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "carddestroy",
 		shortDesc: "Forces all monsters to switch into a random monster.",
 	},
+	castlewalls: {
+		name: "Castle Walls",
+		desc: "The user sets up a Castle Wall, raising the defense of any monster that switches in on the user's side by 1.5x for 3 turns.",
+		shortDesc: "3 turns, raises defense of the user's side by 1.5x.",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",
