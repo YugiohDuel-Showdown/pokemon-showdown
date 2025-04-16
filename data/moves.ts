@@ -23745,13 +23745,13 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Psychic",
 		contestType: "Cool",
 	},
-	twineedle: {
+	twinneedle: {
 		num: 41,
 		accuracy: 100,
 		basePower: 25,
 		category: "Physical",
 		isNonstandard: "Past",
-		name: "Twineedle",
+		name: "Twinneedle",
 		pp: 20,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1 },
