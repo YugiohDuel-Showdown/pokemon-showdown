@@ -682,7 +682,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	carddestroy: {
 		name: "carddestroy",
-		shortDesc: "All monsters on the field are shuffled into the deck and replaced by a random monster.",
+		shortDesc: "Forces all monsters to switch into a random monster.",
 	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
