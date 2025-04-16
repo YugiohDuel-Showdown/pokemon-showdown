@@ -689,6 +689,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "The user sets up a Castle Wall, raising the defense of any monster that switches in on the user's side by 1.5x for 3 turns.",
 		shortDesc: "3 turns, raises defense of the user's side by 1.5x.",
 	},
+	manarestoring: {
+		name: "Mana Restoring",
+		desc: "If HP <= 50% switch out. If the switched in card is the Dark Magician/Buster Blader evo line, HP is fully restored and cures status and PP.",
+		shortDesc: "<= 50% HP Switch. If Magician/Buster, Heals Full Hp, Cures Status and PP.",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",

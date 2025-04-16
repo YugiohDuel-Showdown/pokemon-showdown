@@ -10,6 +10,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 17.8,
 		color: "Purple",
 		evos: ["D Magician"],
+		tags: ["Magician"],
 		eggGroups: [ "Monster", "Human-Like"],
 	},
 	dmagician: {
@@ -25,6 +26,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Illusion M",
 		evoLevel: 16,
 		evos: ["Dark Sage", "Toon DM"],
+		tags: ["Magician"],
 		eggGroups: ["Monster", "Human-Like"],
 	},
 	darksage: {
@@ -39,6 +41,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Purple",
 		prevo: "D Magician",
 		evoLevel: 36,
+		tags: ["Magician"],
 		eggGroups: ["Monster", "Human-Like"],
 	},
 	bchick: {

@@ -2943,6 +2943,37 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "allySide",
 		type: "Rock",
 	},
+	manarestoring: {
+		num: -1144,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Mana Restoring",
+		pp: 5,
+		priority: 0,
+		flags: { snatch: 1 },
+		sideCondition: 'manarestoring',
+		onTryHit(target, source, move) {
+			if (!(source.hp <= source.maxhp / 2)) {
+				return false;
+			}
+		},
+		condition: {
+			duration: 1,
+			onSwitchIn(pokemon) {
+				if (pokemon.species.tags.includes('Buster') || pokemon.species.tags.includes('Magician')) {
+					pokemon.heal(pokemon.maxhp);
+					pokemon.cureStatus();
+					for (const moveSlot of pokemon.moveSlots) {
+						moveSlot.pp = moveSlot.maxpp;
+					}
+				}
+			}
+		},
+		selfSwitch: true,
+		target: 'allySide',
+		type: 'Psychic',
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		num: 719,
