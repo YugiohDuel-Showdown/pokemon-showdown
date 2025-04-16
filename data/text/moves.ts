@@ -694,6 +694,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "If HP <= 50% switch out. If the switched in card is the Dark Magician/Buster Blader evo line, HP is fully restored and cures status and PP.",
 		shortDesc: "<= 50% HP Switch. If Magician/Buster, Heals Full Hp, Cures Status and PP.",
 	},
+	acidrain: {
+		name: "Acid Rain",
+		desc: "Has a 10% chance to poison the target. Super-Effective against Steel-types.",
+		shortDesc: "10% chance to poison the target. SE against Steel.",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",

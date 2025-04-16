@@ -2974,6 +2974,25 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: 'allySide',
 		type: 'Psychic',
 	},
+	acidrain: {
+		num: -1145,
+		accuracy: 100,
+		basePower: 70,
+		category: "Special",
+		name: "Acid Rain",
+		pp: 20,
+		priority: 0,
+		flags: { protect: 1, mirror: 1 },
+		onEffectiveness(typeMod, target, type) {
+			if (type === 'Steel') return 1;
+		},
+		secondary: {
+			chance: 10,
+			status: 'psn',
+		},
+		target: 'normal',
+		type: 'Poison',
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		num: 719,
