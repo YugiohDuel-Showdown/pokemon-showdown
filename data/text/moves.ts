@@ -699,6 +699,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Has a 10% chance to poison the target. Super-Effective against Steel-types.",
 		shortDesc: "10% chance to poison the target. SE against Steel.",
 	},
+	heytrunade: {
+		name: "Hey Trunade",
+		desc: "Clears the field of any entrance hazards, then forces the target to switch out. Decreased priority.",
+		shortDesc: "Clear Entry Hazards on field. Force target to switch. -6 prio.",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",

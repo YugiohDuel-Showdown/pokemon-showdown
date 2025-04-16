@@ -2993,6 +2993,38 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: 'normal',
 		type: 'Poison',
 	},
+	heytrunade: {
+		num: -1146,
+		accuracy: 90,
+		basePower: 60,
+		category: "Special",
+		name: "Hey Trunade",
+		pp: 10,
+		priority: -6,
+		flags: { protect: 1, mirror: 1, failcopycat: 1, failinstruct: 1, wind: 1 },
+		onHit(target, source, move) {
+			let success = false;
+			const removeAll = [
+				'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge',
+			];
+
+			for (const sideCondition of removeAll) {
+				if (target.side.removeSideCondition(sideCondition)) {
+					this.add('-sideend', target.side, this.dex.conditions.get(sideCondition).name, '[from] move: Hey Trunade', `[of] ${source}`);
+					success = true;
+				} 
+				if (source.side.removeSideCondition(sideCondition)) {
+					this.add('-sideend', source.side, this.dex.conditions.get(sideCondition).name, '[from] move: hey Trunade', `[of] ${source}`);
+					success = true;
+				}
+			}
+
+			return success;
+		},
+		forceSwitch: true,
+		target: "normal",
+		type: "Flying",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		num: 719,
