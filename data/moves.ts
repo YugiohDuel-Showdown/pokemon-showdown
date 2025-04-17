@@ -2986,6 +2986,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		onEffectiveness(typeMod, target, type) {
 			if (type === 'Steel') return 1;
 		},
+		ignoreImmunity: true,
 		secondary: {
 			chance: 10,
 			status: 'psn',
