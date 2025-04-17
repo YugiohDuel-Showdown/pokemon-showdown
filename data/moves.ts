@@ -3117,6 +3117,22 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "self",
 		type: "Dark",
 	},
+	weirdsteam: {
+		num: -1150,
+		accuracy: 95,
+		basePower: 90,
+		category: "Special",
+		name: "Weird Steam",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1 },
+		secondary: {
+			chance: 20,
+			volatileStatus: 'confusion',
+		},
+		target: "normal",
+		type: "Fairy",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		num: 719,

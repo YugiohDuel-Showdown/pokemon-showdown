@@ -534,7 +534,17 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 24,
 		eggGroups: ["Monster", "Field"],
 	},
-
+	injflily: {
+		num: 42,
+		name: "Inj F Lily",
+		gender: "F",
+		types: ["Fairy", "Poison"],
+		baseStats: { hp: 65, atk: 60, def: 60, spa: 85, spd: 70, spe: 80 },
+		abilities: { 0: "Regenerator", 1: "Huge Power", H: "Healer" },
+		heightm: 0,
+		weightkg: 40,
+		eggGroups: ["Monster", "Human-Like"],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",
@@ -545,6 +555,5 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 800,
 		eggGroups: ["Undiscovered"],
-
 	},
 };
