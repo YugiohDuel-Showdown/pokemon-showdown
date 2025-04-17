@@ -362,8 +362,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Goat Heal",
 		shortDesc: "Heals 50%. Heals 75% if behind scapegoat.",
 	},
-	meltedice: {
-		name: "Melted Ice",
+	meltingice: {
+		name: "Melting Ice",
 		desc: "This move's type effectiveness against Fire is changed to be super effective no matter what this move's type is.",
 		shortDesc: "Super effective on Fire.",
 	},
@@ -386,10 +386,10 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 
 		prepare: " [POKEMON] became cloaked in flames!",
 	},
-	rockcrushsword: {
-		name: "Rock Crush Sword",
-		desc: "Has a 40% chance to lower the target's accuracy.",
-		shortDesc: "40% chance to lower the target's accuracy.",
+	crushsword: {
+		name: "Crush Sword",
+		desc: "Has a 40% chance to lower the target's accuracy. Negates Moon moves for 2 turns.",
+		shortDesc: "40% chance to lower the target's accuracy. Negates Moon moves for 2 turns.",
 	},
 	descroaking: {
 		name: "Des Croaking",
@@ -724,6 +724,26 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Black Pendant",
 		desc: "Increases the user's Special Attack by 1 stage. If a foe knocks out the user using a contact move, the foe will lose 25% of their max HP.",
 		shortDesc: "+1 Sp. Atk. If knocked out by contact move, attacker loses 25% of max HP.",
+	},
+	emeraldflame: {
+		name: "Emerald Flame",
+		desc: "Has a 10% chance to burn the target. This move is both Rock and Fire type.",
+		shortDesc: "10% chance to burn. Rock and Fire type.",
+	},
+	skulldice: {
+		name: "Skull Dice",
+		desc: "Lowers a random stat of the target between 1 to 6 stages. If you're super lucky, something special might happen.",
+		shortDesc: "Lowers a random stat of the target's 1-6 stages.",
+	},
+	michizure: {
+		name: "Michizure",
+		desc: "If an ally fainted in the previous turn, this attack's damage is doubled.",
+		shortDesc: "If ally fainted last turn, 2x Damage",
+	},
+	honestcry: {
+		name: "Honest Cry",
+		desc: "Has a 100% chance to either lower the target's Attack or Special Attack depending on which stat is higher.",
+		shortDesc: "Lowers the target's Atk or Sp. Atk depending on which is higher.",
 	},
 	// End of custom moves
 	"10000000voltthunderbolt": {

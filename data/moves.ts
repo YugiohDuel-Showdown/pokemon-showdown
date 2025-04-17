@@ -1364,12 +1364,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "self",
 		type: "Normal",
 	},
-	meltedice: {
+	meltingice: {
 		num: -1074,
 		accuracy: 100,
 		basePower: 80,
 		category: "Special",
-		name: "Melted Ice",
+		name: "Melting Ice",
 		pp: 20,
 		priority: 0,
 		flags: { protect: 1, mirror: 1 },
@@ -1432,15 +1432,46 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Fire",
 	},
-	rockcrushsword: {
+	crushsword: {
 		num: -1078,
 		accuracy: 95,
 		basePower: 85,
 		category: "Physical",
-		name: "Rock Crush Sword",
+		name: "Crush Sword",
 		pp: 10,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, contact: 1, slicing: 1 },
+		volatileStatus: 'crushsword',
+		condition: {
+			duration: 2,
+			onStart(target) {
+				this.add('-start', target, 'Crush Sword', '[silent]');
+			},
+			onDisableMove(pokemon) {
+				for (const moveSlot of pokemon.moveSlots) {
+					if (this.dex.moves.get(moveSlot.id).flags['moon']) {
+						pokemon.disableMove(moveSlot.id);
+					}
+				}
+			},
+			onBeforeMovePriority: 6,
+			onBeforeMove(pokemon, target, move) {
+				if (!move.isZ && !move.isMax && move.flags['moon']) {
+					this.add('-cant', pokemon, 'move: Crush Sword');
+					return false;
+				}
+			},
+			onModifyMove(move, pokemon, target) {
+				if (!move.isZ && !move.isMax && move.flags['moon']) {
+					this.add('-cant', pokemon, 'move: Crush Sword');
+					return false;
+				}
+			},
+			onResidualOrder: 22,
+			onEnd(target) {
+				this.add('-end', target, 'Crush Sword', '[silent]');
+			}
+		},
 		secondary: {
 			chance: 40,
 			boosts: {
@@ -3112,6 +3143,92 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "self",
 		type: "Dark",
 	},
+	emeraldflame: {
+		num: -1150,
+		accuracy: 100,
+		basePower: 80,
+		category: "Special",
+		name: "Emerald Flame",
+		pp: 15,
+		priority: 0,
+		flags: { protect: 1, mirror: 1 },
+		onEffectiveness(typeMod, target, type, move) {
+			return typeMod + this.dex.getEffectiveness('Fire', type);
+		},
+		secondary: {
+			chance: 10,
+			status: 'brn',
+		},
+		target: "normal",
+		type: "Rock",
+	},
+	skulldice: {
+		num: -1151,
+		accuracy: 100,
+		basePower: 0,
+		category: "Status",
+		name: "Skull Dice",
+		pp: 5,
+		priority: 0,
+		flags: { protect: 1, mirror: 1 },
+		onHit(target) {
+			const stats: BoostID[] = [];
+			let stat: BoostID;
+			for (stat in target.boosts) {
+				if (target.boosts[stat] > -6) {
+					stats.push(stat);
+				}
+			}
+			if (stats.length) {
+				const randomStat = this.sample(stats);
+				const boost: SparseBoostsTable = {};
+				boost[randomStat] = this.random(1, 6) + 1;
+				this.boost(boost, target);
+			} else {
+				return false;
+			}
+		},
+		target: "normal",
+		type: "Dark",
+	},
+	michizure: {
+		num: -1152,
+		accuracy: 100,
+		basePower: 65,
+		category: "Physical",
+		name: "Michizure",
+		pp: 5,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		onBasePower(basePower, pokemon) {
+			if (pokemon.side.faintedLastTurn) {
+				this.debug(`Boosted for a faint last turn.`);
+				return this.chainModify(2);
+			}
+		},
+		target: "normal",
+		type: "Normal",
+	},
+	honestcry: {
+		num: -1153,
+		accuracy: 100,
+		basePower: 85,
+		category: "Special",
+		name: "Honest Cry",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1 },
+		onHit(target) {
+			if (target.getStat('atk', false, true) > target.getStat('spa', false, true)) {
+				this.boost({ atk: -1 }, target);
+			} else {
+				this.boost({ spa: -1 }, target);
+			}
+		},
+		target: "normal",
+		type: "Fairy",
+	},
+	
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		num: 719,
