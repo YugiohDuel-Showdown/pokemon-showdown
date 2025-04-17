@@ -716,6 +716,9 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Appointer of the Red Lotus",
 		desc: "Lowers the target's evasion. Also reveals the target's moveset, ability, and held item.",
 		shortDesc: "Lowers the target's evasion. Also reveals target's set",
+
+		activate: "[POKEMON] found [ITEM] on [TARGET]
+		",
 	},
 	blackpendant: {
 		name: "Black Pendant",
