@@ -7119,7 +7119,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		shortDesc: "Always results in a critical hit.",
 	},
 	weridsteam: {
-		name: "Strange Steam",
+		name: "Weird Steam",
 		desc: "Has a 20% chance to confuse the target.",
 		shortDesc: "20% chance to confuse the target.",
 	},
