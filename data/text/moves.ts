@@ -724,11 +724,6 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Increases the user's Special Attack by 1 stage. If a foe knocks out the user using a contact move, the foe will lose 25% of their max HP.",
 		shortDesc: "+1 Sp. Atk. If knocked out by contact move, attacker loses 25% of max HP.",
 	},
-	weirdsteam: {
-		name: "Weird Steam",
-		desc: "Has a 20% chance to confuse the target.",
-		shortDesc: "20% chance to confuse the target.",
-	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",
@@ -7123,7 +7118,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities.",
 		shortDesc: "Always results in a critical hit.",
 	},
-	strangesteam: {
+	weridsteam: {
 		name: "Strange Steam",
 		desc: "Has a 20% chance to confuse the target.",
 		shortDesc: "20% chance to confuse the target.",
