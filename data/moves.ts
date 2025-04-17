@@ -3063,7 +3063,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				this.add('-item', pokemon, pokemon.getItem().name, '[from] move: Appointer of the Red Lotus', `[of] ${source}`);
 			}
 			for (const moveSlot of pokemon.moveSlots) {
-				this.add('-activate', source, 'move: Appointer of the Red Lotus', this.dex.moves.get(moveSlot.id).name, `[of] ${pokemon}`);
+				this.add('-activate', source, 'move: Appointer of the Red Lotus', this.dex.moves.get(moveSlot.id), `[of] ${pokemon}`);
 			}
 		},
 		secondary: {
