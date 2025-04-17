@@ -275,7 +275,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			metalmorph: ["9L36"],
 			ironhead: ["9L38", "9T"],
 			irontail: ["9L42", "9M"],
-			redeyes: ["9L45"],
+			redeyesburn: ["9L45"],
 			agility: ["9L50", "9T"],
 			extremespeed: ["9L56"],
 			dragonclaw: ["9L63", "9M"],
