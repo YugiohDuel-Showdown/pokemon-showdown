@@ -3058,10 +3058,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priority: 0,
 		flags: { snatch: 1, metronome: 1 },
 		onHit(target, source) {
-			this.add('-ability', target, target.getAbility().name, '[from] move: Appointer of the Red Lotus', `[of] ${source}`);
-			if (target.item) {
-				this.add('-item', target, target.getItem().name, '[from] move: Appointer of the Red Lotus', `[of] ${source}`);
-			}
+			this.add('-activate', target, 'move: Appointer of the Red Lotus', target.getItem().name, target.getAbility().name, target.moveSlots[0].move, target.moveSlots[1].move, target.moveSlots[2].move, target.moveSlots[3].move);
+			
 		},
 		secondary: {
 			chance: 100,

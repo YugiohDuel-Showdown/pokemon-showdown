@@ -717,7 +717,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Lowers the target's evasion. Also reveals the target's moveset, ability, and held item.",
 		shortDesc: "Lowers the target's evasion. Also reveals target's set",
 
-		activate: " [POKEMON] found [ITEM][MOVE] on [TARGET]",
+		activate: " [TARGET]'s item is [ITEM], ability is [ABILITY], and moves are [MOVE], [MOVE], [MOVE], [MOVE]",
 		
 	},
 	blackpendant: {
