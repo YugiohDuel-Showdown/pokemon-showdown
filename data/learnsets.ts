@@ -2784,7 +2784,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			infestation: ["9L1", "9M"],
 			defensecurl: ["9L1"],
 			bide: ["9L1"],
-			pounce: ["9L10"],
+			bounce: ["9L10"],
 			furyattack: ["9L12"],
 			rollout: ["9L14"],
 			steamroller: ["9L18"],
