@@ -143,6 +143,15 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	gokipole: {
 		tier: "OU",
 	},
+	berfomet: {
+		tier: "LC",
+	},
+	chimera: {
+		tier: "NFE",
+	},
+	chimaera: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
