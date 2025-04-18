@@ -2657,7 +2657,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		learnset: {
 			magnetrise: ["9L1", "9L40", "9E"],
 			iondeluge: ["9L1"],
-			magentbomb: ["9L1", "9L22", "9E"],
+			magnetbomb: ["9L1", "9L22", "9E"],
 			rockthrow: ["9L1", "9L12"],
 			thundershock: ["9L1"],
 			mudsport: ["9L7"],
