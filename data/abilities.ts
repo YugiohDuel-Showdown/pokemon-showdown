@@ -87,6 +87,14 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		name: "Flame Maw",
 		num: -1004,
 	},
+	yamisurge: {
+		onStart(source) {
+			this.field.setTerrain('yami');
+		},
+		flags: {},
+		name: 'Yami Surge',
+		num: -1005,
+	},
 	// End of Custom Abilities
 	noability: {
 		flags: {},

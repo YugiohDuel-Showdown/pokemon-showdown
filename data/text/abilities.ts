@@ -16,6 +16,10 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		name: "Flame Maw",
 		shortDesc: "This Monster's offensive stat is multiplied by 1.5 while using a Fire-type attack.",
 	},
+	yamisurge: {
+		name: "Yami Surge",
+		shortDesc: "On switch-in, this Monster summons Yami.",
+	},
 	noability: {
 		name: "No Ability",
 		shortDesc: "Does nothing.",
