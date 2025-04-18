@@ -3658,7 +3658,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		basePower: 60,
 		category: "Special",
 		name: "Ancient Power",
-		pp: 5,
+		pp: 8,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1 },
 		secondary: {
@@ -6334,7 +6334,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		zMove: { effect: 'clearnegativeboost' },
 		contestType: "Beautiful",
 	},
-	mgccylinder: {
+	magiccylinder: {
 		num: 68,
 		accuracy: 100,
 		basePower: 0,
@@ -6343,7 +6343,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			return pokemon.volatiles['counter'].damage || 1;
 		},
 		category: "Physical",
-		name: "MGC Cylinder",
+		name: "Magic Cylinder",
 		pp: 20,
 		priority: -5,
 		flags: { contact: 1, protect: 1, failmefirst: 1, noassist: 1, failcopycat: 1 },
@@ -6463,7 +6463,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		},
 		secondary: null,
 		target: "normal",
-		type: "Normal",
+		type: "Fairy",
 		contestType: "Cute",
 	},
 	crabhammer: {
@@ -12795,7 +12795,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	hypnosis: {
 		num: 95,
-		accuracy: 60,
+		accuracy: 75,
 		basePower: 0,
 		category: "Status",
 		name: "Hypnosis",
@@ -16617,7 +16617,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Octazooka",
 		pp: 10,
 		priority: 0,
-		flags: { protect: 1, mirror: 1, metronome: 1, bullet: 1 },
+		flags: { protect: 1, mirror: 1, metronome: 1, bullet: 1, pulse: 1 },
 		secondary: {
 			chance: 50,
 			boosts: {
@@ -16691,7 +16691,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		category: "Special",
 		isNonstandard: "Past",
 		name: "Ominous Wind",
-		pp: 5,
+		pp: 8,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1 },
 		secondary: {
@@ -19041,7 +19041,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	rocksmash: {
 		num: 249,
 		accuracy: 100,
-		basePower: 40,
+		basePower: 50,
 		category: "Physical",
 		name: "Rock Smash",
 		pp: 15,
@@ -20290,7 +20290,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		category: "Special",
 		isNonstandard: "Past",
 		name: "Silver Wind",
-		pp: 5,
+		pp: 8,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1 },
 		secondary: {
@@ -22081,7 +22081,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pp: 15,
 		priority: 0,
 		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
-		secondary: null,
+		secondary: {
+			chance: 30,
+			boosts: {
+				atk: 1,
+			},
+		},
 		target: "normal",
 		type: "Normal",
 		contestType: "Tough",
@@ -25121,6 +25126,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priority: 0,
 		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1, slicing: 1 },
 		secondary: null,
+		critRatio: 2,
 		target: "normal",
 		type: "Bug",
 		contestType: "Cool",

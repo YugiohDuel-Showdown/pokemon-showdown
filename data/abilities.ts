@@ -1680,7 +1680,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	grasspelt: {
 		onModifyDefPriority: 6,
 		onModifyDef(pokemon) {
-			if (this.field.isTerrain('grassyterrain')) return this.chainModify(1.5);
+			if (this.field.isTerrain('grassyterrain') || this.field.isTerrain('forestterrain')) return this.chainModify(1.5);
 		},
 		flags: { breakable: 1 },
 		name: "Grass Pelt",
@@ -2485,6 +2485,14 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			if (pokemon.status === 'frz') {
 				this.add('-activate', pokemon, 'ability: Magma Armor');
 				pokemon.cureStatus();
+			}
+		},
+		onTryHitPriority: 1,
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === "Ice") {
+				if (this.boost({ def: 1})) {
+					this.add('-immune', target, '[from] ability: Magma Armor');
+				}
 			}
 		},
 		onImmunity(type, pokemon) {
@@ -3841,9 +3849,6 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				if (attacker.gender === defender.gender) {
 					this.debug('Rivalry boost');
 					return this.chainModify(1.25);
-				} else {
-					this.debug('Rivalry weaken');
-					return this.chainModify(0.75);
 				}
 			}
 		},
@@ -4273,7 +4278,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			this.add('-end', pokemon, 'Slow Start', '[silent]');
 		},
 		condition: {
-			duration: 5,
+			duration: 2,
 			onResidualOrder: 28,
 			onResidualSubOrder: 2,
 			onStart(target) {

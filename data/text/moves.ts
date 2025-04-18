@@ -1878,8 +1878,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Lowers the target's Speed by 2 stages.",
 		shortDesc: "Lowers the target's Speed by 2.",
 	},
-	mgccylinder: {
-		name: "MGC Cylinder",
+	magiccylinder: {
+		name: "Magic Cylinder",
 		desc: "Deals damage to the last opposing Pokemon to hit the user with a physical attack this turn equal to twice the HP lost by the user from that attack. If the user did not lose HP from the attack, this move deals 1 HP of damage instead. If that opposing Pokemon's position is no longer in use and there is another opposing Pokemon on the field, the damage is done to it instead. Only the last hit of a multi-hit attack is counted. Fails if the user was not hit by an opposing Pokemon's physical attack this turn.",
 		shortDesc: "If hit by physical attack, returns double damage.",
 		gen6: {
