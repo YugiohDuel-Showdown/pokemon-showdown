@@ -12,6 +12,10 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 		name: "Honest Power",
 		shortDesc: "This Monster's Special Attack is doubled.",
 	},
+	flamemaw: {
+		name: "Flame Maw",
+		shortDesc: "This Monster's offensive stat is multiplied by 1.5 while using a Fire-type attack.",
+	},
 	noability: {
 		name: "No Ability",
 		shortDesc: "Does nothing.",

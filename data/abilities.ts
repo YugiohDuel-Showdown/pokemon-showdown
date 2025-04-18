@@ -68,6 +68,25 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		name: "Honest Power",
 		num: -1003,
 	},
+	flamemaw: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Fire') {
+				this.debug('Flame Maw boost');
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Fire') {
+				this.debug('Flame Maw boost');
+				return this.chainModify(1.5);
+			}
+		},
+		flags: {},
+		name: "Flame Maw",
+		num: -1004,
+	},
 	// End of Custom Abilities
 	noability: {
 		flags: {},
