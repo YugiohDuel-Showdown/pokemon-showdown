@@ -125,6 +125,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	injflily: {
 		tier: "OU",
 	},
+	betatmw: {
+		tier: 'LC',
+	},
+	valkyrion: {
+		tier: "OU"
+	},
 	exodia: {
 		tier: "Uber",
 	},
