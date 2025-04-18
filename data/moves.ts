@@ -917,8 +917,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priority: 0,
 		flags: { snatch: 1 },
 		onTryHit(source, target, move) {
-			if (source.hp <= target.hp) this.boost({ atk: -1 }, source);
-			else if (source.hp >= target.hp) this.boost({ atk: 1 }, source);
+			if (target.hp <= source.hp) this.boost({ atk: -1}, target);
+			else if (target.hp >= source.hp) this.boost({ atk: 1}, target);
 		},
 		target: "normal",
 		type: "Normal",
@@ -2945,6 +2945,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priority: 0,
 		flags: { bypasssub: 1 },
 		forceSwitch: true,
+		selfSwitch: true,
 		target: "all",
 		type: "Dark",
 	},
@@ -3228,7 +3229,21 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Fairy",
 	},
-	
+	necrovalley: {
+		num: -1154,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Necrovalley",
+		pp: 5,
+		priority: 0,
+		flags: { reflectable: 1 },
+		onHit(target, source, move) {
+			return target.addVolatile('trapped', source, move, 'trapper');
+		},
+		target: "normal",
+		type: "Normal",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		num: 719,
@@ -6642,7 +6657,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		accuracy: 100,
 		basePower: 60,
 		category: "Physical",
-		isNonstandard: "Unobtainable",
 		name: "Cut",
 		pp: 20,
 		priority: 0,

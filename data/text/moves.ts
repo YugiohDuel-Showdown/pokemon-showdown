@@ -745,6 +745,10 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Has a 100% chance to either lower the target's Attack or Special Attack depending on which stat is higher.",
 		shortDesc: "Lowers the target's Atk or Sp. Atk depending on which is higher.",
 	},
+	necrovalley: {
+		name: "Necrovalley",
+		shortDesc:  "Prevents the target from escaping.",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",
