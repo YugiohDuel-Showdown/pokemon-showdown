@@ -137,6 +137,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	berserkion: {
 		tier: 'OU',
 	},
+	gokibore: {
+		tier: "LC",
+	},
+	gokipole: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
