@@ -131,6 +131,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	valkyrion: {
 		tier: "OU"
 	},
+	alphatmw: {
+		tier: "LC",
+	},
+	berserkion: {
+		tier: 'OU',
+	},
 	exodia: {
 		tier: "Uber",
 	},
