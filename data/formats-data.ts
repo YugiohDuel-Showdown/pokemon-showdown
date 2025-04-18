@@ -152,6 +152,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	chimaera: {
 		tier: "OU",
 	},
+	swampbtl: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},

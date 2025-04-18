@@ -650,6 +650,16 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 38,
 		eggGroups: ["Monster", "Flying"],
 	},
+	swampbtl: {
+		num: 52,
+		name: "Swamp BTL",
+		types: ["Ground", "Water"],
+		baseStats: { hp: 75, atk: 85, def: 75, spa: 75, spd: 50, spe: 45 },
+		abilities: { 0: "Sand Veil", 1: "Water Absorb" },
+		heightm: 0,
+		weightkg: 100,
+		eggGroups: ["Monster", "Field"],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",
