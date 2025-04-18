@@ -2958,6 +2958,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pp: 15,
 		priority: 0,
 		flags: { snatch: 1, metronome: 1 },
+		sideCondition: 'castlewalls',
 		condition: {
 			duration: 3,
 			onSwitchIn(pokemon) {
