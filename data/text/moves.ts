@@ -686,8 +686,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	castlewalls: {
 		name: "Castle Walls",
-		desc: "The user sets up a Castle Wall, raising the defense of any monster that switches in on the user's side by 1.5x for 3 turns.",
-		shortDesc: "3 turns, raises defense of the user's side by 1.5x.",
+		desc: "The user sets up a Castle Wall, raises the Defense of the switched in Monster by 1 stage.",
+		shortDesc: "3 turns, Raises the Def of the switched in Monster by 1.",
 	},
 	manarestoring: {
 		name: "Mana Restoring",

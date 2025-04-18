@@ -2960,8 +2960,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		flags: { snatch: 1, metronome: 1 },
 		condition: {
 			duration: 3,
-			onModifyDef(def, pokemon) {
-				return this.chainModify(1.5);
+			onSwitchIn(pokemon) {
+				this.boost({def: 1}, pokemon);
 			},
 			onSideStart(side) {
 				this.add('-sidestart', side, 'Castle Walls');
