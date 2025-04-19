@@ -819,7 +819,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: 'BeelzeFrog',
 		types: ["Water", "Dark"],
 		baseStats: { hp: 55, atk: 55, def: 65, spa: 90, spd: 75, spe: 100 },
-		abilities: { 0: "Swift Swim", 1: "Competitive", H: "Supreme Lord" },
+		abilities: { 0: "Swift Swim", 1: "Competitive", H: "Supreme Overlord" },
 		heightm: 0,
 		weightkg: 11.5,
 		prevo: "Tadpole",
