@@ -660,6 +660,16 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 100,
 		eggGroups: ["Monster", "Field"],
 	},
+	lavabtl: {
+		num: 53,
+		name: "Lava BTL",
+		types: ["Ground", "Fire"],
+		baseStats: { hp: 70, atk: 85, def: 65, spa: 80, spd: 60, spe: 45 },
+		abilities: { 0: "Sand Veil", 1: "Flash Fire" },
+		heightm: 0,
+		weightkg: 100,
+		eggGroups: ["Monster", "Field"],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",

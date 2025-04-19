@@ -155,6 +155,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	swampbtl: {
 		tier: "OU",
 	},
+	lavabtl: {
+		tier: 'OU',
+	},
 	exodia: {
 		tier: "Uber",
 	},
