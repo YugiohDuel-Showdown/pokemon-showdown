@@ -3654,7 +3654,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			healingwish: ["9E"],
 			featherdance: ["9E"],
 			healbell: ["9E"],
-			callhaunted: ["9E"],
+			callofthehaunted: ["9E"],
 			soak: ["9E"],
 			fairylock: ["9E"],
 			destinybond: ["9E"],
