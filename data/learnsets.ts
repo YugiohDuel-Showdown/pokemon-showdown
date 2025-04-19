@@ -4190,7 +4190,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			chilledwater: ['9M'],
 			dreameater: ['9M'],
 			brutalswing: ["9M"],
-			acrobatcis: ["9M"],
+			acrobatics: ["9M"],
 			defog: ['9M'],
 			echoedvoice: ['9M'],
 			cut: ["9M"],
