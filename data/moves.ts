@@ -19616,12 +19616,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		zMove: { boost: { spe: 1 } },
 		contestType: "Tough",
 	},
-	scorchingsands: {
+	scorchsands: {
 		num: 815,
 		accuracy: 100,
 		basePower: 70,
 		category: "Special",
-		name: "Scorching Sands",
+		name: "Scorch Sands",
 		pp: 10,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, defrost: 1, metronome: 1 },

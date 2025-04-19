@@ -6290,8 +6290,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Lowers the target's Speed by 2 stages.",
 		shortDesc: "Lowers the target's Speed by 2.",
 	},
-	scorchingsands: {
-		name: "Scorching Sands",
+	scorchsands: {
+		name: "Scorch Sands",
 		desc: "Has a 30% chance to burn the target. The target thaws out if it is frozen.",
 		shortDesc: "30% chance to burn the target. Thaws target.",
 	},
