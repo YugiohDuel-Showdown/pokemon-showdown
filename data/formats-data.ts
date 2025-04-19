@@ -176,6 +176,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	toadallya: {
 		tier: "OU",
 	},
+	treebornfrog: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},

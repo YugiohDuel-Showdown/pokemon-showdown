@@ -741,6 +741,17 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Monster", "Water 3"],
 		tags: ["Frog"],
 	},
+	treebornfrog: {
+		num: 60,
+		name: "Treeborn Frog",
+		types: ["Water", "Ghost"],
+		baseStats: { hp: 60, atk: 55, def: 75, spa: 85, spd: 115, spe: 85 },
+		abilities: { 0: "Levitate", H: "Regenerator" },
+		heightm: 0,
+		weightkg: 7.5,
+		eggGroups: ["Monster", 'Water 1'],
+		tags: ["Frog"],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",
