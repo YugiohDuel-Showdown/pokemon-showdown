@@ -1,4 +1,28 @@
 export const ItemsText: { [id: IDEntry]: ItemText } = {
+	eviomite: {
+		name: 'Eviomite',
+		shortDesc: "If holder's species can evolve, its Attak and Sp. Atk are 1.5x.",
+	},
+	everstone: {
+		name: "Everstone",
+		shortDesc: "If Holder is Volcanic Shell, gains 50% in Def and Sp. Def.",
+	},
+	heartscale: {
+		name: "Heart Scale",
+		shortDesc: "If Holder is CO Heart, gains 50% in Sp. Atk.",
+	},
+	axeofdespair: {
+		name: 'Axe of Despair',
+		shortDesc: "If Battle Ox, R Horseman, Axe, or Vorse Raider gains +2 Crit Ratio.",
+	},
+	hornoftheunicorn: {
+		name: "Horn of the Unicorn",
+		shortDesc: "If Beaver W, Jerry Bean, S Pegasus, or Feral Imp, gain x2 Atk.",
+	},
+	eviokite: {
+		name: "Eviokite",
+		shortDesc: "If holder's species can evolve, its Speed are 1.5x.",
+	},
 	abilityshield: {
 		name: "Ability Shield",
 		shortDesc: "Holder's Ability cannot be changed, suppressed, or ignored by any effect.",

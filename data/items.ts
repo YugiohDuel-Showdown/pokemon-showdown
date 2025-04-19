@@ -1,4 +1,99 @@
 export const Items: import('../sim/dex-items').ItemDataTable = {
+	// Custom Items
+	eviomite: {
+		name: 'Eviomite',
+		spritenum: -100,
+		fling: {
+			basePower: 40,
+		},
+		onModifyAtkPriority: 2,
+		onModifyAtk(atk, pokemon) {
+			if (pokemon.baseSpecies.nfe) {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 2,
+		onModifySpA(spa, pokemon) {
+			if (pokemon.baseSpecies.nfe) {
+				return this.chainModify(1.5);
+			}
+		},
+		num: -1001,
+	},
+	everstone: {
+		name: "Everstone",
+		spritenum: -100,
+		fling: {
+			basePower: 40,
+		},
+		onModifyDefPriority: 2,
+		onModifyDef(def, pokemon) {
+			if (pokemon.species.id === "volcanicshell") {
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpDPriority: 2,
+		onModifySpD(spd, pokemon) {
+			if (pokemon.species.id === "volcanicshell") {
+				return this.chainModify(1.5);
+			}
+		},
+		num: -1002,
+	},
+	heartscale: {
+		name: 'Heart Scale',
+		spritenum: -100,
+		fling: {
+			basePower: 40,
+		},
+		onModifySpAPriority: 2,
+		onModifySpA(spa, pokemon) {
+			if (pokemon.species.id === 'coheart') {
+				return this.chainModify(1.5);
+			}
+		},
+		num: -1003,
+	},
+	axeofdespair: {
+		name: "Axe of Despair",
+		spritenum: -100,
+		fling: {
+			basePower: 60,
+		},
+		onModifyCritRatioPriority: 2,
+		onModifyCritRatio(critRatio, pokemon) {
+			if (['battleox', 'rhorseman', 'axe', 'vorseraider'].includes(pokemon.species.id)) {
+				return 2;
+			}
+		},
+	},
+	hornoftheunicorn: {
+		name: "Horn of the Unicorn",
+		spritenum: -100,
+		fling: {
+			basePower: 60,
+		},
+		onModifyAtkPriority: 2,
+		onModifyAtk(atk, pokemon) {
+			if (['beaverw', 'jerrybean', 'spegasus', 'feralimp'].includes(pokemon.species.id)) {
+				return this.chainModify(2);
+			}
+		}
+	},
+	eviokite: {
+		name: "Eviokite",
+		spritenum: -100,
+		fling: {
+			basePower: 40,
+		},
+		onModifySpePriority: 2,
+		onModifySpe(spe, pokemon) {
+			if (pokemon.baseSpecies.nfe) {
+				return this.chainModify(1.5);
+			}
+		}
+	},
+	// End of custom Items
 	abilityshield: {
 		name: "Ability Shield",
 		spritenum: 746,
@@ -3027,11 +3122,11 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		spritenum: 475,
 		onModifyCritRatio(critRatio, user) {
-			if (["farfetchd", "sirfetchd"].includes(this.toID(user.baseSpecies.baseSpecies))) {
+			if (["parrotdragon"].includes(this.toID(user.baseSpecies.baseSpecies))) {
 				return critRatio + 2;
 			}
 		},
-		itemUser: ["Farfetch\u2019d", "Farfetch\u2019d-Galar", "Sirfetch\u2019d"],
+		itemUser: ["Parrot Dragon"],
 		num: 259,
 		gen: 8,
 		isNonstandard: "Past",
