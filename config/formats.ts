@@ -99,11 +99,5 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		section: "Draft",
 		column: 2,
-	},
-	{
-		name: "[Gen 9] Draft",
-		mod: 'gen9',
-		searchShow: false,
-		ruleset: ['Standard Draft', 'Terastal Clause'],
-	},
+	}
 ];
