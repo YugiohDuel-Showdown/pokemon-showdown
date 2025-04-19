@@ -170,6 +170,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	doradora: {
 		tier: "OU",
 	},
+	frogthejam: {
+		tier: "LC",
+	},
+	toadallya: {
+		tier: "OU",
+	}
 	exodia: {
 		tier: "Uber",
 	},
