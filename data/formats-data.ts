@@ -158,6 +158,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	lavabtl: {
 		tier: 'OU',
 	},
+	killerneedle: {
+		tier: "LC",
+	},
+	armoredbee: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
