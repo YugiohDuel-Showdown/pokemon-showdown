@@ -3884,7 +3884,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			sleeptalk: ['9M'],
 			chilledwater: ['9M'],
 			dreameater: ['9M'],
-			scapegoat: ['9M'],
 			workup: ['9M'],
 			acrobatics: ['9M'],
 			defog: ['9M'],
