@@ -3458,7 +3458,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			bellydrum: ["9L44"],
 			bodyslam: ["9L48"],
 			dracometeor: ["9L55"],
-			delinquentduo: ["9L62"],
+			deliquentduo: ["9L62"],
 			doublehit: ["9E"],
 			dragoncheer: ["9E"],
 			helpinghand: ["9E", "9T"],
