@@ -179,6 +179,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	treebornfrog: {
 		tier: "OU",
 	},
+	tradetoad: {
+		tier: "LC",
+	},
+	substitoad: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
