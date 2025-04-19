@@ -185,6 +185,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	substitoad: {
 		tier: "OU",
 	},
+	desfrog: {
+		tier: "LC",
+	},
+	d3sfrog: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
