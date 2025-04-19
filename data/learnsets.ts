@@ -3187,7 +3187,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			fireblast: ["9M"],
 			rocktomb: ["9M"],
 			torment: ["9M"],
-			theif: ["9M"],
+			thief: ["9M"],
 			overheat: ["9M"],
 			focusblast: ["9M"],
 			falseswipe: ["9M"],
