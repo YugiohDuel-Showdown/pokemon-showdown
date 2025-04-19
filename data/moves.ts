@@ -19705,7 +19705,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		accuracy: 100,
 		basePower: 70,
 		category: "Physical",
-		isNonstandard: "Past",
 		name: "Secret Power",
 		pp: 20,
 		priority: 0,
