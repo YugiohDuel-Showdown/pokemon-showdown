@@ -224,6 +224,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	blacktyranno: {
 		tier: 'OU',
 	},
+	basicinsect: {
+		tier: 'LC',
+	},
+	armbinsect: {
+		tier: 'OU',
+	},
 	exodia: {
 		tier: "Uber",
 	},
