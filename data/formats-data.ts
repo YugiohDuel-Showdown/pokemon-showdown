@@ -197,6 +197,15 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	beelzefrog: {
 		tier: "OU",
 	},
+	swapfrog: {
+		tier: "OU",
+	},
+	ronintoadin: {
+		tier: "OU",
+	},
+	dupefrog: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
