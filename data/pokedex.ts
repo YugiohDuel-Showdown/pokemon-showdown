@@ -983,7 +983,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: '2H KingRex',
 		types: ['Flying', 'Ground'],
 		baseStats: { hp: 70, atk: 90, def: 60, spa: 65, spd: 50, spe: 95 },
-		abilities: { 0: "Sand Veil", 1: "Tough Claws", H: "Strong Jaws" },
+		abilities: { 0: "Sand Veil", 1: "Tough Claws", H: "Strong Jaw" },
 		heightm: 0,
 		weightkg: 90,
 		eggGroups: ['Monster', 'Flying'],

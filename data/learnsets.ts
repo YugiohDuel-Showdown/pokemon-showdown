@@ -5202,7 +5202,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			breakswipe: ['9T'],
 			airslash: ['9T'],
 			crunch: ['9T'],
-			highhorespower: ['9T'],
+			highhorsepower: ['9T'],
 			powergem: ['9T'],
 			closecombat: ['9T'],
 			hurricane: ['9T'],
