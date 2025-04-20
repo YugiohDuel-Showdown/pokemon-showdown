@@ -4351,7 +4351,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			rest: ["9M"],
 			focusblast: ["9M"],
 			energyball: ["9M"],
-			falseswip: ["9M"],
+			falseswipe: ["9M"],
 			brine: ["9M"],
 			drainpunch: ["9M"],
 			recycle: ["9M"],
