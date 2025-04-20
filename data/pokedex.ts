@@ -978,6 +978,16 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 26,
 		eggGroups: ['Monster', 'Bug'],
 	},
+	'2hkingrex': {
+		num: 80,
+		name: '2H KingRex',
+		types: ['Flying', 'Ground'],
+		baseStats: { hp: 70, atk: 90, def: 60, spa: 65, spd: 50, spe: 95 },
+		abilities: { 0: "Sand Veil", 1: "Tough Claws", H: "Strong Jaws" },
+		heightm: 0,
+		weightkg: 90,
+		eggGroups: ['Monster', 'Flying'],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",

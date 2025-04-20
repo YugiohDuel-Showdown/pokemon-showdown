@@ -236,6 +236,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	insectqueen: {
 		tier: 'OU',
 	},
+	'2hkingrex': {
+		tier: 'OU',
+	},
 	exodia: {
 		tier: "Uber",
 	},
