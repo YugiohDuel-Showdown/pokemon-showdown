@@ -215,6 +215,15 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	diamondhd: {
 		tier: 'OU',
 	},
+	littled: {
+		tier: 'LC',
+	},
+	uraby: {
+		tier: 'NFE',
+	},
+	blacktyranno: {
+		tier: 'OU',
+	},
 	exodia: {
 		tier: "Uber",
 	},
