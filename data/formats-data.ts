@@ -206,6 +206,15 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	dupefrog: {
 		tier: "OU",
 	},
+	lusterdragon: {
+		tier: "LC",
+	},
+	lusterd2: {
+		tier: "NFE",
+	},
+	diamondhd: {
+		tier: 'OU',
+	},
 	exodia: {
 		tier: "Uber",
 	},
