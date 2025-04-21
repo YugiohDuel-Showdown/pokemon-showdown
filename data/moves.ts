@@ -3272,6 +3272,36 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "allySide",
 		type: "Fighting",
 	},
+	crushcardvirus: {
+		num: -1156,
+		accuracy: true,
+		basePower: 0,
+		category: 'Status',
+		name: 'Crush Card Virus',
+		pp: 5,
+		priority: 0,
+		flags: {},
+		onTryHit(source, target, move) {
+			if (!target.trySetStatus('tox')) {
+				return false;
+			}
+			const party = target.side.pokemon;
+			for (const pokemon of party) {
+				if (pokemon.hasAbility('Pastel Veil')) {
+					return false;
+				}
+			}
+		},
+		onHit(target, source, move) {
+			source.damage(source.hp - 1);
+			const party = target.side.pokemon;
+			for(const pokemon of party) {
+				pokemon.trySetStatus('tox');
+			}
+		},
+		target: "allAdjacentFoes",
+		type: "Poison",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		num: 719,

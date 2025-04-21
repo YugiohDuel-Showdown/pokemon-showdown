@@ -754,6 +754,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "For 3 turns, rasing the Attack of any monster that switches in on the user's side.",
 		shortDesc: "For 3 turns, +1 Atk to any monster switching in.",
 	},
+	crushcardvirus: {
+		name: 'Crush Card Virus',
+		desc: "Reduce your HP to 1 (or 0 if at 1 HP) to infect the target, poisoning all cards they control and in their party.",
+		shortDesc: 'Reduce HP to 1. Poison target and target\'s party.',
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",
