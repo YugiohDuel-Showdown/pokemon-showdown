@@ -245,6 +245,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	celticnoble: {
 		tier: 'OU',
 	},
+	ryukishin: {
+		tier: 'LC',
+	},
+	ryukpowered: {
+		tier: 'OU',
+	},
 	exodia: {
 		tier: "Uber",
 	},
