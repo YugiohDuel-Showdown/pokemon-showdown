@@ -3302,6 +3302,29 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "allAdjacentFoes",
 		type: "Poison",
 	},
+	mysticpower: {
+		num: -1157,
+		accuracy: 90,
+		basePower: 70,
+		category: 'Special',
+		name: 'Mystic Power',
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1 },
+		secondary: {
+			chance: 100,
+			onHit(target, source) {
+				const stat = source.getBestStat(false, true);
+				
+				const table: SparseBoostsTable = {};
+				table[stat] = 1;
+
+				this.boost(table, source);
+			},
+		},
+		target: "normal",
+		type: "Psychic",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		num: 719,

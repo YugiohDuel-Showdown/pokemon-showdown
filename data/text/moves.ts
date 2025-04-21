@@ -759,6 +759,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Reduce your HP to 1 (or 0 if at 1 HP) to infect the target, poisoning all cards they control and in their party.",
 		shortDesc: 'Reduce HP to 1. Poison target and target\'s party.',
 	},
+	mysticpower: {
+		name: 'Mystic Power',
+		desc: "Has a 100% chance to raise the user's highest stat by 1 stage.",
+		shortDesc: "100% chance to raise the user's highest stat by 1.",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",
