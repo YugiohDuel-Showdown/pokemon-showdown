@@ -1099,6 +1099,17 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 36,
 		eggGroups: ['Monster', 'Field'],
 	},
+	mysticalelf: {
+		num: 90,
+		name: 'Mystical Elf',
+		gender: "F",
+		types: ['Psychic', 'Water'],
+		baseStats: { hp: 65, atk: 45, def: 115, spa: 75, spd: 80, spe: 50 },
+		abilities: { 0: "Water Veil", 1: "Water Absorb" },
+		heightm: 0,
+		weightkg: 4,
+		eggGroups: ["Monster", 'Human-Like'],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",

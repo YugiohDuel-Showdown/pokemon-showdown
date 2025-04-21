@@ -266,6 +266,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	ojamaking: {
 		tier: 'OU',
 	},
+	mysticalelf: {
+		tier: 'OU',
+	},
 	exodia: {
 		tier: "Uber",
 	},
