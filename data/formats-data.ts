@@ -251,6 +251,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	ryukpowered: {
 		tier: 'OU',
 	},
+	watapon: {
+		tier: 'LC',
+	},
+	marshmallon: {
+		tier: 'OU',
+	},
 	exodia: {
 		tier: "Uber",
 	},
