@@ -257,6 +257,15 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	marshmallon: {
 		tier: 'OU',
 	},
+	ojamayellow: {
+		tier: 'LC',
+	},
+	ojamaknight: {
+		tier: 'NFE',
+	},
+	ojamaking: {
+		tier: 'OU',
+	},
 	exodia: {
 		tier: "Uber",
 	},
