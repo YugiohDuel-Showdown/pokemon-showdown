@@ -239,6 +239,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	'2hkingrex': {
 		tier: 'OU',
 	},
+	celticguardian: {
+		tier: 'LC',
+	},
+	celticnoble: {
+		tier: 'OU',
+	},
 	exodia: {
 		tier: "Uber",
 	},
