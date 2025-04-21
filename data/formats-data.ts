@@ -209,7 +209,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	lusterdragon: {
 		tier: "LC",
 	},
-	lusterd2: {
+	lusterdragon2: {
 		tier: "NFE",
 	},
 	diamondhd: {

@@ -4544,7 +4544,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			highhorsepower: ['9T'],
 		},
 	},
-	lusterd2: {
+	lusterdragon2: {
 		learnset: {
 			powergem: ['9L0', '9E'],
 			dragontail: ['9L1', '9M'],

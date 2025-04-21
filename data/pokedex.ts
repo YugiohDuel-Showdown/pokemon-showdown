@@ -871,9 +871,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ["Luster D2"],
 		eggGroups: ["Monster", "Dragon"],
 	},
-	lusterd2: {
+	lusterdragon2: {
 		num: 71,
-		name: 'Luster D2',
+		name: 'Luster Dragon 2',
 		types: ['Dragon', 'Rock'],
 		baseStats: { hp: 70, atk: 85, def: 85, spa: 60, spd: 60, spe: 65 },
 		abilities: { 0: "Rock Head", 1: "Dazzling", H: 'Rough Skin' },
