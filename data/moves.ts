@@ -3245,6 +3245,33 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Normal",
 	},
+	reinforcement: {
+		num: -1155,
+		accuracy: true,
+		basePower: 0,
+		category: 'Status',
+		name: 'Reinforcement',
+		pp: 15,
+		priority: 0,
+		flags: { snatch: 1, metronome: 1 },
+		sideCondition: 'reinforcement',
+		condition: {
+			duration: 3,
+			onSwitchIn(pokemon) {
+				this.boost({ atk: 1 }, pokemon);
+			},
+			onSideStart(side) {
+				this.add('-sidestart', side, 'Reinforcement');
+			},
+			onSideResidualOrder: 26,
+			onSideResidualSubOrder: 1,
+			onSideEnd(side) {
+				this.add('-sideend', side, 'Reinforcement');
+			}
+		},
+		target: "allySide",
+		type: "Fighting",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		num: 719,

@@ -749,6 +749,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Necrovalley",
 		shortDesc:  "Prevents the target from escaping.",
 	},
+	reinforcement: {
+		name: "Reinforcement",
+		desc: "For 3 turns, rasing the Attack of any monster that switches in on the user's side.",
+		shortDesc: "For 3 turns, +1 Atk to any monster switching in.",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",
