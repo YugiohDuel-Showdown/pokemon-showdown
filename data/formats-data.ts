@@ -287,6 +287,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	vorseraider: {
 		tier: 'OU',
 	},
+	wildheart: {
+		tier: 'LC',
+	},
+	wildwingman: {
+		tier: 'OU',
+	},
 	exodia: {
 		tier: "Uber",
 	},
