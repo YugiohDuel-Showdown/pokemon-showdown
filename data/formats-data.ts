@@ -281,6 +281,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	alligatorsdgn: {
 		tier: 'OU',
 	},
+	axeraider: {
+		tier: 'LC',
+	},
+	vorseraider: {
+		tier: 'OU',
+	},
 	exodia: {
 		tier: "Uber",
 	},
