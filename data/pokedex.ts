@@ -1201,6 +1201,17 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 28,
 		eggGroups: ['Monster', 'Human-Like'],
 	},
+	wingeddragon: {
+		num: 99,
+		name: 'Winged Dragon',
+		types: ['Flying', 'Fire'],
+		baseStats: { hp: 60, atk: 75, def: 55, spa: 85, spd: 55, spe: 105 },
+		abilities: { 0: "Keen Eye", 1: "Stakeout", H: "Blaze" },
+		heightm: 0,
+		weightkg: 60,
+		eggGroups: ['Monster', 'Flying'],
+
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",

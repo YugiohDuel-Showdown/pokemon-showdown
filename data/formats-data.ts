@@ -293,6 +293,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	wildwingman: {
 		tier: 'OU',
 	},
+	wingeddragon: {
+		tier: 'OU',
+	},
 	exodia: {
 		tier: "Uber",
 	},
