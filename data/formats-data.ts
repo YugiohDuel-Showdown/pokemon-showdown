@@ -272,6 +272,15 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	flamecerberus: {
 		tier: 'OU',
 	},
+	alligatorsword: {
+		tier: 'LC',
+	},
+	cyberdragon: {
+		tier: 'OU',
+	},
+	alligatorsdgn: {
+		tier: 'OU',
+	},
 	exodia: {
 		tier: "Uber",
 	},
