@@ -869,8 +869,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "All-Out Pummeling",
 		shortDesc: "Power is equal to the base move's Z-Power.",
 	},
-	alluringvoice: {
-		name: "Alluring Voice",
+	allurevoice: {
+		name: "Allure Voice",
 		desc: "Has a 100% chance to confuse the target if it had a stat stage raised this turn.",
 		shortDesc: "100% confuse target that had a stat rise this turn.",
 	},
