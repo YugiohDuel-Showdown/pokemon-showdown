@@ -296,6 +296,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	wingeddragon: {
 		tier: 'OU',
 	},
+	darkmagiciang: {
+		tier: 'LC',
+	},
+	dmgirltdk: {
+		tier: 'OU',
+	},
 	exodia: {
 		tier: "Uber",
 	},
