@@ -275,7 +275,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	alligatorsword: {
 		tier: 'LC',
 	},
-	cyberdragon: {
+	cyberalligator: {
 		tier: 'OU',
 	},
 	alligatorsdgn: {
