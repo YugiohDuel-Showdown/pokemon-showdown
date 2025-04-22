@@ -269,6 +269,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	mysticalelf: {
 		tier: 'OU',
 	},
+	flamecerberus: {
+		tier: 'OU',
+	},
 	exodia: {
 		tier: "Uber",
 	},

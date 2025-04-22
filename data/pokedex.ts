@@ -1110,6 +1110,16 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 4,
 		eggGroups: ["Monster", 'Human-Like'],
 	},
+	flamecerberus: {
+		num: 91,
+		name: 'Flame Cerberus',
+		types: ['Fire'],
+		baseStats: { hp: 75, atk: 85, def: 95, spa: 70, spd: 60, spe: 40 },
+		abilities: { 0: "Flame Body", 1: 'Vital Spirit', H: 'Hustle' },
+		heightm: 0,
+		weightkg: 430,
+		eggGroups: ['Monster', 'Water 1'], // WAIT WTF IS THIS BS!!!!
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",
