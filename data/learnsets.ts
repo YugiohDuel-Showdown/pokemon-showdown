@@ -5947,7 +5947,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			bite: ['9L10'],
 			doublehit: ['9L13'],
 			flamewheel: ['9L16'],
-			firefang: ['9L21'],
+			firefang: ['9L21', '9T'],
 			dragontail: ['9L24', '9M'],
 			willowisp: ['9L26', '9M'],
 			swagger: ['9L30', '9M'],
@@ -6017,7 +6017,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			dragondance: ['9T'],
 			firespin: ['9T'],
 			thunderfang: ['9T'],
-			firefang: ['9T'],
 		},
 	},
 	exodia: {
