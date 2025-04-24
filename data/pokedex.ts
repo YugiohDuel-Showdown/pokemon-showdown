@@ -1247,7 +1247,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ['ODL KairyuShin'],
 		eggGroups: ['Monster', 'Water 2'],
 	},
-	odlkairyshin: {
+	odlkairyushin: {
 		num: 103,
 		name: 'ODL KairyuShin',
 		types: ['Water'],
