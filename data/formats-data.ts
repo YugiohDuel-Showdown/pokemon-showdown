@@ -308,6 +308,18 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	odlkairyushin: {
 		tier: 'Uber',
 	},
+	harpielady: {
+		tier: "LC",
+	},
+	harpiesisters: {
+		tier: 'OU',
+	},
+	cyberharpie: {
+		tier: 'NFE',
+	},
+	cyslashharpie: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
