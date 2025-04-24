@@ -302,6 +302,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	dmgirltdk: {
 		tier: 'OU',
 	},
+	kairyushin: {
+		tier: 'LC',
+	},
+	odlkairyushin: {
+		tier: 'Uber',
+	},
 	exodia: {
 		tier: "Uber",
 	},
