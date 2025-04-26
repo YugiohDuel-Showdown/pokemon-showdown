@@ -329,6 +329,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	harpiedragon: {
 		tier: "OU",
 	},
+	ababytiger: {
+		tier: "LC",
+	},
+	amazonesstiger: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
