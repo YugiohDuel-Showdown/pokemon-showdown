@@ -7185,7 +7185,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	harpiequeen: {
 		learnset: {
 			mirrormove: ['9L1'],
-			harpiehuntingground: ['9L1', '9L52', '9E'],
+			harpieshuntingground: ['9L1', '9L52', '9E'],
 			gust: ['9L1'],
 			fairywind: ['9L1'],
 			charm: ['9L1'],
