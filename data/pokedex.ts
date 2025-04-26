@@ -1339,6 +1339,17 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ['Monster', 'Flying'],
 		tags: ['Harpie'],
 	},
+	harpiedragon: {
+		num: 110,
+		name: 'Harpie Dragon',
+		types: ['Dragon', 'Flying'],
+		baseStats: { hp: 70, atk: 80, def: 75, spa: 75, spd: 105, spe: 70 },
+		abilities: { 0: "Rivalry", 1: "Flare Boost" },
+		heightm: 0,
+		weightkg: 160,
+		eggGroups: ['Monster', 'Dragon'],
+		tags: ['Harpie'],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",
