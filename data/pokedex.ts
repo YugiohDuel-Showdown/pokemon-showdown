@@ -1270,6 +1270,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 40,
 		evos: ['Harpie Sisters', 'Cyber Harpie'],
 		eggGroups: ['Monster', 'Human-Like'],
+		tags: ['Harpie'],
 	},
 	harpiesisters: {
 		num: 105,
@@ -1283,6 +1284,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: 'Harpie Lady',
 		evoLevel: 24,
 		eggGroups: ['Monster', 'Human-Like'],
+		tags: ['Harpie'],
 	},
 	cyberharpie: {
 		num: 106,
@@ -1297,6 +1299,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: 'Harpie Lady',
 		evoItem: 'Metal Coat',
 		eggGroups: ['Monster', 'Human-Like'],
+		tags: ['Harpie'],
 	},
 	cyslashharpie: {
 		num: 107,
@@ -1310,6 +1313,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: 'Cyber Harpie',
 		evoLevel: 34,
 		eggGroups: ['Monster', 'Human-Like'],
+		tags: ['Harpie'],
 	},
 	harpiequeen: {
 		num: 108,
@@ -1321,6 +1325,19 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 90,
 		eggGroups: ['Monster', 'Human-Like'],
+		tags: ['Harpie'],
+	},
+	harpiebro: {
+		num: 109,
+		name: 'Harpie Bro',
+		gender: 'M',
+		types: ['Normal', 'Flying'],
+		baseStats: { hp: 60, atk: 80, def: 65, spa: 25, spd: 50, spe: 105 },
+		abilities: { 0: "Guts", 1: "Soundproof", H: "Sharpness" },
+		heightm: 0,
+		weightkg: 90,
+		eggGroups: ['Monster', 'Flying'],
+		tags: ['Harpie'],
 	},
 	exodia: {
 		num: 276,
