@@ -7298,7 +7298,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			lowkick: ['9T'],
 			helpinghand: ['9T'],
 			covet: ['9T'],
-			monetronome: ['9T'],
+			metronome: ['9T'],
 			ironhead: ['9T'],
 			dualwingbeat: ['9T'],
 			skyattack: ['9T'],
