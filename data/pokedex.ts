@@ -1311,6 +1311,17 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 34,
 		eggGroups: ['Monster', 'Human-Like'],
 	},
+	harpiequeen: {
+		num: 108,
+		name: 'Harpie Queen',
+		gender: 'F',
+		types: ['Flying', 'Fairy'],
+		baseStats: { hp: 70, atk: 60, def: 60, spa: 90, spd: 80, spe: 100 },
+		abilities: { 0: "Harpie Surge", 1: "Gale Wings", H: "Oblivious" },
+		heightm: 0,
+		weightkg: 90,
+		eggGroups: ['Monster', 'Human-Like'],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",
