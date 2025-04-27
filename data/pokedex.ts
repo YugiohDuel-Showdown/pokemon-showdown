@@ -1365,7 +1365,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		num: 112,
 		name: 'Amazoness Tiger',
 		types: ['Normal', 'Fighting'],
-		baseStats: { hp: 70, atk: 86, def: 105, spa: 35, spd: 60, spe: 95 },
+		baseStats: { hp: 70, atk: 85, def: 105, spa: 35, spd: 60, spe: 95 },
 		abilities: { 0: "Intimidate", 1: "Guts", H: "Stakeout" },
 		heightm: 0,
 		weightkg: 165,
