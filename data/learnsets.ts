@@ -7781,7 +7781,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			snarl: ['9M'],
 			cut: ['9M'],
 			fly: ['9M'],
-			strengh: ['9M'],
+			strength: ['9M'],
 			rocksmash: ['9M'],
 			thunderpunch: ['9T'],
 			snore: ['9T'],
