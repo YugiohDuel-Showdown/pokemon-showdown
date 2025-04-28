@@ -1489,6 +1489,18 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 75,
 		eggGroups: ['Monster', 'Human-Like'],
 	},
+	archerygirl: {
+		num: 123,
+		name: 'Archery Girl',
+		gender: 'F',
+		types: ['Water'],
+		baseStats: { hp: 40, atk: 40, def: 55, spa: 65, spd: 65, spe: 65 },
+		abilities: { 0: "Torrent" },
+		heightm: 0,
+		weightkg: 30,
+		evos: ['Toon Mermaid'],
+		eggGroups: ['Monster', 'Water 2'],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",

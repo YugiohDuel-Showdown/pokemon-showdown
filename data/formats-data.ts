@@ -365,6 +365,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	jacksknight: {
 		tier: "OU",
 	},
+	archerygirl: {
+		tier: "LC",
+	},
 	exodia: {
 		tier: "Uber",
 	},
