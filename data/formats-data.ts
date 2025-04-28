@@ -350,6 +350,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	zombieskull: {
 		tier: "OU",
 	},
+	curseofdragon: {
+		tier: 'LC',
+	},
+	gaiatdc: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
