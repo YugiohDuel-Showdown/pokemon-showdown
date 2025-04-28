@@ -3293,7 +3293,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			}
 		},
 		onHit(target, source, move) {
-			source.damage(source.hp - 1);
+			this.directDamage(source.hp - 1);
 			const party = target.side.pokemon;
 			for(const pokemon of party) {
 				pokemon.trySetStatus('tox');
