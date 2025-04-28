@@ -341,6 +341,15 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	amazonessqueen: {
 		tier: "OU",
 	},
+	summonedskull: {
+		tier: "LC",
+	},
+	bskulldragon: {
+		tier: "OU",
+	},
+	zombieskull: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
