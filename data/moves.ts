@@ -3282,7 +3282,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priority: 0,
 		flags: {},
 		onTryHit(source, target, move) {
-			if (!target.trySetStatus('tox')) {
+			if (!source.trySetStatus('tox')) {
 				return false;
 			}
 			const party = target.side.pokemon;
