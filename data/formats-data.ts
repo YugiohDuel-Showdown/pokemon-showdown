@@ -356,6 +356,15 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	gaiatdc: {
 		tier: "OU",
 	},
+	queensknight: {
+		tier: "OU",
+	},
+	kingsknight: {
+		tier: "OU",
+	},
+	jacksknight: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
