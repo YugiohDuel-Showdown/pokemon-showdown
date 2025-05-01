@@ -368,6 +368,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	archerygirl: {
 		tier: "LC",
 	},
+	saggiclown: {
+		tier: "LC",
+	},
+	petenclown: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
