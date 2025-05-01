@@ -764,6 +764,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Has a 100% chance to raise the user's highest stat by 1 stage.",
 		shortDesc: "100% chance to raise the user's highest stat by 1.",
 	},
+	emergencyteleport: {
+		name: "Emergency Teleport",
+		desc: "If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members, or if the target switched out using an Eject Button or through the effect of the Emergency Exit or Wimp Out Abilities.",
+		shortDesc: "User switches out after damaging the target.",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",

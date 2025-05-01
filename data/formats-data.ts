@@ -374,6 +374,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	petenclown: {
 		tier: "OU",
 	},
+	agido: {
+		tier: "LC",
+	},
+	agidosentinel: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},

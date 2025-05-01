@@ -3325,6 +3325,19 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Psychic",
 	},
+	emergencyteleport: {
+		num: -1158,
+		accuracy: 100,
+		basePower: 30,
+		category: "Special",
+		name: "Emergency Teleport",
+		pp: 15,
+		priority: 1,
+		flags: { protect: 1, mirror: 1 },
+		selfSwitch: true,
+		target: "normal",
+		type: "Psychic",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		num: 719,
