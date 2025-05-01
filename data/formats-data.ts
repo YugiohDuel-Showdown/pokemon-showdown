@@ -380,6 +380,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	agidosentinel: {
 		tier: "OU",
 	},
+	keldo: {
+		tier: "LC",
+	},
+	keldoprotector: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},

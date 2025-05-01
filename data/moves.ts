@@ -3338,6 +3338,22 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Psychic",
 	},
+	gravitybind: {
+		num: -1159,
+		accuracy: 90,
+		basePower: 0,
+		category: "Status",
+		name: "Gravity Bind",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1 },
+		onHit(target, source) {
+			target.addVolatile('partiallytrapped');
+		},
+		sideCondition: 'gravity',
+		target: "allAdjacentFoes",
+		type: "Psychic",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		num: 719,
