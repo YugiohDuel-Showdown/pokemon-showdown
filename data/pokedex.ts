@@ -1574,7 +1574,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		num: 130,
 		name: "Black Ptera",
 		types: ["Flying", "Ground"],
-		baseStats: { hp: 45, atk; 60, def: 40, spa: 35, spd: 50, spe: 80 },
+		baseStats: { hp: 45, atk: 60, def: 40, spa: 35, spd: 50, spe: 80 },
 		abilities: { 0: "Sand Rush", 1: "Early Bird", H: "Sand Spit" },
 		heightm: 0,
 		weightkg: 29,
