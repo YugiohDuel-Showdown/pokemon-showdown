@@ -774,6 +774,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "The field has its gravity intensified for 5 turns. Monsters on the foe's side also becomed binded for 4-5 turns.",
 		shortDesc: "Gravity + Bind for 5 turns.",
 	},
+	melodyofawakeningdragon: {
+		name: "Melody of Awakening Dragon",
+		desc: "Lowers the target's Special Defense by 1 stage before switching out. If any Dragon-type pokemon is switched in, they are woken up if asleep.",
+		shortDesc: "Lowers target's Sp. Def by 1. Switches Out. If Dragon, Wake Up.",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",

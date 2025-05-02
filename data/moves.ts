@@ -3354,6 +3354,33 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "allAdjacentFoes",
 		type: "Psychic",
 	},
+	melodyofawakeningdragon: {
+		num: -1160,
+		accuracy: 90,
+		basePower: 0,
+		category: "Status",
+		name: "Melody of Awakening Dragon",
+		pp: 20,
+		priority: 0,
+		flags: { protect: 1 },
+		self: {
+			sideCondition: 'melodyofawakeningdragon',
+		},
+		condition: {
+			duration: 1,
+			onSwitchIn(pokemon) {
+				if (pokemon.hasType('Dragon') && pokemon.status === 'slp') {
+					pokemon.cureStatus();
+				}
+			},
+		},
+		boosts: {
+			spd: -1,
+		},
+		selfSwitch: true,
+		target: "normal",
+		type: "Dragon",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		num: 719,

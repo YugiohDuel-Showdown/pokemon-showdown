@@ -392,6 +392,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	overtexqoatlus: {
 		tier: "OU",
 	},
+	lordofd: {
+		tier: "LC",
+	},
+	kingofd: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
