@@ -386,6 +386,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	keldoprotector: {
 		tier: "OU",
 	},
+	blackptera: {
+		tier: "LC",
+	},
+	overtexqoatlus: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
