@@ -398,6 +398,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	kingofd: {
 		tier: "OU",
 	},
+	gearfried: {
+		tier: "LC",
+	},
+	swordmaster: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
