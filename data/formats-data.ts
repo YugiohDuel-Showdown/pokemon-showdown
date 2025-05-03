@@ -428,6 +428,18 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	junkwarrior: {
 		tier: "OU",
 	},
+	marron: {
+		tier: "LC",
+	},
+	skullmarron: {
+		tier: "OU",
+	},
+	maddogod: {
+		tier: "NFE",
+	},
+	behemothking: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
