@@ -779,6 +779,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Lowers the target's Special Defense by 1 stage before switching out. If any Dragon-type pokemon is switched in, they are woken up if asleep.",
 		shortDesc: "Lowers target's Sp. Def by 1. Switches Out. If Dragon, Wake Up.",
 	},
+	seastealthattack: {
+		name: "Sea Stealth Attack",
+		desc: "The user hides underwater on the 1st turn and attacks on the 2nd. Fails if Umi is not active.",
+		shortDesc: "Hides turn 1. Attacks turn 2. Fails if no Umi.",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",

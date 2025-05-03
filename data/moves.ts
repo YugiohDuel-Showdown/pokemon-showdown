@@ -3381,6 +3381,41 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Dragon",
 	},
+	seastealthattack: {
+		num: -1161,
+		accuracy: 100,
+		basePower: 130,
+		category: "Physical",
+		name: "Sea Stealth Attack",
+		pp: 10,
+		priority: 0,
+		flags: {
+			contact: 1, charge: 1, protect: 1, mirror: 1,
+			nonsky: 1, allyanim: 1, metronome: 1, nosleeptalk: 1, noassist: 1, failinstruct: 1,
+		},
+		onTryMove(attacker, defender, move) {
+			if (attacker.removeVolatile(move.id)) {
+				return;
+			}
+			if (attacker.effectiveWeather() === 'raindance') {
+				return false;
+			}
+			this.add('-prepare', attacker, move.name);
+			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
+				return;
+			}
+			attacker.addVolatile('twoturnmove', defender);
+			return null;
+		},
+		condition: {
+			duration: 2,
+			onImmunity(type, pokemon) {
+				if (type === 'sandstorm' || type === 'hail') return false;
+			},
+		},
+		target: "normal",
+		type: "Water",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		num: 719,
