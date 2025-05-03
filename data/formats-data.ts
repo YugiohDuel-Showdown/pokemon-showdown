@@ -422,6 +422,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	serpentdragon: {
 		tier: "OU",
 	},
+	junksynchron: {
+		tier: "LC",
+	},
+	junkwarrior: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
