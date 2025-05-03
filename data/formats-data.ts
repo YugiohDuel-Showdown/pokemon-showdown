@@ -416,6 +416,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	legendaryfish2: {
 		tier: "OU",
 	},
+	koumoridragon: {
+		tier: "LC",
+	},
+	serpentdragon: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
