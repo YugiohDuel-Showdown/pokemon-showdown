@@ -153,6 +153,7 @@ import type { PollData } from './chat-plugins/poll';
 import type { AutoResponder } from './chat-plugins/responder';
 import type { RoomEvent, RoomEventAlias, RoomEventCategory } from './chat-plugins/room-events';
 import type { Tournament, TournamentRoomSettings } from './tournaments/index';
+import axios from 'axios';
 
 export abstract class BasicRoom {
 	/** to rename use room.rename */
@@ -2063,58 +2064,50 @@ export class GameRoom extends BasicRoom {
 
 		// If we have a direct connetion to a Replays database, just upload the replay
 		// directly.
-
-		if (Replays.db) {
-			const idWithServer = Config.serverid === 'showdown' ? id : `${Config.serverid}-${id}`;
-			try {
-				const fullid = await Replays.add({
-					id: idWithServer,
-					log,
-					players: battle.players.map(p => p.name),
-					format: format.name,
-					rating: rating || null,
-					private: hidden,
-					password,
-					inputlog: battle.inputLog?.join('\n') || null,
-					uploadtime: Math.trunc(Date.now() / 1000),
-				});
-				const url = `https://${Config.routes.replays}/${fullid}`;
-				connection?.popup(
-					`|html|<p>Your replay has been uploaded! It's available at:</p><p> ` +
-					`<a class="no-panel-intercept" href="${url}" target="_blank">${url}</a> ` +
-					`<copytext value="${url}">Copy</copytext>`
-				);
-			} catch (e) {
-				connection?.popup(`Your replay could not be saved: ${e}`);
-				throw e;
-			}
-			return;
-		}
-
-		// Otherwise, (we're probably a side server), upload the replay through LoginServer
-
-		const [result] = await LoginServer.request('addreplay', {
-			id,
-			log,
-			players: battle.players.map(p => p.name).join(','),
-			format: format.name,
-			rating, // will probably do nothing
-			hidden: hidden === 0 ? '' : hidden,
-			inputlog: battle.inputLog?.join('\n') || undefined,
-			password,
-		});
-		if (result?.errorip) {
-			connection?.popup(`This server's request IP ${result.errorip} is not a registered server.`);
-			return;
-		}
-
-		const fullid = result?.replayid;
-		const url = `https://${Config.routes.replays}/${fullid}`;
+		const url = `https://replay.thetrainercorner.net/replays/yugioh/${id}`;
 		connection?.popup(
 			`|html|<p>Your replay has been uploaded! It's available at:</p><p> ` +
 			`<a class="no-panel-intercept" href="${url}" target="_blank">${url}</a> ` +
 			`<copytext value="${url}">Copy</copytext>`
 		);
+		await axios.post('https://replay.thetrainercorner.net/replays/yugioh', {
+			id: id,
+			log: log.replace(/\//g, '\\/'),
+			players: battle.players.map(p => p.name),
+			format: format.name,
+			rating: rating || "null",
+			private: false,
+			password: "",
+			inputlog: battle.inputLog?.join('\n') || "null",
+			uploadtime: Math.trunc(Date.now() / 1000),
+		});
+
+		// if (Replays.db) {
+		// 	const idWithServer = Config.serverid === 'showdown' ? id : `${Config.serverid}-${id}`;
+		// 	try {
+		// 		const fullid = await Replays.add({
+		// 			id: idWithServer,
+		// 			log,
+		// 			players: battle.players.map(p => p.name),
+		// 			format: format.name,
+		// 			rating: rating || null,
+		// 			private: hidden,
+		// 			password,
+		// 			inputlog: battle.inputLog?.join('\n') || null,
+		// 			uploadtime: Math.trunc(Date.now() / 1000),
+		// 		});
+		// 		const url = `https://${Config.routes.replays}/${fullid}`;
+		// 		connection?.popup(
+		// 			`|html|<p>Your replay has been uploaded! It's available at:</p><p> ` +
+		// 			`<a class="no-panel-intercept" href="${url}" target="_blank">${url}</a> ` +
+		// 			`<copytext value="${url}">Copy</copytext>`
+		// 		);
+		// 	} catch (e) {
+		// 		connection?.popup(`Your replay could not be saved: ${e}`);
+		// 		throw e;
+		// 	}
+		// 	return;
+		// }
 	}
 
 	getReplayData() {
