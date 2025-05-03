@@ -404,6 +404,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	swordmaster: {
 		tier: "OU",
 	},
+	stonesoldier: {
+		tier: "LC",
+	},
+	steelsoldier: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
