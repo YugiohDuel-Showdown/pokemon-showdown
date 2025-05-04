@@ -467,6 +467,15 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	shiningwingman: {
 		tier: "OU",
 	},
+	cyberangel: {
+		tier: "LC",
+	},
+	cyberbenten: {
+		tier: "NFE",
+	},
+	cyberdakini: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
