@@ -440,6 +440,15 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	behemothking: {
 		tier: "OU",
 	},
+	inpachi: {
+		tier: "LC",
+	},
+	blazinginpachi: {
+		tier: "OU",
+	},
+	charcoalinpachi: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
