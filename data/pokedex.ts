@@ -1815,7 +1815,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: 'CharcoalInpachi',
 		types: ['Grass', 'Rock'],
 		baseStats: { hp: 80, atk: 75, def: 125, spa: 75, spd: 75, spe: 30 },
-		abilities: { 0: "Steam Engine", 1: "Baked Body", H: "Weak Armor" },
+		abilities: { 0: "Steam Engine", 1: "Well-Baked Body", H: "Weak Armor" },
 		heightm: 0,
 		weightkg: 185,
 		prevo: "Inpachi",
