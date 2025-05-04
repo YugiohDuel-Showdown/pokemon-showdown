@@ -458,6 +458,15 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	darkcavalry: {
 		tier: "OU",
 	},
+	avian: {
+		tier: "LC",
+	},
+	flamewingman: {
+		tier: "NFE",
+	},
+	shiningwingman: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
