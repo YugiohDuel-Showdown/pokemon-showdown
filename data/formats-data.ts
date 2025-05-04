@@ -449,6 +449,15 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	charcoalinpachi: {
 		tier: "OU",
 	},
+	gaiatfknight: {
+		tier: "LC",
+	},
+	gaiaearth: {
+		tier: "OU",
+	},
+	darkcavalry: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
