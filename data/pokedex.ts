@@ -1962,6 +1962,16 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoCondition: 'Must have Ryu-K Powered in party.',
 		eggGroups: ['Monster', 'Mineral'],
 	},
+	megazowler: {
+		num: 163,
+		name: 'Megazowler',
+		types: ['Ground', 'Rock'],
+		baseStats: { hp: 100, atk: 75, def: 115, spa: 35, spd: 60, spe: 30 },
+		abilities: { 0: "Iron Barbs", 1: "Sand Force", H: "Sturdy" },
+		heightm: 0,
+		weightkg: 335,
+		eggGroups: ['Monster', 'Field'],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",

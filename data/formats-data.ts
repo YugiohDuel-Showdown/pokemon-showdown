@@ -482,6 +482,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	zerathemant: {
 		tier: "OU",
 	},
+	megazowler: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
