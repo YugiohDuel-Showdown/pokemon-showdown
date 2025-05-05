@@ -476,6 +476,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	cyberdakini: {
 		tier: "OU",
 	},
+	warriorzera: {
+		tier: "LC",
+	},
+	zerathemant: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
