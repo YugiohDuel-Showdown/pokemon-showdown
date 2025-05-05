@@ -11265,7 +11265,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			skyattack: ['9T'],
 			mountain: ['9T'],
 			forestterrain: ['9T'],
-			draondance: ['9T'],
+			dragondance: ['9T'],
 			agility: ['9T'],
 			grassyterrain: ['9T'],
 			weatherball: ['9T'],
