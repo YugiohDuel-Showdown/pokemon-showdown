@@ -1995,6 +1995,16 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 26,
 		eggGroups: ['Monster'],
 	},
+	parrotdragon: {
+		num: 166,
+		name: 'Parrot Dragon',
+		types: ['Flying', 'Grass'],
+		baseStats: { hp: 65, atk: 70, def: 50, spa: 90, spd: 60, spe: 85 },
+		abilities: { 0: "Keen Eye", 1: "Sap Sipper" },
+		heightm: 0,
+		weightkg: 10,
+		eggGroups: ['Monster', 'Flying'],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",

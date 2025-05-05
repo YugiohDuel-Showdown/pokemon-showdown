@@ -491,6 +491,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	illusionmgc: {
 		tier: "OU",
 	},
+	parrotdragon: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
