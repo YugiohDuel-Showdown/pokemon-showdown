@@ -9813,7 +9813,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	skullmarron: {
 		learnset: {
 			shadowsneak: ['9L0', '9E'],
-			therecanonlybeone: ['9L1', '9L36'],
+			therecanbeonlyone: ['9L1', '9L36'],
 			lick: ['9L1'],
 			boneclub: ['9L1'],
 			howl: ['9L1'],
@@ -10869,7 +10869,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			jumpkick: ['9L41'],
 			spiritbreak: ['9L45'],
 			lastresort: ['9L53'],
-			scaredsword: ['9L60'],
+			sacredsword: ['9L60'],
 			imprison: ['9E'],
 			destinybond: ['9E'],
 			painsplit: ['9E'],
@@ -10930,7 +10930,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			nightshade: ['9L16'],
 			rocktomb: ['9L18', '9M'],
 			slash: ['9L20'],
-			therecanonlybeone: ['9L23'],
+			therecanbeonlyone: ['9L23'],
 			nightslash: ['9L26'],
 			suckerpunch: ['9L30'],
 			bonerush: ['9L32'],
