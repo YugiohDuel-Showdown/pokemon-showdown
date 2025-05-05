@@ -2005,6 +2005,16 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 10,
 		eggGroups: ['Monster', 'Flying'],
 	},
+	trihorndragon: {
+		num: 167,
+		name: 'Tri-Horn Dragon',
+		types: ['Dragon'],
+		baseStats: { hp: 80, atk: 105, def: 85, spa: 55, spd: 70, spe: 70 },
+		abilities: { 0: "Rough Skin", 1: "Sharpness", H: "Anger Point" },
+		heightm: 0,
+		weightkg: 34,
+		eggGroups: ['Monster', 'Dragon'],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",
