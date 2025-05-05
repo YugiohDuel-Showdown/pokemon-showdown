@@ -485,6 +485,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	megazowler: {
 		tier: "OU",
 	},
+	illusionist: {
+		tier: "LC",
+	},
+	illusionmgc: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
