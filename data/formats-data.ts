@@ -497,6 +497,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	trihorndragon: {
 		tier: "OU",
 	},
+	mystictomato: {
+		tier: "LC",
+	},
+	hungerburger: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
