@@ -500,7 +500,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	mystictomato: {
 		tier: "LC",
 	},
-	hungerburger: {
+	hungryburger: {
 		tier: "OU",
 	},
 	exodia: {
