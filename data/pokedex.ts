@@ -2086,6 +2086,16 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 46,
 		eggGroups: ['Monster', 'Flying'],
 	},
+	pantherwarrior: {
+		num: 174,
+		name: 'Panther Warrior',
+		types: ['Fighting'],
+		baseStats: { hp: 75, atk: 120, def: 85, spa: 50, spd: 75, spe: 90 },
+		abilities: { 0: "Slow Start" },
+		heightm: 0,
+		weightkg: 42,
+		eggGroups: ['Monster', 'Field'],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",

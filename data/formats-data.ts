@@ -515,6 +515,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	tdcolossus: {
 		tier: "OU",
 	},
+	pantherwarrior: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
