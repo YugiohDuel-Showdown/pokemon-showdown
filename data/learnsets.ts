@@ -12150,7 +12150,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			doubleedge: ['9L48', '9T'],
 			headlongrush: ['9L52'],
 			headsmash: ['9L57'],
-			trash: ['9L62'],
+			thrash: ['9L62'],
 			highjumpkick: ['9L70'],
 			endeavor: ['9E'],
 			sandstorm: ['9E', '9M'],
