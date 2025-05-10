@@ -12345,7 +12345,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			bodyslam: ['9T'],
 			flareblitz: ['9T'],
 			solarblade: ['9T'],
-			bugbuzz: ['9T'],
 		},
 	},
 	exodia: {
