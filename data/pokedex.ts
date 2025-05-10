@@ -2121,6 +2121,16 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoMove: 'Metalmorph',
 		eggGroups: ['Monster', 'Human-Like'],
 	},
+	slotmachine: {
+		num: 177,
+		name: 'Slot Machine',
+		types: ['Steel'],
+		baseStats: { hp: 85, atk: 85, def: 75, spa: 90, spd: 75, spe: 40 },
+		abilities: { 0: "Super Luck" },
+		heightm: 0,
+		weightkg: 90,
+		eggGroups: ['Monster', 'Mineral'],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",

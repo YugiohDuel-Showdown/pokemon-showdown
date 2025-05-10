@@ -524,6 +524,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	heavymetalking: {
 		tier: "OU",
 	},
+	slotmachine: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
