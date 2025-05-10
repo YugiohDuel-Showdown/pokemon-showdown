@@ -533,6 +533,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	rabidhorseman: {
 		tier: "OU",
 	},
+	jiraigumo: {
+		tier: "LC",
+	},
+	launcherspider: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
