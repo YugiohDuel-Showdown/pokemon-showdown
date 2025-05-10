@@ -521,7 +521,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	musicking: {
 		tier: "LC",
 	},
-	heavymusicking: {
+	heavymetalking: {
 		tier: "OU",
 	},
 	exodia: {

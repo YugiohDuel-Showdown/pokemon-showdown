@@ -2108,9 +2108,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ['HeavyMusic King'],
 		eggGroups: ['Monster', 'Human-Like'],
 	},
-	heavymusicking: {
+	heavymetalking: {
 		num: 176,
-		name: 'HeavyMusic King',
+		name: 'HeavyMetal King',
 		gender: 'M',
 		types: ['Normal', 'Electric'],
 		baseStats: { hp: 65, atk: 75, def: 65, spa: 100, spd: 80, spe: 60 },
