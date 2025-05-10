@@ -527,6 +527,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	slotmachine: {
 		tier: "OU",
 	},
+	battleox: {
+		tier: "LC",
+	},
+	rabidhorseman: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
