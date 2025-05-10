@@ -518,6 +518,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	pantherwarrior: {
 		tier: "OU",
 	},
+	musicking: {
+		tier: "LC",
+	},
+	heavymusicking: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
