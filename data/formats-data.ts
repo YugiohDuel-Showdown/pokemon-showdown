@@ -590,6 +590,18 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	speardragon: {
 		tier: "OU",
 	},
+	silentmg4: {
+		tier: "LC",
+	},
+	silentmg8: {
+		tier: "OU",
+	},
+	silentsw3: {
+		tier: "LC",
+	},
+	silentsw7: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
