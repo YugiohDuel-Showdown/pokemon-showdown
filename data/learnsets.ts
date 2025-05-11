@@ -13345,7 +13345,7 @@ learnset: {
 			metronome: ['9T'],
 			magiccoat: ['9T'],
 			magicroom: ['9T'],
-			wonderoom: ['9T'],
+			wonderroom: ['9T'],
 			gastroacid: ['9T'],
 			earthpower: ['9T'],
 			superpower: ['9T'],
