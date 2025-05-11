@@ -554,6 +554,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	vampgrace: {
 		tier: "OU",
 	},
+	clayman: {
+		tier: "LC",
+	},
+	mudballman: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
