@@ -572,6 +572,18 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	lavagolem: {
 		tier: "OU",
 	},
+	revivaljam: {
+		tier: "LC",
+	},
+	humanoidslime: {
+		tier: "NFE",
+	},
+	humanoiddrake: {
+		tier: "OU",
+	},
+	godslime: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
