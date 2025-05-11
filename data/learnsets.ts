@@ -12907,7 +12907,7 @@ learnset: {
 	},
 	orgothtr: {
 		learnset: {
-			diamondblade: ['9L1', '9L46'],
+			diamondbladestrike: ['9L1', '9L46'],
 			focusenergy: ['9L1', '9T'],
 			rage: ['9L1'],
 			leer: ['9L1'],
@@ -12973,7 +12973,7 @@ learnset: {
 			furycutter: ['9T'],
 			irondefense: ['9T'],
 			metronome: ['9T'],
-			doubleege: ['9T'],
+			doubleedge: ['9T'],
 			ironhead: ['9T'],
 			bulletpunch: ['9T'],
 			stompingtantrum: ['9T'],
