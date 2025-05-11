@@ -13622,7 +13622,7 @@ learnset: {
 			lightscreen: ['9M'],
 			protect: ['9M'],
 			safeguard: ['9M'],
-			tunderbolt: ['9M'],
+			thunderbolt: ['9M'],
 			return: ['9M'],
 			reflect: ['9M'],
 			attract: ['9M'],
