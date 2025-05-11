@@ -2369,6 +2369,16 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 90,
 		eggGroups: ['Monster'],
 	},
+	speardragon: {
+		num: 198,
+		name: 'Spear Dragon',
+		types: ['Dragon', 'Flying'],
+		baseStats: { hp: 75, atk: 130, def: 40, spa: 85, spd: 45, spe: 90 },
+		abilities: { 0: "Hyper Cutter", 1: "Keen Eye", H: "Lightning Rod" },
+		heightm: 0,
+		weightkg: 80,
+		eggGroups: ['Monster', 'Dragon'],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",

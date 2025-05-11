@@ -587,6 +587,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	pendulumm: {
 		tier: "OU",
 	},
+	speardragon: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
