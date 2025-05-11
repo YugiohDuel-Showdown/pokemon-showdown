@@ -563,6 +563,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	skulldice: {
 		tier: "OU",
 	},
+	orgothtr: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},

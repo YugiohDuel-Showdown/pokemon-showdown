@@ -2279,6 +2279,16 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 10,
 		eggGroups: ['Monster', 'Field'],
 	},
+	orgothtr: {
+		num: 190,
+		name: 'Orgoth TR',
+		types: ['Fighting', 'Steel'],
+		baseStats: { hp: 90, atk: 115, def: 85, spa: 50, spd: 70, spe: 50 },
+		abilities: { 0: "Inner Focus", 1: "Defiant", H: "Moody" },
+		heightm: 0,
+		weightkg: 210,
+		eggGroups: ['Monster', 'Field'],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",
