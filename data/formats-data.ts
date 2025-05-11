@@ -566,6 +566,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	orgothtr: {
 		tier: "OU",
 	},
+	lajinn: {
+		tier: "OU",
+	},
+	lavagolem: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
