@@ -2269,6 +2269,16 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 28,
 		eggGroups: ['Monster', 'Human-Like'],
 	},
+	skulldice: {
+		num: 189,
+		name: 'Skull Dice',
+		types: ['Dark'],
+		baseStats: { hp: 45, atk: 55, def: 80, spa: 60, spd: 80, spe: 85 },
+		abilities: { 0: "Minus", 1: "Oblivious", H: "Skill Link" },
+		heightm: 0,
+		weightkg: 10,
+		eggGroups: ['Monster', 'Field'],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",

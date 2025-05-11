@@ -560,6 +560,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	mudballman: {
 		tier: "OU",
 	},
+	skulldice: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
