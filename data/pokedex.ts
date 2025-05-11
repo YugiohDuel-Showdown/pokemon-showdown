@@ -2364,7 +2364,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		gender: "N",
 		types: ['Steel'],
 		baseStats: { hp: 70, atk: 90, def: 95, spa: 45, spd: 65, spe: 85 },
-		abilities: { 0: "Metal Body", 1: "Steelworker", H: "Aftermath" },
+		abilities: { 0: "Full Metal Body", 1: "Steelworker", H: "Aftermath" },
 		heightm: 0,
 		weightkg: 90,
 		eggGroups: ['Monster'],
