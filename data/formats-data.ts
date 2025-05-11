@@ -539,6 +539,21 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	launcherspider: {
 		tier: "OU",
 	},
+	vampirebat: {
+		tier: "LC",
+	},
+	vampirelord: {
+		tier: "NFE",
+	},
+	vampgenesis: {
+		tier: "OU",
+	},
+	vampirelady: {
+		tier: "NFE",
+	},
+	vampgrace: {
+		tier: "OU",
+	},
 	exodia: {
 		tier: "Uber",
 	},
