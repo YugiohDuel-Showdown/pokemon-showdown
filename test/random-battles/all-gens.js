@@ -12,7 +12,7 @@ describe("New set format (slow)", () => {
 	const formatInfo = {
 		"gen9randombattle": {
 			filename: "gen9/sets",
-			roles: ["Fast Attacker", "Setup Sweeper", "Wallbreaker", "Tera Blast user", "Bulky Attacker", "Bulky Setup", "Fast Bulky Setup", "Bulky Support", "Fast Support", "AV Pivot"],
+			roles: ["Fast Attacker", "Setup Attacker", "Setup Sweeper", "Wallbreaker", "Tera Blast user", "Bulky Attacker", "Bulky Setup", "Fast Bulky Setup", "Bulky Support", "Fast Support", "AV Pivot"],
 		},
 	};
 	for (const format of Object.keys(formatInfo)) {
@@ -71,7 +71,7 @@ describe("New set format (slow)", () => {
 		});
 		it('all Pokemon should have 4 moves, except for Ditto and Unown', () => {
 			testTeam({ format, rounds }, team => {
-				for (const pokemon of team) assert(pokemon.name === 'Ditto' || pokemon.name === 'Unown' || pokemon.moves.length === 4, `In ${format}, ${pokemon.name} can generate with ${pokemon.moves.length} moves`);
+				for (const pokemon of team) assert(pokemon.moves.length === 4, `In ${format}, ${pokemon.name} can generate with ${pokemon.moves.length} moves`);
 			});
 		});
 		it('all moves on all sets should exist and be obtainable', () => {

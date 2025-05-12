@@ -54,6 +54,23 @@
       		}
 		]
 	},
+	"BEU Dragon": {
+  		"level": 82,
+  		"sets": [
+  			{
+    			"role":  "Bulky Attacker",
+        		"movepool": ["Neutron Blast", "Earthquake", "Burst Stream", "White Lightning", "Fire Blast", "Dragon Pulse", "Hyper Beam"],
+       			"abilities": ["Intimidate"],
+        		"teraTypes": ["Fairy", "Dragon"]
+      		},
+    		{
+        		"role":  "Setup Attacker",
+        		"movepool": ["Dragon Dance", "Neutron Blast", "Earthquake", "Dragon Claw", "White Lightning", "Fire Blast", "Crunch", "Hyper Beam"],
+        		"abilities": ["Intimidate"],
+       			"teraTypes": ["Fairy", "Dragon"]
+    		}
+		]
+	},
 	"godslime": {
         "level": 85,
         "sets": [
