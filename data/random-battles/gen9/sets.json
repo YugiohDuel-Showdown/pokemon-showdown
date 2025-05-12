@@ -1,91 +1,190 @@
 {
-	"darkmagician": {
-  		"level": 89,
-  		"sets": [
-      		{
-        	"role": "Bulky Setup",
-        	"movepool": ["Dark Magic Attack", "Dark Pulse", "Thunder", "Shadow Ball", "Calm Mind", "Mana Restoring", "1000 Knives" ],
-        	"abilities": ["Compound Eyes"],
-        	"teraTypes": ["Ghost", "Poison"]
-      		}
-		]
-	},
-	"darksage": {
-  		"level": 85,
-  		"sets": [
-      		{
-        		"role": "Wallbreaker",
-        		"movepool": ["Yami", "Dark Magic Attack", "Knock Off", "Thunder", "Blizzard", "Shadow Ball", "1000 Knives", "Calm Mind"],
-        		"abilities": ["Compound Eyes"],
-        		"teraTypes": ["Dark", "Electric"]
-      		}
-		]
-	},
-	"redeyes": {
-  		"level": 87,
-  		"sets": [
-      		{
-        		"role": "Fast Attacker",
-        		"movepool": ["Agility", "Blaze Kick", "Outrage", "Extreme Speed", "Drill Peck", "Iron Head", "RedEyes Burn"],
-        		"abilities": ["Blaze"],
-        		"teraTypes": ["Fire", "Dragon"]
-    		}
-		]
-	},
-	"redeyesmetal": {
-  		"level": 85,
-  		"sets": [
-    		{
-				"role": "Fast Attacker",
-				"movepool": ["Agility", "Inferno Blast", "Flash Cannon", "Dragon Pulse", "Dust Tornado", "Thunder"],
-				"abilities": ["Levitate"],
-				"teraTypes": ["Steel", "Dragon"]
-      		}
-		]
-	},
-	"blueeyes": {
-  		"level": 88,
-  		"sets": [
-      		{
-        		"role": "Setup Sweeper",
-        		"movepool": ["Dragon Dance", "Earthquake", "Burst Stream", "White Lightning", "Flamethrower", "Dragon Claw", "Work Up"],
-        		"abilities": ["Inner Focus"],
-        		"teraTypes": ["Fairy", "Dragon"]
-      		}
-		]
-	},
-	"beudragon": {
-  		"level": 82,
-  		"sets": [
-  			{
-    			"role":  "Bulky Attacker",
-        		"movepool": ["Neutron Blast", "Earthquake", "Burst Stream", "White Lightning", "Fire Blast", "Dragon Pulse", "Hyper Beam"],
-       			"abilities": ["Intimidate"],
-        		"teraTypes": ["Fairy", "Dragon"]
-      		},
-    		{
-        		"role":  "Setup Attacker",
-        		"movepool": ["Dragon Dance", "Neutron Blast", "Earthquake", "Dragon Claw", "White Lightning", "Fire Blast", "Crunch", "Hyper Beam"],
-        		"abilities": ["Intimidate"],
-       			"teraTypes": ["Fairy", "Dragon"]
-    		}
-		]
-	},
-	"godslime": {
-        "level": 85,
-        "sets": [
-            {
-                "role": "Wallbreaker",
-                "movepool": ["Aqua Cutter", "Close Combat", "Earthquake", "Explosion", "Poison Jab", "Superpower"],
-                "abilities": ["Mold Breaker"],
-                "teraTypes": ["Fighting", "Ground"]
-            },
-            {
-                "role": "Bulky Support",
-                "movepool": ["Earthquake", "Toxic", "Transform", "Recover"],
-                "abilities": ["Sticky Hold"],
-                "teraTypes": ["Poison", "Ground"]
-            }
-		]
-	}
+  "darkmagician": {
+    "level": 89,
+    "sets": [
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Dark Magic Attack",
+          "Dark Pulse",
+          "Thunder",
+          "Shadow Ball",
+          "Calm Mind",
+          "Mana Restoring",
+          "1000 Knives"
+        ],
+        "abilities": ["Compound Eyes"],
+        "teraTypes": ["Ghost", "Poison"]
+      }
+    ]
+  },
+  "darksage": {
+    "level": 85,
+    "sets": [
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Yami",
+          "Dark Magic Attack",
+          "Knock Off",
+          "Thunder",
+          "Blizzard",
+          "Shadow Ball",
+          "1000 Knives",
+          "Calm Mind"
+        ],
+        "abilities": ["Compound Eyes"],
+        "teraTypes": ["Dark", "Electric"]
+      }
+    ]
+  },
+  "redeyes": {
+    "level": 87,
+    "sets": [
+      {
+        "role": "Fast Attacker",
+        "movepool": [
+          "Agility",
+          "Blaze Kick",
+          "Outrage",
+          "Extreme Speed",
+          "Drill Peck",
+          "Iron Head",
+          "RedEyes Burn"
+        ],
+        "abilities": ["Blaze"],
+        "teraTypes": ["Fire", "Dragon"]
+      }
+    ]
+  },
+  "redeyesmetal": {
+    "level": 85,
+    "sets": [
+      {
+        "role": "Fast Attacker",
+        "movepool": [
+          "Agility",
+          "Inferno Blast",
+          "Flash Cannon",
+          "Dragon Pulse",
+          "Dust Tornado",
+          "Thunder"
+        ],
+        "abilities": ["Levitate"],
+        "teraTypes": ["Steel", "Dragon"]
+      }
+    ]
+  },
+  "blueeyes": {
+    "level": 88,
+    "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Dragon Dance",
+          "Earthquake",
+          "Burst Stream",
+          "White Lightning",
+          "Flamethrower",
+          "Dragon Claw",
+          "Work Up"
+        ],
+        "abilities": ["Inner Focus"],
+        "teraTypes": ["Fairy", "Dragon"]
+      }
+    ]
+  },
+  "beudragon": {
+    "level": 82,
+    "sets": [
+      {
+        "role": "Bulky Attacker",
+        "movepool": [
+          "Neutron Blast",
+          "Earthquake",
+          "Burst Stream",
+          "White Lightning",
+          "Fire Blast",
+          "Dragon Pulse",
+          "Hyper Beam"
+        ],
+        "abilities": ["Intimidate"],
+        "teraTypes": ["Fairy", "Dragon"]
+      },
+      {
+        "role": "Setup Attacker",
+        "movepool": [
+          "Dragon Dance",
+          "Neutron Blast",
+          "Earthquake",
+          "Dragon Claw",
+          "White Lightning",
+          "Fire Blast",
+          "Crunch",
+          "Hyper Beam"
+        ],
+        "abilities": ["Intimidate"],
+        "teraTypes": ["Fairy", "Dragon"]
+      }
+    ]
+  },
+  "neaterbug": {
+    "level": 91,
+    "sets": [
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Stealth Rock",
+          "Rock Slide",
+          "Super Fang",
+          "Spikes",
+          "Stun Spore",
+          "U-Turn",
+          "Toxic Spikes",
+          "Knock Off"
+        ],
+        "abilities": ["Shell Armor"],
+        "teraTypes": ["Poison", "Water"]
+      },
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Shell Smash",
+          "Stone Edge",
+          "X-Scissor",
+          "Razor Shell",
+          "Poison Jab",
+          "U-Turn",
+          "Facade",
+          "Knock Off"
+        ],
+        "abilities": ["Shell Armor"],
+        "teraTypes": ["Water", "Rock"]
+      }
+    ]
+  },
+  "godslime": {
+    "level": 85,
+    "sets": [
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Aqua Cutter",
+          "Close Combat",
+          "Earthquake",
+          "Explosion",
+          "Poison Jab",
+          "Superpower"
+        ],
+        "abilities": ["Mold Breaker"],
+        "teraTypes": ["Fighting", "Ground"]
+      },
+      {
+        "role": "Bulky Support",
+        "movepool": ["Earthquake", "Toxic", "Transform", "Recover"],
+        "abilities": ["Sticky Hold"],
+        "teraTypes": ["Poison", "Ground"]
+      }
+    ]
+  }
 }
