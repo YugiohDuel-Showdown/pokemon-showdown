@@ -6,7 +6,7 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 	royalflush: {
 		name: "Royal Flush",
 		desc: "Increases a stat by 50% for every \"Royal Knight\" on the users field or party (including itself): Queens Knight will increase Attack, Kings Knight will increase Defense, and Jacks Knight will increase Speed",
-		shortDesc: "+50% to a stat for every \"Royal Knight\" on the users field or party (including itself)"
+		shortDesc: "+50% to a stat for every \"Royal Knight\" on the users field or party (including itself)",
 	},
 	honestpower: {
 		name: "Honest Power",

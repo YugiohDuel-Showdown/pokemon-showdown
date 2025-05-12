@@ -1,1 +1,30 @@
-{}
+{
+	"darkmagician": {
+  		"level": 89,
+  		"sets": [
+      		{
+        	"role": "Bulky Setup",
+        	"movepool": ["Dark Magic Attack", "Dark Pulse", "Thunder", "Shadow ball", "Calm Mind", "Mana Restoring", "1000 Knives" ],
+        	"abilities": ["Compound Eyes"],
+        	"teraTypes": ["Ghost", "Poison"]
+      		}
+		]
+	},
+	"godslime": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Wallbreaker",
+                "movepool": ["Aqua Cutter", "Close Combat", "Earthquake", "Explosion", "Poison Jab", "Superpower"],
+                "abilities": ["Mold Breaker"],
+                "teraTypes": ["Fighting", "Ground"]
+            },
+            {
+                "role": "Bulky Support",
+                "movepool": ["Earthquake", "Toxic", "Transform", "Recover"],
+                "abilities": ["Sticky Hold"],
+                "teraTypes": ["Poison", "Ground"]
+            }
+		]
+	}
+}

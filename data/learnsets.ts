@@ -32,7 +32,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			yami: ["9T"],
 		}
 	},
-	dmagician: {
+	darkmagician: {
 		learnset: {
 			tackle: ["9L1"],
 			leer: ["9L1"],

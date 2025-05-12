@@ -2045,7 +2045,7 @@ export class GameRoom extends BasicRoom {
 		const log = this.getLog(hideDetails ? 0 : -1);
 		let rating: number | undefined;
 		if (battle.ended && this.rated) rating = this.rated;
-		let { id, password } = this.getReplayData();
+		const { id } = this.getReplayData();
 		const silent = options === 'forpunishment' || options === 'silent' || options === 'auto';
 		if (silent) connection = undefined;
 		const isPrivate = this.settings.isPrivate || this.hideReplay;
@@ -2054,7 +2054,7 @@ export class GameRoom extends BasicRoom {
 			isPrivate ? 1 :
 			0;
 		if (isPrivate && hidden === 10) {
-			password = Replays.generatePassword();
+			// password = Replays.generatePassword();
 		}
 		if (battle.replaySaved !== true && hidden === 10) {
 			battle.replaySaved = 'auto';
@@ -2071,7 +2071,7 @@ export class GameRoom extends BasicRoom {
 			`<copytext value="${url}">Copy</copytext>`
 		);
 		await axios.post('https://replay.thetrainercorner.net/replays/yugioh', {
-			id: id,
+			id,
 			log: log.replace(/\//g, '\\/'),
 			players: battle.players.map(p => p.name),
 			format: format.name,

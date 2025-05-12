@@ -139,7 +139,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Destiny Board",
 		desc: "This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.",
 		shortDesc: "Charges turn 1. Hits turn 2.",
-		
+
 		prepare: "[POKEMON] became cloaked in the shadows!",
 	},
 	bubbleblast: {
@@ -542,7 +542,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	badsimochi: {
 		name: "Bad Simochi",
 		shortDesc: "For 5 turns, the user damages those draining HP from it for as much as they would heal.",
-		
+
 		damage: " [POKEMON] had a bad reaction to Simochi!",
 	},
 	cupoface: {
@@ -718,7 +718,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		shortDesc: "Lowers the target's evasion. Also reveals target's set",
 
 		activate: " [TARGET]'s item is [ITEM], ability is [ABILITY], and moves are [MOVE1], [MOVE2], [MOVE3], [MOVE4]",
-		
+
 	},
 	blackpendant: {
 		name: "Black Pendant",
@@ -747,7 +747,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	necrovalley: {
 		name: "Necrovalley",
-		shortDesc:  "Prevents the target from escaping.",
+		shortDesc: "Prevents the target from escaping.",
 	},
 	reinforcement: {
 		name: "Reinforcement",

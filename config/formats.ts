@@ -61,7 +61,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		rated: false,
 		ruleset: [
 			'Max Team Size = 3',
-			'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod', 'Terastal Clause'
+			'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod', 'Terastal Clause',
 		],
 	},
 	{
@@ -99,5 +99,5 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		section: "Draft",
 		column: 2,
-	}
+	},
 ];

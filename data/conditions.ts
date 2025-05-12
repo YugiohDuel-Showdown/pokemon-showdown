@@ -543,7 +543,7 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 	},
 	mirrorcoat: {
 		name: "mirrorcoat",
-				
+
 		duration: 1,
 		noCopy: true,
 		onStart(target, source, move) {

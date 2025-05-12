@@ -2517,7 +2517,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onTryHitPriority: 1,
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === "Ice") {
-				if (this.boost({ def: 1})) {
+				if (this.boost({ def: 1 })) {
 					this.add('-immune', target, '[from] ability: Magma Armor');
 				}
 			}

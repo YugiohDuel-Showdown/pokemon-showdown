@@ -2,7 +2,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	illusionm: {
 		tier: "LC",
 	},
-	dmagician: {
+	darkmagician: {
 		tier: "NFE",
 	},
 	darksage: {
@@ -129,7 +129,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: 'LC',
 	},
 	valkyrion: {
-		tier: "OU"
+		tier: "OU",
 	},
 	alphatmw: {
 		tier: "LC",

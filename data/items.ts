@@ -78,7 +78,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			if (['beaverw', 'jerrybean', 'spegasus', 'feralimp'].includes(pokemon.species.id)) {
 				return this.chainModify(2);
 			}
-		}
+		},
 	},
 	eviokite: {
 		name: "Eviokite",
@@ -91,7 +91,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			if (pokemon.baseSpecies.nfe) {
 				return this.chainModify(1.5);
 			}
-		}
+		},
 	},
 	// End of custom Items
 	abilityshield: {
