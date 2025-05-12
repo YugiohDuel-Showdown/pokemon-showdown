@@ -603,6 +603,12 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		silentsw7: {
 			tier: "OU",
 		},
+		reaperotc: {
+			tier: "OU",
+		},
+		yamimakai: {
+			tier: "OU",
+		},
 		exodia: {
 			tier: "Uber",
 		},
