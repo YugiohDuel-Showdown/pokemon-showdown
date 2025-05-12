@@ -517,8 +517,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Card Eraser",
 		shortDesc: "Erase all PP from the target's last move. This move will always move last.",
 	},
-	deliquentduo: {
-		name: "Deliquent Duo",
+	delinquentduo: {
+		name: "Delinquent Duo",
 		shortDesc: "Hits 2 times. Each strike will lower a random stat.",
 	},
 	marshglasses: {

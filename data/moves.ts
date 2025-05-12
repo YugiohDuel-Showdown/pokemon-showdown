@@ -2149,12 +2149,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Ghost",
 	},
-	deliquentduo: {
+	delinquentduo: {
 		num: -1105,
 		accuracy: 90,
 		basePower: 40,
 		category: "Physical",
-		name: "Deliqeunt Duo",
+		name: "Delinquent Duo",
 		pp: 10,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, contact: 1 },
@@ -22403,7 +22403,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
-		name: "Substitute",
+		name: "Scapegoat",
 		pp: 10,
 		priority: 0,
 		flags: { snatch: 1, nonsky: 1, metronome: 1 },

@@ -197,9 +197,26 @@
       }
 ]
 },
-  "blacktyranno": {
-  "level": 84,
+"sanwitch": {
+  "level": 83,
   "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": ["Belly Drum", "Body Slam", "Sucker Punch", "Zen Headbutt", "Close Combat", "Power Whip", "Scapegoat", "Play Rough"],
+        "abilities": ["Compound Eyes", "Overcoat"],
+        "teraTypes": ["Normal", "Fairy"]
+      },
+{
+        "role": "Bulky Support",
+        "movepool": ["Spikes", "Twin Beam", "Knock Off", "Glare", "Recycle", "Wish", "Protect"],
+        "abilities": ["Synchronize", "Overcoat"],
+        "teraTypes": ["Psychic", "Dark"]
+      }
+]
+},
+  "blacktyranno": {
+    "level": 84,
+    "sets": [
       {
         "role": "Wallbreaker",
         "movepool": ["Earthquake", "Rock Slide", "Outrage", "Crunch", "Ice Fang", "Giga Impact"],
@@ -208,12 +225,41 @@
       },
      {
        "role": "Bulky Attacker",
-       "movepool": ["Earthquake", "Rock Slide", "Crunch", "Outrage", "Iron Head"],
+       "movepool": ["Earthquake", "Rock Slide", "Crunch", "Outrage", "Iron Head", "Howl"],
        "abilities": ["Sand Stream"],
        "teraTypes": ["Ground", "Steel"]
        }
-    	]
+    ]
 	},
+  "2hkingrex": {
+  "level": 85,
+  "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": ["Stomping Tantrum", "Dual Wingbeat", "Agility", "Outrage", "Close Combat"],
+        "abilities": ["Tough Claws"],
+        "teraTypes": ["Dragon", "Fighting"]
+      },
+     {
+       "role": "Fast Attacker",
+       "movepool": ["Stomping Tantrum", "Dust Tornado", "Ice Fang", "Thunder Fang"],
+       "abilities": ["Strong Jaw"],
+       "teraTypes": ["Ice"]
+      },
+     {
+       "role": "Wallbreaker",
+       "movepool": ["Stomping Tantrum", "Dual Wingbeat", "Ice Fang", "Close Combat", "Iron Tail"],
+       "abilities": ["Tough Claws"],
+       "teraTypes": ["Ice"]
+      },
+     {
+       "role": "Bulky Attacker",
+       "movepool": ["Earthquake", "Dust Tornado", "Delinquent Duo", "Roost"],
+       "abilities": ["Sand Veil"],
+       "teraTypes": ["Rock"]
+       }
+    ]
+},
   "godslime": {
     "level": 85,
     "sets": [
