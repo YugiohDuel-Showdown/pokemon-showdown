@@ -26,7 +26,7 @@
   		"sets": [
       		{
         		"role": "Fast Attacker",
-        		"movepool": ["Agility", "Blaze Kick", "Outrage", "Extreme Speed", "Drill Peck", "Iron Head", "Red Eyes Burn"],
+        		"movepool": ["Agility", "Blaze Kick", "Outrage", "Extreme Speed", "Drill Peck", "Iron Head", "RedEyes Burn"],
         		"abilities": ["Blaze"],
         		"teraTypes": ["Fire", "Dragon"]
     		}
@@ -44,16 +44,16 @@
 		]
 	},
 	"blueeyes": {
-  "level": 88,
-  "sets": [
-      {
-        "role": "Setup Sweeper",
-        "movepool": ["Dragon Dance", "Earthquake", "Burst Stream", "White Lightning", "Flamethrower", "Dragon Claw", "Work Up"],
-        "abilities": ["Inner Focus"],
-        "teraTypes": ["Fairy", "Dragon"],
-      }
-]
-},
+  		"level": 88,
+  		"sets": [
+      		{
+        		"role": "Setup Sweeper",
+        		"movepool": ["Dragon Dance", "Earthquake", "Burst Stream", "White Lightning", "Flamethrower", "Dragon Claw", "Work Up"],
+        		"abilities": ["Inner Focus"],
+        		"teraTypes": ["Fairy", "Dragon"]
+      		}
+		]
+	},
 	"godslime": {
         "level": 85,
         "sets": [
