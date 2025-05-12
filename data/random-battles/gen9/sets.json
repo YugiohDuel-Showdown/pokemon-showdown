@@ -139,7 +139,6 @@
           "Super Fang",
           "Spikes",
           "Stun Spore",
-          "U-Turn",
           "Toxic Spikes",
           "Knock Off"
         ],
@@ -154,7 +153,6 @@
           "X-Scissor",
           "Razor Shell",
           "Poison Jab",
-          "U-Turn",
           "Facade",
           "Knock Off"
         ],
@@ -163,6 +161,57 @@
       }
     ]
   },
+  "greatmoth": {
+  "level": 94,
+  "sets": [
+      {
+        "role": "Bulky Attacker",
+        "movepool": ["Leech Life", "Dual Wingbeat", "Poison Jab", "Megahorn", "Steel Wing", "U-turn", "Moonlight"],
+        "abilities": ["Shield Dust"],
+        "teraTypes": ["Bug", "Water"]
+      },
+{
+        "role": "Bulky Support",
+        "movepool": ["Tailwind", "U-turn", "Toxic", "X-Scissor", "Moonlight", "Dual Wingbeat"],
+        "abilities": ["Shield Dust"],
+        "teraTypes": ["Bug", "Steel"]
+      }
+]
+},
+"pugmoth": {
+  "level": 83,
+  "sets": [
+      {
+        "role": "Bulky Attacker",
+        "movepool": ["Megahorn", "Dual Wingbeat", "Steel Wing", "Heavy Storm", "Defog", "U-turn", "Moonlight"],
+        "abilities": ["Shield Dust"],
+        "teraTypes": ["Bug", "Water"]
+      },
+{
+        "role": "Setup Sweeper",
+        "movepool": ["Leech Life", "Agility", "Dual Wingbeat", "Moonlight", "Poison Jab", "Bullet Seed"],
+        "abilities": ["Shield Dust"],
+        "teraTypes": ["Bug", "Poison"]
+      }
+]
+},
+  "blacktyranno": {
+  "level": 84,
+  "sets": [
+      {
+        "role": "Wallbreaker",
+        "movepool": ["Earthquake", "Rock Slide", "Outrage", "Crunch", "Ice Fang", "Giga Impact"],
+        "abilities": ["Sand Stream"],
+        "teraTypes": ["Ground", "Dragon"]
+      },
+     {
+       "role": "Bulky Attacker",
+       "movepool": ["Earthquake", "Rock Slide", "Crunch", "Outrage", "Iron Head"],
+       "abilities": ["Sand Stream"],
+       "teraTypes": ["Ground", "Steel"]
+       }
+    	]
+	},
   "godslime": {
     "level": 85,
     "sets": [
