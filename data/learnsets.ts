@@ -128,6 +128,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			protect: ["9M"],
 			safeguard: ["9M"],
 			thunderbolt: ["9M"],
+			thunder: ['9M'],
 			shadowball: ["9M"],
 			multiply: ["9M"],
 			reflect: ["9M"],

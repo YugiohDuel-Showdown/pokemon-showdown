@@ -4,7 +4,7 @@
   		"sets": [
       		{
         	"role": "Bulky Setup",
-        	"movepool": ["Dark Magic Attack", "Dark Pulse", "Thunder", "Shadow ball", "Calm Mind", "Mana Restoring", "1000 Knives" ],
+        	"movepool": ["Dark Magic Attack", "Dark Pulse", "Thunder", "Shadow Ball", "Calm Mind", "Mana Restoring", "1000 Knives" ],
         	"abilities": ["Compound Eyes"],
         	"teraTypes": ["Ghost", "Poison"]
       		}
@@ -43,6 +43,17 @@
       		}
 		]
 	},
+	"blueeyes": {
+  "level": 88,
+  "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": ["Dragon Dance", "Earthquake", "Burst Stream", "White Lightning", "Flamethrower", "Dragon Claw", "Work Up"],
+        "abilities": ["Inner Focus"],
+        "teraTypes": ["Fairy", "Dragon"],
+      }
+]
+},
 	"godslime": {
         "level": 85,
         "sets": [
