@@ -69,6 +69,7 @@ type MoveEnforcementChecker = (
 // Moves that restore HP:
 const RECOVERY_MOVES = [
 	'healorder', 'milkdrink', 'moonlight', 'morningsun', 'recover', 'roost', 'shoreup', 'slackoff', 'softboiled', 'strengthsap', 'synthesis',
+	'ectoplasmicfortification', 'goatheal', 'rainofmercy', 'magicformula', 'thewarriorreturningalive', 'emergencyprovisions', 'solemnwish',
 ];
 // Moves that drop stats:
 const CONTRARY_MOVES = [
@@ -77,24 +78,30 @@ const CONTRARY_MOVES = [
 // Moves that boost Attack:
 const PHYSICAL_SETUP = [
 	'bellydrum', 'bulkup', 'coil', 'curse', 'dragondance', 'honeclaws', 'howl', 'meditate', 'poweruppunch', 'swordsdance', 'tidyup', 'victorydance',
+	'skyscraper', 'metalmorph', 'dragonicattack', 'stimpack', 'thewarriorreturningalive',
 ];
 // Moves which boost Special Attack:
 const SPECIAL_SETUP = [
 	'calmmind', 'chargebeam', 'geomancy', 'nastyplot', 'quiverdance', 'tailglow', 'takeheart', 'torchsong',
+	'ectoplasmicfortification', 'magicformula', 'blackpendant',
 ];
 // Moves that boost Attack AND Special Attack:
 const MIXED_SETUP = [
 	'clangoroussoul', 'growth', 'happyhour', 'holdhands', 'noretreat', 'shellsmash', 'workup',
+	'triblazeaccelerator', 'recklessgreed', 'whiteelephantgift',
 ];
 // Some moves that only boost Speed:
 const SPEED_SETUP = [
 	'agility', 'autotomize', 'flamecharge', 'rockpolish', 'snowscape', 'trailblaze',
+	'claycharge', 'blazeaccelerator', 'triblazeaccelerator',
 ];
 // Conglomerate for ease of access
 const SETUP = [
 	'acidarmor', 'agility', 'autotomize', 'bellydrum', 'bulkup', 'calmmind', 'clangoroussoul', 'coil', 'cosmicpower', 'curse', 'dragondance',
 	'flamecharge', 'growth', 'honeclaws', 'howl', 'irondefense', 'meditate', 'nastyplot', 'noretreat', 'poweruppunch', 'quiverdance',
 	'rockpolish', 'shellsmash', 'shiftgear', 'swordsdance', 'tailglow', 'takeheart', 'tidyup', 'trailblaze', 'workup', 'victorydance',
+	'defensemode', 'skyscraper', 'metalmorph', 'clockprison', 'lastwill', 'blazeaccelerator', 'triblazeaccelerator', 'recklessgreed',
+	'dragonicattack', 'stimpack', 'whiteelephantgift', 'thewarriorreturningalive', 'blackpendant', 'magicformula',
 ];
 const SPEED_CONTROL = [
 	'electroweb', 'glare', 'icywind', 'lowsweep', 'nuzzle', 'quash', 'tailwind', 'thunderwave', 'trickroom',
@@ -106,6 +113,9 @@ const NO_STAB = [
 	'grassyglide', 'iceshard', 'icywind', 'incinerate', 'infestation', 'machpunch', 'meteorbeam', 'mortalspin', 'nuzzle', 'pluck', 'pursuit',
 	'quickattack', 'rapidspin', 'reversal', 'selfdestruct', 'shadowsneak', 'skydrop', 'snarl', 'strugglebug', 'suckerpunch', 'uturn',
 	'vacuumwave', 'voltswitch', 'watershuriken', 'waterspout',
+	'spellbindingcircle', 'obliterate', 'metalthrust', 'celticblade', 'darklight', 'toxicbreath', 'sparkblaster', 'sparks', 'goatthrash',
+	'silverbowandarrow', 'delinquentduo', 'dragonicattack', 'twintwister', 'shockrocket', 'skilldrain', 'dusttornado', 'dragoncapturejar',
+	'heytrunade', 'michizure', 'emergencyteleport', 'fakehero', 'wrathofneos',
 ];
 // Hazard-setting moves
 const HAZARDS = [
@@ -118,6 +128,8 @@ const PROTECT_MOVES = [
 // Moves that switch the user out
 const PIVOT_MOVES = [
 	'chillyreception', 'flipturn', 'partingshot', 'shedtail', 'teleport', 'uturn', 'voltswitch',
+	'fakehero', 'wrathofneos', 'callofthehaunted', 'fluteofdragon', 'carddestroy', 'manarestoring',
+	'emergencyteleport', 'melodyofawakeningdragon',
 ];
 
 // Moves that should be paired together when possible
@@ -126,24 +138,23 @@ const MOVE_PAIRS = [
 	['sleeptalk', 'rest'],
 	['protect', 'wish'],
 	['leechseed', 'protect'],
-	['leechseed', 'substitute'],
+	['leechseed', 'scapegoat'],
+	['goatheal', 'scapegoat'],
+	['goatthrash', 'scapegoat'],
+	['blazeaccelerator', 'triblazeaccelerator'],
 ];
 
 /** Pokemon who always want priority STAB, and are fine with it as its only STAB move of that type */
-const PRIORITY_POKEMON = [
-	'breloom', 'brutebonnet', 'cacturne', 'honchkrow', 'mimikyu', 'ragingbolt', 'scizor',
+const PRIORITY_POKEMON: string[] = [
 ];
 
 /** Pokemon who should never be in the lead slot */
-const NO_LEAD_POKEMON = [
-	'Zacian', 'Zamazenta',
+const NO_LEAD_POKEMON: string[] = [
 ];
-const DOUBLES_NO_LEAD_POKEMON = [
-	'Basculegion', 'Houndstone', 'Iron Bundle', 'Roaring Moon', 'Zacian', 'Zamazenta',
+const DOUBLES_NO_LEAD_POKEMON: string[] = [
 ];
 
-const DEFENSIVE_TERA_BLAST_USERS = [
-	'alcremie', 'bellossom', 'comfey', 'fezandipiti', 'florges', 'raikou',
+const DEFENSIVE_TERA_BLAST_USERS: string[] = [
 ];
 
 function sereneGraceBenefits(move: Move) {
