@@ -14,7 +14,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	redeyes: {
 		tier: "NFE",
 	},
-	redeyesm: {
+	redeyesmetal: {
 		tier: "OU",
 	},
 	paladinow: {

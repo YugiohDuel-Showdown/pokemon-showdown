@@ -70,9 +70,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evos: ["Red Eyes M", "Toon Red E"],
 		eggGroups: ["Monster", "Dragon"],
 	},
-	redeyesm: {
+	redeyesmetal: {
 		num: 6,
-		name: "Red Eyes M",
+		name: "Red Eyes Metal",
 		types: ["Fire", "Steel"],
 		baseStats: { hp: 80, atk: 95, def: 80, spa: 90, spd: 80, spe: 105 },
 		abilities: { 0: "Levitate" },

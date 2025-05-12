@@ -10,6 +10,39 @@
       		}
 		]
 	},
+	"darksage": {
+  		"level": 85,
+  		"sets": [
+      		{
+        		"role": "Wallbreaker",
+        		"movepool": ["Yami", "Dark Magic Attack", "Knock Off", "Thunder", "Blizzard", "Shadow Ball", "1000 Knives", "Calm Mind"],
+        		"abilities": ["Compound Eyes"],
+        		"teraTypes": ["Dark", "Electric"]
+      		}
+		]
+	},
+	"redeyes": {
+  		"level": 87,
+  		"sets": [
+      		{
+        		"role": "Fast Attacker",
+        		"movepool": ["Agility", "Blaze Kick", "Outrage", "Extreme Speed", "Drill Peck", "Iron Head", "Red Eyes Burn"],
+        		"abilities": ["Blaze"],
+        		"teraTypes": ["Fire", "Dragon"]
+    		}
+		]
+	},
+	"redeyesmetal": {
+  		"level": 85,
+  		"sets": [
+    		{
+				"role": "Fast Attacker",
+				"movepool": ["Agility", "Inferno Blast", "Flash Cannon", "Dragon Pulse", "Dust Tornado", "Thunder"],
+				"abilities": ["Levitate"],
+				"teraTypes": ["Steel", "Dragon"]
+      		}
+		]
+	},
 	"godslime": {
         "level": 85,
         "sets": [

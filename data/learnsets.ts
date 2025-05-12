@@ -260,7 +260,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			hurricane: ["9T"],
 		},
 	},
-	redeyesm: {
+	redeyesmetal: {
 		learnset: {
 			steelwing: ["9L1", "9M"],
 			growl: ["9L1"],
