@@ -235,7 +235,7 @@
   "sets": [
       {
         "role": "Setup Sweeper",
-        "movepool": ["Stomping Tantrum", "Dual Wingbeat", "Agility", "Outrage", "Close Combat", "Iron Tail"],
+        "movepool": ["Stomping Tantrum", "Dual Wingbeat", "Agility", "Outrage", "Close Combat"],
         "abilities": ["Tough Claws"],
         "teraTypes": ["Dragon", "Fighting"]
       },

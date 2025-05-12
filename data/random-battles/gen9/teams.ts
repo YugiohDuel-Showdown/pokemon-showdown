@@ -77,7 +77,7 @@ const CONTRARY_MOVES = [
 ];
 // Moves that boost Attack:
 const PHYSICAL_SETUP = [
-	'bellydrum', 'bulkup', 'coil', 'curse', 'dragondance', 'honeclaws', 'howl', 'meditate', 'poweruppunch', 'swordsdance', 'tidyup', 'victorydance',
+	'bellydrum', 'bulkup', 'coil', 'curse', 'dragondance', 'workup', 'honeclaws', 'howl', 'meditate', 'poweruppunch', 'swordsdance', 'tidyup', 'victorydance',
 	'skyscraper', 'metalmorph', 'dragonicattack', 'stimpack', 'thewarriorreturningalive',
 ];
 // Moves which boost Special Attack:
@@ -604,6 +604,7 @@ export class RandomTeams {
 			[['dragonpulse', 'spacialrend'], 'dracometeor'],
 			['heavyslam', 'flashcannon'],
 			['alluringvoice', 'dazzlinggleam'],
+			['dakrmagicattack', 'darkpulse'],
 
 			// These status moves are redundant with each other
 			['taunt', 'disable'],
