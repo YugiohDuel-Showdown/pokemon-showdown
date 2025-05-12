@@ -260,6 +260,29 @@
        }
     ]
 },
+"agidosentinel": {
+  "level": 82,
+  "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": ["Last Will", "Dazzling Gleam", "Shadow Ball", "Sand Tomb", "Dark Pulse", "Calm Mind"],
+        "abilities": ["Magic Guard"],
+        "teraTypes": ["Steel", "Dark", "Fairy", "Ghost"]
+      },
+     {
+       "role": "Bulky Attacker",
+       "movepool": ["Lunar Dance", "Psyshock", "Psychic", "Destiny Bond", "Flash Cannon"],
+       "abilities": ["Magic Guard"],
+       "teraTypes": ["Steel"]
+      },
+     {
+       "role": "Bulky Support",
+       "movepool": ["Reflect", "Light Screen", "Emergency Teleport", "Flash Cannon", "Dazzling Gleam", "Trick"],
+       "abilities": ["Aftermath"],
+       "teraTypes": ["Steel", "Fairy"]
+       }
+    ]
+},
   "godslime": {
     "level": 85,
     "sets": [
