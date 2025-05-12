@@ -9,6 +9,7 @@
           "Dark Pulse",
           "Thunder",
           "Shadow Ball",
+		  "Psychic",
           "Calm Mind",
           "Mana Restoring",
           "1000 Knives"
@@ -31,7 +32,8 @@
           "Blizzard",
           "Shadow Ball",
           "1000 Knives",
-          "Calm Mind"
+          "Calm Mind",
+		  "Psychic"
         ],
         "abilities": ["Compound Eyes"],
         "teraTypes": ["Dark", "Electric"]
