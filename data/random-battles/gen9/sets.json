@@ -196,6 +196,23 @@
       }
 ]
 },
+"psnbutterfly": {
+  "level": 89,
+  "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": ["Quiver Dance", "Sludge Bomb", "Bug Buzz", "Psychic", "Acid Rain", "Air Slash"],
+        "abilities": ["Adaptability"],
+        "teraTypes": ["Poison", "Dark"]
+      },
+{
+        "role": "Fast Attacker",
+        "movepool": ["Parasite Paracide", "Dual Wingbeat", "Leech Life", "Horn Leech", "Gunk Shot", "U-turn"],
+        "abilities": ["Adaptability", "Tinted Lens"],
+        "teraTypes": ["Flying", "Dark"]
+      }
+]
+},
 "sanwitch": {
   "level": 83,
   "sets": [
