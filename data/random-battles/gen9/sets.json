@@ -285,6 +285,23 @@
       }
 ]
 },
+"gilfordtl": {
+  "level": 82,
+  "sets": [
+      {
+        "role": "Bulky Attacker",
+        "movepool": ["Double-Edge", "Wild Charge", "Fake Out", "Close Combat", "Knock Off", "Iron Head", "Earthquake"],
+        "abilities": ["Rock Head"],
+        "teraTypes": ["Electric", "Normal"]
+      },
+{
+        "role": "Bulky Setup",
+        "movepool": ["Fake Out", "Thunder Sword", "Earthquake", "Quick Attack", "The Warrior Returning Alive", "Return"],
+        "abilities": ["Volt Absorb"],
+        "teraTypes": ["Flying", "Ghost"]
+      }
+]
+},
 "sanwitch": {
   "level": 83,
   "sets": [
