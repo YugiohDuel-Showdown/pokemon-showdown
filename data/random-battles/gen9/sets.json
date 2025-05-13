@@ -213,6 +213,78 @@
       }
 ]
 },
+"beaverw": {
+  "level": 96,
+  "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": ["Swords Dance", "Bulk Up", "Beast Fangs", "Wave Crash", "Knock Off", "Close Combat"],
+        "abilities": ["Beast Boost"],
+        "teraTypes": ["Water", "Fighting"]
+      }
+    ]
+  },
+  "wingedkrb": {
+  "level": 87,
+  "sets": [
+      {
+        "role": "Wallbreaker",
+        "movepool": ["Facade", "Protect", "Brave Bird", "Multiply", "U-turn", "Steel Wing", "Bounce"],
+        "abilities": ["Guts"],
+        "teraTypes": ["Normal"]
+      }
+]
+},
+"wkurlv10": {
+  "level": 82,
+  "sets": [
+      {
+        "role": "Wallbreaker",
+        "movepool": ["Facade", "Protect", "Transcendant Wings", "Multiply", "U-turn", "Steel Wing", "Double-Edge"],
+        "abilities": ["Guts"],
+        "teraTypes": ["Normal"]
+      }
+]
+},
+"kuribabyln": {
+  "level": 89,
+  "sets": [
+      {
+        "role": "Wallbreaker",
+        "movepool": ["Horn of Chaos", "Drill Run", "Megahorn", "Knock Off", "Drill Peck", "Horn Drill", "Spikes"],
+        "abilities": ["Anger Point"],
+        "teraTypes": ["Dark", "Ground"]
+      }
+]
+},
+"linkuriboh": {
+  "level": 86,
+  "sets": [
+      {
+        "role": "Bulky Support",
+        "movepool": ["Parting Shot", "Thunder Wave", "Thunderbolt", "Rapid Spin", "Energy Ball", "Memento", "Parabolic Charge"],
+        "abilities": ["Levitate"],
+        "teraTypes": ["Electric"]
+      },
+{
+        "role": "Bulky Attacker",
+        "movepool": ["Thunderbolt", "Volt Switch", "Energy Ball", "Flash Cannon", "Focus Blast", "Parabolic Charge"],
+        "abilities": ["Analytic", "Levitate"],
+        "teraTypes": ["Electric", "Grass"]
+      }
+]
+},
+"rkwarrior": {
+  "level": 79,
+  "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": ["Protect", "Swords Dance", "Bullet Punch", "Knock Off", "Close Combat", "Thunder Punch", "Meteor Mash","Megamorph"],
+        "abilities": ["Speed Boost"],
+        "teraTypes": ["Ghost", "Steel"]
+      }
+]
+},
 "sanwitch": {
   "level": 83,
   "sets": [
