@@ -51,7 +51,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		parasitec: {
 			tier: "LC",
 		},
-		psnbtrfly: {
+		psnbutterfly: {
 			tier: "OU",
 		},
 		beaverw: {
