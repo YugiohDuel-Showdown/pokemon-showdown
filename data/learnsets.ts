@@ -6766,7 +6766,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			psychocut: ["9T"],
 		},
 	},
-	kariyushin: {
+	kairyushin: {
 		learnset: {
 			watergun: ["9L1"],
 			growl: ["9L1"],
@@ -6889,6 +6889,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			icywind: ["9T"],
 			liquidation: ["9T"],
 			superfang: ["9T"],
+			outrage: ['9T'],
 			earthpower: ["9T"],
 			hypervoice: ["9T"],
 			focusenergy: ["9T"],
