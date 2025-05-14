@@ -100,6 +100,18 @@ function testAlwaysHasMove(pokemon, options, move) {
 }
 
 /**
+ * Tests that a Pokémon always get an item.
+ * @param {ID} pokemon the ID of the Pokemon whose set is to be tested
+ * @param {{format?: string, rounds?: number, isDoubles?: boolean, isLead?: boolean, isDynamax?: boolean, seed?: PRNGSeed}} options
+ * @param {ID} item
+ */
+function testAlwaysHaveItem(pokemon, options, item) {
+	testSet(pokemon, options, set => {
+		assert(set.item === item, `${pokemon} should always generate "${item}" (generated item: ${set.item})`);
+	});
+}
+
+/**
  * Unit test helper for Pokemon teams
  *
  * @param {{format?: string, rounds?: number, seed?: PRNGSeed}} options
@@ -185,6 +197,7 @@ function validateLearnset(move, set, tier, mod = 'gen8') {
 }
 
 exports.testSet = testSet;
+exports.testAlwaysHaveItem = testAlwaysHaveItem;
 exports.testAlwaysHasMove = testAlwaysHasMove;
 exports.testNotBothMoves = testNotBothMoves;
 exports.testHiddenPower = testHiddenPower;

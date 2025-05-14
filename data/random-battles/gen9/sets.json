@@ -510,6 +510,41 @@
       }
     ]
   },
+  "desfimp": {
+    "level": 82,
+    "sets": [
+      {
+        "role": "Fast Support",
+        "movepool": [
+          "Taunt",
+          "Spikes",
+          "Trick",
+          "Toxic Spikes",
+          "Knock Off",
+          "Leaf Storm",
+          "Psychic Fangs",
+          "Thunderbolt"
+        ],
+        "abilities": ["Prankster"],
+        "teraTypes": ["Grass", "Poison"]
+      },
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Nasty Plot",
+          "Leaf Storm",
+          "Shadow Ball",
+          "Dark Pulse",
+          "Knock Off",
+          "Charge Beam",
+          "Mystical Space Typhoon",
+          "Thunderbolt"
+        ],
+        "abilities": ["Pickpocket"],
+        "teraTypes": ["Grass", "Poison"]
+      }
+    ]
+  },
   "blacktyranno": {
     "level": 84,
     "sets": [
