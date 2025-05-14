@@ -1188,6 +1188,7 @@ export class RandomTeams {
 			}
 			return this.sample(species.requiredItems);
 		}
+		if (species.id === 'wingedkrb' && role === 'Wallbreaker') return 'Flame Orb';
 		if (role === 'AV Pivot') return 'Assault Vest';
 		if (species.id === 'pikachu') return 'Light Ball';
 		if (species.id === 'regieleki') return 'Magnet';
