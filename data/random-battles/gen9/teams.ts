@@ -576,7 +576,7 @@ export class RandomTeams {
 			[SETUP, ['defog', 'nuzzle', 'toxic', 'yawn', 'haze']],
 			[PHYSICAL_SETUP, PHYSICAL_SETUP],
 			[SPECIAL_SETUP, 'thunderwave'],
-			['substitute', PIVOT_MOVES],
+			['scapegoat', PIVOT_MOVES],
 			[SPEED_SETUP, ['aquajet', 'rest', 'trickroom']],
 			['curse', ['irondefense', 'rapidspin']],
 			['dragondance', 'dracometeor'],
@@ -596,7 +596,7 @@ export class RandomTeams {
 			['fireblast', ['fierydance', 'flamethrower']],
 			['lavaplume', 'magmastorm'],
 			['thunderpunch', 'wildcharge'],
-			['thunderbolt', 'discharge'],
+			['thunderbolt', 'discharge', 'whitelightning', 'stridentblaze'],
 			['gunkshot', ['direclaw', 'poisonjab', 'sludgebomb']],
 			['aurasphere', 'focusblast'],
 			['closecombat', 'drainpunch'],
@@ -605,6 +605,17 @@ export class RandomTeams {
 			['heavyslam', 'flashcannon'],
 			['alluringvoice', 'dazzlinggleam'],
 			['dakrmagicattack', 'darkpulse'],
+			['jealousburn', 'darkburningattack'],
+			['dragonpulse', 'burststream'],
+			['flamethrower', 'skyscorcher'],
+			['fireblast', 'infernoblast'],
+			['hyperbeam', 'fistoffate'],
+			['thunder', 'thunderforce'],
+			['destinybond', 'destinyboard'],
+			['dracometeor', 'neutronblast'],
+			['hurricane', 'mysticalspacetyphoon'],
+			['soak', 'parasiteparacide'],
+			['flyingpress', 'transcendantwings'],
 
 			// These status moves are redundant with each other
 			['taunt', 'disable'],
@@ -1217,7 +1228,7 @@ export class RandomTeams {
 			moves.has('courtchange') ||
 			!isDoubles && (species.id === 'luvdisc' || (species.id === 'terapagos' && !moves.has('rest')))
 		) return 'Heavy-Duty Boots';
-		if (moves.has('bellydrum') && moves.has('substitute')) return 'Salac Berry';
+		if (moves.has('bellydrum') && moves.has('scapegoat')) return 'Salac Berry';
 		if (
 			['Cheek Pouch', 'Cud Chew', 'Harvest', 'Ripen'].some(m => ability === m) ||
 			moves.has('bellydrum') || moves.has('filletaway')
@@ -1323,7 +1334,7 @@ export class RandomTeams {
 			return (scarfReqs) ? 'Choice Scarf' : 'Choice Specs';
 		}
 		if (
-			(role === 'Bulky Protect' && counter.get('setup')) || moves.has('substitute') || moves.has('irondefense') ||
+			(role === 'Bulky Protect' && counter.get('setup')) || moves.has('scapegoat') || moves.has('irondefense') ||
 			moves.has('coil') || doublesLeftoversHardcodes
 		) return 'Leftovers';
 		if (species.id === 'sylveon') return 'Pixie Plate';
@@ -1396,7 +1407,7 @@ export class RandomTeams {
 			return 'Assault Vest';
 		}
 		if (species.id === 'golem') return (counter.get('speedsetup')) ? 'Weakness Policy' : 'Custap Berry';
-		if (moves.has('substitute')) return 'Leftovers';
+		if (moves.has('scapegoat')) return 'Leftovers';
 		if (
 			moves.has('stickyweb') && isLead &&
 			(species.baseStats.hp + species.baseStats.def + species.baseStats.spd) <= 235
@@ -1561,8 +1572,8 @@ export class RandomTeams {
 		if (['axekick', 'highjumpkick', 'jumpkick', 'supercellslam'].some(m => moves.has(m))) srWeakness = 2;
 		while (evs.hp > 1) {
 			const hp = Math.floor(Math.floor(2 * species.baseStats.hp + ivs.hp + Math.floor(evs.hp / 4) + 100) * level / 100 + 10);
-			if ((moves.has('substitute') && ['Sitrus Berry', 'Salac Berry'].includes(item)) || species.id === 'minior') {
-				// Two Substitutes should activate Sitrus Berry. Two switch-ins to Stealth Rock should activate Shields Down on Minior.
+			if ((moves.has('scapegoat') && ['Sitrus Berry', 'Salac Berry'].includes(item)) || species.id === 'minior') {
+				// Two scapegoats should activate Sitrus Berry. Two switch-ins to Stealth Rock should activate Shields Down on Minior.
 				if (hp % 4 === 0) break;
 			} else if (
 				(moves.has('bellydrum') || moves.has('filletaway') || moves.has('shedtail')) &&
@@ -1570,8 +1581,8 @@ export class RandomTeams {
 			) {
 				// Belly Drum should activate Sitrus Berry
 				if (hp % 2 === 0) break;
-			} else if (moves.has('substitute') && moves.has('endeavor')) {
-				// Luvdisc should be able to Substitute down to very low HP
+			} else if (moves.has('scapegoat') && moves.has('endeavor')) {
+				// Luvdisc should be able to scapegoat down to very low HP
 				if (hp % 4 > 0) break;
 			} else {
 				// Maximize number of Stealth Rock switch-ins in singles
@@ -2739,6 +2750,7 @@ export class RandomTeams {
 			grassysurge: "grassy",
 			seedsower: "grassy",
 			mistysurge: "misty",
+
 		};
 		const terrainItemsRequire: { [k: string]: string } = {
 			electricseed: "electric",
