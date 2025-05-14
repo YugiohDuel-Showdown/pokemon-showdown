@@ -597,6 +597,40 @@
       }
     ]
   },
+  "witchotbf": {
+    "level": 82,
+    "sets": [
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Calm Mind",
+          "Dark Pulse",
+          "Energy Ball",
+          "Draining Kiss",
+          "Stored Power",
+          "Black Pendant",
+          "Shadow Ball"
+        ],
+        "abilities": ["Serene Grace", "Natural Cure"],
+        "teraTypes": ["Psychic", "Dark"]
+      },
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Parting Shot",
+          "Reflect",
+          "Light Screen",
+          "Defog",
+          "Eerie Spell",
+          "Dark Pulse",
+          "Appointer of the Red Lotus",
+          "Power Gem"
+        ],
+        "abilities": ["Grassy Surge"],
+        "teraTypes": ["Dark", "Poison"]
+      }
+    ]
+  },
   "blacktyranno": {
     "level": 84,
     "sets": [
