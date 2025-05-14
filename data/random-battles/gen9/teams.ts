@@ -827,6 +827,14 @@ export class RandomTeams {
 			}
 		}
 
+		// Enforce Baton Pass on AlligatorS DGN
+		// if (species.id === 'alligatorsdgn') {
+		// 	if (movePool.includes('batonpass')) {
+		// 		counter = this.addMove('batonpass', moves, types, abilities, teamDetails, species, isLead, isDoubles,
+		// 			movePool, teraType, role);
+		// 	}
+		// }
+
 		// Enforce moves in doubles
 		if (isDoubles) {
 			const doublesEnforcedMoves = ['mortalspin', 'spore'];

@@ -545,6 +545,58 @@
       }
     ]
   },
+  "thousandd": {
+    "level": 80,
+    "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Dragon Dance",
+          "Dragon Claw",
+          "Earthquake",
+          "Flare Blitz",
+          "Roost",
+          "Iron Head",
+          "Knock Off",
+          "Zen Headbutt"
+        ],
+        "abilities": ["Intimidate", "Dragon's Maw"],
+        "teraTypes": ["Fairy", "Steel"]
+      },
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Fire Spin",
+          "Roost",
+          "Will-O-Wisp",
+          "Clear Smog",
+          "Dragon Rage",
+          "Protect"
+        ],
+        "abilities": ["Intimidate"],
+        "teraTypes": ["Fire"]
+      }
+    ]
+  },
+  "jerrybean": {
+    "level": 83,
+    "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Quiver Dance",
+          "Seed Flare",
+          "Sludge Bomb",
+          "Spore",
+          "Hidden Power Ice",
+          "Energy Ball",
+          "Weather Ball"
+        ],
+        "abilities": ["Harvest"],
+        "teraTypes": ["Grass", "Poison"]
+      }
+    ]
+  },
   "blacktyranno": {
     "level": 84,
     "sets": [
