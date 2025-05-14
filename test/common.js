@@ -49,7 +49,8 @@ class TestTools {
 		}
 
 		const gameType = Dex.toID(options.gameType || 'singles');
-		let basicFormat = this.currentMod === 'base' && gameType === 'singles' ? 'Anything Goes' : 'Custom Game';
+		// let basicFormat = this.currentMod === 'base' && gameType === 'singles' ? 'Anything Goes' : 'Custom Game';
+		let basicFormat = 'Custom Game';
 		if (options.pokemon) throw new Error(`The 'pokemon' option is no longer supported`);
 		const customRules = [
 			options.legality ? '^Obtainable' : '^!Obtainable',

@@ -827,14 +827,6 @@ export class RandomTeams {
 			}
 		}
 
-		// Enforce Baton Pass on AlligatorS DGN
-		// if (species.id === 'alligatorsdgn') {
-		// 	if (movePool.includes('batonpass')) {
-		// 		counter = this.addMove('batonpass', moves, types, abilities, teamDetails, species, isLead, isDoubles,
-		// 			movePool, teraType, role);
-		// 	}
-		// }
-
 		// Enforce moves in doubles
 		if (isDoubles) {
 			const doublesEnforcedMoves = ['mortalspin', 'spore'];
@@ -1196,7 +1188,11 @@ export class RandomTeams {
 			}
 			return this.sample(species.requiredItems);
 		}
+		if (['beaverw', 'jerrybean', 'spegasus', 'feralimp'].includes(species.id)) return 'Horn of the Unicorn';
+		if (['battleox', 'rabidhorseman', 'axeraider', 'vorseraider'].includes(species.id)) return 'Axe of Despair';
+		if (species.id === 'volcanicshell') return 'Everstone';
 		if (species.id === 'wingedkrb' && role === 'Wallbreaker') return 'Flame Orb';
+		if (species.id === 'coheart') return 'Heart Scale';
 		if (role === 'AV Pivot') return 'Assault Vest';
 		if (species.id === 'pikachu') return 'Light Ball';
 		if (species.id === 'regieleki') return 'Magnet';
@@ -1241,6 +1237,11 @@ export class RandomTeams {
 		if (counter.get('Status') && (species.name === 'Latias' || species.name === 'Latios')) return 'Soul Dew';
 		if (species.id === 'scyther' && !isDoubles) return (isLead && !moves.has('uturn')) ? 'Eviolite' : 'Heavy-Duty Boots';
 		if (ability === 'Poison Heal' || ability === 'Quick Feet') return 'Toxic Orb';
+		if (species.nfe) {
+			if (['Wallbreaker'].includes(role)) return 'Eviomite';
+			else if (['Fast Attacker'].includes(role)) return 'Eviokite';
+			else return 'Eviolite';
+		}
 		if (species.nfe) return 'Eviolite';
 		if ((ability === 'Guts' || moves.has('facade')) && !moves.has('sleeptalk')) {
 			return (types.includes('Fire') || ability === 'Toxic Boost') ? 'Toxic Orb' : 'Flame Orb';

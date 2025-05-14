@@ -62,7 +62,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		onModifyCritRatioPriority: 2,
 		onModifyCritRatio(critRatio, pokemon) {
-			if (['battleox', 'rhorseman', 'axe', 'vorseraider'].includes(pokemon.species.id)) {
+			if (['battleox', 'rabidhorseman', 'axeraider', 'vorseraider'].includes(pokemon.species.id)) {
 				return 2;
 			}
 		},

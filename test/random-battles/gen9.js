@@ -9,7 +9,8 @@ describe('[Gen 9] Random Battle (slow)', () => {
 	it('should always give Winged Krb flame orb', () => {
 		testAlwaysHaveItem('wingedkrb', options, 'Flame Orb');
 	});
-	// it('should always give Baton Pass to AlligatorS DGN', () => {
-	// 	testAlwaysHasMove('alligatorsdgn', options, 'batonpass');
-	// });
+
+	it('should always give Beaver W Horn of the Unicorn', () => {
+		testAlwaysHaveItem('beaverw', options, 'Horn of the Unicorn');
+	});
 });
