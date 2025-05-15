@@ -764,7 +764,6 @@
       }
     ]
   },
-
   "2hkingrex": {
     "level": 85,
     "sets": [
@@ -985,6 +984,39 @@
       }
     ]
   },
+  "vampgenesis": {
+    "level": 77,
+    "sets": [
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Hammer Arm",
+          "Earthquake",
+          "Shadow Claw",
+          "Darkest Lariat",
+          "Drain Punch",
+          "Ice Punch"
+        ],
+        "abilities": ["Sheer Force"],
+        "teraTypes": ["Ghost", "Dark"]
+      },
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Bulk Up",
+          "Drain Punch",
+          "Darkest Lariat",
+          "Book of Moon",
+          "Sucker Punch",
+          "Thunder Punch",
+          "Ice Punch"
+        ],
+        "abilities": ["Poison Heal"],
+        "teraTypes": ["Fighting", "Dark"]
+      }
+    ]
+  },
+
   "reaperotc": {
     "level": 81,
     "sets": [
