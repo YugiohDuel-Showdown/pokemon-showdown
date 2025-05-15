@@ -1199,7 +1199,7 @@ export class RandomTeams {
 			}
 			return this.sample(species.requiredItems);
 		}
-		if (['beaverw', 'jerrybean', 'spegasus', 'feralimp'].includes(species.id)) return 'Horn of the Unicorn';
+		if (['beaverw', 'spegasus', 'feralimp'].includes(species.id)) return 'Horn of the Unicorn';
 		if (['battleox', 'rabidhorseman', 'axeraider', 'vorseraider'].includes(species.id)) return 'Axe of Despair';
 		if (species.id === 'volcanicshell') return 'Everstone';
 		if (species.id === 'wingedkrb' && role === 'Wallbreaker') return 'Flame Orb';
