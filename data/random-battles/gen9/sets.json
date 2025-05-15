@@ -731,6 +731,40 @@
       }
     ]
   },
+  "treebornfrog": {
+    "level": 81,
+    "sets": [
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Heal Bell",
+          "Defog",
+          "Recover",
+          "Flip Turn",
+          "Hydro Pump",
+          "Dazzling Gleam",
+          "Shadow Ball",
+          "Sludge Bomb"
+        ],
+        "abilities": ["Regenerator"],
+        "teraTypes": ["Ghost", "Poison"]
+      },
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Froggy Forcefield",
+          "Shadow Ball",
+          "Surf",
+          "Dazzling Gleam",
+          "Ice Beam",
+          "Last Will"
+        ],
+        "abilities": ["Levitate", "Regenerator"],
+        "teraTypes": ["Water", "Ground"]
+      }
+    ]
+  },
+
   "2hkingrex": {
     "level": 85,
     "sets": [
@@ -875,6 +909,24 @@
       }
     ]
   },
+  "lajinn": {
+    "level": 80,
+    "sets": [
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Flare Blitz",
+          "Phantom Force",
+          "Bulk Up",
+          "Power-Up Punch",
+          "Thunder Punch",
+          "Will-O-Wisp"
+        ],
+        "abilities": ["Levitate", "White Smoke"],
+        "teraTypes": ["Fire", "Grass"]
+      }
+    ]
+  },
   "odlkairyushin": {
     "level": 82,
     "sets": [
@@ -930,6 +982,40 @@
         "movepool": ["Earthquake", "Toxic", "Transform", "Recover"],
         "abilities": ["Sticky Hold"],
         "teraTypes": ["Poison", "Ground"]
+      }
+    ]
+  },
+  "reaperotc": {
+    "level": 81,
+    "sets": [
+      {
+        "role": "AV Pivot",
+        "movepool": [
+          "U-turn",
+          "Kowtow Cleave",
+          "Shadow Sneak",
+          "Knock Off",
+          "Giant Blade",
+          "Cross Poison",
+          "Shadow Claw"
+        ],
+        "abilities": ["Levitate", "Perish Body"],
+        "teraTypes": ["Dark", "Steel"]
+      },
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Destiny Bond",
+          "Card Eraser",
+          "Taunt",
+          "Defog",
+          "Knock Off",
+          "Kowtow Cleave",
+          "Parting Shot",
+          "Giant Blade"
+        ],
+        "abilities": ["Levitate", "Perish Body"],
+        "teraTypes": ["Dark", "Steel"]
       }
     ]
   }
