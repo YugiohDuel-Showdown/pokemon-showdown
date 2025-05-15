@@ -926,6 +926,24 @@
       }
     ]
   },
+  "skullmarron": {
+    "level": 76,
+    "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "No Retreat",
+          "Shadow Bone",
+          "Double-Edge",
+          "Shadow Sneak",
+          "Iron Head",
+          "Play Rough"
+        ],
+        "abilities": ["Simple"],
+        "teraTypes": ["Ghost", "Fairy"]
+      }
+    ]
+  },
   "odlkairyushin": {
     "level": 82,
     "sets": [
