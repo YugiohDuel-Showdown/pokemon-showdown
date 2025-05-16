@@ -4187,6 +4187,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			brine: ["9M"],
 			shadowclaw: ["9M"],
 			payback: ["9M"],
+			darkpulse: ['9M'],
 			chilledwater: ["9M"],
 			dreameater: ["9M"],
 			brutalswing: ["9M"],

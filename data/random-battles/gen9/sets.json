@@ -1021,8 +1021,8 @@
       {
         "role": "Bulky Setup",
         "movepool": [
-          "Bulk Up",
-          "Drain Punch",
+          "Work Up",
+          "Close Combat",
           "Darkest Lariat",
           "Book of Moon",
           "Sucker Punch",
@@ -1097,6 +1097,186 @@
         ],
         "abilities": ["Levitate", "Perish Body"],
         "teraTypes": ["Dark", "Steel"]
+      }
+    ]
+  },
+  "armoredbee": {
+    "level": 82,
+    "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Power Trip",
+          "Smart Strike",
+          "Work Up",
+          "Pin Missile",
+          "Leech Life",
+          "Gunk Shot",
+          "Attack Order"
+        ],
+        "abilities": ["Weak Armor", "Sniper"],
+        "teraTypes": ["Dark", "Poison"]
+      },
+      {
+        "role": "Wallbreaker",
+        "movepool": ["Megahorn", "U-turn", "Smart Strike", "Gunk Shot"],
+        "abilities": ["Swarm", "Weak Armor"],
+        "teraTypes": ["Poison"]
+      },
+      {
+        "role": "Fast Support",
+        "movepool": [
+          "Toxic Spikes",
+          "U-turn",
+          "Spikes",
+          "Thunder Wave",
+          "Leech Life"
+        ],
+        "abilities": ["Swarm", "Sniper"],
+        "teraTypes": ["Water"]
+      }
+    ]
+  },
+  "beelzefrog": {
+    "level": 90,
+    "sets": [
+      {
+        "role": "Fast Attacker",
+        "movepool": ["Umi", "Surf", "Dark Hole", "Hurricane"],
+        "abilities": ["Swift Swim"],
+        "teraTypes": ["Water", "Flying"]
+      },
+      {
+        "role": "Wallbreaker",
+        "movepool": ["Dark Pulse", "Hurricane", "Earth Power", "Dark Hole"],
+        "abilities": ["Supreme Overlord"],
+        "teraTypes": ["Ground", "Flying"]
+      },
+      {
+        "role": "Fast Support",
+        "movepool": [
+          "Froggy Forcefield",
+          "Umi",
+          "Knock Off",
+          "Dark Hole",
+          "Surf"
+        ],
+        "abilities": ["Competitive", "Swift Swim"],
+        "teraTypes": ["Water"]
+      }
+    ]
+  },
+  "blazinginpachi": {
+    "level": 91,
+    "sets": [
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Wood Hammer",
+          "Flare Blitz",
+          "Stomping Tantrum",
+          "Explosion"
+        ],
+        "abilities": ["Weak Armor", "Steam Engine"],
+        "teraTypes": ["Normal", "Ground"]
+      },
+      {
+        "role": "Bulky Support",
+        "movepool": ["Forest Terrain", "Worry Seed", "Will-O-Wisp", "Roar"],
+        "abilities": ["Flame Body"],
+        "teraTypes": ["Steel"]
+      }
+    ]
+  },
+  "charcoalinpachi": {
+    "level": 91,
+    "sets": [
+      {
+        "role": "Bulky Attacker",
+        "movepool": ["Power Whip", "Overheat", "Stone Edge", "Explosion"],
+        "abilities": ["Well-Baked Body"],
+        "teraTypes": ["Fire"]
+      },
+      {
+        "role": "Bulky Support",
+        "movepool": ["Rest", "Stealth Rock", "Will-O-Wisp", "Roar"],
+        "abilities": ["Well-Baked Body"],
+        "teraTypes": ["Steel"]
+      }
+    ]
+  },
+  "behemothking": {
+    "level": 87,
+    "sets": [
+      {
+        "role": "Fast Attacker",
+        "movepool": [
+          "Sucker Punch",
+          "Raging Bull",
+          "Earthquake",
+          "Darkest Lariat",
+          "Knock Off"
+        ],
+        "abilities": ["Intimidate"],
+        "teraTypes": ["Poison"]
+      },
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Close Combat",
+          "Earthquake",
+          "Thrash",
+          "Darkest Lariat",
+          "Power Trip"
+        ],
+        "abilities": ["Beast Boost"],
+        "teraTypes": ["Ground", "Fighting"]
+      }
+    ]
+  },
+  "bskulldragon": {
+    "level": 80,
+    "sets": [
+      {
+        "role": "Fast Attacker",
+        "movepool": ["Air Slash", "Dark Pulse", "Thunderbolt", "Thunder Wave"],
+        "abilities": ["Levitate"],
+        "teraTypes": ["Electric"]
+      },
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Agility",
+          "Electro Ball",
+          "Electric Terrain",
+          "Fiendish Chain"
+        ],
+        "abilities": ["Levitate"],
+        "teraTypes": ["Electric"]
+      }
+    ]
+  },
+  "celticnoble": {
+    "level": 95,
+    "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": ["Swords Dance", "Trailblaze", "Bullet Seed", "Knock Off"],
+        "abilities": ["Technician"],
+        "teraTypes": ["Dark", "Water"]
+      },
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Sunny Day",
+          "Solar Blade",
+          "Reinforcement",
+          "Knock Off",
+          "Grassy Terrain",
+          "Wish"
+        ],
+        "abilities": ["Hyper Cutter"],
+        "teraTypes": ["Fire"]
       }
     ]
   }
