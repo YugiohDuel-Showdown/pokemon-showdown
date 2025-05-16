@@ -621,6 +621,9 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		dungeonworm: {
 			tier: "OU",
 		},
+		karateman: {
+			tier: "OU"
+		},
 		exodia: {
 			tier: "Uber",
 		},

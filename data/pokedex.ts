@@ -2492,6 +2492,17 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evoLevel: 26,
 		eggGroups: ['Monster', 'Bug'],
 	},
+	karateman: {
+		num: 209,
+		name: 'Karate Man',
+		gender: 'M',
+		types: ['Fighting'],
+		baseStats: { hp: 60, atk: 115, def: 65, spa: 35, spd: 95, spe: 85 },
+		abilities: { 0: "Limber", 1: "Scrappy" },
+		heightm: 0,
+		weightkg: 70,
+		eggGroups: ['Monster', 'Human-Like'],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",
