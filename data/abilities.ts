@@ -1278,7 +1278,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3.5,
 		num: 302,
 	},
-	emergencyexit: {
+	quickexit: {
 		onEmergencyExit(target) {
 			if (!this.canSwitch(target.side) || target.forceSwitchFlag || target.switchFlag) return;
 			for (const side of this.sides) {
@@ -1290,7 +1290,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			this.add('-activate', target, 'ability: Emergency Exit');
 		},
 		flags: {},
-		name: "Emergency Exit",
+		name: "Quick Exit",
 		rating: 1,
 		num: 194,
 	},

@@ -609,6 +609,12 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		yamimakai: {
 			tier: "OU",
 		},
+		rescuerabbit: {
+			tier: "OU",
+		},
+		rescuecat: {
+			tier: "OU",
+		},
 		exodia: {
 			tier: "Uber",
 		},
