@@ -622,7 +622,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 			tier: "OU",
 		},
 		karateman: {
-			tier: "OU"
+			tier: "OU",
 		},
 		exodia: {
 			tier: "Uber",

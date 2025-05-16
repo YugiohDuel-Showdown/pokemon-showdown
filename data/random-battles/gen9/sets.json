@@ -1279,5 +1279,89 @@
         "teraTypes": ["Fire"]
       }
     ]
+  },
+  "chimaera": {
+    "level": 77,
+    "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Earthquake",
+          "Brave Bird",
+          "Close Combat",
+          "Dragon Dance"
+        ],
+        "abilities": ["Vital Spirit", "Defiant"],
+        "teraTypes": ["Flying"]
+      }
+    ]
+  },
+  "wildwingman": {
+    "level": 70,
+    "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Bulk Up",
+          "Close Combat",
+          "Brave Bird",
+          "Emergency Provisions",
+          "Bullet Punch"
+        ],
+        "abilities": ["Guts", "Limber"],
+        "teraTypes": ["Fighting"]
+      }
+    ]
+  },
+  "serpentdragon": {
+    "level": 80,
+    "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Nasty Plot",
+          "Hyper Voice",
+          "Dragon Pulse",
+          "Flamethrower",
+          "Night Daze"
+        ],
+        "abilities": ["Aerilate", "Infiltrator"],
+        "teraTypes": ["Flying", "Dragon"]
+      }
+    ]
+  },
+  "shiningwingman": {
+    "level": 80,
+    "sets": [
+      {
+        "role": "Fast Attacker",
+        "movepool": [
+          "Fusion Flare",
+          "Fusion Bolt",
+          "Energy Ball",
+          "Hyper Voice",
+          "Focus Blast"
+        ],
+        "abilities": ["Galvanize"],
+        "teraTypes": ["Electric", "Ground"]
+      }
+    ]
+  },
+  "exodia": {
+    "level": 72,
+    "sets": [
+      {
+        "role": "Fast Attacker",
+        "movepool": [
+          "Psychic",
+          "Earth Power",
+          "Shadow Ball",
+          "Focus Blast",
+          "Heat Wave"
+        ],
+        "abilities": ["Pressure"],
+        "teraTypes": ["Fighting", "Water"]
+      }
+    ]
   }
 }
