@@ -39,7 +39,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 85,
 		color: "Purple",
-		prevo: "D Magician",
+		prevo: "Dark Magician",
 		evoLevel: 36,
 		tags: ["Magician"],
 		eggGroups: ["Monster", "Human-Like"],
