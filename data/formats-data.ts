@@ -615,6 +615,12 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		rescuecat: {
 			tier: "OU",
 		},
+		needleworm: {
+			tier: "LC",
+		},
+		dungeonworm: {
+			tier: "OU",
+		},
 		exodia: {
 			tier: "Uber",
 		},
