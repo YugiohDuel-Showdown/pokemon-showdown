@@ -2536,6 +2536,16 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 20,
 		eggGroups: ['Monster', 'Field'],
 	},
+	'13thgrave': {
+		num: 213,
+		name: '13th Grave',
+		types: ['Ghost'],
+		baseStats: { hp: 70, atk: 85, def: 65, spa: 40, spd: 65, spe: 80 },
+		abilities: { 0: "Intrepid Sword", 1: "Shadow Shield", H: "Mummy" },
+		heightm: 0,
+		weightkg: 41,
+		eggGroups: ['Monster', 'Human-Like'],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",

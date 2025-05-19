@@ -633,6 +633,9 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		sinisters: {
 			tier: "OU",
 		},
+		'13thgrave': {
+			tier: "OU",
+		},
 		exodia: {
 			tier: "Uber",
 		},
