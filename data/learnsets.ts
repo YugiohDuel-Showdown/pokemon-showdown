@@ -14838,7 +14838,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			ironhead: ["9T"],
 			aquatail: ["9T"],
 			liquidation: ["9T"],
-			suprcellslam: ["9T"],
+			supercellslam: ["9T"],
 			focusenergy: ["9T"],
 			electricterrain: ["9T"],
 			thunderfang: ["9T"],
