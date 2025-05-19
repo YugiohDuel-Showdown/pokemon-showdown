@@ -14486,7 +14486,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			workup: ['9M'],
 			infestation: ['9M'],
 			sludgewave: ['9M'],
-			arcobatics: ['9M'],
+			acrobatics: ['9M'],
 			snarl: ['9M'],
 			fly: ['9M'],
 			snore: ['9T'],
