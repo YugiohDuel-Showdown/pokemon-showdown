@@ -636,6 +636,12 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		'13thgrave': {
 			tier: "OU",
 		},
+		skullservant: {
+			tier: "LC",
+		},
+		kingskull: {
+			tier: "OU",
+		},
 		exodia: {
 			tier: "Uber",
 		},
