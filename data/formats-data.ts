@@ -624,6 +624,12 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		karateman: {
 			tier: "OU",
 		},
+		deskangaroo: {
+			tier: "LC",
+		},
+		masteroz: {
+			tier: "OU",
+		},
 		exodia: {
 			tier: "Uber",
 		},
