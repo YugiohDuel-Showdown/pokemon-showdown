@@ -2526,6 +2526,16 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evoLevel: 42,
 		eggGroups: ['Monster', 'Field'],
 	},
+	sinisters: {
+		num: 212,
+		name: 'Sinister S',
+		types: ['Poison', 'Dark'],
+		baseStats: { hp: 55, atk: 80, def: 65, spa: 80, spd: 65, spe: 110 },
+		abilities: { 0: "Regenerator", 1: "Quick Exit", H: "Shed Skin" },
+		heightm: 0,
+		weightkg: 20,
+		eggGroups: ['Monster', 'Field'],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",

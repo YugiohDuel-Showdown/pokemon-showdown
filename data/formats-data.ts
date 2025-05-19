@@ -630,6 +630,9 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		masteroz: {
 			tier: "OU",
 		},
+		sinisters: {
+			tier: "OU",
+		},
 		exodia: {
 			tier: "Uber",
 		},
