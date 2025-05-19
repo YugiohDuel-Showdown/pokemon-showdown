@@ -2571,6 +2571,29 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evoLevel: 36,
 		eggGroups: ['Monster', 'Amorphous'],
 	},
+	catapultt: {
+		num: 215,
+		name: "Catapult T",
+		types: ["Water", "Steel"],
+		baseStats: { hp: 75, atk: 60, def: 95, spa: 80, spd: 65, spe: 50 },
+		abilities: { "0": "Rough Skin", "1": "MegaLauncher" },
+		heightm: 0,
+		weightkg: 249,
+		evos: ["ElecTurtle"],
+		eggGroups: ["Monster", "Water 3"]
+	},
+	electurtle: {
+  num: 216,
+  name: "ElecTurtle",
+  types: [ "Water", "Electric" ],
+  baseStats: { hp: 100, atk: 60, def: 80, spa: 85, spd: 105, spe: 50 },
+  abilities: { "0": "Magnet Pull", "1": "Volt Absorb" },
+  heightm: 0,
+  weightkg: 309,
+  prevo: "Catapult T",
+  evoItem: "Thunder Stone",
+  eggGroups: [ "Monster", "Water 3" ]
+},
 	exodia: {
 		num: 276,
 		name: "Exodia",

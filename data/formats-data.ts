@@ -642,6 +642,12 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		kingskull: {
 			tier: "OU",
 		},
+		catapultt: {
+			tier: "LC",
+		},
+		electurtle: {
+			tier: "OU",
+		},
 		exodia: {
 			tier: "Uber",
 		},
