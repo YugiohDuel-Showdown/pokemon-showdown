@@ -648,6 +648,9 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		electurtle: {
 			tier: "OU",
 		},
+		blockdragon: {
+			tier: "OU",
+		},
 		exodia: {
 			tier: "Uber",
 		},

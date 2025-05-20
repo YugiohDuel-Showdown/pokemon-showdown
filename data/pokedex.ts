@@ -2594,6 +2594,17 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evoItem: "Thunder Stone",
 		eggGroups: ["Monster", "Water 3"]
 	},
+	blockdragon: {
+		num: 217,
+		name: "Block Dragon",
+		types: ["Rock"],
+		baseStats: { hp: 70, atk: 70, def: 70, spa: 95, spd: 105, spe: 70 },
+		abilities: { "0": "Prism Armor", "1": "Download" },
+		heightm: 0,
+		weightkg: 94,
+		evos: [],
+		eggGroups: ["Monster", "Mineral"]
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",
