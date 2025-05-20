@@ -19320,7 +19320,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			closecombat: ["9T"]
 		}
 	},
-	armdlv3: {
+	armdragonlv3: {
 		learnset: {
 			scratch: ["9L1"],
 			growl: ["9L1"],
@@ -19387,7 +19387,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			bodyslam: ["9T"]
 		},
 	},
-	armdlv5: {
+	armdragonlv5: {
 		learnset: {
 			scratch: ["9L1"],
 			growl: ["9L1"],
@@ -19463,7 +19463,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			airslash: ["9T"]
 		}
 	},
-	armdlv7: {
+	armdragonlv7: {
 		learnset: {
 			scratch: ["9L1"],
 			growl: ["9L1"],
@@ -19541,7 +19541,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			closecombat: ["9T"]
 		}
 	},
-	armdlv10: {
+	armdragonlv10: {
 		learnset: {
 			scratch: ["9L1"],
 			growl: ["9L1"],
