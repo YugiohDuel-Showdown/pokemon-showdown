@@ -15805,7 +15805,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			electroball: ["9T"]
 		}
 	},
-	toonagg: {
+	toonaggolem: {
 		learnset: {
 			gearup: ["9L1"],
 			bulldoze: ["9L1", "9M"],
