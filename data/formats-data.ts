@@ -768,8 +768,11 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		teyeidol: {
 			tier: "LC",
 		},
+		relinquish: {
+			tier: "NFE"
+		},
 		teyesrestrict: {
-			tier: "NFE",
+			tier: "OU",
 		},
 		exodia: {
 			tier: "Uber",
