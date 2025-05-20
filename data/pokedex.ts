@@ -3605,4 +3605,28 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evoLevel: 36,
 		eggGroups: ["Monster", "Mineral"],
 	},
+	ambulanceroid: {
+		num: 298,
+		name: "Ambulanceroid",
+		types: ["Steel"],
+		baseStats: { hp: 50, atk: 50, def: 80, spa: 40, spd: 70, spe: 85 },
+		abilities: { "0": "Speed Boost", H: "Healer" },
+		heightm: 0,
+		weightkg: 80,
+		evos: ["AmbRescueroid"],
+		eggGroups: ["Monster", "Field"]
+	},
+	ambrescueroid: {
+		num: 299,
+		name: "AmbRescueroid",
+		types: ["Steel", "Fire"],
+		baseStats: { hp: 100, atk: 65, def: 90, spa: 55, spd: 80, spe: 90 },
+		abilities: { "0": "Speed Boost", H: "Healer" },
+		heightm: 0,
+		weightkg: 100,
+		evos: [],
+		prevo: "Ambulanceroid",
+		evoLevel: 32,
+		eggGroups: ["Monster", "Field"],
+	},
 };

@@ -20782,7 +20782,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			megahorn: ["9T"]
 		}
 	},
-	ambulancer: {
+	ambulanceroid: {
 		learnset: {
 			autotomize: ["9L1"],
 			tackle: ["9L1"],
@@ -20846,7 +20846,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			flareblitz: ["9T"]
 		}
 	},
-	ambrescuer: {
+	ambrescueroid: {
 		learnset: {
 			autotomize: ["9L1"],
 			ember: ["9L1"],

@@ -891,4 +891,10 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	svjumbodrill: {
 		tier: "OU",
 	},
+	ambulanceroid: {
+		tier: "LC",
+	},
+	ambrescueroid: {
+		tier: "OU",
+	},
 };
