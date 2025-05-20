@@ -15630,7 +15630,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			muddywater: ["9T"]
 		}
 	},
-	tngemini: {
+	toongeminielf: {
 		learnset: {
 			scratch: ["9L1"],
 			defensemode: ["9L1"],
