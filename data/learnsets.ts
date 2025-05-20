@@ -15218,7 +15218,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			hydropump: ["9T"]
 		}
 	},
-	jinzortr: {
+	jinzoreturner: {
 		learnset: {
 			confusion: ["9L1"],
 			leer: ["9L1"],

@@ -666,6 +666,12 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		xyzdragon: {
 			tier: "OU",
 		},
+		jinzoreturner: {
+			tier: "LC",
+		},
+		jinzo: {
+			tier: "OU",
+		},
 		exodia: {
 			tier: "Uber",
 		},
