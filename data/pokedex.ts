@@ -3134,7 +3134,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evoItem: "Moon Stone",
 	},
 	leviathan: {
-		num: 0,
+		num: 259,
 		name: "Leviathan",
 		types: ["Dragon", "Water"],
 		baseStats: { hp: 100, atk: 105, def: 80, spa: 125, spd: 80, spe: 90 },
@@ -3143,6 +3143,17 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 800,
 		evos: [],
 		eggGroups: ["Monster", "Water 3"]
+	},
+	fivegodd: {
+		num: 260,
+		name: "Five God D",
+		types: ["Dragon", "Water"],
+		baseStats: { hp: 90, atk: 110, def: 90, spa: 110, spd: 90, spe: 80 },
+		abilities: { "0": "Serene Grace", "1": "Protean" },
+		heightm: 0,
+		weightkg: 500,
+		evos: [],
+		eggGroups: ["Monster", "Dragon"]
 	},
 	exodia: {
 		num: 276,
