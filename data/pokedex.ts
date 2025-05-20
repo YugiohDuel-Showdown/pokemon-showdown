@@ -3215,6 +3215,18 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Undiscovered"],
 	},
+	slifer: {
+		num: 266,
+		name: "Slifer",
+		gender: "N",
+		types: ["Dragon", "Electric"],
+		baseStats: { hp: 90, atk: 115, def: 90, spa: 135, spd: 90, spe: 120 },
+		abilities: { "0": "Transistor" },
+		heightm: 0,
+		weightkg: 700,
+		evos: [],
+		eggGroups: ["Undiscovered"],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",
