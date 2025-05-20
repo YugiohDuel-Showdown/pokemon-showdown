@@ -582,9 +582,9 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		flags: { protect: 1, mirror: 1, contact: 1, slicing: 1 },
 		onHit(target, source, move) {
 			move.allies = source.side.pokemon.filter(ally => ally.fainted && ally.status);
-			let chance = move.allies.length * 10 || 10;
-			let rng = this.randomChance(chance, 100);
-			if (rng) this.boost({ atk: 1}, source);
+			const chance = move.allies.length * 10 || 10;
+			const rng = this.randomChance(chance, 100);
+			if (rng) this.boost({ atk: 1 }, source);
 		},
 		target: "normal",
 		type: 'Flying',
@@ -3423,8 +3423,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priority: 0,
 		flags: { snatch: 1 },
 		self: { boosts: {
-			atk: 1
-		}},
+			atk: 1,
+		} },
 		onHit(target) {
 			if (target.hasType('Dragon')) {
 				this.boost({ atk: -1, spa: -1, spe: -1 }, target);
@@ -3446,7 +3446,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		self: {
 			boosts: {
 				atk: -1,
-			}
+			},
 		},
 		target: 'normal',
 		type: 'Psychic',
@@ -3469,7 +3469,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			onResidualOrder: 10,
 			onResidual(pokemon) {
 				this.damage(pokemon.baseMaxhp / 16);
-			}
+			},
 		},
 		target: "normal",
 		type: "Fire",

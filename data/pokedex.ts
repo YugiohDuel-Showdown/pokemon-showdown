@@ -2580,7 +2580,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 249,
 		evos: ["ElecTurtle"],
-		eggGroups: ["Monster", "Water 3"]
+		eggGroups: ["Monster", "Water 3"],
 	},
 	electurtle: {
 		num: 216,
@@ -2592,7 +2592,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 309,
 		prevo: "Catapult T",
 		evoItem: "Thunder Stone",
-		eggGroups: ["Monster", "Water 3"]
+		eggGroups: ["Monster", "Water 3"],
 	},
 	blockdragon: {
 		num: 217,
@@ -2603,7 +2603,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 94,
 		evos: [],
-		eggGroups: ["Monster", "Mineral"]
+		eggGroups: ["Monster", "Mineral"],
 	},
 	busterblader: {
 		num: 218,
@@ -2614,7 +2614,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 70,
 		evos: ["Dark Paladin"],
-		eggGroups: ["Monster", "Human Like"]
+		eggGroups: ["Monster", "Human Like"],
 	},
 	darkpaladin: {
 		num: 219,
@@ -2704,7 +2704,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 65,
 		evos: ["Manga Ryu-Ran"],
-		eggGroups: ["Monster", "Dragon"]
+		eggGroups: ["Monster", "Dragon"],
 	},
 	mangaryuran: {
 		num: 226,
@@ -2848,7 +2848,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 15,
 		evos: ["Avatar OTP"],
-		eggGroups: ["Monster", "Amorphous"]
+		eggGroups: ["Monster", "Amorphous"],
 	},
 	avatarotp: {
 		num: 237,
@@ -2896,7 +2896,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 97,
 		evos: [],
-		eggGroups: ["Monster", "Flying"]
+		eggGroups: ["Monster", "Flying"],
 	},
 	darknecrofear: {
 		num: 241,
@@ -2919,7 +2919,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 500,
 		evos: ["Meteor Black D"],
-		eggGroups: ["Monster", "Dragon"]
+		eggGroups: ["Monster", "Dragon"],
 	},
 	meteorblackd: {
 		num: 243,
@@ -2943,7 +2943,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 10,
 		evos: [],
-		eggGroups: ["Monster", "Flying"]
+		eggGroups: ["Monster", "Flying"],
 	},
 	blacklusters: {
 		num: 245,
@@ -2954,7 +2954,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 85,
 		evos: [],
-		eggGroups: ["Monster", "Human Like"]
+		eggGroups: ["Monster", "Human Like"],
 	},
 	chaosendd: {
 		num: 246,
@@ -2965,7 +2965,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 345,
 		evos: [],
-		eggGroups: ["Monster", "Dragon"]
+		eggGroups: ["Monster", "Dragon"],
 	},
 	dragonmasterk: {
 		num: 247,
@@ -2976,7 +2976,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 345,
 		evos: [],
-		eggGroups: ["Monster", "Dragon"]
+		eggGroups: ["Monster", "Dragon"],
 	},
 	neos: {
 		num: 248,
@@ -2994,7 +2994,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 			"Air Neos",
 			"Grand Neos",
 			"Dark Neos",
-			"Honest Neos"
+			"Honest Neos",
 		],
 		eggGroups: ["Monster", "Human Like"],
 	},
@@ -3105,7 +3105,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 15,
 		evos: ["Relinquish"],
-		eggGroups: ["Monster", "Amorphous"]
+		eggGroups: ["Monster", "Amorphous"],
 	},
 	relinquish: {
 		num: 257,
@@ -3142,7 +3142,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 800,
 		evos: [],
-		eggGroups: ["Monster", "Water 3"]
+		eggGroups: ["Monster", "Water 3"],
 	},
 	fivegodd: {
 		num: 260,
@@ -3153,7 +3153,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 500,
 		evos: [],
-		eggGroups: ["Monster", "Dragon"]
+		eggGroups: ["Monster", "Dragon"],
 	},
 	hamon: {
 		num: 261,
@@ -3236,7 +3236,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 80,
 		evos: ["Horus Lv6"],
-		eggGroups: ["Monster", "Dragon"]
+		eggGroups: ["Monster", "Dragon"],
 	},
 	horuslv6: {
 		num: 268,
@@ -3262,7 +3262,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Dragon"],
 		prevo: "Horus Lv6",
-		evoLevel: 48
+		evoLevel: 48,
 	},
 	cdarkhorn: {
 		num: 270,
@@ -3273,7 +3273,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 180,
 		evos: ["C-Dark Dragon"],
-		eggGroups: ["Monster", "Mineral"]
+		eggGroups: ["Monster", "Mineral"],
 	},
 	cdarkdragon: {
 		num: 271,
@@ -3297,7 +3297,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 100,
 		evos: ["Cyber Twin"],
-		eggGroups: ["Monster", "Mineral"]
+		eggGroups: ["Monster", "Mineral"],
 	},
 	cybertwin: {
 		num: 273,
@@ -3334,7 +3334,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 970,
 		evos: [],
-		eggGroups: ["Monster", "Mineral"]
+		eggGroups: ["Monster", "Mineral"],
 	},
 	exodia: {
 		num: 276,
@@ -3368,7 +3368,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 90,
 		evos: ["Arm Dragon Lv5"],
-		eggGroups: ["Monster", "Dragon"]
+		eggGroups: ["Monster", "Dragon"],
 	},
 	armdragonlv5: {
 		num: 279,
@@ -3418,7 +3418,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 110,
 		evos: [],
-		eggGroups: ["Monster", "Mineral"]
+		eggGroups: ["Monster", "Mineral"],
 	},
 	mokeymokey: {
 		num: 283,
@@ -3429,7 +3429,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 8,
 		evos: ["Mokey King"],
-		eggGroups: ["Monster", "Fairy"]
+		eggGroups: ["Monster", "Fairy"],
 	},
 	mokeyking: {
 		num: 284,
@@ -3453,7 +3453,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 20,
 		evos: ["Scattershot"],
-		eggGroups: ["Monster", "Field"]
+		eggGroups: ["Monster", "Field"],
 	},
 	scattershot: {
 		num: 286,
@@ -3477,7 +3477,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 50,
 		evos: ["Volc Doomfire", "Volc Queen"],
-		eggGroups: ["Monster", "Mineral"]
+		eggGroups: ["Monster", "Mineral"],
 	},
 	volcdoomfire: {
 		num: 288,
@@ -3518,7 +3518,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 40,
 		evos: [],
-		eggGroups: ["Monster", "Field"]
+		eggGroups: ["Monster", "Field"],
 	},
 	snowdragon: {
 		num: 291,
@@ -3529,7 +3529,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 70,
 		evos: ["Snowdust D"],
-		eggGroups: ["Monster", "Dragon"]
+		eggGroups: ["Monster", "Dragon"],
 	},
 	snowdustd: {
 		num: 292,
@@ -3566,7 +3566,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 80,
 		evos: ["Steam Gyroid"],
-		eggGroups: ["Monster", "Mineral"]
+		eggGroups: ["Monster", "Mineral"],
 	},
 	steamgyroid: {
 		num: 295,
@@ -3590,7 +3590,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 80,
 		evos: ["SV Jumbo Drill"],
-		eggGroups: ["Monster", "Mineral"]
+		eggGroups: ["Monster", "Mineral"],
 	},
 	svjumbodrill: {
 		num: 297,
@@ -3614,7 +3614,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 80,
 		evos: ["AmbRescueroid"],
-		eggGroups: ["Monster", "Field"]
+		eggGroups: ["Monster", "Field"],
 	},
 	ambrescueroid: {
 		num: 299,

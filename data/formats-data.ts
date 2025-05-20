@@ -769,7 +769,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	relinquish: {
-		tier: "NFE"
+		tier: "NFE",
 	},
 	teyesrestrict: {
 		tier: "OU",

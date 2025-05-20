@@ -35,5 +35,4 @@ describe('Berserk', () => {
 		assert.statStage(berserkion, 'spa', 0);
 		assert.equal(berserkion.hp, berserkion.maxhp - 200 + Math.floor(berserkion.maxhp / 4));
 	});
-
 });
