@@ -20863,7 +20863,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			retaliate: ["9L30"],
 			ookazi: ["9L32", "9E"],
 			firehose: ["9L32"],
-			blazntorque: ["9L40"],
+			blazingtorque: ["9L40"],
 			wildcharge: ["9L45", "9M"],
 			extremespeed: ["9L51"],
 			shiftgear: ["9L53"],
