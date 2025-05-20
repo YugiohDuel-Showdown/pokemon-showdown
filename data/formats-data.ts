@@ -741,6 +741,12 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		dragonmasterk: {
 			tier: "OU",
 		},
+		neos: {
+			tier: "LC",
+		},
+		aquaneos: {
+			tier: "OU",
+		},
 		exodia: {
 			tier: "Uber",
 		},
