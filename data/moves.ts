@@ -3451,6 +3451,29 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: 'normal',
 		type: 'Psychic',
 	},
+	blackflame: {
+		num: -1164,
+		accuracy: 85,
+		basePower: 0,
+		category: "Status",
+		name: "Black Flame",
+		pp: 15,
+		priority: 0,
+		flags: { protect: 1, mirror: 1 },
+		status: 'blackflame',
+		condition: {
+			effectType: 'Status',
+			onStart(target, source, sourceEffect) {
+				this.add('-status', target, 'blackflame');
+			},
+			onResidualOrder: 10,
+			onResidual(pokemon) {
+				this.damage(pokemon.baseMaxhp / 16);
+			}
+		},
+		target: "normal",
+		type: "Fire",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		num: 719,
