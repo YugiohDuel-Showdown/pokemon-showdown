@@ -19843,7 +19843,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			weatherball: ["9T"]
 		}
 	},
-	volcanics: {
+	volcanicshot: {
 		learnset: {
 			smog: ["9L1"],
 			leer: ["9L1"],
@@ -19908,7 +19908,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			flareblitz: ["9T"]
 		}
 	},
-	scattrshot: {
+	scattershot: {
 		learnset: {
 			smog: ["9L1"],
 			leer: ["9L1"],

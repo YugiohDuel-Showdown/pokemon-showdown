@@ -852,4 +852,10 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	mokeyking: {
 		tier: "OU",
 	},
+	volcanicshot: {
+		tier: "LC",
+	},
+	scattershot: {
+		tier: "OU",
+	},
 };

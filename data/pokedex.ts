@@ -3444,4 +3444,28 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evoLevel: 34,
 		eggGroups: ["Monster", "Fairy"],
 	},
+	volcanicshot: {
+		num: 285,
+		name: "Volcanic Shot",
+		types: ["Fire"],
+		baseStats: { hp: 50, atk: 50, def: 50, spa: 90, spd: 70, spe: 75 },
+		abilities: { "0": "Flame Body", "1": "Shell Armor" },
+		heightm: 0,
+		weightkg: 20,
+		evos: ["Scattershot"],
+		eggGroups: ["Monster", "Field"]
+	},
+	scattershot: {
+		num: 286,
+		name: "Scattershot",
+		types: ["Fire"],
+		baseStats: { hp: 65, atk: 60, def: 60, spa: 110, spd: 75, spe: 85 },
+		abilities: { "0": "Flame Body", "1": "Shell Armor" },
+		heightm: 0,
+		weightkg: 50,
+		evos: [],
+		prevo: "Volcanic Shot",
+		evoItem: "Fire Stone",
+		eggGroups: ["Monster", "Field"],
+	},
 };
