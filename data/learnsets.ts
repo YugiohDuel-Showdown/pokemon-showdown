@@ -19037,7 +19037,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			irondefense: ["9L42", "9T"],
 			thunder: ["9L46", "9M"],
 			powerbond: ["9L48"],
-			stridentb: ["9L50"],
+			stridentblaze: ["9L50"],
 			earthquake: ["9L55", "9M"],
 			endure: ["9E", "9M"],
 			roar: ["9M"],
