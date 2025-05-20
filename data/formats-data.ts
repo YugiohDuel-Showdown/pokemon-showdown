@@ -696,6 +696,9 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		toonaggolem: {
 			tier: "OU",
 		},
+		toonredeyes: {
+			tier: "OU",
+		},
 		exodia: {
 			tier: "Uber",
 		},

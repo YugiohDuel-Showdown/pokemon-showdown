@@ -15891,7 +15891,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			closecombat: ["9T"]
 		}
 	},
-	toonrede: {
+	toonredeyes: {
 		learnset: {
 			disarmingvoice: ["9L1"],
 			peck: ["9L1"],
