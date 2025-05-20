@@ -732,6 +732,9 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		yatagarasu: {
 			tier: "OU",
 		},
+		blacklusters: {
+			tier: "OU",
+		},
 		exodia: {
 			tier: "Uber",
 		},

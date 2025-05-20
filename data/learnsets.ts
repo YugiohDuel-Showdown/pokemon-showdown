@@ -16802,7 +16802,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			hurricane: ["9T"]
 		}
 	},
-	blusters: {
+	blacklusters: {
 		learnset: {
 			tackle: ["9L1"],
 			leer: ["9L1"],

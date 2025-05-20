@@ -2945,6 +2945,17 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Flying"]
 	},
+	blacklusters: {
+		num: 245,
+		name: "Black Luster S",
+		types: ["Normal"],
+		baseStats: { hp: 80, atk: 125, def: 80, spa: 70, spd: 85, spe: 80 },
+		abilities: { "0": "Battle Armor", "1": "Steadfast" },
+		heightm: 0,
+		weightkg: 85,
+		evos: [],
+		eggGroups: ["Monster", "Human Like"]
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",
