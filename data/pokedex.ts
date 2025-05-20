@@ -2839,6 +2839,17 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Human Like"],
 	},
+	potofgreed: {
+		num: 236,
+		name: "Pot Of Greed",
+		types: ["Ghost", "Rock"],
+		baseStats: { hp: 55, atk: 80, def: 85, spa: 50, spd: 85, spe: 60 },
+		abilities: { "0": "Pickup", H: "Magic Bounce" },
+		heightm: 0,
+		weightkg: 15,
+		evos: ["Avatar OTP"],
+		eggGroups: ["Monster", "Amorphous"]
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",

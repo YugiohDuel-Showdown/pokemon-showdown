@@ -705,6 +705,9 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		bsgardna: {
 			tier: "OU",
 		},
+		potofgreed: {
+			tier: "OU",
+		},
 		exodia: {
 			tier: "Uber",
 		},

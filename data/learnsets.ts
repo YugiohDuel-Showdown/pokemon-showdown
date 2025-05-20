@@ -16111,7 +16111,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			closecombat: ["9T"]
 		}
 	},
-	pogreed: {
+	potofgreed: {
 		learnset: {
 			reklessgreed: ["9L1"],
 			multiply: ["9L1", "9M"],
