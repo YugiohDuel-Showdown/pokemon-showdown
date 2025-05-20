@@ -15493,7 +15493,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			flareblitz: ["9T"]
 		}
 	},
-	toonblue: {
+	toonblueeyes: {
 		learnset: {
 			scratch: ["9L1"],
 			charm: ["9L1"],

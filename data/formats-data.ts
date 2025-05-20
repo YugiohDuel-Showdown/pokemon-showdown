@@ -678,6 +678,9 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		mangaryuran: {
 			tier: "OU",
 		},
+		toonblueeyes: {
+			tier: "OU",
+		},
 		exodia: {
 			tier: "Uber",
 		},
