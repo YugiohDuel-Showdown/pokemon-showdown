@@ -182,8 +182,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	celestialsword: {
 		name: "Celestial Sword",
-		desc: "Has a 10% chance to raise the user's Attack by 1 stage.",
-		shortDesc: "10% chance to raise the user's Attack by 1.",
+		desc: "Has a 10% chance to raise the user's Attack by 1 stage. Each fainted card increases the chance by 10%.",
+		shortDesc: "10% chance to raise the user's Attack by 1. Fainted cards increase the chance.",
 	},
 	sparkblaster: {
 		name: "Spark Blaster",
