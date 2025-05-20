@@ -3173,7 +3173,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		gender: "N",
 		types: ["Fighting", "Dark"],
 		baseStats: { hp: 110, atk: 140, def: 120, spa: 100, spd: 90, spe: 70 },
-		abilities: { "0": "Supreme Lord" },
+		abilities: { "0": "Supreme Overlord" },
 		heightm: 0,
 		weightkg: 700,
 		evos: [],
