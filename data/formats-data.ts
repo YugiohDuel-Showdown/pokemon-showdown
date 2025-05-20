@@ -846,4 +846,10 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	mobius: {
 		tier: "OU",
 	},
+	mokeymokey: {
+		tier: "LC",
+	},
+	mokeyking: {
+		tier: "OU",
+	},
 };

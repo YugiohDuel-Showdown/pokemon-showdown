@@ -19697,7 +19697,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			hydropump: ["9T"]
 		}
 	},
-	mokeym: {
+	mokeymokey: {
 		learnset: {
 			fairywind: ["9L1"],
 			yawn: ["9L1"],

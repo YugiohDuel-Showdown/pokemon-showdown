@@ -3420,4 +3420,28 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Mineral"]
 	},
+	mokeymokey: {
+		num: 283,
+		name: "Mokey Mokey",
+		types: ["Normal", "Flying"],
+		baseStats: { hp: 70, atk: 65, def: 60, spa: 30, spd: 50, spe: 50 },
+		abilities: { "0": "Cloud Nine" },
+		heightm: 0,
+		weightkg: 8,
+		evos: ["Mokey King"],
+		eggGroups: ["Monster", "Fairy"]
+	},
+	mokeyking: {
+		num: 284,
+		name: "Mokey King",
+		types: ["Normal", "Flying"],
+		baseStats: { hp: 140, atk: 145, def: 100, spa: 75, spd: 80, spe: 100 },
+		abilities: { "0": "Truant" },
+		heightm: 0,
+		weightkg: 40,
+		evos: [],
+		prevo: "Mokey Mokey",
+		evoLevel: 34,
+		eggGroups: ["Monster", "Fairy"],
+	},
 };
