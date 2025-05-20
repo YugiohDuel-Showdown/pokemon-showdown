@@ -2898,6 +2898,18 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Flying"]
 	},
+	darknecrofear: {
+		num: 241,
+		name: "Dark Necrofear",
+		gender: "F",
+		types: ["Dark", "Ghost"],
+		baseStats: { hp: 85, atk: 85, def: 85, spa: 125, spd: 80, spe: 75 },
+		abilities: { "0": "Bad Dreams", H: "Insomnia" },
+		heightm: 0,
+		weightkg: 130,
+		evos: [],
+		eggGroups: ["Monster", "Amorphous"],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",

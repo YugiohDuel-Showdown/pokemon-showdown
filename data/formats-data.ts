@@ -720,6 +720,9 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		hyozanryu: {
 			tier: "OU",
 		},
+		darknecrofear: {
+			tier: "OU",
+		},
 		exodia: {
 			tier: "Uber",
 		},

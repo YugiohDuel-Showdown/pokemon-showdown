@@ -16451,7 +16451,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			hurricane: ["9T"]
 		}
 	},
-	necrofear: {
+	darknecrofear: {
 		learnset: {
 			lastwill: ["9L1"],
 			shadowsneak: ["9L1"],
