@@ -2875,6 +2875,18 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Grass"],
 	},
+	guardianeatos: {
+		num: 239,
+		name: "Guardian Eatos",
+		gender: "F",
+		types: ["Flying"],
+		baseStats: { hp: 70, atk: 105, def: 70, spa: 60, spd: 75, spe: 95 },
+		abilities: { "0": "Receiver", "1": "Pixilate" },
+		heightm: 0,
+		weightkg: 55,
+		evos: [],
+		eggGroups: ["Monster", "Flying"],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",

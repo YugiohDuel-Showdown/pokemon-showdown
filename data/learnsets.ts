@@ -16330,7 +16330,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			leafstorm: ["9T"]
 		}
 	},
-	gurdeatos: {
+	guardianeatos: {
 		learnset: {
 			fairywind: ["9L1"],
 			leer: ["9L1"],

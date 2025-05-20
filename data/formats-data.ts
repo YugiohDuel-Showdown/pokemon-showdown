@@ -714,6 +714,9 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		pumpking: {
 			tier: "OU",
 		},
+		guardianeatos: {
+			tier: "OU",
+		},
 		exodia: {
 			tier: "Uber",
 		},
