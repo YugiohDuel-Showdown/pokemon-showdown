@@ -784,6 +784,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "The user hides underwater on the 1st turn and attacks on the 2nd. Fails if Umi is not active.",
 		shortDesc: "Hides turn 1. Attacks turn 2. Fails if no Umi.",
 	},
+	emblemofdragondestroyer: {
+		name: "Emblem of Dragon Destroyer",
+		desc: "Raises the user's Attack by 1 stage. Any Dragon-type Monsters on the field will have their Attack, Special Attack, and Speed lowered by 1 stage.",
+		shortDesc: "Raises the user's Atk by 1. Any Dragon types, lowers Atk, Sp. Atk, and Spe by 1.",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",

@@ -3415,6 +3415,26 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Water",
 	},
+	emblemofdragondestroyer: {
+		num: -1162,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Emblem of Dragon Destroyer",
+		pp: 20,
+		priority: 0,
+		flags: { snatch: 1 },
+		self: { boosts: {
+			atk: 1
+		}},
+		onHit(target) {
+			if (target.hasType('Dragon')) {
+				this.boost({ atk: -1, spa: -1, spe: -1 }, target);
+			}
+		},
+		target: "allAdjacentFoes",
+		type: "Dragon",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		num: 719,
