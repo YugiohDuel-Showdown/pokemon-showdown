@@ -2967,6 +2967,17 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Dragon"]
 	},
+	dragonmasterk: {
+		num: 247,
+		name: "Dragon Master K",
+		types: ["Dragon", "Flying"],
+		baseStats: { hp: 100, atk: 140, def: 120, spa: 100, spd: 70, spe: 50 },
+		abilities: { "0": "Intimidate" },
+		heightm: 0,
+		weightkg: 345,
+		evos: [],
+		eggGroups: ["Monster", "Dragon"]
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",

@@ -16964,7 +16964,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			powergem: ["9T"]
 		}
 	},
-	dmasterk: {
+	dragonmasterk: {
 		learnset: {
 			mountain: ["9L1", "9T"],
 			tackle: ["9L1"],
