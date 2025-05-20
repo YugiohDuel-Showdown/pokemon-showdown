@@ -3194,6 +3194,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 	obelisk: {
 		num: 264,
 		name: "Obelisk",
+		gender: "N",
 		types: ["Fighting", "Ground"],
 		baseStats: { hp: 115, atk: 150, def: 105, spa: 95, spd: 90, spe: 85 },
 		abilities: { "0": "Mold Breaker" },
@@ -3201,7 +3202,18 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 900,
 		evos: [],
 		eggGroups: ["Undiscovered"],
-		gender: "N"
+	},
+	ra: {
+		num: 265,
+		name: "Ra",
+		gender: "N",
+		types: ["Fire", "Flying"],
+		baseStats: { hp: 100, atk: 105, def: 90, spa: 125, spd: 120, spe: 100 },
+		abilities: { "0": "Drought" },
+		heightm: 0,
+		weightkg: 700,
+		evos: [],
+		eggGroups: ["Undiscovered"],
 	},
 	exodia: {
 		num: 276,
