@@ -15553,7 +15553,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			airslash: ["9T"]
 		}
 	},
-	toonalgtr: {
+	toonalligator: {
 		learnset: {
 			shedtail: ["9L0"],
 			watergun: ["9L1"],
