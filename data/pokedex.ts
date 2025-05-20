@@ -2863,6 +2863,18 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evoItem: "Black Belt",
 		eggGroups: ["Monster", "Amorphous"],
 	},
+	pumpking: {
+		num: 238,
+		name: "Pumpking",
+		gender: "M",
+		types: ["Ghost", "Grass"],
+		baseStats: { hp: 110, atk: 70, def: 85, spa: 80, spd: 90, spe: 40 },
+		abilities: { "0": "Suction Cups", "1": "Overgrow", H: "Chlorophyll" },
+		heightm: 0,
+		weightkg: 150,
+		evos: [],
+		eggGroups: ["Monster", "Grass"],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",
