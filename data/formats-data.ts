@@ -885,4 +885,10 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	steamgyroid: {
 		tier: "OU",
 	},
+	drillroid: {
+		tier: "LC",
+	},
+	svjumbodrill: {
+		tier: "OU",
+	},
 };

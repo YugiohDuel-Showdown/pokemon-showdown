@@ -20714,7 +20714,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			highhorsepower: ["9T"]
 		}
 	},
-	svjumbod: {
+	svjumbodrill: {
 		learnset: {
 			drillpeck: ["9L1", "9L36"],
 			drillrun: ["9L1", "9L42", "9T"],

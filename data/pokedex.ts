@@ -3581,4 +3581,28 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Mineral"],
 	},
+	drillroid: {
+		num: 296,
+		name: "Drillroid",
+		types: ["Steel", "Ground"],
+		baseStats: { hp: 55, atk: 75, def: 55, spa: 35, spd: 55, spe: 75 },
+		abilities: { "0": "Sand Rush", "1": "Sand Force", H: "Sturdy" },
+		heightm: 0,
+		weightkg: 80,
+		evos: ["SV Jumbo Drill"],
+		eggGroups: ["Monster", "Mineral"]
+	},
+	svjumbodrill: {
+		num: 297,
+		name: "SV Jumbo Drill",
+		types: ["Steel", "Ground"],
+		baseStats: { hp: 90, atk: 110, def: 65, spa: 60, spd: 70, spe: 110 },
+		abilities: { "0": "Sand Rush", "1": "Sand Force", H: "Sturdy" },
+		heightm: 0,
+		weightkg: 140,
+		evos: [],
+		prevo: "Drillroid",
+		evoLevel: 36,
+		eggGroups: ["Monster", "Mineral"],
+	},
 };
