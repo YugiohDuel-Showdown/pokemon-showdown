@@ -2605,6 +2605,30 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Mineral"]
 	},
+	busterblader: {
+		num: 0,
+		name: "Buster Blader",
+		types: ["Fighting"],
+		baseStats: { hp: 65, atk: 85, def: 70, spa: 70, spd: 70, spe: 70 },
+		abilities: { "0": "" },
+		heightm: 0,
+		weightkg: 70,
+		evos: ["Dark Paladin"],
+		eggGroups: ["Monster", "Human Like"]
+	},
+	darkpaladin: {
+		num: 0,
+		name: "Dark Paladin",
+		types: ["Fighting", "Dark"],
+		baseStats: { hp: 75, atk: 110, def: 70, spa: 90, spd: 85, spe: 95 },
+		abilities: { "0": "" },
+		heightm: 0,
+		weightkg: 90,
+		evos: [],
+		prevo: "Buster Blader",
+		evoLevel: 46,
+		eggGroups: ["Monster", "Human Like"],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",

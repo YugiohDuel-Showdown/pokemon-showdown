@@ -14984,7 +14984,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			weatherball: ["9T"]
 		}
 	},
-	busterbld: {
+	busterblader: {
 		learnset: {
 			tackle: ["9L1"],
 			leer: ["9L1"],
@@ -15040,7 +15040,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			solarblade: ["9T"]
 		}
 	},
-	dkpaladin: {
+	darkpaladin: {
 		learnset: {
 			tackle: ["9L1"],
 			leer: ["9L1"],
