@@ -783,6 +783,9 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		hamon: {
 			tier: "Uber",
 		},
+		raviel: {
+			tier: "Uber",
+		},
 		exodia: {
 			tier: "Uber",
 		},

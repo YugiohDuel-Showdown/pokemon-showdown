@@ -3167,6 +3167,18 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Undiscovered"],
 	},
+	raviel: {
+		num: 262,
+		name: "Raviel",
+		gender: "N",
+		types: ["Fighting", "Dark"],
+		baseStats: { hp: 110, atk: 140, def: 120, spa: 100, spd: 90, spe: 70 },
+		abilities: { "0": "Supreme Lord" },
+		heightm: 0,
+		weightkg: 700,
+		evos: [],
+		eggGroups: ["Undiscovered"],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",
