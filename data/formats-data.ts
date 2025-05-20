@@ -828,4 +828,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		exodia: {
 			tier: "Uber",
 		},
+		exodiancr: {
+			tier: "Uber",
+		},
 	};

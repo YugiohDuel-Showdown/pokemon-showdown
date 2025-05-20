@@ -3347,4 +3347,16 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 800,
 		eggGroups: ["Undiscovered"],
 	},
+	exodiancr: {
+		num: 276,
+		name: "Exodia NCR",
+		gender: "N",
+		types: ["Ghost"],
+		baseStats: { hp: 120, atk: 140, def: 110, spa: 110, spd: 110, spe: 90 },
+		abilities: { "0": "Pressure" },
+		heightm: 0,
+		weightkg: 800,
+		evos: [],
+		eggGroups: ["Undiscovered"],
+	},
 };
