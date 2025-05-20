@@ -15684,7 +15684,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			closecombat: ["9T"]
 		}
 	},
-	tndmgirl: {
+	toondmgirl: {
 		learnset: {
 			psywave: ["9L1"],
 			drainingkiss: ["9L1"],
