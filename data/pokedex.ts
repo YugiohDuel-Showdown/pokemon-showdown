@@ -3191,6 +3191,18 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Undiscovered"],
 	},
+	obelisk: {
+		num: 264,
+		name: "Obelisk",
+		types: ["Fighting", "Ground"],
+		baseStats: { hp: 115, atk: 150, def: 105, spa: 95, spd: 90, spe: 85 },
+		abilities: { "0": "Mold Breaker" },
+		heightm: 0,
+		weightkg: 900,
+		evos: [],
+		eggGroups: ["Undiscovered"],
+		gender: "N"
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",
