@@ -3179,6 +3179,18 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Undiscovered"],
 	},
+	uria: {
+		num: 263,
+		name: "Uria",
+		gender: "N",
+		types: ["Fire", "Dragon"],
+		baseStats: { hp: 90, atk: 105, def: 85, spa: 135, spd: 100, spe: 115 },
+		abilities: { "0": "Flash Fire" },
+		heightm: 0,
+		weightkg: 250,
+		evos: [],
+		eggGroups: ["Undiscovered"],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",
