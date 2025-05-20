@@ -3474,6 +3474,23 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Fire",
 	},
+	rapidstorm: {
+		num: -1165,
+		accuracy: 100,
+		basePower: 55,
+		category: "Special",
+		name: "Rapid Storm",
+		pp: 15,
+		priority: 0,
+		flags: { protect: 1, mirror: 1 },
+		onModifyPriority(priority, source, target, move) {
+			if (source.effectiveWeather() === 'raindance') {
+				return priority + 1;
+			}
+		},
+		target: "normal",
+		type: "Water",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		num: 719,

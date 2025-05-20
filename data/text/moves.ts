@@ -798,6 +798,10 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: 'Black Flame',
 		shortDesc: "Inflicts the target with a special burn.",
 	},
+	rapidstorm: {
+		name: "Rapid Storm",
+		shortDesc: "Will move first if rain is active.",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",
