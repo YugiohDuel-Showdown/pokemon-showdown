@@ -967,11 +967,9 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 					this.add('-fieldstart', 'move: Forest Terrain');
 				}
 			},
-			onResidualOrder: 5,
-			onResidualSubOrder: 2,
-			onResidual(pokemon) {
+			onUpdate(pokemon) {
 				if (!pokemon.isGrounded() || pokemon.isSemiInvulnerable()) return;
-				if (!pokemon.hasType('Bug') || !pokemon.hasType('Grass')) return;
+				if (!pokemon.hasType('Bug') || pokemon.hasType('Grass')) return;
 				pokemon.cureStatus();
 			},
 			onFieldResidualOrder: 27,
@@ -1562,20 +1560,29 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				}
 			},
 			onFieldStart(field, source, effect) {
-				for (const target of source.adjacentFoes()) {
+				this.effectState.zombieworldSource = source;
+				if (source.getTypes().join() === 'Ghost' || !source.setType('Ghost')) {
+					this.add('-fail', source);
+					return null;
+				}
+				this.add('-start', source, 'typechange', 'Ghost');
+
+				for (const target of source.foes().filter(x => x.isActive === true)) {
 					if (target.getTypes().join() === 'Ghost' || !target.setType('Ghost')) {
 						this.add('-fail', target);
 						return null;
 					}
 					this.add('-start', target, 'typechange', 'Ghost');
 				}
-				for (const ally of source.adjacentAllies()) {
-					if (ally.getTypes().join() === 'Ghost' || !ally.setType('Ghost')) {
-						this.add('-fail', ally);
+
+				for (const target of source.allies().filter(x => x.isActive === true)) {
+					if (target.getTypes().join() === 'Ghost' || !target.setType('Ghost')) {
+						this.add('-fail', target);
 						return null;
 					}
-					this.add('-start', ally, 'typechange', 'Ghost');
+					this.add('-start', target, 'typechange', 'Ghost');
 				}
+
 				if (effect.effectType === 'Ability') {
 					this.add('-fieldstart', 'move: Zombie World', `[from] ability: ${effect.name}`, `[of] ${source}`);
 				} else {
@@ -1592,18 +1599,20 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			onFieldResidualOrder: 27,
 			onFieldResidualSubOrder: 7,
 			onFieldEnd(field) {
-				const pokemon = field.battle.activePokemon!;
+				const source: Pokemon = this.effectState.zombieworldSource;
+				source.setType(source.baseTypes);
+				this.add('-end', source, 'typechange', 'Ghost');
 
-				for (const target of pokemon.adjacentFoes()) {
-					const base = this.dex.species.get(target.name);
-					target.setType(base.types);
-					this.add('-start', target, 'typechange', 'Ghost');
+				for (const target of source.foes().filter(x => x.isActive === true)) {
+					target.setType(target.baseTypes);
+					this.add('-end', target, 'typechange', 'Ghost');
 				}
-				for (const ally of pokemon.adjacentAllies()) {
-					const base = this.dex.species.get(ally.name);
-					ally.setType(base.types);
-					this.add('-start', ally, 'typechange', 'Ghost');
+
+				for (const ally of source.allies().filter(x => x.isActive === true)) {
+					ally.setType(ally.baseTypes);
+					this.add('-end', ally, 'typechange', 'Ghost');
 				}
+
 				this.add('-fieldend', 'move: Zombie World');
 			},
 		},
@@ -3422,9 +3431,11 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pp: 20,
 		priority: 0,
 		flags: { snatch: 1 },
-		self: { boosts: {
-			atk: 1,
-		} },
+		self: {
+			boosts: {
+				atk: 1,
+			},
+		},
 		onHit(target) {
 			if (target.hasType('Dragon')) {
 				this.boost({ atk: -1, spa: -1, spe: -1 }, target);
@@ -13107,7 +13118,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			) {
 				source.addVolatile("rolloutstorage");
 				source.volatiles["rolloutstorage"].contactHitCount =
-				iceballData.contactHitCount;
+					iceballData.contactHitCount;
 			}
 		},
 
