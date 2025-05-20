@@ -3155,6 +3155,18 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Dragon"]
 	},
+	hamon: {
+		num: 261,
+		name: "Hamon",
+		gender: "N",
+		types: ["Electric", "Ghost"],
+		baseStats: { hp: 95, atk: 100, def: 115, spa: 100, spd: 140, spe: 80 },
+		abilities: { "0": "Lightning Rod" },
+		heightm: 0,
+		weightkg: 300,
+		evos: [],
+		eggGroups: ["Undiscovered"],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",

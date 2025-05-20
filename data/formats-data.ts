@@ -780,6 +780,9 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		fivegodd: {
 			tier: "OU",
 		},
+		hamon: {
+			tier: "Uber",
+		},
 		exodia: {
 			tier: "Uber",
 		},
