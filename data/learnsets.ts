@@ -19973,7 +19973,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			flareblitz: ["9T"]
 		}
 	},
-	vhammerer: {
+	volchammerer: {
 		learnset: {
 			ember: ["9L1"],
 			growl: ["9L1"],
@@ -20052,7 +20052,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			flareblitz: ["9T"]
 		}
 	},
-	vdoomfire: {
+	volcdoomfire: {
 		learnset: {
 			blazeaccelerator: ["9L1", "9L40"],
 			ember: ["9L1"],
@@ -20131,7 +20131,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			powergem: ["9T"]
 		}
 	},
-	volcanicq: {
+	volcqueen: {
 		learnset: {
 			blazeaccelerator: ["9L1", "9L40"],
 			gust: ["9L1"],

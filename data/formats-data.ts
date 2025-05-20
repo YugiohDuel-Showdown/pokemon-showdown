@@ -858,4 +858,13 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	scattershot: {
 		tier: "OU",
 	},
+	volchammerer: {
+		tier: "LC",
+	},
+	volcdoomfire: {
+		tier: "OU",
+	},
+	volcqueen: {
+		tier: "OU",
+	},
 };
