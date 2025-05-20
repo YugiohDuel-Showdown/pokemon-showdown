@@ -16113,7 +16113,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 	},
 	potofgreed: {
 		learnset: {
-			reklessgreed: ["9L1"],
+			recklessgreed: ["9L1"],
 			multiply: ["9L1", "9M"],
 			lick: ["9L1"],
 			barrier: ["9L10"],
