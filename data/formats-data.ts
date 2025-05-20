@@ -843,4 +843,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	armdragonlv10: {
 		tier: "OU",
 	},
+	mobius: {
+		tier: "OU",
+	},
 };

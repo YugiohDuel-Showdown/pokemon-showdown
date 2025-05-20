@@ -3409,4 +3409,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evoLevel: 50,
 		eggGroups: ["Monster", "Dragon"],
 	},
+	mobius: {
+		num: 282,
+		name: "Mobius",
+		types: ["Ice"],
+		baseStats: { hp: 95, atk: 100, def: 75, spa: 80, spd: 65, spe: 65 },
+		abilities: { "0": "Battle Armor", H: "Snow Cloak" },
+		heightm: 0,
+		weightkg: 110,
+		evos: [],
+		eggGroups: ["Monster", "Mineral"]
+	},
 };
