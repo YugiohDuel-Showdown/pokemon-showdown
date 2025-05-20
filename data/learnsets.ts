@@ -16471,7 +16471,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			shadowball: ["9L35", "9M"],
 			destinybond: ["9L40"],
 			doomgaze: ["9L42", "9E"],
-			destinybord: ["9L46"],
+			destinyboard: ["9L46"],
 			dreameater: ["9L48", "9M"],
 			nastyplot: ["9L56"],
 			painsplit: ["9E"],
