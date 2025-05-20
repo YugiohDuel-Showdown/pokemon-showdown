@@ -20415,7 +20415,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			hydropump: ["9T"]
 		}
 	},
-	whitend: {
+	whitenightd: {
 		learnset: {
 			reflecttype: ["9L0"],
 			negate: ["9L1", "9E"],

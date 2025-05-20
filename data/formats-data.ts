@@ -870,4 +870,13 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	timewizard: {
 		tier: "OU",
 	},
+	snowdragon: {
+		tier: "LC",
+	},
+	snowdustd: {
+		tier: "NFE",
+	},
+	whitenightd: {
+		tier: "OU",
+	},
 };
