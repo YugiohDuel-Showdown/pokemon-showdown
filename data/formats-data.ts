@@ -750,6 +750,21 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		flareneos: {
 			tier: "OU",
 		},
+		glowneos: {
+			tier: "OU",
+		},
+		airneos: {
+			tier: "OU",
+		},
+		grandneos: {
+			tier: "OU",
+		},
+		darkneos: {
+			tier: "OU",
+		},
+		honestneos: {
+			tier: "OU",
+		},
 		exodia: {
 			tier: "Uber",
 		},
