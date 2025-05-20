@@ -879,4 +879,10 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	whitenightd: {
 		tier: "OU",
 	},
+	steamroid: {
+		tier: "LC",
+	},
+	steamgyroid: {
+		tier: "OU",
+	},
 };

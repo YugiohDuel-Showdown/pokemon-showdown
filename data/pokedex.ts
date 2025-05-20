@@ -3557,4 +3557,28 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evoLevel: 48,
 		eggGroups: ["Monster", "Dragon"],
 	},
+	steamroid: {
+		num: 294,
+		name: "Steamroid",
+		types: ["Steel"],
+		baseStats: { hp: 50, atk: 35, def: 50, spa: 75, spd: 50, spe: 85 },
+		abilities: { "0": "Steam Engine", "1": "White Smoke", H: "Heavy Metal" },
+		heightm: 0,
+		weightkg: 80,
+		evos: ["Steam Gyroid"],
+		eggGroups: ["Monster", "Mineral"]
+	},
+	steamgyroid: {
+		num: 295,
+		name: "Steam Gyroid",
+		types: ["Steel"],
+		baseStats: { hp: 70, atk: 45, def: 75, spa: 85, spd: 70, spe: 105 },
+		abilities: { "0": "Steam Engine", "1": "White Smoke", H: "Heavy Metal" },
+		heightm: 0,
+		weightkg: 120,
+		prevo: "Steamroid",
+		evoLevel: 26,
+		evos: [],
+		eggGroups: ["Monster", "Mineral"],
+	},
 };

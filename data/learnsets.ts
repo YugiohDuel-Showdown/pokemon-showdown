@@ -20581,7 +20581,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			highhorsepower: ["9T"]
 		}
 	},
-	sgyroid: {
+	steamgyroid: {
 		learnset: {
 			tackle: ["9L1"],
 			leer: ["9L1"],
