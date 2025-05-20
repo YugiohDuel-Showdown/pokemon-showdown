@@ -16612,7 +16612,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			flareblitz: ["9T"]
 		}
 	},
-	meteorbd: {
+	meteorblackd: {
 		learnset: {
 			rockslide: ["9L0", "9M"],
 			scratch: ["9L1"],
