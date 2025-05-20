@@ -802,6 +802,9 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 			tier: "LC",
 		},
 		horuslv6: {
+			tier: "NFE",
+		},
+		horuslv8: {
 			tier: "OU",
 		},
 		exodia: {

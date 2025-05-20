@@ -3251,6 +3251,19 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evoLevel: 34,
 		eggGroups: ["Monster", "Dragon"],
 	},
+	horuslv8: {
+		num: 269,
+		name: "Horus Lv8",
+		types: ["Dragon", "Steel"],
+		baseStats: { hp: 85, atk: 75, def: 75, spa: 115, spd: 125, spe: 70 },
+		abilities: { "0": "Flame Maw", "1": "Clear Body", H: "Flash Fire" },
+		heightm: 0,
+		weightkg: 500,
+		evos: [],
+		eggGroups: ["Monster", "Dragon"],
+		prevo: "Horus Lv6",
+		evoLevel: 48
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",
