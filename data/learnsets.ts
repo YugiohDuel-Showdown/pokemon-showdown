@@ -16809,7 +16809,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			multiply: ["9L8", "9M"],
 			headbutt: ["9L13"],
 			fakeout: ["9L18"],
-			reinforcemnt: ["9L21"],
+			reinforcement: ["9L21"],
 			slash: ["9L24"],
 			takedown: ["9L30"],
 			protect: ["9L38", "9M"],
