@@ -16535,7 +16535,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			psychocut: ["9T"]
 		}
 	},
-	meteord: {
+	meteordragon: {
 		learnset: {
 			scratch: ["9L1"],
 			growl: ["9L1"],

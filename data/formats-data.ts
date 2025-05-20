@@ -723,6 +723,9 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		darknecrofear: {
 			tier: "OU",
 		},
+		meteordragon: {
+			tier: "OU",
+		},
 		exodia: {
 			tier: "Uber",
 		},

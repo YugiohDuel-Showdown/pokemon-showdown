@@ -2910,6 +2910,17 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Amorphous"],
 	},
+	meteordragon: {
+		num: 242,
+		name: "Meteor Dragon",
+		types: ["Dragon", "Rock"],
+		baseStats: { hp: 55, atk: 70, def: 70, spa: 60, spd: 60, spe: 50 },
+		abilities: { "0": "Flash Fire", H: "Sand Veil" },
+		heightm: 0,
+		weightkg: 500,
+		evos: ["Meteor Black D"],
+		eggGroups: ["Monster", "Dragon"]
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",
