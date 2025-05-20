@@ -3509,4 +3509,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evoCondition: "Must be Female",
 		eggGroups: ["Monster", "Mineral"],
 	},
+	timewizard: {
+		num: 290,
+		name: "Time Wizard",
+		types: ["Normal"],
+		baseStats: { hp: 130, atk: 55, def: 55, spa: 55, spd: 40, spe: 40 },
+		abilities: { "0": "Shadow Tag" },
+		heightm: 0,
+		weightkg: 40,
+		evos: [],
+		eggGroups: ["Monster", "Field"]
+	},
 };

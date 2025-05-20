@@ -867,4 +867,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	volcqueen: {
 		tier: "OU",
 	},
+	timewizard: {
+		tier: "OU",
+	},
 };

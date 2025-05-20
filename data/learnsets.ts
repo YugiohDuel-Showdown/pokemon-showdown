@@ -20216,7 +20216,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			flareblitz: ["9T"]
 		}
 	},
-	twizard: {
+	timewizard: {
 		learnset: {
 			tackle: ["9L1"],
 			encore: ["9L1"],
