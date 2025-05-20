@@ -672,6 +672,12 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		jinzo: {
 			tier: "OU",
 		},
+		ryuran: {
+			tier: "LC",
+		},
+		mangaryuran: {
+			tier: "OU",
+		},
 		exodia: {
 			tier: "Uber",
 		},

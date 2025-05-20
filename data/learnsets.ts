@@ -15422,7 +15422,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			flareblitz: ["9T"]
 		}
 	},
-	maryuran: {
+	mangaryuran: {
 		learnset: {
 			scratch: ["9L1"],
 			growl: ["9L1"],
