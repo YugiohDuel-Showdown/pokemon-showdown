@@ -2934,6 +2934,17 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evoLevel: 40,
 		eggGroups: ["Monster", "Dragon"],
 	},
+	yatagarasu: {
+		num: 244,
+		name: "Yata-Garasu",
+		types: ["Flying", "Ghost"],
+		baseStats: { hp: 55, atk: 65, def: 60, spa: 95, spd: 85, spe: 110 },
+		abilities: { "0": "Insomnia", "1": "Regenerator", H: "Prankster" },
+		heightm: 0,
+		weightkg: 10,
+		evos: [],
+		eggGroups: ["Monster", "Flying"]
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",
