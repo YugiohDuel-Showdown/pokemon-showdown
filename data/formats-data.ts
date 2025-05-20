@@ -774,6 +774,9 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		teyesrestrict: {
 			tier: "OU",
 		},
+		leviathan: {
+			tier: "OU",
+		},
 		exodia: {
 			tier: "Uber",
 		},

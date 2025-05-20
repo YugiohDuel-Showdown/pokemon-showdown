@@ -3133,6 +3133,17 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		prevo: "Relinquish",
 		evoItem: "Moon Stone",
 	},
+	leviathan: {
+		num: 0,
+		name: "Leviathan",
+		types: ["Dragon", "Water"],
+		baseStats: { hp: 100, atk: 105, def: 80, spa: 125, spd: 80, spe: 90 },
+		abilities: { "0": "Primordial Sea", H: "Soul-Heart" },
+		heightm: 0,
+		weightkg: 800,
+		evos: [],
+		eggGroups: ["Monster", "Water 3"]
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",
