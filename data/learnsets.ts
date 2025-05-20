@@ -18906,7 +18906,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			psychicfangs: ["9T"]
 		}
 	},
-	cyberdrg: {
+	cyberdragon: {
 		learnset: {
 			thundershock: ["9L1"],
 			defensemode: ["9L1"],

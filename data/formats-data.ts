@@ -813,6 +813,15 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		cdarkdragon: {
 			tier: "OU",
 		},
+		cyberdragon: {
+			tier: "LC",
+		},
+		cybertwin: {
+			tier: "NFE",
+		},
+		cyberend: {
+			tier: "OU",
+		},
 		exodia: {
 			tier: "Uber",
 		},
