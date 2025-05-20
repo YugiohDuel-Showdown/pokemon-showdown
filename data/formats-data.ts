@@ -706,6 +706,9 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 			tier: "OU",
 		},
 		potofgreed: {
+			tier: "LC",
+		},
+		avatarotp: {
 			tier: "OU",
 		},
 		exodia: {

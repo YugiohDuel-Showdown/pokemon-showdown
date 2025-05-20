@@ -2850,6 +2850,19 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: ["Avatar OTP"],
 		eggGroups: ["Monster", "Amorphous"]
 	},
+	avatarotp: {
+		num: 237,
+		name: "Avatar OTP",
+		types: ["Fighting", "Rock"],
+		baseStats: { hp: 80, atk: 125, def: 85, spa: 50, spd: 80, spe: 70 },
+		abilities: { "0": "Rock Head", H: "Scrappy" },
+		heightm: 0,
+		weightkg: 415,
+		evos: [],
+		prevo: "Pot Of Greed",
+		evoItem: "Black Belt",
+		eggGroups: ["Monster", "Amorphous"],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",
