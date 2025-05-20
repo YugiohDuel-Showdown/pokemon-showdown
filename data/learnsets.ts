@@ -18748,7 +18748,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			flareblitz: ["9T"]
 		}
 	},
-	cdhorn: {
+	cdarkhorn: {
 		learnset: {
 			peck: ["9L1"],
 			growl: ["9L1"],
@@ -18827,7 +18827,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			psychicfangs: ["9T"]
 		}
 	},
-	cddragon: {
+	cdarkdragon: {
 		learnset: {
 			peck: ["9L1"],
 			growl: ["9L1"],

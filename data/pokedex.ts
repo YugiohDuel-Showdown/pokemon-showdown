@@ -3264,6 +3264,30 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		prevo: "Horus Lv6",
 		evoLevel: 48
 	},
+	cdarkhorn: {
+		num: 270,
+		name: "C-Dark Horn",
+		types: ["Steel", "Dark"],
+		baseStats: { hp: 65, atk: 85, def: 55, spa: 55, spd: 65, spe: 70 },
+		abilities: { "0": "Levitate", H: "Dragons Maw" },
+		heightm: 0,
+		weightkg: 180,
+		evos: ["C-Dark Dragon"],
+		eggGroups: ["Monster", "Mineral"]
+	},
+	cdarkdragon: {
+		num: 271,
+		name: "C-Dark Dragon",
+		types: ["Steel", "Dark"],
+		baseStats: { hp: 85, atk: 115, def: 70, spa: 70, spd: 90, spe: 90 },
+		abilities: { "0": "Levitate", H: "Dragons Maw" },
+		heightm: 0,
+		weightkg: 700,
+		evos: [],
+		prevo: "C-Dark Horn",
+		evoLevel: 40,
+		eggGroups: ["Monster", "Mineral"],
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",
