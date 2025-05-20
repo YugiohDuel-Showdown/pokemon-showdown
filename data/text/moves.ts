@@ -789,6 +789,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Raises the user's Attack by 1 stage. Any Dragon-type Monsters on the field will have their Attack, Special Attack, and Speed lowered by 1 stage.",
 		shortDesc: "Raises the user's Atk by 1. Any Dragon types, lowers Atk, Sp. Atk, and Spe by 1.",
 	},
+	galaxycrush: {
+		name: 'Galaxy Crush',
+		desc: "This attack does special damage. After Attacking, the user's Attack is lowered",
+		shortDesc: "Uses the target's Sp. Def for calculations. Lowers user's Atk by 1.",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",

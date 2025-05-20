@@ -3433,6 +3433,24 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "allAdjacentFoes",
 		type: "Dragon",
 	},
+	galaxycrush: {
+		num: -1163,
+		accuracy: 100,
+		basePower: 120,
+		category: "Physical",
+		name: 'Galaxy Crush',
+		pp: 5,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, contact: 1 },
+		overrideDefensiveStat: 'spd',
+		self: {
+			boosts: {
+				atk: -1,
+			}
+		},
+		target: 'normal',
+		type: 'Psychic',
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		num: 719,
