@@ -16859,7 +16859,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			solarblade: ["9T"]
 		}
 	},
-	chaosed: {
+	chaosendd: {
 		learnset: {
 			selfdestruct: ["9L1"],
 			roar: ["9L1", "9M"],

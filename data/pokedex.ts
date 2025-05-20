@@ -2956,6 +2956,17 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Human Like"]
 	},
+	chaosendd: {
+		num: 246,
+		name: "Chaos End D",
+		types: ["Dragon", "Dark"],
+		baseStats: { hp: 90, atk: 85, def: 105, spa: 140, spd: 80, spe: 70 },
+		abilities: { "0": "Pressure", H: "Cursed Body" },
+		heightm: 0,
+		weightkg: 345,
+		evos: [],
+		eggGroups: ["Monster", "Dragon"]
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",

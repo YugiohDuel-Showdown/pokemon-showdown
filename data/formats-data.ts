@@ -735,6 +735,9 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		blacklusters: {
 			tier: "OU",
 		},
+		chaosendd: {
+			tier: "OU",
+		},
 		exodia: {
 			tier: "Uber",
 		},
