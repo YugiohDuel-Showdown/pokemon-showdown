@@ -15111,7 +15111,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			solarblade: ["9T"]
 		}
 	},
-	xcannon: {
+	xheadcannon: {
 		learnset: {
 			thundershock: ["9L1"],
 			defensemode: ["9L1"],

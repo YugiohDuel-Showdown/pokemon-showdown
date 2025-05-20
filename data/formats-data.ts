@@ -657,6 +657,15 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		darkpaladin: {
 			tier: "OU",
 		},
+		xheadcannon: {
+			tier: "LC",
+		},
+		xydragon: {
+			tier: "NFE",
+		},
+		xyzdragon: {
+			tier: "OU",
+		},
 		exodia: {
 			tier: "Uber",
 		},
