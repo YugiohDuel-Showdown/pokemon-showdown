@@ -822,6 +822,9 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		cyberend: {
 			tier: "OU",
 		},
+		chimeratechod: {
+			tier: "OU",
+		},
 		exodia: {
 			tier: "Uber",
 		},

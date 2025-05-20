@@ -19084,7 +19084,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			powergem: ["9T"]
 		}
 	},
-	chimeratec: {
+	chimeratechod: {
 		learnset: {
 			thundershock: ["9L1"],
 			growl: ["9L1"],

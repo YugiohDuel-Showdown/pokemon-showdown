@@ -3313,7 +3313,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		eggGroups: ["Monster", "Mineral"],
 	},
 	cyberend: {
-		num: 0,
+		num: 274,
 		name: "Cyber End",
 		types: ["Electric", "Steel"],
 		baseStats: { hp: 90, atk: 100, def: 90, spa: 120, spd: 85, spe: 80 },
@@ -3324,6 +3324,17 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		prevo: "Cyber Twin",
 		evoLevel: 45,
 		eggGroups: ["Monster", "Mineral"],
+	},
+	chimeratechod: {
+		num: 275,
+		name: "Chimeratech OD",
+		types: ["Steel"],
+		baseStats: { hp: 125, atk: 90, def: 70, spa: 130, spd: 60, spe: 55 },
+		abilities: { "0": "Skill Link", "1": "Metal Body" },
+		heightm: 0,
+		weightkg: 970,
+		evos: [],
+		eggGroups: ["Monster", "Mineral"]
 	},
 	exodia: {
 		num: 276,
