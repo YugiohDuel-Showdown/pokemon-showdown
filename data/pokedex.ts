@@ -2887,6 +2887,17 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Flying"],
 	},
+	hyozanryu: {
+		num: 240,
+		name: "Hyozanryu",
+		types: ["Flying", "Ice"],
+		baseStats: { hp: 70, atk: 75, def: 75, spa: 100, spd: 60, spe: 95 },
+		abilities: { "0": "Ice Body", "1": "Clear Body" },
+		heightm: 0,
+		weightkg: 97,
+		evos: [],
+		eggGroups: ["Monster", "Flying"]
+	},
 	exodia: {
 		num: 276,
 		name: "Exodia",

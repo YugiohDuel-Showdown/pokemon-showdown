@@ -717,6 +717,9 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		guardianeatos: {
 			tier: "OU",
 		},
+		hyozanryu: {
+			tier: "OU",
+		},
 		exodia: {
 			tier: "Uber",
 		},
