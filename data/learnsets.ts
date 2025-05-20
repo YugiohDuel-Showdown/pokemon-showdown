@@ -17749,7 +17749,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			psychocut: ["9T"]
 		}
 	},
-	restrict: {
+	teyesrestrict: {
 		learnset: {
 			crosspoison: ["9L0", "9T"],
 			acid: ["9L1"],

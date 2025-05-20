@@ -765,6 +765,12 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		honestneos: {
 			tier: "OU",
 		},
+		teyeidol: {
+			tier: "LC",
+		},
+		teyesrestrict: {
+			tier: "NFE",
+		},
 		exodia: {
 			tier: "Uber",
 		},
