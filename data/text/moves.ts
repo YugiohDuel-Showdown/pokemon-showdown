@@ -794,6 +794,10 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "This attack does special damage. After Attacking, the user's Attack is lowered",
 		shortDesc: "Uses the target's Sp. Def for calculations. Lowers user's Atk by 1.",
 	},
+	blackflame: {
+		name: 'Black Flame',
+		shortDesc: "Inflicts the target with a special burn.",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",
