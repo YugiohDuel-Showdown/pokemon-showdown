@@ -3228,7 +3228,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		eggGroups: ["Undiscovered"],
 	},
 	horuslv4: {
-		num: 276,
+		num: 267,
 		name: "Horus Lv4",
 		types: ["Steel"],
 		baseStats: { hp: 45, atk: 60, def: 40, spa: 75, spd: 70, spe: 50 },
@@ -3237,6 +3237,19 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 80,
 		evos: ["Horus Lv6"],
 		eggGroups: ["Monster", "Dragon"]
+	},
+	horuslv6: {
+		num: 268,
+		name: "Horus Lv6",
+		types: ["Flying", "Steel"],
+		baseStats: { hp: 60, atk: 70, def: 60, spa: 85, spd: 90, spe: 60 },
+		abilities: { "0": "Flame Maw", "1": "Clear Body", H: "Flash Fire" },
+		heightm: 0,
+		weightkg: 180,
+		evos: ["Horus Lv8"],
+		prevo: "Horus Lv4",
+		evoLevel: 34,
+		eggGroups: ["Monster", "Dragon"],
 	},
 	exodia: {
 		num: 276,

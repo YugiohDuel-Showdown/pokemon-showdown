@@ -801,6 +801,9 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		horuslv4: {
 			tier: "LC",
 		},
+		horuslv6: {
+			tier: "OU",
+		},
 		exodia: {
 			tier: "Uber",
 		},
