@@ -25801,7 +25801,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			shadowball: ["9L32", "9M"],
 			mysticpower: ["9L36"],
 			lusterpurge: ["9L43"],
-			chaossceptr: ["9L48"],
+			chaosscepterblast: ["9L48"],
 			futuresight: ["9L55"],
 			calmmind: ["9L65", "9M"],
 			psychoboost: ["9L80"],
