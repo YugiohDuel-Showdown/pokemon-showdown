@@ -4202,4 +4202,28 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Flying"]
 	},
+	penguinsoldier: {
+		num: 346,
+		name: "Penguin Soldier",
+		types: ["Ice"],
+		baseStats: { hp: 40, atk: 35, def: 30, spa: 55, spd: 50, spe: 60 },
+		abilities: { "0": "Snow Warning", "1": "Thick Fat" },
+		heightm: 0,
+		weightkg: 20,
+		evos: ["Emperor Penguin"],
+		eggGroups: ["Monster", "Flying"]
+	},
+	emperorpenguin: {
+		num: 347,
+		name: "Emperor Penguin",
+		types: ["Ice"],
+		baseStats: { hp: 85, atk: 70, def: 75, spa: 95, spd: 90, spe: 55 },
+		abilities: { "0": "Snow Warning", "1": "Thick Fat" },
+		heightm: 0,
+		weightkg: 85,
+		prevo: "Penguin Soldier",
+		evoLevel: 35,
+		evos: [],
+		eggGroups: ["Monster", "Flying"],
+	},
 };

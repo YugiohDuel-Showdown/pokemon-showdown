@@ -1035,4 +1035,10 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	spegasus: {
 		tier: "OU",
 	},
+	penguinsoldier: {
+		tier: "LC",
+	},
+	emperorpenguin: {
+		tier: "OU",
+	},
 };

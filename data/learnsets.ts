@@ -24134,7 +24134,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			hurricane: ["9T"]
 		}
 	},
-	penguins: {
+	penguinsoldier: {
 		learnset: {
 			growl: ["9L1"],
 			peck: ["9L1"],
@@ -24191,7 +24191,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			hydropump: ["9T"]
 		}
 	},
-	emperorp: {
+	emperorpenguin: {
 		learnset: {
 			growl: ["9L1"],
 			flipturn: ["9L1"],
