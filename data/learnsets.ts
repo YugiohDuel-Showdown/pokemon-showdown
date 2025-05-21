@@ -6616,7 +6616,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			flareblitz: ["9T"],
 		},
 	},
-	darkmagiciang: {
+	darkmagiciangirl: {
 		learnset: {
 			cupoface: ["9L1", "9E"],
 			drainingkiss: ["9L1"],

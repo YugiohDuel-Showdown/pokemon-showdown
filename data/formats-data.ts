@@ -297,7 +297,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	wingeddragon: {
 		tier: "OU",
 	},
-	darkmagiciang: {
+	darkmagiciangirl: {
 		tier: "LC",
 	},
 	dmgirltdk: {

@@ -8,7 +8,6 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { 0: "Compound Eyes" },
 		heightm: 0,
 		weightkg: 17.8,
-		color: "Purple",
 		evos: ["Dark Magician"],
 		tags: ["Magician"],
 		eggGroups: ["Monster", "Human-Like"],
@@ -67,7 +66,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		color: "Grey",
 		prevo: "B Chick",
 		evoLevel: 16,
-		evos: ["Red Eyes M", "Toon Red E"],
+		evos: ["Red Eyes Metal", "Toon Red Eyes"],
 		eggGroups: ["Monster", "Dragon"],
 	},
 	redeyesmetal: {
@@ -1210,7 +1209,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 60,
 		eggGroups: ["Monster", "Flying"],
 	},
-	darkmagiciang: {
+	darkmagiciangirl: {
 		num: 100,
 		name: "Dark Magician Girl",
 		gender: "F",
