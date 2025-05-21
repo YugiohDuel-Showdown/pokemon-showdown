@@ -999,4 +999,10 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	doomkraken: {
 		tier: "OU",
 	},
+	bladedge: {
+		tier: "LC",
+	},
+	plasmavice: {
+		tier: "OU",
+	},
 };
