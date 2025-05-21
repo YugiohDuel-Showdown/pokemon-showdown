@@ -24263,7 +24263,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			moonlight: ["9L20"],
 			hex: ["9L25", "9T"],
 			torment: ["9L30", "9M"],
-			swordsorl: ["9L32"],
+			swordsofrevealinglight: ["9L32"],
 			vengeance: ["9L35"],
 			partingshot: ["9L40"],
 			extrasensory: ["9L44"],
