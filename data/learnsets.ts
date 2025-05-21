@@ -8386,7 +8386,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			scratch: ["9L1"],
 			leer: ["9L1"],
 			confusion: ["9L10"],
-			vicegrip: ["9L16"],
+			visegrip: ["9L16"],
 			psychoshift: ["9L18"],
 			craftyshield: ["9L20"],
 			miracleeye: ["9L23", "9E"],
@@ -8470,7 +8470,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			scratch: ["9L1"],
 			leer: ["9L1"],
 			confusion: ["9L10"],
-			vicegrip: ["9L16"],
+			visegrip: ["9L16"],
 			psychoshift: ["9L18"],
 			craftyshield: ["9L20"],
 			miracleeye: ["9L23", "9E"],
@@ -10930,7 +10930,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			honeclaws: ["9L1", "9M"],
 			astonish: ["9L6"],
 			thief: ["9L10", "9M"],
-			vicegrip: ["9L12"],
+			visegrip: ["9L12"],
 			nightshade: ["9L16"],
 			rocktomb: ["9L18", "9M"],
 			slash: ["9L20"],
@@ -18092,7 +18092,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			yami: ["9L1", "9T"],
 			karatechop: ["9L1"],
 			leer: ["9L1"],
-			vicegrip: ["9L1"],
+			visegrip: ["9L1"],
 			powertrip: ["9L15"],
 			brutalswing: ["9L20", "9M"],
 			lastwill: ["9L25"],
@@ -22152,7 +22152,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 	},
 	wallshadow: {
 		learnset: {
-			vicegrip: ["9L1"],
+			visegrip: ["9L1"],
 			shadowsneak: ["9L1", "9E"],
 			taunt: ["9L1", "9M"],
 			castlewalls: ["9L8"],
@@ -25688,7 +25688,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 	},
 	clearvice: {
 		learnset: {
-			vicegrip: ["9L1"],
+			visegrip: ["9L1"],
 			conversion: ["9L1", "9E"],
 			negate: ["9L1"],
 			curse: ["9L10"],
@@ -26180,7 +26180,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 		learnset: {
 			poisonsting: ["9L1"],
 			leer: ["9L1"],
-			vicegrip: ["9L6"],
+			visegrip: ["9L6"],
 			rocktomb: ["9L12", "9M"],
 			poisontail: ["9L16"],
 			fellstinger: ["9L21"],
