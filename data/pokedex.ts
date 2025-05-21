@@ -4379,4 +4379,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Water 3"]
 	},
+	medabat: {
+		num: 361,
+		name: "Meda Bat",
+		types: ["Poison", "Flying"],
+		baseStats: { hp: 40, atk: 65, def: 30, spa: 45, spd: 40, spe: 100 },
+		abilities: { "0": "Speed Boost" },
+		heightm: 0,
+		weightkg: 6,
+		evos: [],
+		eggGroups: ["Monster", "Amorphous"]
+	},
 };

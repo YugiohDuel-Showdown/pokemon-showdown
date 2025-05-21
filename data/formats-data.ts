@@ -1080,4 +1080,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	mushroomman: {
 		tier: "OU",
 	},
+	medabat: {
+		tier: "OU",
+	},
 };
