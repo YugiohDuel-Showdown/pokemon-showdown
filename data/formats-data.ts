@@ -1095,4 +1095,10 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	desgardius: {
 		tier: "OU",
 	},
+	tikielder: {
+		tier: "LC",
+	},
+	maskbeast: {
+		tier: "OU",
+	},
 };

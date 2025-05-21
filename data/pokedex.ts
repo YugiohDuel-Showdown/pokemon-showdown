@@ -4440,4 +4440,28 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		prevo: "Melchid 4",
 		evoLevel: 36
 	},
+	tikielder: {
+		num: 366,
+		name: "Tiki Elder",
+		types: ["Psychic"],
+		baseStats: { hp: 45, atk: 50, def: 75, spa: 60, spd: 65, spe: 45 },
+		abilities: { "0": "Forewarn", "1": "Anticipation", H: "Cursed Body" },
+		heightm: 0,
+		weightkg: 40,
+		evos: ["Mask Beast"],
+		eggGroups: ["Monster"]
+	},
+	maskbeast: {
+		num: 367,
+		name: "Mask Beast",
+		types: ["Psychic"],
+		baseStats: { hp: 75, atk: 115, def: 95, spa: 75, spd: 80, spe: 60 },
+		abilities: { "0": "Forewarn", "1": "Anticipation", H: "Cursed Body" },
+		heightm: 0,
+		weightkg: 40,
+		prevo: "Tiki Elder",
+		evoLevel: 36,
+		evos: [],
+		eggGroups: ["Monster"],
+	},
 };
