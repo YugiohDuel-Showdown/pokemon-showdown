@@ -1140,4 +1140,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	eldlich: {
 		tier: "OU",
 	},
+	dhplasma: {
+		tier: "OU",
+	},
 };

@@ -4616,4 +4616,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Human Like"]
 	},
+	dhplasma: {
+		num: 381,
+		name: "DH Plasma",
+		types: ["Fire", "Poison"],
+		baseStats: { hp: 75, atk: 90, def: 75, spa: 120, spd: 80, spe: 80 },
+		abilities: { "0": "Magma Armor", "1": "Stakeout" },
+		heightm: 0,
+		weightkg: 80,
+		evos: [],
+		eggGroups: ["Monster", "Human Like"]
+	},
 };
