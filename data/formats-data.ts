@@ -957,4 +957,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	firewalldragon: {
 		tier: "OU",
 	},
+	verteanaconda: {
+		tier: "OU",
+	},
 };

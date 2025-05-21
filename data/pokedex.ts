@@ -3872,4 +3872,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster Dragon"]
 	},
+	verteanaconda: {
+		num: 320,
+		name: "Verte Anaconda",
+		types: ["Grass", "Poison"],
+		baseStats: { hp: 70, atk: 110, def: 70, spa: 85, spd: 105, spe: 75 },
+		abilities: { "0": "Adaptability", "1": "Grass Pelt", H: "Contrary" },
+		heightm: 0,
+		weightkg: 80,
+		evos: [],
+		eggGroups: ["Monster", "Field"]
+	},
 };

@@ -22323,7 +22323,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			flareblitz: ["9T"]
 		}
 	},
-	vanaconda: {
+	verteanaconda: {
 		learnset: {
 			constrict: ["9L1"],
 			poisonsting: ["9L1"],
