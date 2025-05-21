@@ -4505,7 +4505,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 	clearvice: {
 		num: 371,
 		name: "Clear Vice",
-		types: ["Mystery"],
+		types: ["???"],
 		baseStats: { hp: 85, atk: 70, def: 50, spa: 125, spd: 120, spe: 70 },
 		abilities: { "0": "Clear Body", H: "Protean" },
 		heightm: 0,
