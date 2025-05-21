@@ -26332,7 +26332,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			closecombat: ["9T"]
 		}
 	},
-	judgmentd: {
+	judgementd: {
 		learnset: {
 			gust: ["9L1"],
 			growl: ["9L1"],
