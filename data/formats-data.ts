@@ -1143,4 +1143,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	dhplasma: {
 		tier: "OU",
 	},
+	dreadmaster: {
+		tier: "OU",
+	},
 };

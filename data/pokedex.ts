@@ -4627,4 +4627,16 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Human Like"]
 	},
+	dreadmaster: {
+		num: 382,
+		name: "Dreadmaster",
+		gender: "M",
+		types: ["Fighting", "Dark"],
+		baseStats: { hp: 105, atk: 115, def: 80, spa: 65, spd: 60, spe: 80 },
+		abilities: { "0": "Sheer Force", "1": "Intimidate", H: "Receiver" },
+		heightm: 0,
+		weightkg: 100,
+		evos: [],
+		eggGroups: ["Monster", "Human Like"],
+	},
 };

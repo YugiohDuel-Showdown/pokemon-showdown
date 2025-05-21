@@ -26597,7 +26597,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			solarblade: ["9T"]
 		}
 	},
-	dreadmastr: {
+	dreadmaster: {
 		learnset: {
 			lowkick: ["9L1", "9T"],
 			meditate: ["9L1"],
