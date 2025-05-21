@@ -3789,4 +3789,28 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Field"],
 	},
+	aquamadoor: {
+		num: 313,
+		name: "Aqua Madoor",
+		types: ["Water", "Ice"],
+		baseStats: { hp: 50, atk: 30, def: 65, spa: 60, spd: 85, spe: 30 },
+		abilities: { "0": "Water Compaction", "1": "Snow Cloak" },
+		heightm: 0,
+		weightkg: 30,
+		evos: ["Neo Aqua Madoor"],
+		eggGroups: ["Monster", "Water 2"]
+	},
+	neoaquamadoor: {
+		num: 314,
+		name: "Neo Aqua Madoor",
+		types: ["Water", "Ice"],
+		baseStats: { hp: 70, atk: 40, def: 80, spa: 75, spd: 135, spe: 45 },
+		abilities: { "0": "Water Compaction", "1": "Snow Cloak" },
+		heightm: 0,
+		weightkg: 60,
+		prevo: "Aqua Madoor",
+		evoLevel: 28,
+		evos: [],
+		eggGroups: ["Monster", "Water 2"],
+	},
 };

@@ -936,4 +936,10 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	breakermw: {
 		tier: "OU",
 	},
+	aquamadoor: {
+		tier: "LC",
+	},
+	neoaquamadoor: {
+		tier: "OU",
+	},
 };

@@ -21830,7 +21830,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			closecombat: ["9T"]
 		}
 	},
-	aquamador: {
+	aquamadoor: {
 		learnset: {
 			watergun: ["9L1"],
 			defensemode: ["9L1"],
@@ -21895,7 +21895,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			hydropump: ["9T"]
 		}
 	},
-	neoaquam: {
+	neoaquamadoor: {
 		learnset: {
 			watergun: ["9L1"],
 			defensemode: ["9L1"],
