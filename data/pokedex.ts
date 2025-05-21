@@ -4547,4 +4547,16 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Undiscovered"],
 	},
+	ghostrick: {
+		num: 375,
+		name: "Ghostrick",
+		gender: "F",
+		types: ["Ghost"],
+		baseStats: { hp: 60, atk: 50, def: 60, spa: 85, spd: 75, spe: 100 },
+		abilities: { "0": "Levitate", H: "Prankster" },
+		heightm: 0,
+		weightkg: 30,
+		evos: [],
+		eggGroups: ["Monster", "Human Like"],
+	},
 };
