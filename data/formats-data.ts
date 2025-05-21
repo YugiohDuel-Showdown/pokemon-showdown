@@ -1089,4 +1089,10 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	steamhealer: {
 		tier: "OU",
 	},
+	melchid4: {
+		tier: "LC",
+	},
+	desgardius: {
+		tier: "OU",
+	},
 };

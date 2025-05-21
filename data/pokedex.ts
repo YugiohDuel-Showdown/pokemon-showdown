@@ -4416,4 +4416,28 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Human Like"],
 	},
+	melchid4: {
+		num: 364,
+		name: "Melchid 4",
+		types: ["Dark"],
+		baseStats: { hp: 50, atk: 60, def: 50, spa: 70, spd: 65, spe: 50 },
+		abilities: { "0": "Compound Eyes", "1": "Sturdy", H: "Moody" },
+		heightm: 0,
+		weightkg: 45,
+		evos: ["Des Gardius"],
+		eggGroups: ["Monster"]
+	},
+	desgardius: {
+		num: 365,
+		name: "Des Gardius",
+		types: ["Dark", "Rock"],
+		baseStats: { hp: 80, atk: 100, def: 85, spa: 100, spd: 70, spe: 65 },
+		abilities: { "0": "Compound Eyes", "1": "Sturdy", H: "Moody" },
+		heightm: 0,
+		weightkg: 300,
+		evos: [],
+		eggGroups: ["Monster"],
+		prevo: "Melchid 4",
+		evoLevel: 36
+	},
 };

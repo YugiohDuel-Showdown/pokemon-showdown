@@ -25226,7 +25226,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			solarblade: ["9T"]
 		}
 	},
-	dgardius: {
+	desgardius: {
 		learnset: {
 			rockslide: ["9L0", "9M"],
 			uproar: ["9L1", "9T"],
