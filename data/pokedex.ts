@@ -4594,4 +4594,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Human Like"],
 	},
+	judgementd: {
+		num: 379,
+		name: "Judgement D",
+		types: ["Dragon", "Flying"],
+		baseStats: { hp: 70, atk: 75, def: 70, spa: 115, spd: 60, spe: 85 },
+		abilities: { "0": "Early Bird", "1": "Justified" },
+		heightm: 0,
+		weightkg: 200,
+		evos: [],
+		eggGroups: ["Monster", "Flying"]
+	},
 };
