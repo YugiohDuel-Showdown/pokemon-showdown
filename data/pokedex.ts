@@ -4226,4 +4226,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Flying"],
 	},
+	swordstalker: {
+		num: 348,
+		name: "Swordstalker",
+		types: ["Dark"],
+		baseStats: { hp: 60, atk: 40, def: 65, spa: 110, spd: 65, spe: 75 },
+		abilities: { "0": "Infiltrator", "1": "Insomnia" },
+		heightm: 0,
+		weightkg: 40,
+		evos: [],
+		eggGroups: ["Monster", "Field"]
+	},
 };

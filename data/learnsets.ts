@@ -24253,7 +24253,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			hydropump: ["9T"]
 		}
 	},
-	swordstalk: {
+	swordstalker: {
 		learnset: {
 			leer: ["9L1"],
 			pursuit: ["9L1"],

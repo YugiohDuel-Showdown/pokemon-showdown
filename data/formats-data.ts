@@ -1041,4 +1041,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	emperorpenguin: {
 		tier: "OU",
 	},
+	swordstalker: {
+		tier: "OU",
+	},
 };
