@@ -942,4 +942,13 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	neoaquamadoor: {
 		tier: "OU",
 	},
+	agsoldier: {
+		tier: "LC",
+	},
+	aggolem: {
+		tier: "NFE",
+	},
+	uaggolem: {
+		tier: "OU",
+	},
 };
