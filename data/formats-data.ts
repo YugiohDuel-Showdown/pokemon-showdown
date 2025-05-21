@@ -1065,4 +1065,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	mimicat: {
 		tier: "OU",
 	},
+	archmirror: {
+		tier: "OU",
+	},
 };

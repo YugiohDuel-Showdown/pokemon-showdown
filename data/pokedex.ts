@@ -4324,4 +4324,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Ditto"],
 	},
+	archmirror: {
+		num: 356,
+		name: "Arch Mirror",
+		types: ["Dark", "Poison"],
+		baseStats: { hp: 100, atk: 30, def: 40, spa: 60, spd: 45, spe: 45 },
+		abilities: { "0": "Magic Bounce", "1": "Mirror Armor" },
+		heightm: 0,
+		weightkg: 20,
+		evos: [],
+		eggGroups: ["Monster", "Grass"]
+	},
 };

@@ -24675,7 +24675,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			focusenergy: ["9T"]
 		}
 	},
-	archmiror: {
+	archmirror: {
 		learnset: {
 			splash: ["9L1"],
 			acid: ["9L5"],
