@@ -960,4 +960,10 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	verteanaconda: {
 		tier: "OU",
 	},
+	blowbackdragon: {
+		tier: "LC",
+	},
+	barreldragon: {
+		tier: "OU",
+	},
 };

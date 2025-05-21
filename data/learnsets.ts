@@ -22406,7 +22406,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			psychicfangs: ["9T"]
 		}
 	},
-	blowbackd: {
+	blowbackdragon: {
 		learnset: {
 			switcheroo: ["9L1"],
 			bite: ["9L1"],
@@ -22473,7 +22473,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			powergem: ["9T"]
 		}
 	},
-	barreld: {
+	barreldragon: {
 		learnset: {
 			switcheroo: ["9L1"],
 			bite: ["9L1"],

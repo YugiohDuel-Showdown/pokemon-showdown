@@ -3883,4 +3883,28 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Field"]
 	},
+	blowbackdragon: {
+		num: 321,
+		name: "Blowback Dragon",
+		types: ["Steel"],
+		baseStats: { hp: 70, atk: 75, def: 70, spa: 55, spd: 65, spe: 55 },
+		abilities: { "0": "Own Tempo", "1": "Sniper", H: "Bulletproof" },
+		heightm: 0,
+		weightkg: 125,
+		evos: ["Barrel Dragon"],
+		eggGroups: ["Monster", "Field"]
+	},
+	barreldragon: {
+		num: 322,
+		name: "Barrel Dragon",
+		types: ["Steel"],
+		baseStats: { hp: 80, atk: 90, def: 100, spa: 80, spd: 65, spe: 75 },
+		abilities: { "0": "Own Tempo", "1": "Sniper", H: "Mega Launcher" },
+		heightm: 0,
+		weightkg: 160,
+		prevo: "Blowback Dragon",
+		evoLevel: 34,
+		evos: [],
+		eggGroups: ["Monster", "Field"],
+	},
 };
