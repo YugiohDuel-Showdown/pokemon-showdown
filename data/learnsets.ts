@@ -23631,7 +23631,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			megahorn: ["9T"]
 		}
 	},
-	"dmnudyarl(zenmode)": {
+	laundrydm: {
 		learnset: {
 			pound: ["9L1"],
 			tailwhip: ["9L1"],

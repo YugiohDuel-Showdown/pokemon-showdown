@@ -5593,12 +5593,12 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	zenmode: {
 		onResidualOrder: 29,
 		onResidual(pokemon) {
-			if (pokemon.baseSpecies.baseSpecies !== 'Darmanitan' || pokemon.transformed) {
+			if (pokemon.baseSpecies.baseSpecies !== 'Laundry DM' || pokemon.transformed) {
 				return;
 			}
-			if (pokemon.hp <= pokemon.maxhp / 2 && !['Zen', 'Galar-Zen'].includes(pokemon.species.forme)) {
+			if (pokemon.hp <= pokemon.maxhp / 2 && !['Zen'].includes(pokemon.species.forme)) {
 				pokemon.addVolatile('zenmode');
-			} else if (pokemon.hp > pokemon.maxhp / 2 && ['Zen', 'Galar-Zen'].includes(pokemon.species.forme)) {
+			} else if (pokemon.hp > pokemon.maxhp / 2 && ['Zen'].includes(pokemon.species.forme)) {
 				pokemon.addVolatile('zenmode'); // in case of base Darmanitan-Zen
 				pokemon.removeVolatile('zenmode');
 			}
@@ -5607,20 +5607,16 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			if (!pokemon.volatiles['zenmode'] || !pokemon.hp) return;
 			pokemon.transformed = false;
 			delete pokemon.volatiles['zenmode'];
-			if (pokemon.species.baseSpecies === 'Darmanitan' && pokemon.species.battleOnly) {
+			if (pokemon.species.baseSpecies === 'Laundry DM' && pokemon.species.battleOnly) {
 				pokemon.formeChange(pokemon.species.battleOnly as string, this.effect, false, '0', '[silent]');
 			}
 		},
 		condition: {
 			onStart(pokemon) {
-				if (!pokemon.species.name.includes('Galar')) {
-					if (pokemon.species.id !== 'darmanitanzen') pokemon.formeChange('Darmanitan-Zen');
-				} else {
-					if (pokemon.species.id !== 'darmanitangalarzen') pokemon.formeChange('Darmanitan-Galar-Zen');
-				}
+				if (pokemon.species.id !== 'dmnudyarl') pokemon.formeChange('DM Nudyarl');
 			},
 			onEnd(pokemon) {
-				if (['Zen', 'Galar-Zen'].includes(pokemon.species.forme)) {
+				if (['Zen'].includes(pokemon.species.forme)) {
 					pokemon.formeChange(pokemon.species.battleOnly as string);
 				}
 			},

@@ -1014,4 +1014,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	goldfine: {
 		tier: "OU",
 	},
+	laundrydm: {
+		tier: "OU",
+	},
 };
