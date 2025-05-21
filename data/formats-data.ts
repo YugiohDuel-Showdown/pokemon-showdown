@@ -1053,4 +1053,10 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	darkjeroid: {
 		tier: "OU",
 	},
+	sparkman: {
+		tier: "LC",
+	},
+	thundergiant: {
+		tier: "OU",
+	},
 };

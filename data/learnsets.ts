@@ -24519,7 +24519,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			electroball: ["9T"]
 		}
 	},
-	thndrgiant: {
+	thundergiant: {
 		learnset: {
 			paraboliccharge: ["9L1"],
 			multiply: ["9L1"],
