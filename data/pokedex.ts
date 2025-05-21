@@ -3850,4 +3850,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Mineral"],
 	},
+	wallshadow: {
+		num: 318,
+		name: "Wall Shadow",
+		types: ["Ghost", "Bug"],
+		baseStats: { hp: 70, atk: 75, def: 135, spa: 40, spd: 80, spe: 70 },
+		abilities: { "0": "Tough Claws", "1": "Shadow Tag", H: "Quick Exit" },
+		heightm: 0,
+		weightkg: 40,
+		evos: [],
+		eggGroups: ["Monster", "Bug"]
+	},
 };

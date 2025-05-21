@@ -951,4 +951,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	uaggolem: {
 		tier: "OU",
 	},
+	wallshadow: {
+		tier: "OU",
+	},
 };
