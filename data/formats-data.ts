@@ -1101,4 +1101,10 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	maskbeast: {
 		tier: "OU",
 	},
+	nimbusman: {
+		tier: "LC",
+	},
+	eyetyphoon: {
+		tier: "OU",
+	},
 };
