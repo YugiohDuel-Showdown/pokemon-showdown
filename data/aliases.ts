@@ -92,6 +92,4 @@ export const Aliases: import('../sim/dex').AliasesTable = {
 	mayhem: "[Gen 9] Random Battle Mayhem",
 	omotm: "[Gen 9] Frantic Fusions",
 	lcotm: "[Gen 9] Cross Evolution",
-
-	illusionmagician: 'Illusion M',
 };
