@@ -21097,7 +21097,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			electricterrain: ["9T"]
 		}
 	},
-	ggthundrw: {
+	ggthunderwind: {
 		learnset: {
 			aircutter: ["9L0"],
 			gust: ["9L1"],
@@ -21149,7 +21149,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			bodyslam: ["9T"]
 		}
 	},
-	gateguard: {
+	gateguardian: {
 		learnset: {
 			scald: ["9L0"],
 			gust: ["9L1"],

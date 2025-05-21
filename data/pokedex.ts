@@ -3665,4 +3665,30 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: ["GG Thunder Wind"],
 		eggGroups: ["Monster"]
 	},
+	ggthunderwind: {
+		num: 303,
+		name: "GG Thunder Wind",
+		types: ["Electric", "Flying"],
+		baseStats: { hp: 85, atk: 70, def: 70, spa: 85, spd: 65, spe: 45 },
+		abilities: { "0": "Static", H: "Wind Rider" },
+		heightm: 0,
+		weightkg: 400,
+		prevo: "Sanga",
+		evoLevel: 30,
+		evos: ["Gate Guardian"],
+		eggGroups: ["Monster"],
+	},
+	gateguardian: {
+		num: 304,
+		name: "Gate Guardian",
+		types: ["Electric", "Water"],
+		baseStats: { hp: 130, atk: 80, def: 80, spa: 105, spd: 75, spe: 55 },
+		abilities: { "0": "Static", H: "Aerilate" },
+		heightm: 0,
+		weightkg: 500,
+		prevo: "GG Thunder Wind",
+		evoLevel: 46,
+		evos: [],
+		eggGroups: ["Monster", "Mineral"],
+	}
 };

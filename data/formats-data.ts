@@ -904,6 +904,12 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "OU",
 	},
 	sanga: {
+		tier: "LC",
+	},
+	ggthunderwind: {
+		tier: "NFE",
+	},
+	gateguardian: {
 		tier: "OU",
 	},
 };
