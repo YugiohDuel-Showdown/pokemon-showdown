@@ -1005,4 +1005,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	plasmavice: {
 		tier: "OU",
 	},
+	apophis: {
+		tier: "OU",
+	},
 };
