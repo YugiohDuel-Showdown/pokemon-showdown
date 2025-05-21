@@ -915,4 +915,13 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	"7coloredfish": {
 		tier: "OU",
 	},
+	burstinatrix: {
+		tier: "LC",
+	},
+	rampartblaster: {
+		tier: "OU",
+	},
+	infernowing: {
+		tier: "OU",
+	},
 };

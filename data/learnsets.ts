@@ -21282,7 +21282,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			muddywater: ["9T"]
 		}
 	},
-	burstinatx: {
+	burstinatrix: {
 		learnset: {
 			scratch: ["9L1"],
 			skyscraper: ["9L1"],
@@ -21325,7 +21325,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			flareblitz: ["9T"]
 		}
 	},
-	rampartb: {
+	rampartblaster: {
 		learnset: {
 			scratch: ["9L1"],
 			defensemode: ["9L1"],
@@ -21388,7 +21388,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			flareblitz: ["9T"]
 		}
 	},
-	infrnowing: {
+	infernowing: {
 		learnset: {
 			shadowclaw: ["9L0", "9M"],
 			scratch: ["9L1"],
