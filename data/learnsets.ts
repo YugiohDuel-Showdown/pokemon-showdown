@@ -25785,7 +25785,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			psychicfangs: ["9T"]
 		}
 	},
-	mgcionobc: {
+	magicianobc: {
 		learnset: {
 			agility: ["9L1", "9T"],
 			tackle: ["9L1"],

@@ -1113,4 +1113,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	clearvice: {
 		tier: "OU",
 	},
+	magicianobc: {
+		tier: "OU",
+	},
 };

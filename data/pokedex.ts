@@ -4513,4 +4513,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Dragon"]
 	},
+	magicianobc: {
+		num: 372,
+		name: "Magician OBC",
+		types: ["Dark", "Psychic"],
+		baseStats: { hp: 75, atk: 70, def: 70, spa: 100, spd: 85, spe: 100 },
+		abilities: { "0": "Inner Focus" },
+		heightm: 0,
+		weightkg: 80,
+		evos: [],
+		eggGroups: ["Monster", "Human Like"]
+	},
 };
