@@ -981,4 +981,10 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	heliostri: {
 		tier: "OU",
 	},
+	starboy: {
+		tier: "LC",
+	},
+	mistarboy: {
+		tier: "OU",
+	},
 };
