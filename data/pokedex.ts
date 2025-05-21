@@ -4312,4 +4312,16 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Fairy"],
 	},
+	mimicat: {
+		num: 355,
+		name: "Mimicat",
+		gender: "N",
+		types: ["Normal"],
+		baseStats: { hp: 50, atk: 50, def: 50, spa: 50, spd: 50, spe: 50 },
+		abilities: { "0": "Limber", H: "Imposter" },
+		heightm: 0,
+		weightkg: 10,
+		evos: [],
+		eggGroups: ["Ditto"],
+	},
 };

@@ -1062,4 +1062,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	coheart: {
 		tier: "OU",
 	},
+	mimicat: {
+		tier: "OU",
+	},
 };
