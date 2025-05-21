@@ -1110,4 +1110,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	honest: {
 		tier: "OU",
 	},
+	clearvice: {
+		tier: "OU",
+	},
 };

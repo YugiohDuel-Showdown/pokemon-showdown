@@ -4502,4 +4502,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Fairy"],
 	},
+	clearvice: {
+		num: 371,
+		name: "Clear Vice",
+		types: ["Mystery"],
+		baseStats: { hp: 85, atk: 70, def: 50, spa: 125, spd: 120, spe: 70 },
+		abilities: { "0": "Clear Body", H: "Protean" },
+		heightm: 0,
+		weightkg: 400,
+		evos: [],
+		eggGroups: ["Monster", "Dragon"]
+	},
 };
