@@ -4335,4 +4335,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Grass"]
 	},
+	niwatori: {
+		num: 357,
+		name: "Niwatori",
+		types: ["Normal", "Flying"],
+		baseStats: { hp: 70, atk: 55, def: 40, spa: 30, spd: 45, spe: 60 },
+		abilities: { "0": "Huge Power" },
+		heightm: 0,
+		weightkg: 10,
+		evos: [],
+		eggGroups: ["Monster", "Flying"]
+	},
 };

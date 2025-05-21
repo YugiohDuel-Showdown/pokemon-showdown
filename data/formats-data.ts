@@ -1068,4 +1068,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	archmirror: {
 		tier: "OU",
 	},
+	niwatori: {
+		tier: "OU",
+	},
 };
