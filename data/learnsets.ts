@@ -20983,7 +20983,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			reversal: ["9T"]
 		}
 	},
-	ncrshaman: {
+	necroidshaman: {
 		learnset: {
 			destinybond: ["9L1"],
 			shadowpunch: ["9L1"],

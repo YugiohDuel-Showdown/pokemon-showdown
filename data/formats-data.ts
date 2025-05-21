@@ -897,4 +897,10 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	ambrescueroid: {
 		tier: "OU",
 	},
+	necroshade: {
+		tier: "LC",
+	},
+	necroidshaman: {
+		tier: "OU",
+	},
 };
