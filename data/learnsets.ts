@@ -24482,7 +24482,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			quickattack: ["9L7"],
 			thunderwave: ["9L11", "9M"],
 			skyscraper: ["9L15"],
-			sparkblastr: ["9L18", "9E"],
+			sparkblaster: ["9L18", "9E"],
 			thunderpunch: ["9L25", "9T"],
 			paraboliccharge: ["9L30"],
 			safeguard: ["9L32"],
@@ -24523,7 +24523,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 		learnset: {
 			paraboliccharge: ["9L1"],
 			multiply: ["9L1"],
-			sparkblastr: ["9L1", "9E"],
+			sparkblaster: ["9L1", "9E"],
 			bulldoze: ["9L1", "9M"],
 			bide: ["9L1"],
 			thunderwave: ["9L11", "9M"],
