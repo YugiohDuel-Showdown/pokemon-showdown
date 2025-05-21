@@ -4490,4 +4490,16 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Flying"],
 	},
+	honest: {
+		num: 370,
+		name: "Honest",
+		gender: "M",
+		types: ["Fairy"],
+		baseStats: { hp: 75, atk: 60, def: 85, spa: 55, spd: 130, spe: 70 },
+		abilities: { "0": "Honest Power", "1": "Aroma Veil", H: "Healer" },
+		heightm: 0,
+		weightkg: 99,
+		evos: [],
+		eggGroups: ["Monster", "Fairy"],
+	},
 };

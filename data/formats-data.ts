@@ -1107,4 +1107,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	eyetyphoon: {
 		tier: "OU",
 	},
+	honest: {
+		tier: "OU",
+	},
 };
