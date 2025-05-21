@@ -1078,7 +1078,7 @@ const cheatingScenarios = [
 	],
 	[
 		`My Pokemon's Ability didn't work`,
-		`Perhaps Weezing's <a href="//${Config.routes.dex}/abilities/neutralizinggas">Neutralizing Gas</a> was active (<psicon pokemon="weezinggalar" />), or another effect, like <a href="https://dex.pokemonshowdown.com/abilities/moldbreaker">Mold Breaker</a>, was suppressing the Ability.`,
+		`Perhaps Weezing's <a href="//${Config.routes.dex}/abilities/neutralizinggas">Neutralizing Gas</a> was active (<psicon pokemon="weezinggalar" />), or another effect, like <a href="https://dex.yugiohduel.net/abilities/moldbreaker">Mold Breaker</a>, was suppressing the Ability.`,
 	],
 	[
 		`My Pokemon's move failed when I attacked the opponent in a Double Battle)`,
