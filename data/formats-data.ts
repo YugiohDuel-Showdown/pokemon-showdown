@@ -1128,4 +1128,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	gameciel: {
 		tier: "OU",
 	},
+	mbserket: {
+		tier: "OU",
+	},
 };

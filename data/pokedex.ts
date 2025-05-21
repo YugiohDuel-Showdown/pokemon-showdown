@@ -4571,4 +4571,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Water 2"],
 	},
+	mbserket: {
+		num: 377,
+		name: "MB Serket",
+		types: ["Bug", "Poison"],
+		baseStats: { hp: 65, atk: 90, def: 75, spa: 50, spd: 110, spe: 75 },
+		abilities: { "0": "Moxie", "1": "Shell Armor", H: "Poison Point" },
+		heightm: 0,
+		weightkg: 40,
+		evos: [],
+		eggGroups: ["Monster", "Bug"]
+	},
 };
