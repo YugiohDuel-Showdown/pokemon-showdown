@@ -4191,4 +4191,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Field"]
 	},
+	spegasus: {
+		num: 345,
+		name: "S Pegasus",
+		types: ["Flying", "Psychic"],
+		baseStats: { hp: 60, atk: 75, def: 55, spa: 60, spd: 75, spe: 95 },
+		abilities: { "0": "Run Away", "1": "Pastel Veil", H: "Rocky Payload" },
+		heightm: 0,
+		weightkg: 60,
+		evos: [],
+		eggGroups: ["Monster", "Flying"]
+	},
 };
