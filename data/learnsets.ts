@@ -21646,7 +21646,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			hurricane: ["9T"]
 		}
 	},
-	starrynsd: {
+	starrynightsd: {
 		learnset: {
 			slam: ["9L1"],
 			healingwish: ["9L1", "9E"],

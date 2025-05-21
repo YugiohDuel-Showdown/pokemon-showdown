@@ -927,4 +927,10 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	fortresswhale: {
 		tier: "OU",
 	},
+	seiyaryu: {
+		tier: "LC",
+	},
+	starrynightsd: {
+		tier: "OU",
+	},
 };

@@ -3753,4 +3753,28 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Water 1"]
 	},
+	seiyaryu: {
+		num: 310,
+		name: "Seiyaryu",
+		types: ["Flying", "Fairy"],
+		baseStats: { hp: 55, atk: 60, def: 60, spa: 85, spd: 80, spe: 65 },
+		abilities: { "0": "Early Bird", "1": "Friend Guard", H: "Pastel Veil" },
+		heightm: 0,
+		weightkg: 80,
+		evos: ["Starry Night SD"],
+		eggGroups: ["Monster", "Fairy"]
+	},
+	starrynightsd: {
+		num: 311,
+		name: "Starry Night SD",
+		types: ["Dragon", "Fairy"],
+		baseStats: { hp: 65, atk: 70, def: 65, spa: 120, spd: 90, spe: 85 },
+		abilities: { "0": "Pixilate", "1": "Friend Guard", H: "Pastel Veil" },
+		heightm: 0,
+		weightkg: 90,
+		prevo: "Seiyaryu",
+		evoCondition: "High Friendship",
+		evos: [],
+		eggGroups: ["Monster", "Fairy"],
+	},
 };
