@@ -22543,7 +22543,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			hydropump: ["9T"]
 		}
 	},
-	blades: {
+	bladeskater: {
 		learnset: {
 			rapidspin: ["9L1"],
 			multiply: ["9L1", "9M"],
@@ -22595,7 +22595,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			playrough: ["9T"]
 		}
 	},
-	cyberbldr: {
+	cyberblader: {
 		learnset: {
 			rapidspin: ["9L1"],
 			multiply: ["9L1", "9M"],

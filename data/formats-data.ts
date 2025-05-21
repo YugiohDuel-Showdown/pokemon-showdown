@@ -966,4 +966,10 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	barreldragon: {
 		tier: "OU",
 	},
+	bladeskater: {
+		tier: "LC",
+	},
+	cyberblader: {
+		tier: "OU",
+	},
 };
