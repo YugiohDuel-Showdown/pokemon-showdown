@@ -3777,4 +3777,16 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Fairy"],
 	},
+	breakermw: {
+		num: 312,
+		name: "Breaker MW",
+		gender: "M",
+		types: ["Fighting", "Psychic"],
+		baseStats: { hp: 70, atk: 85, def: 85, spa: 70, spd: 75, spe: 85 },
+		abilities: { "0": "Technician", "1": "Magic Guard", H: "Skill Link" },
+		heightm: 0,
+		weightkg: 50,
+		evos: [],
+		eggGroups: ["Monster", "Field"],
+	},
 };

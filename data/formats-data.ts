@@ -933,4 +933,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	starrynightsd: {
 		tier: "OU",
 	},
+	breakermw: {
+		tier: "OU",
+	},
 };
