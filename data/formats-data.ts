@@ -1083,4 +1083,10 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	medabat: {
 		tier: "OU",
 	},
+	bubbleman: {
+		tier: "LC",
+	},
+	steamhealer: {
+		tier: "OU",
+	},
 };

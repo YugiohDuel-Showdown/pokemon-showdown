@@ -25100,7 +25100,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			muddywater: ["9T"]
 		}
 	},
-	steamh: {
+	steamhealer: {
 		learnset: {
 			incinerate: ["9L0", "9M"],
 			lifedew: ["9L1"],
