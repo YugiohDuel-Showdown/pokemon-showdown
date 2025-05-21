@@ -22233,7 +22233,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			psywave: ["9L18"],
 			psychoshift: ["9L20"],
 			dragonrage: ["9L22"],
-			psyshieldram: ["9L25"],
+			psyshieldbash: ["9L25"],
 			paraboliccharge: ["9L28"],
 			flameburst: ["9L32"],
 			discharge: ["9L36"],
