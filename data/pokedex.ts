@@ -4582,4 +4582,16 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Bug"]
 	},
+	judgeman: {
+		num: 378,
+		name: "Judge Man",
+		gender: "M",
+		types: ["Normal"],
+		baseStats: { hp: 80, atk: 85, def: 45, spa: 0, spd: 55, spe: 65 },
+		abilities: { "0": "Intimidate", "1": "Justified", H: "Unnerve" },
+		heightm: 0,
+		weightkg: 60,
+		evos: [],
+		eggGroups: ["Monster", "Human Like"],
+	},
 };

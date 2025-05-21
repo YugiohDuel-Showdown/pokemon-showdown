@@ -1131,4 +1131,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	mbserket: {
 		tier: "OU",
 	},
+	judgeman: {
+		tier: "OU",
+	},
 };
