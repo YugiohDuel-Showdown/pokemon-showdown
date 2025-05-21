@@ -1047,4 +1047,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	toonmermaid: {
 		tier: "OU",
 	},
+	geminielf: {
+		tier: "OU",
+	},
 };

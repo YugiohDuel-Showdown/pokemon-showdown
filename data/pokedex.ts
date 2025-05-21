@@ -4251,4 +4251,16 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evoItem: "Toon Stone",
 		eggGroups: ["Monster", "Fairy"],
 	},
+	geminielf: {
+		num: 350,
+		name: "Gemini Elf",
+		gender: "F",
+		types: ["Normal"],
+		baseStats: { hp: 60, atk: 80, def: 65, spa: 40, spd: 60, spe: 70 },
+		abilities: { "0": "Rivalry", "1": "Parental Bond" },
+		heightm: 0,
+		weightkg: 55,
+		evos: ["Toon Gemini Elf"],
+		eggGroups: ["Monster", "Human Like"],
+	},
 };
