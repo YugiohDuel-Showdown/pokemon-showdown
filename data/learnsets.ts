@@ -26529,7 +26529,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			temperflare: ["9L32"],
 			firelash: ["9L35"],
 			venomdrench: ["9L40", "9T"],
-			pelletbarage: ["9L43"],
+			paralyzingpelletbarrage: ["9L43"],
 			gunkshot: ["9L52", "9T"],
 			destinybond: ["9L56"],
 			flareblitz: ["9L60", "9T"],
