@@ -3690,5 +3690,16 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evoLevel: 46,
 		evos: [],
 		eggGroups: ["Monster", "Mineral"],
-	}
+	},
+	"7coloredfish": {
+		num: 305,
+		name: "7 Colored Fish",
+		types: ["Water"],
+		baseStats: { hp: 70, atk: 75, def: 70, spa: 80, spd: 70, spe: 80 },
+		abilities: { "0": "Color Change", "1": "Multiscale" },
+		heightm: 0,
+		weightkg: 25,
+		evos: [],
+		eggGroups: ["Monster", "Water 3"]
+	},
 };

@@ -21215,7 +21215,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			hydropump: ["9T"]
 		}
 	},
-	"7colfish": {
+	"7coloredfish": {
 		learnset: {
 			weatherball: ["9L1"],
 			camouflage: ["9L1", "9E"],

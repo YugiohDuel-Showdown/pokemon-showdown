@@ -912,4 +912,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	gateguardian: {
 		tier: "OU",
 	},
+	"7coloredfish": {
+		tier: "OU",
+	},
 };
