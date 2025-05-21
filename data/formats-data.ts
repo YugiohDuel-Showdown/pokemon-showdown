@@ -1023,4 +1023,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	cyclopean: {
 		tier: "OU",
 	},
+	sonicbird: {
+		tier: "OU",
+	},
 };

@@ -4158,4 +4158,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster"],
 	},
+	sonicbird: {
+		num: 342,
+		name: "Sonic Bird",
+		types: ["Flying", "Ice"],
+		baseStats: { hp: 55, atk: 75, def: 55, spa: 85, spd: 55, spe: 105 },
+		abilities: { "0": "Keen Eye", "1": "Refrigerate", H: "Soundproof" },
+		heightm: 0,
+		weightkg: 20,
+		evos: [],
+		eggGroups: ["Monster", "Flying"]
+	},
 };
