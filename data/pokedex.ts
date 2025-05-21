@@ -4605,4 +4605,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Flying"]
 	},
+	eldlich: {
+		num: 380,
+		name: "Eldlich",
+		types: ["Ghost", "Steel"],
+		baseStats: { hp: 85, atk: 85, def: 100, spa: 80, spd: 130, spe: 55 },
+		abilities: { "0": "Good as Gold", H: "Mummy" },
+		heightm: 0,
+		weightkg: 210,
+		evos: [],
+		eggGroups: ["Monster", "Human Like"]
+	},
 };
