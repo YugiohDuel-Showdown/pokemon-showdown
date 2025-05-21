@@ -4237,4 +4237,18 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Field"]
 	},
+	toonmermaid: {
+		num: 349,
+		name: "Toon Mermaid",
+		gender: "F",
+		types: ["Fairy", "Water"],
+		baseStats: { hp: 60, atk: 70, def: 65, spa: 85, spd: 55, spe: 100 },
+		abilities: { "0": "Cute Charm", "1": "Hydration" },
+		heightm: 0,
+		weightkg: 55,
+		evos: [],
+		prevo: "Archery Girl",
+		evoItem: "Toon Stone",
+		eggGroups: ["Monster", "Fairy"],
+	},
 };

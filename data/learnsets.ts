@@ -24315,7 +24315,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			crunch: ["9T"]
 		}
 	},
-	tnmermaid: {
+	toonmermaid: {
 		learnset: {
 			bubble: ["9L1"],
 			fairywind: ["9L1"],

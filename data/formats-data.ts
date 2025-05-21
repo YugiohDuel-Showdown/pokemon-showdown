@@ -1044,4 +1044,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	swordstalker: {
 		tier: "OU",
 	},
+	toonmermaid: {
+		tier: "OU",
+	},
 };
