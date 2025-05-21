@@ -972,4 +972,13 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	cyberblader: {
 		tier: "OU",
 	},
+	heliostps: {
+		tier: "LC",
+	},
+	heliosduo: {
+		tier: "NFE",
+	},
+	heliostri: {
+		tier: "OU",
+	},
 };
