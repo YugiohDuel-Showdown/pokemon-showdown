@@ -1008,4 +1008,10 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	apophis: {
 		tier: "OU",
 	},
+	mammothgrave: {
+		tier: "LC",
+	},
+	goldfine: {
+		tier: "OU",
+	},
 };

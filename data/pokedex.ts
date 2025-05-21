@@ -4078,5 +4078,29 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 60,
 		evos: [],
 		eggGroups: ["Monster", "Amorphous"]
-	}
+	},
+	mammothgrave: {
+		num: 337,
+		name: "Mammoth Grave",
+		types: ["Ground", "Ghost"],
+		baseStats: { hp: 85, atk: 55, def: 60, spa: 35, spd: 55, spe: 30 },
+		abilities: { "0": "Sand Force", "1": "Sand Veil", H: "Insomnia" },
+		heightm: 0,
+		weightkg: 300,
+		evos: ["Goldfine"],
+		eggGroups: ["Monster", "Amorphous"]
+	},
+	goldfine: {
+		num: 338,
+		name: "Goldfine",
+		types: ["Ground", "Ghost"],
+		baseStats: { hp: 115, atk: 75, def: 80, spa: 45, spd: 75, spe: 50 },
+		abilities: { "0": "Sand Force", "1": "Sand Veil", H: "Insomnia" },
+		heightm: 0,
+		weightkg: 340,
+		prevo: "Mammoth Grave",
+		evoLevel: 32,
+		evos: [],
+		eggGroups: ["Monster", "Amorphous"],
+	},
 };

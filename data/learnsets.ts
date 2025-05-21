@@ -23496,7 +23496,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			powerwhip: ["9T"]
 		}
 	},
-	mammothg: {
+	mammothgrave: {
 		learnset: {
 			astonish: ["9L1"],
 			callofthehaunted: ["9L1"],
