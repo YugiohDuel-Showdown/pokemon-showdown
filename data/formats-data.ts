@@ -1077,4 +1077,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	spacemambo: {
 		tier: "OU",
 	},
+	mushroomman: {
+		tier: "OU",
+	},
 };

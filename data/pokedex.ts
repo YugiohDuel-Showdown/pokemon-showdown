@@ -4368,4 +4368,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Water 3"]
 	},
+	mushroomman: {
+		num: 360,
+		name: "Mushroom Man",
+		types: ["Grass"],
+		baseStats: { hp: 60, atk: 20, def: 45, spa: 60, spd: 100, spe: 35 },
+		abilities: { "0": "Poison Heal", "1": "Effect Spore" },
+		heightm: 0,
+		weightkg: 5,
+		evos: [],
+		eggGroups: ["Monster", "Water 3"]
+	},
 };

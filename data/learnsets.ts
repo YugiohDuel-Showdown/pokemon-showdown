@@ -24938,7 +24938,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			solarblade: ["9T"]
 		}
 	},
-	mushroomm: {
+	mushroomman: {
 		learnset: {
 			splash: ["9L1"],
 			absorb: ["9L5"],
