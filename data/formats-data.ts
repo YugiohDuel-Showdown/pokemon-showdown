@@ -1074,4 +1074,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	thunderkid: {
 		tier: "OU",
 	},
+	spacemambo: {
+		tier: "OU",
+	},
 };

@@ -24861,7 +24861,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			electroball: ["9T"]
 		}
 	},
-	smambo: {
+	spacemambo: {
 		learnset: {
 			splash: ["9L1"],
 			watergun: ["9L5"],

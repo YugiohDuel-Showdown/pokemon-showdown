@@ -4357,4 +4357,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Field"]
 	},
+	spacemambo: {
+		num: 359,
+		name: "Space Mambo",
+		types: ["Psychic", "Water"],
+		baseStats: { hp: 50, atk: 25, def: 45, spa: 100, spd: 55, spe: 45 },
+		abilities: { "0": "Multiscale", "1": "Levitate" },
+		heightm: 0,
+		weightkg: 70,
+		evos: [],
+		eggGroups: ["Monster", "Water 3"]
+	},
 };
