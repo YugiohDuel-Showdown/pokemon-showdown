@@ -4524,4 +4524,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Human Like"]
 	},
+	rainbowdragon: {
+		num: 373,
+		name: "Rainbow Dragon",
+		types: ["Dragon", "Psychic"],
+		baseStats: { hp: 90, atk: 115, def: 65, spa: 125, spd: 65, spe: 90 },
+		abilities: { "0": "Air Lock" },
+		heightm: 0,
+		weightkg: 600,
+		evos: [],
+		eggGroups: ["Undiscovered"]
+	},
 };

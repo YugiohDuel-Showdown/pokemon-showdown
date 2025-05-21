@@ -1116,4 +1116,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	magicianobc: {
 		tier: "OU",
 	},
+	rainbowdragon: {
+		tier: "OU",
+	},
 };
