@@ -4180,4 +4180,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Flying"]
 	},
+	rubycarbuncle: {
+		num: 344,
+		name: "Ruby Carbuncle",
+		types: ["Psychic", "Fairy"],
+		baseStats: { hp: 55, atk: 65, def: 45, spa: 80, spd: 60, spe: 110 },
+		abilities: { "0": "Run Away", "1": "Rattled", H: "Competitive" },
+		heightm: 0,
+		weightkg: 8,
+		evos: [],
+		eggGroups: ["Monster", "Field"]
+	},
 };

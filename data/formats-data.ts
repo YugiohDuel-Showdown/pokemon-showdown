@@ -1029,4 +1029,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	alector: {
 		tier: "OU",
 	},
+	rubycarbuncle: {
+		tier: "OU",
+	},
 };

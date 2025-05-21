@@ -23974,7 +23974,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			hurricane: ["9T"]
 		}
 	},
-	rubyc: {
+	rubycarbuncle: {
 		learnset: {
 			pounce: ["9L1"],
 			babydolleyes: ["9L1"],
