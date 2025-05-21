@@ -25930,7 +25930,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			psychocut: ["9T"]
 		}
 	},
-	rainbown: {
+	rainbowneos: {
 		learnset: {
 			neosforce: ["9L1"],
 			fakehero: ["9L1"],

@@ -1119,4 +1119,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	rainbowdragon: {
 		tier: "OU",
 	},
+	rainbowneos: {
+		tier: "OU",
+	},
 };
