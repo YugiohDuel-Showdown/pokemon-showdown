@@ -903,4 +903,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	necroidshaman: {
 		tier: "OU",
 	},
+	sanga: {
+		tier: "OU",
+	},
 };

@@ -3653,5 +3653,16 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		prevo: "Necroshade",
 		evoLevel: 30,
 		eggGroups: ["Monster", "Amorphous"],
-	}
+	},
+	sanga: {
+		num: 302,
+		name: "Sanga",
+		types: ["Electric"],
+		baseStats: { hp: 70, atk: 65, def: 65, spa: 75, spd: 60, spe: 35 },
+		abilities: { "0": "Static", H: "Soundproof" },
+		heightm: 0,
+		weightkg: 400,
+		evos: ["GG Thunder Wind"],
+		eggGroups: ["Monster"]
+	},
 };
