@@ -3742,4 +3742,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Human Like"],
 	},
+	fortresswhale: {
+		num: 309,
+		name: "Fortress Whale",
+		types: ["Water"],
+		baseStats: { hp: 150, atk: 80, def: 45, spa: 85, spd: 50, spe: 60 },
+		abilities: { "0": "Thick Fat", "1": "Dry Skin", H: "Mega Launcher" },
+		heightm: 0,
+		weightkg: 500,
+		evos: [],
+		eggGroups: ["Monster", "Water 1"]
+	},
 };

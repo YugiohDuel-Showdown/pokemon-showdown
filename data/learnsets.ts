@@ -21485,7 +21485,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			hurricane: ["9T"]
 		}
 	},
-	fwhale: {
+	fortresswhale: {
 		learnset: {
 			watergun: ["9L1"],
 			growl: ["9L1"],

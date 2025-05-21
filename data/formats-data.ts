@@ -924,4 +924,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	infernowing: {
 		tier: "OU",
 	},
+	fortresswhale: {
+		tier: "OU",
+	},
 };
