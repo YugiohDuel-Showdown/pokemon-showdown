@@ -987,4 +987,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	mistarboy: {
 		tier: "OU",
 	},
+	drhades: {
+		tier: "OU",
+	},
 };

@@ -3996,4 +3996,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Water 1"],
 	},
+	drhades: {
+		num: 330,
+		name: "DR Ha Des",
+		types: ["Dark"],
+		baseStats: { hp: 90, atk: 75, def: 80, spa: 95, spd: 115, spe: 60 },
+		abilities: { "0": "Dark Aura", "1": "Overcoat", H: "Pressure" },
+		heightm: 0,
+		weightkg: 140,
+		evos: [],
+		eggGroups: ["Monster", "Human Like"]
+	},
 };
