@@ -1048,6 +1048,6 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "OU",
 	},
 	geminielf: {
-		tier: "OU",
+		tier: "LC",
 	},
 };
