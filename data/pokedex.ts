@@ -4346,4 +4346,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Flying"]
 	},
+	thunderkid: {
+		num: 358,
+		name: "Thunder Kid",
+		types: ["Electric"],
+		baseStats: { hp: 40, atk: 30, def: 100, spa: 60, spd: 40, spe: 50 },
+		abilities: { "0": "Volt Absorb", "1": "Static" },
+		heightm: 0,
+		weightkg: 20,
+		evos: [],
+		eggGroups: ["Monster", "Field"]
+	},
 };

@@ -1071,4 +1071,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	niwatori: {
 		tier: "OU",
 	},
+	thunderkid: {
+		tier: "OU",
+	},
 };

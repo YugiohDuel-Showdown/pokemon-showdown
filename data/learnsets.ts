@@ -24799,7 +24799,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			airslash: ["9T"]
 		}
 	},
-	thundrkid: {
+	thunderkid: {
 		learnset: {
 			splash: ["9L1"],
 			thundershock: ["9L5"],
