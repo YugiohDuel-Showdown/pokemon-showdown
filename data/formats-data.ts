@@ -990,4 +990,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	drhades: {
 		tier: "OU",
 	},
+	dkabyss: {
+		tier: "OU",	
+	},
 };

@@ -4007,4 +4007,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Human Like"]
 	},
+	dkabyss: {
+		num: 331,
+		name: "DK Abyss",
+		types: ["Dark", "Ghost"],
+		baseStats: { hp: 65, atk: 85, def: 55, spa: 80, spd: 95, spe: 75 },
+		abilities: { "0": "Aura Break", H: "Justified" },
+		heightm: 0,
+		weightkg: 95,
+		evos: [],
+		eggGroups: ["Monster", "Human Like"]
+	},
 };
