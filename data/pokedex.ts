@@ -4559,4 +4559,16 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Human Like"],
 	},
+	gameciel: {
+		num: 376,
+		name: "Gameciel",
+		gender: "F",
+		types: ["Water", "Flying"],
+		baseStats: { hp: 70, atk: 60, def: 110, spa: 80, spd: 75, spe: 80 },
+		abilities: { "0": "Swift Swim", "1": "Shell Armor", H: "Storm Drain" },
+		heightm: 0,
+		weightkg: 40,
+		evos: [],
+		eggGroups: ["Monster", "Water 2"],
+	},
 };

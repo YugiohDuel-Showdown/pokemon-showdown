@@ -1125,4 +1125,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	ghostrick: {
 		tier: "OU",
 	},
+	gameciel: {
+		tier: "OU",
+	},
 };
