@@ -4169,4 +4169,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Flying"]
 	},
+	alector: {
+		num: 343,
+		name: "Alector",
+		types: ["Flying", "Steel"],
+		baseStats: { hp: 65, atk: 85, def: 75, spa: 45, spd: 60, spe: 95 },
+		abilities: { "0": "Trace" },
+		heightm: 0,
+		weightkg: 100,
+		evos: [],
+		eggGroups: ["Monster", "Flying"]
+	},
 };
