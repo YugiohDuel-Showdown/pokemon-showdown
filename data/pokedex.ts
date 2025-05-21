@@ -4300,4 +4300,16 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Human Like"],
 	},
+	coheart: {
+		num: 354,
+		name: "CO Heart",
+		gender: "F",
+		types: ["Fairy", "Dark"],
+		baseStats: { hp: 70, atk: 25, def: 50, spa: 85, spd: 100, spe: 100 },
+		abilities: { "0": "Synchronize", "1": "Contrary", H: "Soul-Heart" },
+		heightm: 0,
+		weightkg: 10,
+		evos: [],
+		eggGroups: ["Monster", "Fairy"],
+	},
 };

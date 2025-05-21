@@ -1059,4 +1059,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	thundergiant: {
 		tier: "OU",
 	},
+	coheart: {
+		tier: "OU",
+	},
 };
