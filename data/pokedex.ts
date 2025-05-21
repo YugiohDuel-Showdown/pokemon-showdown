@@ -4134,4 +4134,28 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		requiredAbility: "Zen Mode",
 		battleOnly: "Laundry DM",
 	},
+	hitotsumg: {
+		num: 340,
+		name: "Hitotsu MG",
+		types: ["Ground", "Fighting"],
+		baseStats: { hp: 40, atk: 70, def: 60, spa: 70, spd: 60, spe: 30 },
+		abilities: { "0": "Intimidate", "1": "Iron Fist", H: "Sheer Force" },
+		heightm: 0,
+		weightkg: 99,
+		evos: ["Cyclopean"],
+		eggGroups: ["Monster"]
+	},
+	cyclopean: {
+		num: 341,
+		name: "Cyclopean",
+		types: ["Ground", "Steel"],
+		baseStats: { hp: 60, atk: 100, def: 85, spa: 70, spd: 65, spe: 50 },
+		abilities: { "0": "Intimidate", "1": "Iron Fist", H: "Sheer Force" },
+		heightm: 0,
+		weightkg: 200,
+		prevo: "Hitotsu MG",
+		evoLevel: 28,
+		evos: [],
+		eggGroups: ["Monster"],
+	},
 };

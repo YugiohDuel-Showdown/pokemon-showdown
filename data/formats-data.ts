@@ -1017,4 +1017,10 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	laundrydm: {
 		tier: "OU",
 	},
+	hitotsumg: {
+		tier: "LC",
+	},
+	cyclopean: {
+		tier: "OU",
+	},
 };
