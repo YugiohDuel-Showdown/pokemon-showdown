@@ -22223,7 +22223,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			bugbuzz: ["9T"]
 		}
 	},
-	firewalld: {
+	firewalldragon: {
 		learnset: {
 			thundershock: ["9L1"],
 			growl: ["9L1"],

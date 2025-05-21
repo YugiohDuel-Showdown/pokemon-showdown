@@ -954,4 +954,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	wallshadow: {
 		tier: "OU",
 	},
+	firewalldragon: {
+		tier: "OU",
+	},
 };

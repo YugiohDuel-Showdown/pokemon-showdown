@@ -3861,4 +3861,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Bug"]
 	},
+	firewalldragon: {
+		num: 319,
+		name: "Firewall Dragon",
+		types: ["Electric", "Psychic"],
+		baseStats: { hp: 90, atk: 70, def: 90, spa: 110, spd: 70, spe: 80 },
+		abilities: { "0": "Download", "1": "Stamina", H: "Surge Surfer" },
+		heightm: 0,
+		weightkg: 560,
+		evos: [],
+		eggGroups: ["Monster Dragon"]
+	},
 };
