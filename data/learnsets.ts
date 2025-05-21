@@ -24417,7 +24417,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			bodyslam: ["9T"]
 		}
 	},
-	drkjeroid: {
+	darkjeroid: {
 		learnset: {
 			wrap: ["9L1"],
 			darklight: ["9L1"],

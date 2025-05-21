@@ -4263,4 +4263,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: ["Toon Gemini Elf"],
 		eggGroups: ["Monster", "Human Like"],
 	},
+	darkjeroid: {
+		num: 351,
+		name: "Dark Jeroid",
+		types: ["Dark", "Poison"],
+		baseStats: { hp: 60, atk: 100, def: 70, spa: 50, spd: 90, spe: 75 },
+		abilities: { "0": "Liquid Ooze", "1": "Poison Touch", H: "Sap Sipper" },
+		heightm: 0,
+		weightkg: 130,
+		evos: [],
+		eggGroups: ["Monster", "Amorphous"]
+	},
 };

@@ -1050,4 +1050,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	geminielf: {
 		tier: "LC",
 	},
+	darkjeroid: {
+		tier: "OU",
+	},
 };
