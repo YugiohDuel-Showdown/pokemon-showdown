@@ -4018,4 +4018,28 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Human Like"]
 	},
+	fiendkraken: {
+		num: 332,
+		name: "Fiend Kraken",
+		types: ["Water", "Ghost"],
+		baseStats: { hp: 75, atk: 55, def: 55, spa: 80, spd: 85, spe: 45 },
+		abilities: { "0": "Suction Cups", "1": "Swift Swim", H: "Sticky Hold" },
+		heightm: 0,
+		weightkg: 70,
+		evos: ["Doom Kraken"],
+		eggGroups: ["Monster", "Water 3"]
+	},
+	doomkraken: {
+		num: 333,
+		name: "Doom Kraken",
+		types: ["Water", "Ghost"],
+		baseStats: { hp: 90, atk: 70, def: 65, spa: 100, spd: 105, spe: 55 },
+		abilities: { "0": "Suction Cups", "1": "Swift Swim", H: "Sticky Hold" },
+		heightm: 0,
+		weightkg: 70,
+		prevo: "Fiend Kraken",
+		evoItem: "Water Stone",
+		evos: [],
+		eggGroups: ["Monster", "Water 3"],
+	},
 };

@@ -993,4 +993,10 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	dkabyss: {
 		tier: "OU",	
 	},
+	fiendkraken: {
+		tier: "LC",
+	},
+	doomkraken: {
+		tier: "OU",
+	},
 };

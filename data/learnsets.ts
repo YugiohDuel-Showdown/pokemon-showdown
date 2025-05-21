@@ -23147,7 +23147,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			psychocut: ["9T"]
 		}
 	},
-	fkraken: {
+	fiendkraken: {
 		learnset: {
 			wrap: ["9L1"],
 			smokescreen: ["9L1"],
