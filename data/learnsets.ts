@@ -22240,7 +22240,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			psyshock: ["9L40"],
 			ironhead: ["9L44", "9T"],
 			emergencyteleport: ["9L50"],
-			tachyoncut: ["9L60"],
+			tachyoncutter: ["9L60"],
 			circlethrow: ["9E"],
 			healpulse: ["9E"],
 			mirrorwall: ["9E"],
