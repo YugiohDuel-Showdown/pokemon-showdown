@@ -1197,4 +1197,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	vennominaga: {
 		tier: "OU",
 	},
+	giantrex: {
+		tier: "OU",
+	},
 };

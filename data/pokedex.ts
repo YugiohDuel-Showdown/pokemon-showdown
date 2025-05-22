@@ -4843,4 +4843,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Field"],
 	},
+	giantrex: {
+		num: 400,
+		name: "Giant Rex",
+		types: ["Ground"],
+		baseStats: { hp: 65, atk: 95, def: 70, spa: 50, spd: 85, spe: 95 },
+		abilities: { "0": "Anger Point", "1": "Strong Jaw", H: "Quick Exit" },
+		heightm: 0,
+		weightkg: 43,
+		evos: [],
+		eggGroups: ["Monster", "Field"]
+	},
 };
