@@ -28055,7 +28055,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			powergem: ["9T"]
 		}
 	},
-	snowmane: {
+	snowmaneater: {
 		learnset: {
 			hail: ["9L1", "9M"],
 			babydolleyes: ["9L1"],

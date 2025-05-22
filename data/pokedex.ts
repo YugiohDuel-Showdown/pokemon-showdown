@@ -4854,4 +4854,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Field"]
 	},
+	snowmaneater: {
+		num: 401,
+		name: "Snowman Eater",
+		types: ["Ice"],
+		baseStats: { hp: 85, atk: 35, def: 115, spa: 75, spd: 80, spe: 50 },
+		abilities: { "0": "Slush Rush", "1": "Disguise", H: "Snow Warning" },
+		heightm: 0,
+		weightkg: 80,
+		evos: [],
+		eggGroups: ["Monster", "Water 3"]
+	},
 };
