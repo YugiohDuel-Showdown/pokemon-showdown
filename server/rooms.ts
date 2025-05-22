@@ -2064,13 +2064,13 @@ export class GameRoom extends BasicRoom {
 
 		// If we have a direct connetion to a Replays database, just upload the replay
 		// directly.
-		const url = `https://replay.thetrainercorner.net/replays/yugioh/${id}`;
+		const url = `https://replay.yugiohduel.net/${id}`;
 		connection?.popup(
 			`|html|<p>Your replay has been uploaded! It's available at:</p><p> ` +
 			`<a class="no-panel-intercept" href="${url}" target="_blank">${url}</a> ` +
 			`<copytext value="${url}">Copy</copytext>`
 		);
-		await axios.post('https://replay.thetrainercorner.net/replays/yugioh', {
+		await axios.post(`https://replay.yugiohduel.net/${id}`, {
 			id,
 			log: log.replace(/\//g, '\\/'),
 			players: battle.players.map(p => p.name),
@@ -2080,7 +2080,6 @@ export class GameRoom extends BasicRoom {
 			password: "",
 			inputlog: battle.inputLog?.join('\n') || "null",
 			uploadtime: Math.trunc(Date.now() / 1000),
-			path_name: "yugioh",
 		});
 
 		// if (Replays.db) {
