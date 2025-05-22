@@ -4865,4 +4865,33 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Water 3"]
 	},
+	nibiru: {
+		num: 402,
+		name: "Nibiru",
+		baseForme: "Standard",
+		types: ["Rock"],
+		baseStats: { hp: 80, atk: 70, def: 140, spa: 55, spd: 80, spe: 130 },
+		abilities: { "0": "Shields Down", H: "Solid Rock" },
+		heightm: 0,
+		weightkg: 555,
+		evos: [],
+		otherFormes: ['Nibiru-Meteor'],
+		formeOrder: ['Nibiru', 'Nibiru-Meteor'],
+		eggGroups: ["Monster", "Mineral"]
+	},
+	"nibirumeteor": {
+		num: 402,
+		name: "Nibiru-Meteor",
+		baseSpecies: 'Nibiru',
+		forme: "Meteor",
+		types: ["Rock", "Psychic"],
+		baseStats: { hp: 80, atk: 140, def: 70, spa: 100, spd: 55, spe: 110 },
+		abilities: { "0": "Shields Down" },
+		heightm: 0,
+		weightkg: 555,
+		evos: [],
+		eggGroups: ["Monster", "Mineral"],
+		requiredAbility: 'Shields Down',
+		battleOnly: 'Nibiru',
+	},
 };

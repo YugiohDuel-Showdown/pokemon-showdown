@@ -1203,4 +1203,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	snowmaneater: {
 		tier: "OU",
 	},
+	nibiru: {
+		tier: "OU",
+	},
 };

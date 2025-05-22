@@ -4227,10 +4227,10 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	shieldsdown: {
 		onSwitchInPriority: -1,
 		onStart(pokemon) {
-			if (pokemon.baseSpecies.baseSpecies !== 'Minior' || pokemon.transformed) return;
+			if (pokemon.baseSpecies.baseSpecies !== 'Nibiru' || pokemon.transformed) return;
 			if (pokemon.hp > pokemon.maxhp / 2) {
 				if (pokemon.species.forme !== 'Meteor') {
-					pokemon.formeChange('Minior-Meteor');
+					pokemon.formeChange('Nibiru-Meteor');
 				}
 			} else {
 				if (pokemon.species.forme === 'Meteor') {
@@ -4240,10 +4240,10 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		onResidualOrder: 29,
 		onResidual(pokemon) {
-			if (pokemon.baseSpecies.baseSpecies !== 'Minior' || pokemon.transformed || !pokemon.hp) return;
+			if (pokemon.baseSpecies.baseSpecies !== 'Nibiru' || pokemon.transformed || !pokemon.hp) return;
 			if (pokemon.hp > pokemon.maxhp / 2) {
 				if (pokemon.species.forme !== 'Meteor') {
-					pokemon.formeChange('Minior-Meteor');
+					pokemon.formeChange('Nibiru-Meteor');
 				}
 			} else {
 				if (pokemon.species.forme === 'Meteor') {
@@ -4252,14 +4252,14 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			}
 		},
 		onSetStatus(status, target, source, effect) {
-			if (target.species.id !== 'miniormeteor' || target.transformed) return;
+			if (target.species.id !== 'nibirumeteor' || target.transformed) return;
 			if ((effect as Move)?.status) {
 				this.add('-immune', target, '[from] ability: Shields Down');
 			}
 			return false;
 		},
 		onTryAddVolatile(status, target) {
-			if (target.species.id !== 'miniormeteor' || target.transformed) return;
+			if (target.species.id !== 'nibirumeteor' || target.transformed) return;
 			if (status.id !== 'yawn') return;
 			this.add('-immune', target, '[from] ability: Shields Down');
 			return null;
