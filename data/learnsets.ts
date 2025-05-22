@@ -28804,7 +28804,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			wingattack: ["9L11"],
 			dragonrage: ["9L21"],
 			crunch: ["9L31", "9T"],
-			crushcardv: ["9L36"],
+			crushcardvirus: ["9L36"],
 			hyperfang: ["9L41"],
 			bodyslam: ["9L45", "9T"],
 			dragonclaw: ["9L51", "9M"],
