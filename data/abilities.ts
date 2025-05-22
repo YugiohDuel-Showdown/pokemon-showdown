@@ -3314,7 +3314,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onDamagePriority: 1,
 		onDamage(damage, target, source, effect) {
 			if (effect.id === 'psn' || effect.id === 'tox') {
-				if (this.field.isTerrain('venomswamp')) return this.heal(target.baseMaxhp / 4);
+				if (this.field.isTerrain('venomswamp')) this.heal(target.baseMaxhp / 4);
 				else this.heal(target.baseMaxhp / 8);
 				return false;
 			}
