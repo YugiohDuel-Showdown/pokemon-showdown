@@ -4731,4 +4731,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Water 1"]
 	},
+	dandylion: {
+		num: 391,
+		name: "Dandylion",
+		types: ["Grass", "Fire"],
+		baseStats: { hp: 75, atk: 35, def: 75, spa: 85, spd: 105, spe: 55 },
+		abilities: { "0": "Drought", "1": "Solar Power", H: "Chlorophyll" },
+		heightm: 0,
+		weightkg: 3,
+		evos: [],
+		eggGroups: ["Grass"]
+	},
 };

@@ -1170,4 +1170,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	daedalus: {
 		tier: "OU",
 	},
+	dandylion: {
+		tier: "OU",
+	},
 };
