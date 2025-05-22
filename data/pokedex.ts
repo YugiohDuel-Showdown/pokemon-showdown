@@ -131,7 +131,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 29.98,
 		color: "Brown",
-		evos: ["N Eater B"],
+		evos: ["N Eater Bug"],
 		eggGroups: ["Monster", "Bug"],
 	},
 	neaterbug: {
@@ -1218,7 +1218,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { 0: "Synchronize", 1: "Trace" },
 		heightm: 0,
 		weightkg: 40,
-		evos: ["Toon Magician G", "DM Girl TDK"],
+		evos: ["Toon DM Girl", "DM Girl TDK"],
 		eggGroups: ["Monster", "Fairy"],
 	},
 	dmgirltdk: {
