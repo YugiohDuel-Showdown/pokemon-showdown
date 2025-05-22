@@ -3579,6 +3579,11 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pp: 5,
 		priority: 0,
 		flags: { reflectable: 1, mirror: 1 },
+		onHit(target, source) {
+			if (['Helios TPS', 'Helios Duo', 'Helios Tri'].includes(source.name)) {
+				this.boost({ spe: 2 }, source);
+			}
+		},
 		secondaries: [
 			{
 				chance: 100,
