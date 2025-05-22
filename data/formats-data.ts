@@ -1224,4 +1224,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	critias: {
 		tier: "OU",
 	},
+	timaeus: {
+		tier: "OU",
+	},
 };

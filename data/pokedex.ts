@@ -4967,4 +4967,16 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Undiscovered"],
 	},
+	timaeus: {
+		num: 409,
+		name: "Timaeus",
+		gender: "N",
+		types: ["Dragon"],
+		baseStats: { hp: 115, atk: 85, def: 85, spa: 120, spd: 75, spe: 100 },
+		abilities: { "0": "Compound Eyes" },
+		heightm: 0,
+		weightkg: 220,
+		evos: [],
+		eggGroups: ["Undiscovered"],
+	},
 };
