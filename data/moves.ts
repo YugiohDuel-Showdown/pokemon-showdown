@@ -3570,6 +3570,28 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "all",
 		type: "Poison",
 	},
+	macrocosmos: {
+		num: -1168,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: 'Macro Cosmos',
+		pp: 5,
+		priority: 0,
+		flags: { reflectable: 1, mirror: 1 },
+		secondaries: [
+			{
+				chance: 100,
+				volatileStatus: 'partiallytrapped',
+			},
+			{
+				chance: 100,
+				volatileStatus: 'healblock',
+			}
+		],
+		target: "normal",
+		type: "Psychic",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		num: 719,
@@ -12150,6 +12172,9 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			durationCallback(target, source, effect) {
 				if (effect?.name === "Psychic Noise") {
 					return 2;
+				}
+				if (effect?.name === "Macro Cosmos") {
+					return 3;
 				}
 				if (source?.hasAbility('persistent')) {
 					this.add('-activate', source, 'ability: Persistent', '[move] Heal Block');

@@ -223,8 +223,9 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 	partiallytrapped: {
 		name: 'partiallytrapped',
 		duration: 5,
-		durationCallback(target, source) {
+		durationCallback(target, source, effect) {
 			if (source?.hasItem('gripclaw')) return 8;
+			if(effect?.name === 'Macro Cosmos') return 3;
 			return this.random(5, 7);
 		},
 		onStart(pokemon, source) {

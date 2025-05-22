@@ -812,6 +812,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Field turns into a venom swamp for 5 turns. All Poisoned Monsters have their Attack and Special Attack lowered by 1 stage each turn. Poison-type moves can't miss. Immunity, Pastel Veil, Poison Point, Poison Touch, Poison Heal, Toxic Boost, Merciless, and Corrosion are immune to the stat drop. Poison Heal & Toxic Boost have their effects doubled in terrain.",
 		shortDesc: "5 Turns, Poisoned Monsters -1 Atk & Sp. Atk. Poison-type moves can't miss.",
 	},
+	macrocosmos: {
+		name: 'Macro Cosmos',
+		desc: "Prevent other cards from escaping and heal block them for 3 turns. If used by Helios, Speed is also sharply raised.",
+		shortDesc: "Traps and Heal blocks for 3 turns. If used by Helios, +2 Spe",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",
