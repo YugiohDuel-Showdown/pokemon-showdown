@@ -2421,12 +2421,12 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		onSwitchInPriority: -1,
 		onStart(pokemon) {
-			if (!pokemon.ignoringItem() && this.field.isTerrain('grassyterrain')) {
+			if (!pokemon.ignoringItem() && (this.field.isTerrain('grassyterrain') || this.field.isTerrain('forestterrain'))) {
 				pokemon.useItem();
 			}
 		},
 		onTerrainChange(pokemon) {
-			if (this.field.isTerrain('grassyterrain')) {
+			if (this.field.isTerrain('grassyterrain') || this.field.isTerrain('forestterrain')) {
 				pokemon.useItem();
 			}
 		},

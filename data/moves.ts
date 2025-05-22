@@ -5842,7 +5842,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			let newType = 'Normal';
 			if (this.field.isTerrain('electricterrain')) {
 				newType = 'Electric';
-			} else if (this.field.isTerrain('grassyterrain')) {
+			} else if (this.field.isTerrain('grassyterrain') || this.field.isTerrain('forestterrain')) {
 				newType = 'Grass';
 			} else if (this.field.isTerrain('mistyterrain')) {
 				newType = 'Fairy';
@@ -9620,7 +9620,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		flags: { protect: 1, reflectable: 1, heal: 1, allyanim: 1, metronome: 1 },
 		onHit(target, source) {
 			let success = false;
-			if (this.field.isTerrain('grassyterrain')) {
+			if (this.field.isTerrain('grassyterrain') || this.field.isTerrain('forestterrain')) {
 				success = !!this.heal(this.modify(target.baseMaxhp, 0.667));
 			} else {
 				success = !!this.heal(Math.ceil(target.baseMaxhp * 0.5));
@@ -11534,7 +11534,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priority: 0,
 		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
 		onModifyPriority(priority, source, target, move) {
-			if (this.field.isTerrain('grassyterrain') && source.isGrounded()) {
+			if ((this.field.isTerrain('grassyterrain') || this.field.isTerrain('forestterrain')) && source.isGrounded()) {
 				return priority + 1;
 			}
 		},
@@ -16638,7 +16638,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			let move = 'triattack';
 			if (this.field.isTerrain('electricterrain')) {
 				move = 'thunderbolt';
-			} else if (this.field.isTerrain('grassyterrain')) {
+			} else if (this.field.isTerrain('grassyterrain') || this.field.isTerrain('forestterrain')) {
 				move = 'energyball';
 			} else if (this.field.isTerrain('mistyterrain')) {
 				move = 'moonblast';
@@ -19398,7 +19398,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	rocksmash: {
 		num: 249,
 		accuracy: 100,
-		basePower: 50,
+		basePower: 40,
 		category: "Physical",
 		name: "Rock Smash",
 		pp: 15,
@@ -20078,7 +20078,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 					chance: 30,
 					status: 'par',
 				});
-			} else if (this.field.isTerrain('grassyterrain')) {
+			} else if (this.field.isTerrain('grassyterrain') || this.field.isTerrain('forestterrain')) {
 				move.secondaries.push({
 					chance: 30,
 					status: 'slp',
@@ -22069,7 +22069,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 	},
 	stealthrock: {
 		num: 446,
-		accuracy: true,
+		accuracy: 90,
 		basePower: 0,
 		category: "Status",
 		name: "Stealth Rock",
@@ -23551,6 +23551,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			case 'electricterrain':
 				move.type = 'Electric';
 				break;
+			case 'forestterrain':
 			case 'grassyterrain':
 				move.type = 'Grass';
 				break;

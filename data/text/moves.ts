@@ -773,6 +773,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Gravity Bind",
 		desc: "The field has its gravity intensified for 5 turns. Monsters on the foe's side also becomed binded for 4-5 turns.",
 		shortDesc: "Gravity + Bind for 5 turns.",
+		start: "  [POKEMON] was squeezed by [SOURCE]!",
 	},
 	melodyofawakeningdragon: {
 		name: "Melody of Awakening Dragon",
