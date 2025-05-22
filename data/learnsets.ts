@@ -28069,7 +28069,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			decorate: ["9L25"],
 			coldwave: ["9L28"],
 			meltingice: ["9L32", "9E"],
-			"c.reception": ["9L35"],
+			"chillyreception": ["9L35"],
 			encore: ["9L38"],
 			icebeam: ["9L40", "9M"],
 			topsyturvy: ["9L45"],
