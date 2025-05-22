@@ -4979,4 +4979,16 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Undiscovered"],
 	},
+	hermos: {
+		num: 410,
+		name: "Hermos",
+		types: ["Dragon"],
+		baseStats: { hp: 100, atk: 90, def: 120, spa: 75, spd: 115, spe: 80 },
+		abilities: { "0": "Iron Barbs", "1": "Tough Claws" },
+		heightm: 0,
+		weightkg: 210,
+		evos: [],
+		eggGroups: ["Undiscovered"],
+		gender: "N"
+	},
 };
