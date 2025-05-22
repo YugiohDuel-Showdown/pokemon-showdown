@@ -4661,4 +4661,28 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Dragon"]
 	},
+	zoa: {
+		num: 385,
+		name: "Zoa",
+		types: ["Dark"],
+		baseStats: { hp: 55, atk: 65, def: 50, spa: 75, spd: 40, spe: 80 },
+		abilities: { "0": "Tough Claws", "1": "Inner Focus" },
+		heightm: 0,
+		weightkg: 80,
+		evos: ["Metalzoa"],
+		eggGroups: ["Monster", "Field"]
+	},
+	metalzoa: {
+		num: 386,
+		name: "Metalzoa",
+		types: ["Dark", "Steel"],
+		baseStats: { hp: 80, atk: 115, def: 95, spa: 90, spd: 60, spe: 60 },
+		abilities: { "0": "Tough Claws", "1": "Inner Focus" },
+		heightm: 0,
+		weightkg: 300,
+		prevo: "Zoa",
+		evoLevel: 38,
+		evos: [],
+		eggGroups: ["Monster", "Field"],
+	},
 };

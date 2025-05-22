@@ -1152,4 +1152,10 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	"ffdragon": {
 		tier: "OU",
 	},
+	zoa: {
+		tier: "LC",
+	},
+	metalzoa: {
+		tier: "OU",
+	},
 };
