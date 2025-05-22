@@ -1206,4 +1206,16 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	nibiru: {
 		tier: "OU",
 	},
+	thefiend: {
+		tier: "LC",
+	},
+	darkruler: {
+		tier: "OU",
+	},
+	lightruler: {
+		tier: "OU",
+	},
+	theworld: {
+		tier: "OU",
+	},
 };
