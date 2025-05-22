@@ -27330,7 +27330,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			solarblade: ["9T"]
 		}
 	},
-	samsaral: {
+	samsaralotus: {
 		learnset: {
 			sweetscent: ["9L1"],
 			growth: ["9L1"],

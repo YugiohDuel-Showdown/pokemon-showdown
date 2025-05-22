@@ -4742,4 +4742,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Grass"]
 	},
+	samsaralotus: {
+		num: 392,
+		name: "Samsara Lotus",
+		types: ["Grass", "Water"],
+		baseStats: { hp: 55, atk: 45, def: 75, spa: 100, spd: 120, spe: 85 },
+		abilities: { "0": "Swift Swim", "1": "Leaf Guard", H: "Regenerator" },
+		heightm: 0,
+		weightkg: 3,
+		evos: [],
+		eggGroups: ["Grass", "Water 1"]
+	},
 };
