@@ -1230,7 +1230,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { 0: "Compound Eyes", 1: "Trace" },
 		heightm: 0,
 		weightkg: 540,
-		prevo: "Dark Magician G",
+		prevo: "Dark Magician Girl",
 		evoCondition: "Must have Timaeus in Party",
 		eggGroups: ["Monster", "Dragon"],
 	},
@@ -2769,7 +2769,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 19,
 
-		prevo: "Dark Magician G",
+		prevo: "Dark Magician Girl",
 		evoItem: "Toon Stone",
 		eggGroups: ["Monster", "Fairy"],
 	},
