@@ -1176,4 +1176,13 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	samsaralotus: {
 		tier: "OU",
 	},
+	yubel: {
+		tier: "LC",
+	},
+	yubelti: {
+		tier: "NFE",
+	},
+	yubelun: {
+		tier: "OU",
+	},
 };
