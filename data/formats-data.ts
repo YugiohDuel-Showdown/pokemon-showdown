@@ -1149,4 +1149,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	divinegeh: {
 		tier: "OU",
 	},
+	"f&fdragon": {
+		tier: "OU",
+	},
 };
