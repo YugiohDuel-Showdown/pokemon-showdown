@@ -3314,7 +3314,8 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onDamagePriority: 1,
 		onDamage(damage, target, source, effect) {
 			if (effect.id === 'psn' || effect.id === 'tox') {
-				this.heal(target.baseMaxhp / 8);
+				if (this.field.isTerrain('venomswamp')) return this.heal(target.baseMaxhp / 4);
+				else this.heal(target.baseMaxhp / 8);
 				return false;
 			}
 		},
@@ -5072,6 +5073,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onBasePowerPriority: 19,
 		onBasePower(basePower, attacker, defender, move) {
 			if ((attacker.status === 'psn' || attacker.status === 'tox') && move.category === 'Physical') {
+				if (this.field.isTerrain('venomswamp') && attacker.isGrounded()) return this.chainModify(2);
 				return this.chainModify(1.5);
 			}
 		},

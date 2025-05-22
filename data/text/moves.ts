@@ -802,6 +802,16 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Rapid Storm",
 		shortDesc: "Will move first if rain is active.",
 	},
+	darkness: {
+		name: "Darkness",
+		desc: "Causes the target to become a Dark type. Fails if the target is an Arceus or a Silvally, if the target is already purely Dark type, or if the target is Terastallized.",
+		shortDesc: "Changes the target's type to Dark.",
+	},
+	venomswamp: {
+		name: "Venom Swamp",
+		desc: "Field turns into a venom swamp for 5 turns. All Poisoned Monsters have their Attack and Special Attack lowered by 1 stage each turn. Poison-type moves can't miss. Immunity, Pastel Veil, Poison Point, Poison Touch, Poison Heal, Toxic Boost, Merciless, and Corrosion are immune to the stat drop. Poison Heal & Toxic Boost have their effects doubled in terrain.",
+		shortDesc: "5 Turns, Poisoned Monsters -1 Atk & Sp. Atk. Poison-type moves can't miss.",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",

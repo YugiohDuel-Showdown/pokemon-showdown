@@ -3502,6 +3502,74 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Water",
 	},
+	darkness: {
+		num: -1166,
+		accuracy: 100,
+		basePower: 0,
+		category: "Status",
+		name: 'Darkness',
+		pp: 20,
+		priority: 0,
+		flags: { protect: 1, reflectable: 1, mirror: 1, allyanim: 1, metronome: 1 },
+		onHit(target) {
+			if (target.getTypes().join() === 'Dark' || !target.setType('Dark')) {
+				this.add('-fail', target);
+				return null;
+			}
+			this.add('-start', target, 'typechange', 'Dark');
+		},
+		target: "normal",
+		type: "Dark",
+	},
+	venomswamp: {
+		num: -1167,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Venom Swamp",
+		pp: 10,
+		priority: 0,
+		flags: { nonsky: 1, metronome: 1 },
+		terrain: 'venomswamp',
+		condition: {
+			effectType: 'Terrain',
+			duration: 5,
+			durationCallback(source, effect) {
+				if (source?.hasItem('terrainextender')) {
+					return 8;
+				}
+				return 5;
+			},
+			onResidual(pokemon) {
+				if (!['tox', 'psn'].includes(pokemon.status)) return;
+				if ([
+					'immunity', 'pastelveil', 'poisonpoint',
+					'poisontouch', 'poisonheal', 'toxicboost',
+					'merciless', 'corrosion'
+				].includes(pokemon.ability)) return;
+				this.boost({ atk: -1, spa: -1 }, pokemon);
+			},
+			onModifyMove(move, pokemon) {
+				if (move.type === 'Poison' && pokemon.isGrounded()) {
+					move.accuracy = true;
+				}
+			},
+			onFieldStart(field, source, effect) {
+				if (effect?.effectType === 'Ability') {
+					this.add('-fieldstart', 'move: Venom Swamp', '[from] ability: ' + effect.name, `[of] ${source}`);
+				} else {
+					this.add('-fieldstart', 'move: Venom Swamp');
+				}
+			},
+			onFieldResidualOrder: 27,
+			onFieldResidualSubOrder: 7,
+			onFieldEnd() {
+				this.add('-fieldend', 'Venom Swamp');
+			},
+		},
+		target: "all",
+		type: "Poison",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		num: 719,
