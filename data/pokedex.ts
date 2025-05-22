@@ -4685,4 +4685,28 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Field"],
 	},
+	kyutora: {
+		num: 387,
+		name: "Kyutora",
+		types: ["Ice"],
+		baseStats: { hp: 45, atk: 65, def: 75, spa: 75, spd: 50, spe: 40 },
+		abilities: { "0": "Iron Barbs", "1": "Rough Skin", H: "No Guard" },
+		heightm: 0,
+		weightkg: 4,
+		evos: ["Shunoros"],
+		eggGroups: ["Monster", "Mineral"]
+	},
+	shunoros: {
+		num: 388,
+		name: "Shunoros",
+		types: ["Ice", "Steel"],
+		baseStats: { hp: 95, atk: 70, def: 80, spa: 115, spd: 110, spe: 45 },
+		abilities: { "0": "Mirror Armor", "1": "Weak Armor", H: "No Guard" },
+		heightm: 0,
+		weightkg: 500,
+		prevo: "Kyutora",
+		evoLevel: 40,
+		evos: [],
+		eggGroups: ["Monster", "Mineral"],
+	},
 };

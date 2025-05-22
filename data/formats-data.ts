@@ -1158,4 +1158,10 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	metalzoa: {
 		tier: "OU",
 	},
+	kyutora: {
+		tier: "LC",
+	},
+	shunoros: {
+		tier: "OU",
+	},
 };
