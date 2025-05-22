@@ -27126,7 +27126,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			hydropump: ["9T"]
 		}
 	},
-	tyrantd: {
+	tyrantdragon: {
 		learnset: {
 			ember: ["9L1"],
 			growl: ["9L1"],

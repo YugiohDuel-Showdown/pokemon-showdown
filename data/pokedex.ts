@@ -4709,4 +4709,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Mineral"],
 	},
+	tyrantdragon: {
+		num: 389,
+		name: "Tyrant Dragon",
+		types: ["Dragon", "Fire"],
+		baseStats: { hp: 70, atk: 110, def: 95, spa: 75, spd: 75, spe: 70 },
+		abilities: { "0": "Blaze" },
+		heightm: 0,
+		weightkg: 140,
+		evos: [],
+		eggGroups: ["Monster", "Dragon"]
+	},
 };
