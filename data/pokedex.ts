@@ -4652,7 +4652,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 	},
 	"ffdragon": {
 		num: 384,
-		name: "F&F Dragon",
+		name: "FF Dragon",
 		types: ["Ice", "Fire"],
 		baseStats: { hp: 100, atk: 50, def: 65, spa: 110, spd: 75, spe: 85 },
 		abilities: { "0": "Ice Body", "1": "Flash Fire", H: "Flame Body" },
