@@ -105,7 +105,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		color: "White",
 		prevo: "Paladin OW",
 		evoLevel: 16,
-		evos: ["BEU Dragon", "Toon Blu E"],
+		evos: ["BEU Dragon", "Toon Blue Eyes"],
 		eggGroups: ["Monster", "Dragon"],
 	},
 	beudragon: {
@@ -2821,7 +2821,6 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Cute Charm", "1": "Magic Guard" },
 		heightm: 0,
 		weightkg: 60,
-		evos: [],
 		prevo: "Dark Magician",
 		evoItem: "Toon Stone",
 		eggGroups: ["Monster", "Human Like"],
