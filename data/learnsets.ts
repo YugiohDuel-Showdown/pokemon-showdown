@@ -26729,7 +26729,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			crosspoison: ["9T"]
 		}
 	},
-	"f&fdragon": {
+	"ffdragon": {
 		learnset: {
 			growl: ["9L1"],
 			multiply: ["9L1", "9M"],

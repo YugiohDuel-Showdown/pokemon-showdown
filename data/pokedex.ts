@@ -4650,7 +4650,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Field"]
 	},
-	"f&fdragon": {
+	"ffdragon": {
 		num: 384,
 		name: "F&F Dragon",
 		types: ["Ice", "Fire"],
