@@ -1188,4 +1188,13 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	stardustdragon: {
 		tier: "OU",
 	},
+	venomboa: {
+		tier: "LC",
+	},
+	vennominon: {
+		tier: "OU",
+	},
+	vennominaga: {
+		tier: "OU",
+	},
 };

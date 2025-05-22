@@ -27879,7 +27879,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			powerwhip: ["9T"]
 		}
 	},
-	venominaga: {
+	vennominaga: {
 		learnset: {
 			protect: ["9L1", "9M"],
 			gastroacid: ["9L1", "9T"],
