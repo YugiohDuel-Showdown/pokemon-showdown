@@ -28680,7 +28680,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			solarblade: ["9T"]
 		}
 	},
-	victoryd: {
+	victorydragon: {
 		learnset: {
 			payday: ["9L1"],
 			dragonrage: ["9L1"],

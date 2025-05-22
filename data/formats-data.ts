@@ -1218,4 +1218,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	theworld: {
 		tier: "OU",
 	},
+	victorydragon: {
+		tier: "OU",
+	},
 };

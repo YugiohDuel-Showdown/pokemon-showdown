@@ -4944,4 +4944,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Amorphous"],
 	},
+	victorydragon: {
+		num: 407,
+		name: "Victory Dragon",
+		types: ["Dragon"],
+		baseStats: { hp: 85, atk: 85, def: 100, spa: 85, spd: 85, spe: 85 },
+		abilities: { "0": "Victory Star", H: "Good as Gold" },
+		heightm: 0,
+		weightkg: 100,
+		evos: [],
+		eggGroups: ["Undiscovered"]
+	},
 };
