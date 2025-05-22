@@ -1185,4 +1185,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	yubelun: {
 		tier: "OU",
 	},
+	stardustdragon: {
+		tier: "OU",
+	},
 };

@@ -27642,7 +27642,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			powerwhip: ["9T"]
 		}
 	},
-	stardustd: {
+	stardustdragon: {
 		learnset: {
 			gust: ["9L1"],
 			defensemode: ["9L1"],

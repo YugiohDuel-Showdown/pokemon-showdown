@@ -4793,4 +4793,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		prevo: "Yubel TI",
 		evoLevel: 50
 	},
+	stardustdragon: {
+		num: 396,
+		name: "Stardust Dragon",
+		types: ["Dragon", "Flying"],
+		baseStats: { hp: 70, atk: 70, def: 65, spa: 95, spd: 70, spe: 90 },
+		abilities: { "0": "Victory Star", "1": "Magic Bounce", H: "Speed Boost" },
+		heightm: 0,
+		weightkg: 150,
+		evos: [],
+		eggGroups: ["Monster", "Flying"]
+	},
 };
