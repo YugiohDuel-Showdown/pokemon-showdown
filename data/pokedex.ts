@@ -4955,4 +4955,16 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Undiscovered"]
 	},
+	critias: {
+		num: 408,
+		name: "Critias",
+		gender: "N",
+		types: ["Dragon"],
+		baseStats: { hp: 90, atk: 130, def: 75, spa: 85, spd: 95, spe: 105 },
+		abilities: { "0": "Strong Jaw", "1": "Toxic Boost" },
+		heightm: 0,
+		weightkg: 200,
+		evos: [],
+		eggGroups: ["Undiscovered"],
+	},
 };
