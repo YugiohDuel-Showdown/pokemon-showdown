@@ -3545,7 +3545,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				if ([
 					'immunity', 'pastelveil', 'poisonpoint',
 					'poisontouch', 'poisonheal', 'toxicboost',
-					'merciless', 'corrosion'
+					'merciless', 'corrosion',
 				].includes(pokemon.ability)) return;
 				this.boost({ atk: -1, spa: -1 }, pokemon);
 			},
@@ -3592,7 +3592,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			{
 				chance: 100,
 				volatileStatus: 'healblock',
-			}
+			},
 		],
 		target: "normal",
 		type: "Psychic",

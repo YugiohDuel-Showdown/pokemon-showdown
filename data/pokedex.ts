@@ -2601,7 +2601,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Prism Armor", "1": "Download" },
 		heightm: 0,
 		weightkg: 94,
-		evos: [],
+
 		eggGroups: ["Monster", "Mineral"],
 	},
 	busterblader: {
@@ -2623,7 +2623,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Unnerve", 1: "Infiltrator" },
 		heightm: 0,
 		weightkg: 90,
-		evos: [],
+
 		prevo: "Buster Blader",
 		evoLevel: 46,
 		eggGroups: ["Monster", "Human Like"],
@@ -2663,7 +2663,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Static" },
 		heightm: 0,
 		weightkg: 800,
-		evos: [],
+
 		prevo: "XY Dragon",
 		evoLevel: 45,
 		eggGroups: ["Monster", "Field"],
@@ -2689,7 +2689,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Lightning Rod", "1": "Tinted Lens" },
 		heightm: 0,
 		weightkg: 100,
-		evos: [],
+
 		prevo: "Jinzo Returner",
 		evoLevel: 38,
 		eggGroups: ["Monster", "Human Like"],
@@ -2713,7 +2713,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Shell Armor" },
 		heightm: 0,
 		weightkg: 120,
-		evos: [],
+
 		eggGroups: ["Monster", "Dragon"],
 		prevo: "Ryu-Ran",
 		evoItem: "Toon Stone",
@@ -2726,7 +2726,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Cute Charm", "1": "Rattled" },
 		heightm: 0,
 		weightkg: 87,
-		evos: [],
+
 		prevo: "Blue Eyes",
 		evoItem: "Toon Stone",
 		eggGroups: [],
@@ -2740,7 +2740,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Cute Charm", "1": "Sheer Force" },
 		heightm: 0,
 		weightkg: 40,
-		evos: [],
+
 		prevo: "Alligator Sword",
 		evoItem: "Toon Stone",
 		eggGroups: ["Monster", "Fairy"],
@@ -2754,7 +2754,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Cute Charm", "1": "Parental Bond" },
 		heightm: 0,
 		weightkg: 40,
-		evos: [],
+
 		prevo: "Gemini Elf",
 		evoItem: "Toon Stone",
 		eggGroups: ["Monster", "Fairy"],
@@ -2768,7 +2768,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Cute Charm", "1": "Misty Surge" },
 		heightm: 0,
 		weightkg: 19,
-		evos: [],
+
 		prevo: "Dark Magician G",
 		evoItem: "Toon Stone",
 		eggGroups: ["Monster", "Fairy"],
@@ -2781,7 +2781,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Cute Charm", "1": "Long Reach" },
 		heightm: 0,
 		weightkg: 60,
-		evos: [],
+
 		prevo: "Summoned Skull",
 		evoItem: "Toon Stone",
 		eggGroups: ["Monster", "Fairy"],
@@ -2794,7 +2794,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Cute Charm", "1": "Rock Head", H: "Light Metal" },
 		heightm: 0,
 		weightkg: 60,
-		evos: [],
+
 		prevo: "AG Golem",
 		evoItem: "Toon Stone",
 		eggGroups: ["Monster", "Mineral"],
@@ -2807,7 +2807,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Cute Charm", "1": "Flash Fire" },
 		heightm: 0,
 		weightkg: 60,
-		evos: [],
+
 		prevo: "Red Eyes",
 		evoItem: "Toon Stone",
 		eggGroups: ["Monster", "Dragon"],
@@ -2834,7 +2834,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Immunity", "1": "Thick Fat" },
 		heightm: 0,
 		weightkg: 200,
-		evos: [],
+
 		eggGroups: ["Monster", "Human Like"],
 	},
 	potofgreed: {
@@ -2856,7 +2856,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Rock Head", H: "Scrappy" },
 		heightm: 0,
 		weightkg: 415,
-		evos: [],
+
 		prevo: "Pot Of Greed",
 		evoItem: "Black Belt",
 		eggGroups: ["Monster", "Amorphous"],
@@ -2870,7 +2870,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Suction Cups", "1": "Overgrow", H: "Chlorophyll" },
 		heightm: 0,
 		weightkg: 150,
-		evos: [],
+
 		eggGroups: ["Monster", "Grass"],
 	},
 	guardianeatos: {
@@ -2882,7 +2882,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Receiver", "1": "Pixilate" },
 		heightm: 0,
 		weightkg: 55,
-		evos: [],
+
 		eggGroups: ["Monster", "Flying"],
 	},
 	hyozanryu: {
@@ -2893,7 +2893,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Ice Body", "1": "Clear Body" },
 		heightm: 0,
 		weightkg: 97,
-		evos: [],
+
 		eggGroups: ["Monster", "Flying"],
 	},
 	darknecrofear: {
@@ -2905,7 +2905,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Bad Dreams", H: "Insomnia" },
 		heightm: 0,
 		weightkg: 130,
-		evos: [],
+
 		eggGroups: ["Monster", "Amorphous"],
 	},
 	meteordragon: {
@@ -2927,7 +2927,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Desolate Land", H: "Sand Veil" },
 		heightm: 0,
 		weightkg: 650,
-		evos: [],
+
 		prevo: "Meteor Dragon",
 		evoLevel: 40,
 		eggGroups: ["Monster", "Dragon"],
@@ -2940,7 +2940,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Insomnia", "1": "Regenerator", H: "Prankster" },
 		heightm: 0,
 		weightkg: 10,
-		evos: [],
+
 		eggGroups: ["Monster", "Flying"],
 	},
 	blacklusters: {
@@ -2951,7 +2951,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Battle Armor", "1": "Steadfast" },
 		heightm: 0,
 		weightkg: 85,
-		evos: [],
+
 		eggGroups: ["Monster", "Human Like"],
 	},
 	chaosendd: {
@@ -2962,7 +2962,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Pressure", H: "Cursed Body" },
 		heightm: 0,
 		weightkg: 345,
-		evos: [],
+
 		eggGroups: ["Monster", "Dragon"],
 	},
 	dragonmasterk: {
@@ -2973,7 +2973,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Intimidate" },
 		heightm: 0,
 		weightkg: 345,
-		evos: [],
+
 		eggGroups: ["Monster", "Dragon"],
 	},
 	neos: {
@@ -3005,7 +3005,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Torrent", "1": "Drizzle" },
 		heightm: 0,
 		weightkg: 100,
-		evos: [],
+
 		prevo: "Neos",
 		evoItem: "Water Stone",
 		eggGroups: ["Monster", "Human Like"],
@@ -3019,7 +3019,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Blaze", "1": "Drought" },
 		heightm: 0,
 		weightkg: 100,
-		evos: [],
+
 		prevo: "Neos",
 		evoItem: "Fire Stone",
 		eggGroups: ["Monster", "Human Like"],
@@ -3033,7 +3033,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Overgrow", "1": "Grassy Surge" },
 		heightm: 0,
 		weightkg: 100,
-		evos: [],
+
 		prevo: "Neos",
 		evoItem: "Leaf Stone",
 		eggGroups: ["Monster", "Human Like"],
@@ -3047,7 +3047,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Aerilate", "1": "Gale Wings", H: "Air Lock" },
 		heightm: 0,
 		weightkg: 100,
-		evos: [],
+
 		prevo: "Neos",
 		evoCondition: "Level while holding Sharp Beak",
 		eggGroups: ["Monster", "Flying"],
@@ -3061,7 +3061,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Sand Force", "1": "Sand Stream" },
 		heightm: 0,
 		weightkg: 160,
-		evos: [],
+
 		prevo: "Neos",
 		evoCondition: "Level while holding Soft Sand",
 		eggGroups: ["Monster", "Human Like"],
@@ -3075,7 +3075,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Dark Aura", "1": "Yami Surge" },
 		heightm: 0,
 		weightkg: 90,
-		evos: [],
+
 		prevo: "Neos",
 		evoItem: "Dusk Stone",
 		eggGroups: ["Monster", "Human Like"],
@@ -3089,7 +3089,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Honest Power", "1": "Misty Surge" },
 		heightm: 0,
 		weightkg: 11,
-		evos: [],
+
 		prevo: "Neos",
 		evoCondition: "Level with Honest in Party",
 		eggGroups: ["Monster", "Fairy"],
@@ -3126,7 +3126,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Pressure", "1": "Shadow Tag", H: "Compound Eyes" },
 		heightm: 0,
 		weightkg: 160,
-		evos: [],
+
 		eggGroups: ["Monster", "Amorphous"],
 		prevo: "Relinquish",
 		evoItem: "Moon Stone",
@@ -3139,7 +3139,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Primordial Sea", H: "Soul-Heart" },
 		heightm: 0,
 		weightkg: 800,
-		evos: [],
+
 		eggGroups: ["Monster", "Water 3"],
 	},
 	fivegodd: {
@@ -3150,7 +3150,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Serene Grace", "1": "Protean" },
 		heightm: 0,
 		weightkg: 500,
-		evos: [],
+
 		eggGroups: ["Monster", "Dragon"],
 	},
 	hamon: {
@@ -3162,7 +3162,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Lightning Rod" },
 		heightm: 0,
 		weightkg: 300,
-		evos: [],
+
 		eggGroups: ["Undiscovered"],
 	},
 	raviel: {
@@ -3174,7 +3174,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Supreme Overlord" },
 		heightm: 0,
 		weightkg: 700,
-		evos: [],
+
 		eggGroups: ["Undiscovered"],
 	},
 	uria: {
@@ -3186,7 +3186,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Flash Fire" },
 		heightm: 0,
 		weightkg: 250,
-		evos: [],
+
 		eggGroups: ["Undiscovered"],
 	},
 	obelisk: {
@@ -3198,7 +3198,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Mold Breaker" },
 		heightm: 0,
 		weightkg: 900,
-		evos: [],
+
 		eggGroups: ["Undiscovered"],
 	},
 	ra: {
@@ -3210,7 +3210,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Drought" },
 		heightm: 0,
 		weightkg: 700,
-		evos: [],
+
 		eggGroups: ["Undiscovered"],
 	},
 	slifer: {
@@ -3222,7 +3222,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Transistor" },
 		heightm: 0,
 		weightkg: 700,
-		evos: [],
+
 		eggGroups: ["Undiscovered"],
 	},
 	horuslv4: {
@@ -3257,7 +3257,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Flame Maw", "1": "Clear Body", H: "Flash Fire" },
 		heightm: 0,
 		weightkg: 500,
-		evos: [],
+
 		eggGroups: ["Monster", "Dragon"],
 		prevo: "Horus Lv6",
 		evoLevel: 48,
@@ -3281,7 +3281,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Levitate", H: "Dragons Maw" },
 		heightm: 0,
 		weightkg: 700,
-		evos: [],
+
 		prevo: "C-Dark Horn",
 		evoLevel: 40,
 		eggGroups: ["Monster", "Mineral"],
@@ -3318,7 +3318,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Volt Absorb", "1": "Sturdy" },
 		heightm: 0,
 		weightkg: 130,
-		evos: [],
+
 		prevo: "Cyber Twin",
 		evoLevel: 45,
 		eggGroups: ["Monster", "Mineral"],
@@ -3331,7 +3331,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Skill Link", "1": "Metal Body" },
 		heightm: 0,
 		weightkg: 970,
-		evos: [],
+
 		eggGroups: ["Monster", "Mineral"],
 	},
 	exodia: {
@@ -3354,7 +3354,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Pressure" },
 		heightm: 0,
 		weightkg: 800,
-		evos: [],
+
 		eggGroups: ["Undiscovered"],
 	},
 	armdragonlv3: {
@@ -3402,7 +3402,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Battle Armor", "1": "Strong Jaw", H: "Tough Claws" },
 		heightm: 0,
 		weightkg: 700,
-		evos: [],
+
 		prevo: "Arm Dragon Lv7",
 		evoLevel: 50,
 		eggGroups: ["Monster", "Dragon"],
@@ -3415,7 +3415,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Battle Armor", H: "Snow Cloak" },
 		heightm: 0,
 		weightkg: 110,
-		evos: [],
+
 		eggGroups: ["Monster", "Mineral"],
 	},
 	mokeymokey: {
@@ -3437,7 +3437,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Truant" },
 		heightm: 0,
 		weightkg: 40,
-		evos: [],
+
 		prevo: "Mokey Mokey",
 		evoLevel: 34,
 		eggGroups: ["Monster", "Fairy"],
@@ -3461,7 +3461,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Flame Body", "1": "Shell Armor" },
 		heightm: 0,
 		weightkg: 50,
-		evos: [],
+
 		prevo: "Volcanic Shot",
 		evoItem: "Fire Stone",
 		eggGroups: ["Monster", "Field"],
@@ -3486,7 +3486,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Flash Fire", "1": "Mold Breaker", H: "Blaze" },
 		heightm: 0,
 		weightkg: 350,
-		evos: [],
+
 		prevo: "Volc Hammerer",
 		evoLevel: 48,
 		evoCondition: "Must be Male",
@@ -3501,7 +3501,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Flash Fire", "1": "Levitate", H: "Blaze" },
 		heightm: 0,
 		weightkg: 350,
-		evos: [],
+
 		prevo: "Volc Hammerer",
 		evoLevel: 48,
 		evoCondition: "Must be Female",
@@ -3515,7 +3515,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Shadow Tag" },
 		heightm: 0,
 		weightkg: 40,
-		evos: [],
+
 		eggGroups: ["Monster", "Field"],
 	},
 	snowdragon: {
@@ -3550,7 +3550,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Sturdy", "1": "Clear Body", H: "Snow Warning" },
 		heightm: 0,
 		weightkg: 340,
-		evos: [],
+
 		prevo: "Snowdust D",
 		evoLevel: 48,
 		eggGroups: ["Monster", "Dragon"],
@@ -3576,7 +3576,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 120,
 		prevo: "Steamroid",
 		evoLevel: 26,
-		evos: [],
+
 		eggGroups: ["Monster", "Mineral"],
 	},
 	drillroid: {
@@ -3598,7 +3598,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Sand Rush", "1": "Sand Force", H: "Sturdy" },
 		heightm: 0,
 		weightkg: 140,
-		evos: [],
+
 		prevo: "Drillroid",
 		evoLevel: 36,
 		eggGroups: ["Monster", "Mineral"],
@@ -3622,7 +3622,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Speed Boost", H: "Healer" },
 		heightm: 0,
 		weightkg: 100,
-		evos: [],
+
 		prevo: "Ambulanceroid",
 		evoLevel: 32,
 		eggGroups: ["Monster", "Field"],
@@ -3648,7 +3648,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Vital Spirit", "1": "Roaming Soul" },
 		heightm: 0,
 		weightkg: 70,
-		evos: [],
+
 		prevo: "Necroshade",
 		evoLevel: 30,
 		eggGroups: ["Monster", "Amorphous"],
@@ -3662,7 +3662,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 400,
 		evos: ["GG Thunder Wind"],
-		eggGroups: ["Monster"]
+		eggGroups: ["Monster"],
 	},
 	ggthunderwind: {
 		num: 303,
@@ -3687,7 +3687,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 500,
 		prevo: "GG Thunder Wind",
 		evoLevel: 46,
-		evos: [],
+
 		eggGroups: ["Monster", "Mineral"],
 	},
 	"7coloredfish": {
@@ -3698,8 +3698,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Color Change", "1": "Multiscale" },
 		heightm: 0,
 		weightkg: 25,
-		evos: [],
-		eggGroups: ["Monster", "Water 3"]
+
+		eggGroups: ["Monster", "Water 3"],
 	},
 	burstinatrix: {
 		num: 306,
@@ -3724,7 +3724,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 400,
 		prevo: "Burstinatrix",
 		evoItem: "Fire Stone",
-		evos: [],
+
 		eggGroups: ["Monster", "Mineral"],
 	},
 	infernowing: {
@@ -3738,7 +3738,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 75,
 		prevo: "Burstinatrix",
 		evoItem: "Dusk Stone",
-		evos: [],
+
 		eggGroups: ["Monster", "Human Like"],
 	},
 	fortresswhale: {
@@ -3749,8 +3749,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Thick Fat", "1": "Dry Skin", H: "Mega Launcher" },
 		heightm: 0,
 		weightkg: 500,
-		evos: [],
-		eggGroups: ["Monster", "Water 1"]
+
+		eggGroups: ["Monster", "Water 1"],
 	},
 	seiyaryu: {
 		num: 310,
@@ -3761,7 +3761,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 80,
 		evos: ["Starry Night SD"],
-		eggGroups: ["Monster", "Fairy"]
+		eggGroups: ["Monster", "Fairy"],
 	},
 	starrynightsd: {
 		num: 311,
@@ -3773,7 +3773,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 90,
 		prevo: "Seiyaryu",
 		evoCondition: "High Friendship",
-		evos: [],
+
 		eggGroups: ["Monster", "Fairy"],
 	},
 	breakermw: {
@@ -3785,7 +3785,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Technician", "1": "Magic Guard", H: "Skill Link" },
 		heightm: 0,
 		weightkg: 50,
-		evos: [],
+
 		eggGroups: ["Monster", "Field"],
 	},
 	aquamadoor: {
@@ -3797,7 +3797,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 30,
 		evos: ["Neo Aqua Madoor"],
-		eggGroups: ["Monster", "Water 2"]
+		eggGroups: ["Monster", "Water 2"],
 	},
 	neoaquamadoor: {
 		num: 314,
@@ -3809,7 +3809,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 60,
 		prevo: "Aqua Madoor",
 		evoLevel: 28,
-		evos: [],
+
 		eggGroups: ["Monster", "Water 2"],
 	},
 	agsoldier: {
@@ -3821,7 +3821,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 60,
 		evos: ["AG Golem"],
-		eggGroups: ["Monster", "Mineral"]
+		eggGroups: ["Monster", "Mineral"],
 	},
 	aggolem: {
 		num: 316,
@@ -3846,7 +3846,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 800,
 		prevo: "AG Golem",
 		evoLevel: 46,
-		evos: [],
+
 		eggGroups: ["Monster", "Mineral"],
 	},
 	wallshadow: {
@@ -3857,8 +3857,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Tough Claws", "1": "Shadow Tag", H: "Quick Exit" },
 		heightm: 0,
 		weightkg: 40,
-		evos: [],
-		eggGroups: ["Monster", "Bug"]
+
+		eggGroups: ["Monster", "Bug"],
 	},
 	firewalldragon: {
 		num: 319,
@@ -3868,8 +3868,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Download", "1": "Stamina", H: "Surge Surfer" },
 		heightm: 0,
 		weightkg: 560,
-		evos: [],
-		eggGroups: ["Monster Dragon"]
+
+		eggGroups: ["Monster Dragon"],
 	},
 	verteanaconda: {
 		num: 320,
@@ -3879,8 +3879,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Adaptability", "1": "Grass Pelt", H: "Contrary" },
 		heightm: 0,
 		weightkg: 80,
-		evos: [],
-		eggGroups: ["Monster", "Field"]
+
+		eggGroups: ["Monster", "Field"],
 	},
 	blowbackdragon: {
 		num: 321,
@@ -3891,7 +3891,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 125,
 		evos: ["Barrel Dragon"],
-		eggGroups: ["Monster", "Field"]
+		eggGroups: ["Monster", "Field"],
 	},
 	barreldragon: {
 		num: 322,
@@ -3903,7 +3903,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 160,
 		prevo: "Blowback Dragon",
 		evoLevel: 34,
-		evos: [],
+
 		eggGroups: ["Monster", "Field"],
 	},
 	bladeskater: {
@@ -3929,7 +3929,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 50,
 		prevo: "Blade Skater",
 		evoLevel: 32,
-		evos: [],
+
 		eggGroups: ["Monster", "Human Like"],
 	},
 	heliostps: {
@@ -3941,7 +3941,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 20,
 		evos: ["Helios Duo"],
-		eggGroups: ["Monster", "Human Like"]
+		eggGroups: ["Monster", "Human Like"],
 	},
 	heliosduo: {
 		num: 326,
@@ -3966,7 +3966,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 20,
 		prevo: "Helios Duo",
 		evoLevel: 43,
-		evos: [],
+
 		eggGroups: ["Monster", "Human Like"],
 	},
 	starboy: {
@@ -3992,7 +3992,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 40,
 		prevo: "Star Boy",
 		evoItem: "Link Stone",
-		evos: [],
+
 		eggGroups: ["Water 1"],
 	},
 	drhades: {
@@ -4003,8 +4003,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Dark Aura", "1": "Overcoat", H: "Pressure" },
 		heightm: 0,
 		weightkg: 140,
-		evos: [],
-		eggGroups: ["Monster", "Human Like"]
+
+		eggGroups: ["Monster", "Human Like"],
 	},
 	dkabyss: {
 		num: 331,
@@ -4014,8 +4014,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Aura Break", H: "Justified" },
 		heightm: 0,
 		weightkg: 95,
-		evos: [],
-		eggGroups: ["Monster", "Human Like"]
+
+		eggGroups: ["Monster", "Human Like"],
 	},
 	fiendkraken: {
 		num: 332,
@@ -4026,7 +4026,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 70,
 		evos: ["Doom Kraken"],
-		eggGroups: ["Monster", "Water 3"]
+		eggGroups: ["Monster", "Water 3"],
 	},
 	doomkraken: {
 		num: 333,
@@ -4038,7 +4038,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 70,
 		prevo: "Fiend Kraken",
 		evoItem: "Water Stone",
-		evos: [],
+
 		eggGroups: ["Monster", "Water 3"],
 	},
 	bladedge: {
@@ -4064,7 +4064,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 140,
 		prevo: "Bladedge",
 		evoItem: "Thunder Stone",
-		evos: [],
+
 		eggGroups: ["Monster", "Mineral"],
 	},
 	apophis: {
@@ -4075,8 +4075,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Arena Trap", "1": "Sand Stream", H: "Sand Force" },
 		heightm: 0,
 		weightkg: 60,
-		evos: [],
-		eggGroups: ["Monster", "Amorphous"]
+
+		eggGroups: ["Monster", "Amorphous"],
 	},
 	mammothgrave: {
 		num: 337,
@@ -4087,7 +4087,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 300,
 		evos: ["Goldfine"],
-		eggGroups: ["Monster", "Amorphous"]
+		eggGroups: ["Monster", "Amorphous"],
 	},
 	goldfine: {
 		num: 338,
@@ -4099,7 +4099,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 340,
 		prevo: "Mammoth Grave",
 		evoLevel: 32,
-		evos: [],
+
 		eggGroups: ["Monster", "Amorphous"],
 	},
 	laundrydm: {
@@ -4112,7 +4112,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Screen Cleaner", H: "Zen Mode" },
 		heightm: 0,
 		weightkg: 76,
-		evos: [],
+
 		otherFormes: ['DM Nudyarl'],
 		formeOrder: ['Laundry DM', 'DM Nudyarl'],
 		eggGroups: ["Monster", "Human Like"],
@@ -4128,7 +4128,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Zen Mode" },
 		heightm: 0,
 		weightkg: 76,
-		evos: [],
+
 		eggGroups: ["Monster", "Human Like"],
 		requiredAbility: "Zen Mode",
 		battleOnly: "Laundry DM",
@@ -4142,7 +4142,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 99,
 		evos: ["Cyclopean"],
-		eggGroups: ["Monster"]
+		eggGroups: ["Monster"],
 	},
 	cyclopean: {
 		num: 341,
@@ -4154,7 +4154,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 200,
 		prevo: "Hitotsu MG",
 		evoLevel: 28,
-		evos: [],
+
 		eggGroups: ["Monster"],
 	},
 	sonicbird: {
@@ -4165,8 +4165,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Keen Eye", "1": "Refrigerate", H: "Soundproof" },
 		heightm: 0,
 		weightkg: 20,
-		evos: [],
-		eggGroups: ["Monster", "Flying"]
+
+		eggGroups: ["Monster", "Flying"],
 	},
 	alector: {
 		num: 343,
@@ -4176,8 +4176,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Trace" },
 		heightm: 0,
 		weightkg: 100,
-		evos: [],
-		eggGroups: ["Monster", "Flying"]
+
+		eggGroups: ["Monster", "Flying"],
 	},
 	rubycarbuncle: {
 		num: 344,
@@ -4187,8 +4187,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Run Away", "1": "Rattled", H: "Competitive" },
 		heightm: 0,
 		weightkg: 8,
-		evos: [],
-		eggGroups: ["Monster", "Field"]
+
+		eggGroups: ["Monster", "Field"],
 	},
 	spegasus: {
 		num: 345,
@@ -4198,8 +4198,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Run Away", "1": "Pastel Veil", H: "Rocky Payload" },
 		heightm: 0,
 		weightkg: 60,
-		evos: [],
-		eggGroups: ["Monster", "Flying"]
+
+		eggGroups: ["Monster", "Flying"],
 	},
 	penguinsoldier: {
 		num: 346,
@@ -4210,7 +4210,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 20,
 		evos: ["Emperor Penguin"],
-		eggGroups: ["Monster", "Flying"]
+		eggGroups: ["Monster", "Flying"],
 	},
 	emperorpenguin: {
 		num: 347,
@@ -4222,7 +4222,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 85,
 		prevo: "Penguin Soldier",
 		evoLevel: 35,
-		evos: [],
+
 		eggGroups: ["Monster", "Flying"],
 	},
 	swordstalker: {
@@ -4233,8 +4233,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Infiltrator", "1": "Insomnia" },
 		heightm: 0,
 		weightkg: 40,
-		evos: [],
-		eggGroups: ["Monster", "Field"]
+
+		eggGroups: ["Monster", "Field"],
 	},
 	toonmermaid: {
 		num: 349,
@@ -4245,7 +4245,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Cute Charm", "1": "Hydration" },
 		heightm: 0,
 		weightkg: 55,
-		evos: [],
+
 		prevo: "Archery Girl",
 		evoItem: "Toon Stone",
 		eggGroups: ["Monster", "Fairy"],
@@ -4270,8 +4270,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Liquid Ooze", "1": "Poison Touch", H: "Sap Sipper" },
 		heightm: 0,
 		weightkg: 130,
-		evos: [],
-		eggGroups: ["Monster", "Amorphous"]
+
+		eggGroups: ["Monster", "Amorphous"],
 	},
 	sparkman: {
 		num: 352,
@@ -4296,7 +4296,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 400,
 		prevo: "Sparkman",
 		evoLevel: 30,
-		evos: [],
+
 		eggGroups: ["Monster", "Human Like"],
 	},
 	coheart: {
@@ -4308,7 +4308,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Synchronize", "1": "Contrary", H: "Soul-Heart" },
 		heightm: 0,
 		weightkg: 10,
-		evos: [],
+
 		eggGroups: ["Monster", "Fairy"],
 	},
 	mimicat: {
@@ -4320,7 +4320,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Limber", H: "Imposter" },
 		heightm: 0,
 		weightkg: 10,
-		evos: [],
+
 		eggGroups: ["Ditto"],
 	},
 	archmirror: {
@@ -4331,8 +4331,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Magic Bounce", "1": "Mirror Armor" },
 		heightm: 0,
 		weightkg: 20,
-		evos: [],
-		eggGroups: ["Monster", "Grass"]
+
+		eggGroups: ["Monster", "Grass"],
 	},
 	niwatori: {
 		num: 357,
@@ -4342,8 +4342,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Huge Power" },
 		heightm: 0,
 		weightkg: 10,
-		evos: [],
-		eggGroups: ["Monster", "Flying"]
+
+		eggGroups: ["Monster", "Flying"],
 	},
 	thunderkid: {
 		num: 358,
@@ -4353,8 +4353,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Volt Absorb", "1": "Static" },
 		heightm: 0,
 		weightkg: 20,
-		evos: [],
-		eggGroups: ["Monster", "Field"]
+
+		eggGroups: ["Monster", "Field"],
 	},
 	spacemambo: {
 		num: 359,
@@ -4364,8 +4364,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Multiscale", "1": "Levitate" },
 		heightm: 0,
 		weightkg: 70,
-		evos: [],
-		eggGroups: ["Monster", "Water 3"]
+
+		eggGroups: ["Monster", "Water 3"],
 	},
 	mushroomman: {
 		num: 360,
@@ -4375,8 +4375,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Poison Heal", "1": "Effect Spore" },
 		heightm: 0,
 		weightkg: 5,
-		evos: [],
-		eggGroups: ["Monster", "Water 3"]
+
+		eggGroups: ["Monster", "Water 3"],
 	},
 	medabat: {
 		num: 361,
@@ -4386,8 +4386,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Speed Boost" },
 		heightm: 0,
 		weightkg: 6,
-		evos: [],
-		eggGroups: ["Monster", "Amorphous"]
+
+		eggGroups: ["Monster", "Amorphous"],
 	},
 	bubbleman: {
 		num: 362,
@@ -4412,7 +4412,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 400,
 		prevo: "Bubbleman",
 		evoLevel: 30,
-		evos: [],
+
 		eggGroups: ["Monster", "Human Like"],
 	},
 	melchid4: {
@@ -4424,7 +4424,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 45,
 		evos: ["Des Gardius"],
-		eggGroups: ["Monster"]
+		eggGroups: ["Monster"],
 	},
 	desgardius: {
 		num: 365,
@@ -4434,10 +4434,10 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Compound Eyes", "1": "Sturdy", H: "Moody" },
 		heightm: 0,
 		weightkg: 300,
-		evos: [],
+
 		eggGroups: ["Monster"],
 		prevo: "Melchid 4",
-		evoLevel: 36
+		evoLevel: 36,
 	},
 	tikielder: {
 		num: 366,
@@ -4448,7 +4448,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 40,
 		evos: ["Mask Beast"],
-		eggGroups: ["Monster"]
+		eggGroups: ["Monster"],
 	},
 	maskbeast: {
 		num: 367,
@@ -4460,7 +4460,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 40,
 		prevo: "Tiki Elder",
 		evoLevel: 36,
-		evos: [],
+
 		eggGroups: ["Monster"],
 	},
 	nimbusman: {
@@ -4486,7 +4486,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 15,
 		prevo: "Nimbusman",
 		evoLevel: 38,
-		evos: [],
+
 		eggGroups: ["Monster", "Flying"],
 	},
 	honest: {
@@ -4498,7 +4498,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Honest Power", "1": "Aroma Veil", H: "Healer" },
 		heightm: 0,
 		weightkg: 99,
-		evos: [],
+
 		eggGroups: ["Monster", "Fairy"],
 	},
 	clearvice: {
@@ -4509,8 +4509,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Clear Body", H: "Protean" },
 		heightm: 0,
 		weightkg: 400,
-		evos: [],
-		eggGroups: ["Monster", "Dragon"]
+
+		eggGroups: ["Monster", "Dragon"],
 	},
 	magicianobc: {
 		num: 372,
@@ -4520,8 +4520,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Inner Focus" },
 		heightm: 0,
 		weightkg: 80,
-		evos: [],
-		eggGroups: ["Monster", "Human Like"]
+
+		eggGroups: ["Monster", "Human Like"],
 	},
 	rainbowdragon: {
 		num: 373,
@@ -4531,8 +4531,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Air Lock" },
 		heightm: 0,
 		weightkg: 600,
-		evos: [],
-		eggGroups: ["Undiscovered"]
+
+		eggGroups: ["Undiscovered"],
 	},
 	rainbowneos: {
 		num: 374,
@@ -4543,7 +4543,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Neuroforce" },
 		heightm: 0,
 		weightkg: 120,
-		evos: [],
+
 		eggGroups: ["Undiscovered"],
 	},
 	ghostrick: {
@@ -4555,7 +4555,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Levitate", H: "Prankster" },
 		heightm: 0,
 		weightkg: 30,
-		evos: [],
+
 		eggGroups: ["Monster", "Human Like"],
 	},
 	gameciel: {
@@ -4567,7 +4567,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Swift Swim", "1": "Shell Armor", H: "Storm Drain" },
 		heightm: 0,
 		weightkg: 40,
-		evos: [],
+
 		eggGroups: ["Monster", "Water 2"],
 	},
 	mbserket: {
@@ -4578,8 +4578,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Moxie", "1": "Shell Armor", H: "Poison Point" },
 		heightm: 0,
 		weightkg: 40,
-		evos: [],
-		eggGroups: ["Monster", "Bug"]
+
+		eggGroups: ["Monster", "Bug"],
 	},
 	judgeman: {
 		num: 378,
@@ -4590,7 +4590,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Intimidate", "1": "Justified", H: "Unnerve" },
 		heightm: 0,
 		weightkg: 60,
-		evos: [],
+
 		eggGroups: ["Monster", "Human Like"],
 	},
 	judgementd: {
@@ -4601,8 +4601,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Early Bird", "1": "Justified" },
 		heightm: 0,
 		weightkg: 200,
-		evos: [],
-		eggGroups: ["Monster", "Flying"]
+
+		eggGroups: ["Monster", "Flying"],
 	},
 	eldlich: {
 		num: 380,
@@ -4612,8 +4612,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Good as Gold", H: "Mummy" },
 		heightm: 0,
 		weightkg: 210,
-		evos: [],
-		eggGroups: ["Monster", "Human Like"]
+
+		eggGroups: ["Monster", "Human Like"],
 	},
 	dhplasma: {
 		num: 381,
@@ -4623,8 +4623,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Magma Armor", "1": "Stakeout" },
 		heightm: 0,
 		weightkg: 80,
-		evos: [],
-		eggGroups: ["Monster", "Human Like"]
+
+		eggGroups: ["Monster", "Human Like"],
 	},
 	dreadmaster: {
 		num: 382,
@@ -4635,7 +4635,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Sheer Force", "1": "Intimidate", H: "Receiver" },
 		heightm: 0,
 		weightkg: 100,
-		evos: [],
+
 		eggGroups: ["Monster", "Human Like"],
 	},
 	divinegeh: {
@@ -4646,8 +4646,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Shed Skin", "1": "Merciless" },
 		heightm: 0,
 		weightkg: 300,
-		evos: [],
-		eggGroups: ["Monster", "Field"]
+
+		eggGroups: ["Monster", "Field"],
 	},
 	"ffdragon": {
 		num: 384,
@@ -4657,8 +4657,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Ice Body", "1": "Flash Fire", H: "Flame Body" },
 		heightm: 0,
 		weightkg: 90,
-		evos: [],
-		eggGroups: ["Monster", "Dragon"]
+
+		eggGroups: ["Monster", "Dragon"],
 	},
 	zoa: {
 		num: 385,
@@ -4669,7 +4669,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 80,
 		evos: ["Metalzoa"],
-		eggGroups: ["Monster", "Field"]
+		eggGroups: ["Monster", "Field"],
 	},
 	metalzoa: {
 		num: 386,
@@ -4681,7 +4681,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 300,
 		prevo: "Zoa",
 		evoLevel: 38,
-		evos: [],
+
 		eggGroups: ["Monster", "Field"],
 	},
 	kyutora: {
@@ -4693,7 +4693,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 4,
 		evos: ["Shunoros"],
-		eggGroups: ["Monster", "Mineral"]
+		eggGroups: ["Monster", "Mineral"],
 	},
 	shunoros: {
 		num: 388,
@@ -4705,7 +4705,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 500,
 		prevo: "Kyutora",
 		evoLevel: 40,
-		evos: [],
+
 		eggGroups: ["Monster", "Mineral"],
 	},
 	tyrantdragon: {
@@ -4716,8 +4716,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Blaze" },
 		heightm: 0,
 		weightkg: 140,
-		evos: [],
-		eggGroups: ["Monster", "Dragon"]
+
+		eggGroups: ["Monster", "Dragon"],
 	},
 	daedalus: {
 		num: 390,
@@ -4727,8 +4727,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Torrent" },
 		heightm: 0,
 		weightkg: 130,
-		evos: [],
-		eggGroups: ["Monster", "Water 1"]
+
+		eggGroups: ["Monster", "Water 1"],
 	},
 	dandylion: {
 		num: 391,
@@ -4738,8 +4738,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Drought", "1": "Solar Power", H: "Chlorophyll" },
 		heightm: 0,
 		weightkg: 3,
-		evos: [],
-		eggGroups: ["Grass"]
+
+		eggGroups: ["Grass"],
 	},
 	samsaralotus: {
 		num: 392,
@@ -4749,8 +4749,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Swift Swim", "1": "Leaf Guard", H: "Regenerator" },
 		heightm: 0,
 		weightkg: 3,
-		evos: [],
-		eggGroups: ["Grass", "Water 1"]
+
+		eggGroups: ["Grass", "Water 1"],
 	},
 	yubel: {
 		num: 393,
@@ -4776,7 +4776,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		eggGroups: ["Monster", "Human Like"],
 		gender: "N",
 		prevo: "Yubel",
-		evoLevel: 32
+		evoLevel: 32,
 	},
 	yubelun: {
 		num: 395,
@@ -4786,11 +4786,11 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Dark Aura" },
 		heightm: 0,
 		weightkg: 180,
-		evos: [],
+
 		eggGroups: ["Monster", "Human Like"],
 		gender: "N",
 		prevo: "Yubel TI",
-		evoLevel: 50
+		evoLevel: 50,
 	},
 	stardustdragon: {
 		num: 396,
@@ -4800,8 +4800,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Victory Star", "1": "Magic Bounce", H: "Speed Boost" },
 		heightm: 0,
 		weightkg: 150,
-		evos: [],
-		eggGroups: ["Monster", "Flying"]
+
+		eggGroups: ["Monster", "Flying"],
 	},
 	venomboa: {
 		num: 397,
@@ -4812,7 +4812,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 52,
 		evos: ["Vennominom", "Venominaga"],
-		eggGroups: ["Monster", "Field"]
+		eggGroups: ["Monster", "Field"],
 	},
 	vennominon: {
 		num: 398,
@@ -4825,7 +4825,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 90,
 		prevo: "Venom Boa",
 		evoLevel: 38,
-		evos: [],
+
 		eggGroups: ["Monster", "Field"],
 	},
 	vennominaga: {
@@ -4839,7 +4839,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 87,
 		prevo: "Venom Boa",
 		evoLevel: 38,
-		evos: [],
+
 		eggGroups: ["Monster", "Field"],
 	},
 	giantrex: {
@@ -4850,8 +4850,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Anger Point", "1": "Strong Jaw", H: "Quick Exit" },
 		heightm: 0,
 		weightkg: 43,
-		evos: [],
-		eggGroups: ["Monster", "Field"]
+
+		eggGroups: ["Monster", "Field"],
 	},
 	snowmaneater: {
 		num: 401,
@@ -4861,8 +4861,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Slush Rush", "1": "Disguise", H: "Snow Warning" },
 		heightm: 0,
 		weightkg: 80,
-		evos: [],
-		eggGroups: ["Monster", "Water 3"]
+
+		eggGroups: ["Monster", "Water 3"],
 	},
 	nibiru: {
 		num: 402,
@@ -4873,10 +4873,10 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Shields Down", H: "Solid Rock" },
 		heightm: 0,
 		weightkg: 555,
-		evos: [],
+
 		otherFormes: ['Nibiru-Meteor'],
 		formeOrder: ['Nibiru', 'Nibiru-Meteor'],
-		eggGroups: ["Monster", "Mineral"]
+		eggGroups: ["Monster", "Mineral"],
 	},
 	"nibirumeteor": {
 		num: 402,
@@ -4888,7 +4888,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Shields Down" },
 		heightm: 0,
 		weightkg: 555,
-		evos: [],
+
 		eggGroups: ["Monster", "Mineral"],
 		requiredAbility: 'Shields Down',
 		battleOnly: 'Nibiru',
@@ -4902,7 +4902,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		heightm: 0,
 		weightkg: 40,
 		evos: ["Dark Ruler", "Light Ruler", "The World"],
-		eggGroups: ["Monster", "Amorphous"]
+		eggGroups: ["Monster", "Amorphous"],
 	},
 	darkruler: {
 		num: 404,
@@ -4914,7 +4914,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 450,
 		prevo: "The Fiend",
 		evoMove: 'Dark Pulse',
-		evos: [],
+
 		eggGroups: ["Monster", "Amorphous"],
 	},
 	lightruler: {
@@ -4927,7 +4927,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 450,
 		prevo: "The Fiend",
 		evoMove: 'Moonblast',
-		evos: [],
+
 		eggGroups: ["Monster", "Amorphous"],
 	},
 	theworld: {
@@ -4940,7 +4940,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 480,
 		prevo: "The Fiend",
 		evoLevel: 48,
-		evos: [],
+
 		eggGroups: ["Monster", "Amorphous"],
 	},
 	victorydragon: {
@@ -4951,8 +4951,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Victory Star", H: "Good as Gold" },
 		heightm: 0,
 		weightkg: 100,
-		evos: [],
-		eggGroups: ["Undiscovered"]
+
+		eggGroups: ["Undiscovered"],
 	},
 	critias: {
 		num: 408,
@@ -4963,7 +4963,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Strong Jaw", "1": "Toxic Boost" },
 		heightm: 0,
 		weightkg: 200,
-		evos: [],
+
 		eggGroups: ["Undiscovered"],
 	},
 	timaeus: {
@@ -4975,7 +4975,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Compound Eyes" },
 		heightm: 0,
 		weightkg: 220,
-		evos: [],
+
 		eggGroups: ["Undiscovered"],
 	},
 	hermos: {
@@ -4986,8 +4986,8 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		abilities: { "0": "Iron Barbs", "1": "Tough Claws" },
 		heightm: 0,
 		weightkg: 210,
-		evos: [],
+
 		eggGroups: ["Undiscovered"],
-		gender: "N"
+		gender: "N",
 	},
 };
