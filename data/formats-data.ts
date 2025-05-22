@@ -1167,4 +1167,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	tyrantdragon: {
 		tier: "OU",
 	},
+	daedalus: {
+		tier: "OU",
+	},
 };

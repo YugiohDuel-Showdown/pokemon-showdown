@@ -4720,4 +4720,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Dragon"]
 	},
+	daedalus: {
+		num: 390,
+		name: "Daedalus",
+		types: ["Dragon", "Water"],
+		baseStats: { hp: 75, atk: 60, def: 75, spa: 110, spd: 100, spe: 75 },
+		abilities: { "0": "Torrent" },
+		heightm: 0,
+		weightkg: 130,
+		evos: [],
+		eggGroups: ["Monster", "Water 1"]
+	},
 };
