@@ -622,7 +622,8 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 	},
 	grasspelt: {
 		name: "Grass Pelt",
-		shortDesc: "If Grassy Terrain is active, this Pokemon's Defense is multiplied by 1.5.",
+		desc: "If Grassy Terrain or Forest Terrain is active, this Pokemon's Defense is multiplied by 1.5x",
+		shortDesc: "If Grassy Terrain/Forest Terrain is active, 1.5x Def to the user.",
 	},
 	grassysurge: {
 		name: "Grassy Surge",
@@ -972,6 +973,7 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 	},
 	magmaarmor: {
 		name: "Magma Armor",
+		desc: "This Pokemon cannot be frozen. Immune to Ice-type and Raises the user's Defense by 1. Immune to hail.",
 		shortDesc: "This Pokemon cannot be frozen. Immune to Ice-type and Raises Def by 1.",
 	},
 	magnetpull: {

@@ -848,8 +848,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	acid: {
 		name: "Acid",
-		desc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
-		shortDesc: "10% chance to lower the foe(s) Sp. Def by 1.",
+		desc: "Has a 20% chance to lower the target's Special Defense by 1 stage.",
+		shortDesc: "20% chance to lower the foe(s) Sp. Def by 1.",
 		gen3: {
 			desc: "Has a 10% chance to lower the target's Defense by 1 stage.",
 			shortDesc: "10% chance to lower the foe(s) Defense by 1.",
@@ -3149,8 +3149,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	frustration: {
 		name: "Frustration",
-		desc: "Power is equal to the greater of ((255 - user's Happiness) * 2/5), rounded down, or 1.",
-		shortDesc: "Max 102 power at minimum Happiness.",
+		desc: "Power is equal to the greater of ((255 - user's Happiness) * 2/5), rounded down, or 1. Max Damage is 100.",
+		shortDesc: "Max 100 power at minimum Happiness.",
 	},
 	furyattack: {
 		name: "Fury Attack",
@@ -3513,8 +3513,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	grassyglide: {
 		name: "Grassy Glide",
-		desc: "If the current terrain is Grassy Terrain and the user is grounded, this move has its priority increased by 1.",
-		shortDesc: "User on Grassy Terrain: +1 priority.",
+		desc: "If the current terrain is Grassy Terrain/Forest Terrain and the user is grounded, this move has its priority increased by 1.",
+		shortDesc: "User on Grassy Terrain/Forest Terrain: +1 priority.",
 	},
 	grassyterrain: {
 		name: "Grassy Terrain",
@@ -3642,7 +3642,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	hail: {
 		name: "Hail",
-		desc: "For 5 turns, the weather becomes Hail. At the end of each turn except the last, all active Pokemon lose 1/16 of their maximum HP, rounded down, unless they are an Ice type or have the Ice Body, Magic Guard, Overcoat, or Snow Cloak Abilities. Lasts for 8 turns if the user is holding Icy Rock. Fails if the current weather is Hail.",
+		desc: "For 5 turns, the weather becomes Hail. At the end of each turn except the last, all active Pokemon lose 1/16 of their maximum HP, rounded down, unless they are an Ice type or have the Ice Body, Magic Guard, Overcoat, or Snow Cloak Abilities. Lasts for 8 turns if the user is holding Icy Rock. Fails if the current weather is Hail. Ice-type Monsters gain a 1.5x boost to their Defense.",
 		shortDesc: "For 5 turns, hail crashes down.",
 		gen4: {
 			desc: "For 5 turns, the weather becomes Hail. At the end of each turn except the last, all active Pokemon lose 1/16 of their maximum HP, rounded down, unless they are an Ice type or have the Ice Body, Magic Guard, or Snow Cloak Abilities. Lasts for 8 turns if the user is holding Icy Rock. Fails if the current weather is Hail.",
@@ -5949,8 +5949,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	razorwind: {
 		name: "Razor Wind",
-		desc: "Has a higher chance for a critical hit. This attack charges on the first turn and executes on the second. If the user is holding a Power Herb, the move completes in one turn.",
-		shortDesc: "Charges, then hits foe(s) turn 2. High crit ratio.",
+		desc: "Has a higher chance for a critical hit. This attack charges on the first turn and executes on the second. Increases Speed on turn 1. If the user is holding a Power Herb, the move completes in one turn.",
+		shortDesc: "Charges +1 Spe, then hits foe(s) turn 2. High crit ratio.",
 		gen4: {
 			desc: "Has a higher chance for a critical hit. This attack charges on the first turn and executes on the second.",
 		},
@@ -6060,8 +6060,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	return: {
 		name: "Return",
-		desc: "Power is equal to the greater of (user's Happiness * 2/5), rounded down, or 1.",
-		shortDesc: "Max 102 power at maximum Happiness.",
+		desc: "Power is equal to the greater of (user's Happiness * 2/5), rounded down, or 1. Max Damage is 100.",
+		shortDesc: "Max 100 power at maximum Happiness.",
 	},
 	revelationdance: {
 		name: "Revelation Dance",
@@ -7219,7 +7219,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	strength: {
 		name: "Strength",
-		shortDesc: "No additional effect.",
+		desc: "Has a 30% chance to raise the user's Attack by 1 stage.",
+		shortDesc: "30% chance to raise the user's Atk by 1.",
 	},
 	strengthsap: {
 		name: "Strength Sap",
