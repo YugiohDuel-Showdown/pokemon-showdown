@@ -1146,4 +1146,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	dreadmaster: {
 		tier: "OU",
 	},
+	divinegeh: {
+		tier: "OU",
+	},
 };

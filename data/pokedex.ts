@@ -4639,4 +4639,15 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		evos: [],
 		eggGroups: ["Monster", "Human Like"],
 	},
+	divinegeh: {
+		num: 383,
+		name: "Divine Geh",
+		types: ["Poison"],
+		baseStats: { hp: 80, atk: 120, def: 90, spa: 80, spd: 80, spe: 70 },
+		abilities: { "0": "Shed Skin", "1": "Merciless" },
+		heightm: 0,
+		weightkg: 300,
+		evos: [],
+		eggGroups: ["Monster", "Field"]
+	},
 };
