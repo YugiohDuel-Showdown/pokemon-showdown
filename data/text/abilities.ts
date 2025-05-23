@@ -1693,7 +1693,7 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 	},
 	slowstart: {
 		name: "Slow Start",
-		shortDesc: "On switch-in, this Pokemon's Attack and Speed are halved for 5 turns.",
+		shortDesc: "On switch-in, this Pokemon's Attack and Speed are halved for 2 turns.",
 		gen7: {
 			desc: "On switch-in, this Pokemon's Attack and Speed are halved for 5 turns. During the effect, if this Pokemon uses a generic Z-Move based on a special move, its Special Attack is halved during damage calculation.",
 		},
