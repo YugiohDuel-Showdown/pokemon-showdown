@@ -150,6 +150,7 @@ const PRIORITY_POKEMON: string[] = [
 
 /** Pokemon who should never be in the lead slot */
 const NO_LEAD_POKEMON: string[] = [
+	'treebornfrog',
 ];
 const DOUBLES_NO_LEAD_POKEMON: string[] = [
 ];
