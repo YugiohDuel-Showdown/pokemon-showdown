@@ -2210,5 +2210,177 @@
         ]
       }
     ]
+  },
+  "harpiequeen": {
+    "level": 81,
+    "sets": [
+      {
+        "role": "AV Pivot",
+        "movepool": [
+          "Dazzling Gleam",
+          "Twin Twister",
+          "U-turn",
+          "Heat Wave",
+          "Focus Blast"
+        ],
+        "abilities": [
+          "Harpie Surge"
+        ],
+        "teraTypes": [
+          "Fire",
+          "Fairy"
+        ]
+      },
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Hurricane",
+          "Air Slash",
+          "Dazzling Gleam",
+          "Heat Wave",
+          "Hidden Power Ground",
+          "Razor Wind"
+        ],
+        "abilities": [
+          "Gale Wings"
+        ],
+        "teraTypes": [
+          "Fairy",
+          "Flying"
+        ]
+      },
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Harpies Hunting Ground",
+          "Twin Twister",
+          "U-turn",
+          "Dazzling Gleam",
+          "Tailwind",
+          "Windstorm"
+        ],
+        "abilities": [
+          "Gale Wings",
+          "Oblivious"
+        ],
+        "teraTypes": [
+          "Flying",
+          "Fairy"
+        ]
+      }
+    ]
+  },
+  "critias": {
+    "level": 76,
+    "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Dragon Dance",
+          "Fire Fang",
+          "Crunch",
+          "Dragon Claw",
+          "Thunder Fang"
+        ],
+        "abilities": [
+          "Strong Jaw"
+        ],
+        "teraTypes": [
+          "Dragon",
+          "Fire"
+        ]
+      },
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Dragon Claw",
+          "Earthquake",
+          "Iron Head",
+          "Zen Headbutt",
+          "Rock Slide"
+        ],
+        "abilities": [
+          "Toxic Boost"
+        ],
+        "teraTypes": [
+          "Dragon"
+        ]
+      }
+    ]
+  },
+  "archmirror": {
+    "level": 100,
+    "sets": [
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Light Screen",
+          "Reflect",
+          "Knock Off",
+          "Taunt",
+          "Trick"
+        ],
+        "abilities": [
+          "Magic Bounce"
+        ],
+        "teraTypes": [
+          "Dark"
+        ]
+      },
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Sludge Bomb",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Shadow Ball"
+        ],
+        "abilities": [
+          "Magic Bounce"
+        ],
+        "teraTypes": [
+          "Dark"
+        ]
+      }
+    ]
+  },
+  "mangaryuran": {
+    "level": 80,
+    "sets": [
+      {
+        "role": "Bulky Attacker",
+        "movepool": [
+          "Earth Power",
+          "Flamethrower",
+          "Weird Steam",
+          "Soft-Boiled",
+          "Will-O-Wisp",
+          "Hex"
+        ],
+        "abilities": [
+          "Shell Armor"
+        ],
+        "teraTypes": [
+          "Fire",
+          "Fairy"
+        ]
+      },
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Shell Smash",
+          "Flamethrower",
+          "Dazzling Gleam",
+          "Thunderbolt",
+          "Dragon Pulse"
+        ],
+        "abilities": [
+          "Shell Armor"
+        ],
+        "teraTypes": [
+          "Fire"
+        ]
+      }
+    ]
   }
 }
