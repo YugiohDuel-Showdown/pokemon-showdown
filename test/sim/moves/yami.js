@@ -14,7 +14,7 @@ describe('Yami', () => {
 
 	it('should change the current terrain to Yami for five turns', () => {
 		battle = common.createBattle([[
-			{ species: 'darkmagiciang', moves: ['yami', 'sleeptalk'] },
+			{ species: 'darkmagiciangirl', moves: ['yami', 'sleeptalk'] },
 		], [
 			{ species: 'timewizard', moves: ['sleeptalk'] },
 		]]);
@@ -28,7 +28,7 @@ describe('Yami', () => {
 
 	it('should increase the base power of Dark-type attacks used by grounded Monsters', () => {
 		battle = common.createBattle([[
-			{ species: 'darkmagiciang', moves: ['yami'] },
+			{ species: 'darkmagiciangirl', moves: ['yami'] },
 		], [
 			{ species: 'timewizard', moves: ['sleeptalk'] },
 		]]);
@@ -42,7 +42,7 @@ describe('Yami', () => {
 
 	it('should halve the base power of Fairy-type attacks against grounded targets', () => {
 		battle = common.createBattle([[
-			{ species: 'darkmagiciang', moves: ['yami'] },
+			{ species: 'darkmagiciangirl', moves: ['yami'] },
 		], [
 			{ species: 'timewizard', moves: ['sleeptalk'] },
 		]]);

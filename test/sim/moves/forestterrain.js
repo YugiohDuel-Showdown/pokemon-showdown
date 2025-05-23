@@ -14,7 +14,7 @@ describe('Forest Terrain', () => {
 
 	it('should change the current terrain to Forest Terrain for five turns', () => {
 		battle = common.createBattle([[
-			{ species: 'darkmagiciang', moves: ['forestterrain', 'sleeptalk'] },
+			{ species: 'darkmagiciangirl', moves: ['forestterrain', 'sleeptalk'] },
 		], [
 			{ species: 'timewizard', moves: ['sleeptalk'] },
 		]]);
@@ -28,7 +28,7 @@ describe('Forest Terrain', () => {
 
 	it('should increase the def and spd of monsters with Swarm or Overgrow as the ability', () => {
 		battle = common.createBattle([[
-			{ species: 'darkmagiciang', ability: 'swarm', moves: ['forestterrain', 'sleeptalk'] },
+			{ species: 'darkmagiciangirl', ability: 'swarm', moves: ['forestterrain', 'sleeptalk'] },
 		], [
 			{ species: 'timewizard', moves: ['sleeptalk'] },
 		]]);
@@ -41,7 +41,7 @@ describe('Forest Terrain', () => {
 
 	it('should increase the base power of Grass-type attacks and Bug-type attacks used by grounded Monsters', () => {
 		battle = common.createBattle([[
-			{ species: 'darkmagiciang', ability: 'swarm', moves: ['forestterrain'] },
+			{ species: 'darkmagiciangirl', ability: 'swarm', moves: ['forestterrain'] },
 		], [
 			{ species: 'timewizard', moves: ['sleeptalk'] },
 		]]);

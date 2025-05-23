@@ -14,7 +14,7 @@ describe('Zombie World', () => {
 
 	it('should change the current terrain to Zombie World for five turns', () => {
 		battle = common.createBattle([[
-			{ species: 'darkmagiciang', moves: ['zombieworld', 'sleeptalk'] },
+			{ species: 'darkmagiciangirl', moves: ['zombieworld', 'sleeptalk'] },
 		], [
 			{ species: 'timewizard', moves: ['sleeptalk'] },
 		]]);
@@ -28,7 +28,7 @@ describe('Zombie World', () => {
 
 	it('should turn all monsters to ghost types on field', () => {
 		battle = common.createBattle([[
-			{ species: 'darkmagiciang', moves: ['zombieworld', 'sleeptalk'] },
+			{ species: 'darkmagiciangirl', moves: ['zombieworld', 'sleeptalk'] },
 		], [
 			{ species: 'timewizard', moves: ['sleeptalk'] },
 		]]);
@@ -39,7 +39,7 @@ describe('Zombie World', () => {
 
 	it('should turn all monsters back to normal after zombieworld ends', () => {
 		battle = common.createBattle([[
-			{ species: 'darkmagiciang', moves: ['zombieworld', 'sleeptalk'] },
+			{ species: 'darkmagiciangirl', moves: ['zombieworld', 'sleeptalk'] },
 		], [
 			{ species: 'timewizard', moves: ['sleeptalk'] },
 		]]);
@@ -55,7 +55,7 @@ describe('Zombie World', () => {
 
 	it('should increase the base power of Ghost-type attacks used by grounded Monsters', () => {
 		battle = common.createBattle([[
-			{ species: 'darkmagiciang', moves: ['zombieworld', 'sleeptalk'] },
+			{ species: 'darkmagiciangirl', moves: ['zombieworld', 'sleeptalk'] },
 		], [
 			{ species: 'timewizard', moves: ['sleeptalk'] },
 		]]);
