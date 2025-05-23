@@ -1371,7 +1371,6 @@
       {
         "role": "Bulky Support",
         "movepool": [
-          "Defog",
           "Will-O-Wisp",
           "Hex",
           "Toxic",
@@ -2060,7 +2059,7 @@
     ]
   },
   "fivegodd": {
-    "level": 77,
+    "level": 75,
     "sets": [
       {
         "role": "Wallbreaker",
