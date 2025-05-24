@@ -1872,7 +1872,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Normal",
 	},
-	"therecanonlybeone": {
+	"therecanbeonlyone": {
 		num: -1095,
 		accuracy: true,
 		basePower: 0,

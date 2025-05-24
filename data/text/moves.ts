@@ -468,7 +468,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Deals double damage if the target is burned, then cures them. If used on an ally, cures the ally's burn.",
 		shortDesc: "Deals 2x damage on target if burned. Cures Burn. If ally, Cures Burn.",
 	},
-	therecanonlybeone: {
+	therecanbeonlyone: {
 		name: "There Can Only Be One",
 		desc: "Causes all monsters on the field to lose their secondary typing.",
 		shortDesc: "All monsters lose their secondary typing.",
