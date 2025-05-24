@@ -1872,12 +1872,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Normal",
 	},
-	"therecanbeonlyone": {
+	therecanbeonlyone: {
 		num: -1095,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
-		name: "There Can Only Be One",
+		name: "There Can Be Only One",
 		pp: 10,
 		priority: 0,
 		flags: { mirror: 1 },
