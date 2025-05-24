@@ -2381,5 +2381,355 @@
         ]
       }
     ]
+  },
+  "pantherwarrior": {
+    "level": 82,
+    "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Swords Dance",
+          "Protect",
+          "Close Combat",
+          "Throat Chop",
+          "Thunder Punch",
+          "Fire Punch",
+          "Stomping Tantrum"
+        ],
+        "abilities": [
+          "Slow Start"
+        ],
+        "teraTypes": [
+          "Fighting",
+          "Rock"
+        ]
+      }
+    ]
+  },
+  "gokipole": {
+    "level": 83,
+    "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "No Retreat",
+          "Pin Missile",
+          "Bullet Seed",
+          "Leech Life",
+          "Poison Jab",
+          "Acrobatics"
+        ],
+        "abilities": [
+          "Skill Link"
+        ],
+        "teraTypes": [
+          "Bug",
+          "Poison"
+        ]
+      }
+    ]
+  },
+  "swampbtl": {
+    "level": 85,
+    "sets": [
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Bulk Up",
+          "Hammer Shot",
+          "Liquidation",
+          "Knock Off",
+          "Ice Punch",
+          "Rock Slide"
+        ],
+        "abilities": [
+          "Water Absorb"
+        ],
+        "teraTypes": [
+          "Water",
+          "Flying"
+        ]
+      },
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Stealth Rock",
+          "Spikes",
+          "Roar",
+          "Earthquake",
+          "Rock Tomb",
+          "Waterfall"
+        ],
+        "abilities": [
+          "Water Absorb"
+        ],
+        "teraTypes": [
+          "Ground",
+          "Steel"
+        ]
+      }
+    ]
+  },
+  "lavabtl": {
+    "level": 85,
+    "sets": [
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Bulk Up",
+          "Hammer Shot",
+          "Flare Blitz",
+          "Knock Off",
+          "Brick Break",
+          "Rock Slide"
+        ],
+        "abilities": [
+          "Flash Fire"
+        ],
+        "teraTypes": [
+          "Fire",
+          "Water"
+        ]
+      },
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Stealth Rock",
+          "Spikes",
+          "Sparks",
+          "Earthquake",
+          "Blaze Kick"
+        ],
+        "abilities": [
+          "Flash Fire"
+        ],
+        "teraTypes": [
+          "Ground",
+          "Grass"
+        ]
+      }
+    ]
+  },
+  "shunoros": {
+    "level": 80,
+    "sets": [
+      {
+        "role": "Bulky Attacker",
+        "movepool": [
+          "Blizzard",
+          "Flash Cannon",
+          "Doom Desire",
+          "Zap Cannon",
+          "Hydro Pump"
+        ],
+        "abilities": [
+          "No Guard"
+        ],
+        "teraTypes": [
+          "Ice",
+          "Electric"
+        ]
+      },
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Ice Beam",
+          "Flash Cannon",
+          "Trick Room",
+          "Reflect",
+          "Light Screen"
+        ],
+        "abilities": [
+          "Mirror Armor"
+        ],
+        "teraTypes": [
+          "Steel"
+        ]
+      }
+    ]
+  },
+  "doradora": {
+    "level": 80,
+    "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Dragon Dance",
+          "Dragon Claw",
+          "Flare Blitz",
+          "Dual Wingbeat",
+          "Seed Bomb",
+          "Delinquent Duo"
+        ],
+        "abilities": [
+          "Parental Bond",
+          "Thick Fat"
+        ],
+        "teraTypes": [
+          "Fire",
+          "Grass"
+        ]
+      },
+      {
+        "role": "Bulky Attacker",
+        "movepool": [
+          "Draco Meteor",
+          "Overheat",
+          "Leech Seed",
+          "Ookazi",
+          "Earth Power"
+        ],
+        "abilities": [
+          "Thick Fat"
+        ],
+        "teraTypes": [
+          "Fire",
+          "Ground"
+        ]
+      }
+    ]
+  },
+  "barreldragon": {
+    "level": 82,
+    "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Rock Blast",
+          "Dragon Dance",
+          "Iron Head",
+          "Seed Bomb",
+          "Earthquake"
+        ],
+        "abilities": [
+          "Sniper"
+        ],
+        "teraTypes": [
+          "Steel",
+          "Rock"
+        ]
+      },
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Dark Pulse",
+          "Flash Cannon",
+          "Dragon Pulse",
+          "Earth Power",
+          "Thunderbolt",
+          "Power Gem",
+          "Energy Ball"
+        ],
+        "abilities": [
+          "Mega Launcher"
+        ],
+        "teraTypes": [
+          "Steel",
+          "Dark"
+        ]
+      }
+    ]
+  },
+  "toadallya": {
+    "level": 84,
+    "sets": [
+      {
+        "role": "AV Pivot",
+        "movepool": [
+          "Surf",
+          "Ice Beam",
+          "Apple Acid",
+          "Dazzling Gleam",
+          "Sludge Bomb",
+          "U-turn"
+        ],
+        "abilities": [
+          "Parental Bond"
+        ],
+        "teraTypes": [
+          "Ice",
+          "Grass"
+        ]
+      }
+    ]
+  },
+  "silentmg8": {
+    "level": 79,
+    "sets": [
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Ice Beam",
+          "Mist Ball",
+          "Thunderbolt",
+          "Silent Burn",
+          "Dazzling Gleam"
+        ],
+        "abilities": [
+          "Serene Grace"
+        ],
+        "teraTypes": [
+          "Ice",
+          "Fire"
+        ]
+      },
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Calm Mind",
+          "Silent Burn",
+          "Ice Beam",
+          "Mist Ball",
+          "Future Sight"
+        ],
+        "abilities": [
+          "Natural Cure"
+        ],
+        "teraTypes": [
+          "Psychic"
+        ]
+      }
+    ]
+  },
+  "substitoad": {
+    "level": 81,
+    "sets": [
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Parting Shot",
+          "Reflect",
+          "Light Screen",
+          "Dark Pulse",
+          "Dazzling Gleam",
+          "Defog"
+        ],
+        "abilities": [
+          "Water Absorb"
+        ],
+        "teraTypes": [
+          "Fairy",
+          "Steel"
+        ]
+      },
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Calm Mind",
+          "Rest",
+          "Dazzling Gleam",
+          "Dark Pulse",
+          "Hydro Pump",
+          "Ice Beam"
+        ],
+        "abilities": [
+          "Water Absorb"
+        ],
+        "teraTypes": [
+          "Dark",
+          "Water"
+        ]
+      }
+    ]
   }
 }

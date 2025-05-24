@@ -3597,6 +3597,21 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Psychic",
 	},
+	meteorrush: {
+		num: -1169,
+		accuracy: 100,
+		basePower: 150,
+		category: "Physical",
+		name: 'Meteor Rush',
+		pp: 5,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, recharge: 1},
+		self: {
+			volatileStatus: 'mustrecharge',
+		},
+		target: "normal",
+		type: "Fighting",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		num: 719,

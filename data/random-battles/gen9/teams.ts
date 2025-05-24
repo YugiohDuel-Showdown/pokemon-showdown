@@ -1205,6 +1205,7 @@ export class RandomTeams {
 		if (species.id === 'volcanicshell') return 'Everstone';
 		if (species.id === 'wingedkrb' && role === 'Wallbreaker') return 'Flame Orb';
 		if (species.id === 'coheart') return 'Heart Scale';
+		if (species.id === 'doradora' && role === "Bulky Attacker") return 'Eject Pack';
 		if (role === 'AV Pivot') return 'Assault Vest';
 		if (species.id === 'pikachu') return 'Light Ball';
 		if (species.id === 'regieleki') return 'Magnet';

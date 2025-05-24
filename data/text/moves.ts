@@ -818,6 +818,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Prevent other cards from escaping and heal block them for 3 turns. If used by Helios, Speed is also sharply raised.",
 		shortDesc: "Traps and Heal blocks for 3 turns. If used by Helios, +2 Spe",
 	},
+	meteorrush: {
+		name: 'Meteor Rush',
+		desc: "If this move is successful, the user must recharge on the following turn and cannot select a move.",
+		shortDesc: "User cannot move next turn.",
+	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",
