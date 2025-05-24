@@ -3605,7 +3605,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: 'Meteor Rush',
 		pp: 5,
 		priority: 0,
-		flags: { protect: 1, mirror: 1, recharge: 1},
+		flags: { protect: 1, mirror: 1, recharge: 1 },
 		self: {
 			volatileStatus: 'mustrecharge',
 		},
@@ -4026,7 +4026,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		basePower: 60,
 		category: "Special",
 		name: "Ancient Power",
-		pp: 8,
+		pp: 5,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1 },
 		secondary: {
@@ -17063,7 +17063,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		category: "Special",
 
 		name: "Ominous Wind",
-		pp: 8,
+		pp: 5,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1 },
 		secondary: {
@@ -20662,7 +20662,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		category: "Special",
 
 		name: "Silver Wind",
-		pp: 8,
+		pp: 5,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1 },
 		secondary: {

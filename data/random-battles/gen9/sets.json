@@ -2699,7 +2699,6 @@
         "movepool": [
           "Parting Shot",
           "Reflect",
-          "Light Screen",
           "Dark Pulse",
           "Dazzling Gleam",
           "Defog"
@@ -2731,5 +2730,65 @@
         ]
       }
     ]
-  }
+  },
+  "nibiru": {
+    "level": 78,
+    "sets": [
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Accelerock",
+          "Stone Edge",
+          "Earthquake",
+          "Meteor Rush",
+          "Meteor Mash",
+          "Heat Crash",
+          "Work Up"
+        ],
+        "abilities": [
+          "Shields Down"
+        ],
+        "teraTypes": [
+          "Rock",
+          "Fighting"
+        ]
+      },
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Meteor Beam",
+          "Hyperspace Hole",
+          "Dark Hole",
+          "Psyshock",
+          "Earth Power",
+          "Work Up"
+        ],
+        "abilities": [
+          "Shields Down"
+        ],
+        "teraTypes": [
+          "Rock",
+          "Dark"
+        ]
+      }
+    ]
+  },
+
+"theworld": {
+  "level": 80,
+  "sets": [
+      {
+        "role": "Bulky Attacker",
+        "movepool": ["Flash Cannon", "Moonblast", "Psychic", "Shadow Ball", "Dark Pulse", "Thunderbolt", "Earth Power"],
+        "abilities": ["Prism Armor"],
+        "teraTypes": ["Steel", "Psychic"]
+      },
+     {
+       "role": "Bulky Attacker",
+       "movepool": ["Meteor Mash", "Psychic Fangs", "Crunch", "Earthquake", "Dragon Claw", "Rock Slide", "Thunder Punch"],
+       "abilities": ["Prism Armor"],
+       "teraTypes": ["Steel", "Psychic"]
+       }
+    ]
+}
 }
