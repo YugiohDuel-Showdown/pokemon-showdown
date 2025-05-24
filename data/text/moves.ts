@@ -469,7 +469,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		shortDesc: "Deals 2x damage on target if burned. Cures Burn. If ally, Cures Burn.",
 	},
 	therecanbeonlyone: {
-		name: "There Can Only Be One",
+		name: "There Can Be Only One",
 		desc: "Causes all monsters on the field to lose their secondary typing.",
 		shortDesc: "All monsters lose their secondary typing.",
 	},
