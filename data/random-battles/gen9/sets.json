@@ -2773,22 +2773,128 @@
       }
     ]
   },
-
-"theworld": {
-  "level": 80,
-  "sets": [
+  "theworld": {
+    "level": 80,
+    "sets": [
       {
         "role": "Bulky Attacker",
-        "movepool": ["Flash Cannon", "Moonblast", "Psychic", "Shadow Ball", "Dark Pulse", "Thunderbolt", "Earth Power"],
-        "abilities": ["Prism Armor"],
-        "teraTypes": ["Steel", "Psychic"]
+        "movepool": [
+          "Flash Cannon",
+          "Moonblast",
+          "Psychic",
+          "Shadow Ball",
+          "Dark Pulse",
+          "Thunderbolt",
+          "Earth Power"
+        ],
+        "abilities": [
+          "Prism Armor"
+        ],
+        "teraTypes": [
+          "Steel",
+          "Psychic"
+        ]
       },
-     {
-       "role": "Bulky Attacker",
-       "movepool": ["Meteor Mash", "Psychic Fangs", "Crunch", "Earthquake", "Dragon Claw", "Rock Slide", "Thunder Punch"],
-       "abilities": ["Prism Armor"],
-       "teraTypes": ["Steel", "Psychic"]
-       }
+      {
+        "role": "Bulky Attacker",
+        "movepool": [
+          "Meteor Mash",
+          "Psychic Fangs",
+          "Crunch",
+          "Earthquake",
+          "Dragon Claw",
+          "Rock Slide",
+          "Thunder Punch"
+        ],
+        "abilities": [
+          "Prism Armor"
+        ],
+        "teraTypes": [
+          "Steel",
+          "Psychic"
+        ]
+      }
     ]
-}
+  },
+  "zerathemant": {
+    "level": 82,
+    "sets": [
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Devil's Claw",
+          "Dire Claw",
+          "Dragon Claw",
+          "Shadow Claw",
+          "Hone Claws"
+        ],
+        "abilities": [
+          "Tough Claws"
+        ],
+        "teraTypes": [
+          "Dark",
+          "Poison"
+        ]
+      },
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Nasty Plot",
+          "Dark Pulse",
+          "Earth Power",
+          "Shadow Ball",
+          "Dark Ruler No More"
+        ],
+        "abilities": [
+          "Roaming Soul"
+        ],
+        "teraTypes": [
+          "Dark",
+          "Rock"
+        ]
+      },
+      {
+        "role": "AV Pivot",
+        "movepool": [
+          "Devil's Claw",
+          "Stone Edge",
+          "Earthquake",
+          "Sacred Sword",
+          "Dire Claw",
+          "Spirit Break",
+          "Iron Head"
+        ],
+        "abilities": [
+          "Tough Claws"
+        ],
+        "teraTypes": [
+          "Rock",
+          "Dark"
+        ]
+      }
+    ]
+  },
+  "steelsoldier": {
+    "level": 80,
+    "sets": [
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Bulk Up",
+          "Body Press",
+          "Bullet Punch",
+          "Crush Sword",
+          "Giant Blade"
+        ],
+        "abilities": [
+          "Solid Rock",
+          "Sturdy"
+        ],
+        "teraTypes": [
+          "Fighting",
+          "Steel"
+        ]
+      }
+    ]
+  }
 }
