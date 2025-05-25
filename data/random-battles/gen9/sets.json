@@ -2896,5 +2896,323 @@
         ]
       }
     ]
+  },
+  "d3sfrog": {
+    "level": 83,
+    "sets": [
+      {
+        "role": "AV Pivot",
+        "movepool": [
+          "Acid Rain",
+          "Hydro Pump",
+          "Boomburst",
+          "Earth Power",
+          "Ice Beam"
+        ],
+        "abilities": [
+          "Thick Fat",
+          "Gluttony",
+          "Dry Skin"
+        ],
+        "teraTypes": [
+          "Poison",
+          "Normal"
+        ]
+      },
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Curse",
+          "Triple Dive",
+          "Poison Jab",
+          "Earthquake",
+          "Bounce",
+          "Des Croaking",
+          "Pain Split"
+        ],
+        "abilities": [
+          "Thick Fat",
+          "Dry Skin"
+        ],
+        "teraTypes": [
+          "Water",
+          "Ground"
+        ]
+      }
+    ]
+  },
+  "ronintoadin": {
+    "level": 82,
+    "sets": [
+      {
+        "role": "Fast Attacker",
+        "movepool": [
+          "Protect",
+          "Liquidation",
+          "Drain Punch",
+          "Mach Punch",
+          "Leaf Blade",
+          "Skitter Smack",
+          "Bestow"
+        ],
+        "abilities": [
+          "Toxic Boost"
+        ],
+        "teraTypes": [
+          "Water",
+          "Grass"
+        ]
+      },
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Bulk Up",
+          "Drain Punch",
+          "Ice Punch",
+          "Aqua Cutter",
+          "Close Combat",
+          "Fake Out",
+          "Power Whip"
+        ],
+        "abilities": [
+          "Hyper Cutter",
+          "Water Veil"
+        ],
+        "teraTypes": [
+          "Fighting",
+          "Water"
+        ]
+      }
+    ]
+  },
+  "dupefrog": {
+    "level": 81,
+    "sets": [
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Light Screen",
+          "Reflect",
+          "Teleport",
+          "Psyshock",
+          "Hydro Pump",
+          "Ice Beam",
+          "Baby-Doll Eyes"
+        ],
+        "abilities": [
+          "Wonder Skin",
+          "Clear Body"
+        ],
+        "teraTypes": [
+          "Water",
+          "Ice"
+        ]
+      },
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Calm Mind",
+          "Stored Power",
+          "Surf",
+          "Ice Beam",
+          "Dazzling Gleam"
+        ],
+        "abilities": [
+          "Analytic",
+          "Wonder Skin"
+        ],
+        "teraTypes": [
+          "Psychic",
+          "Fairy"
+        ]
+      }
+    ]
+  },
+  "diamondhd": {
+    "level": 80,
+    "sets": [
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Head Smash",
+          "Head Charge",
+          "Earthquake",
+          "Dragon Claw",
+          "Iron Head",
+          "Ice Fang"
+        ],
+        "abilities": [
+          "Rock Head"
+        ],
+        "teraTypes": [
+          "Rock",
+          "Steel"
+        ]
+      },
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Dragon Dance",
+          "Diamond Storm",
+          "Dragon Claw",
+          "Roost"
+        ],
+        "abilities": [
+          "Dazzling",
+          "Rough Skin"
+        ],
+        "teraTypes": [
+          "Rock",
+          "Ghost"
+        ]
+      },
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Stealth Rock",
+          "Dragon Tail",
+          "Diamond Storm",
+          "Roost",
+          "Iron Head"
+        ],
+        "abilities": [
+          "Rough Skin",
+          "Dazzling"
+        ],
+        "teraTypes": [
+          "Fighting",
+          "Steel"
+        ]
+      }
+    ]
+  },
+  "armbinsect": {
+    "level": 85,
+    "sets": [
+      {
+        "role": "AV Pivot",
+        "movepool": [
+          "Bug Buzz",
+          "Flash Cannon",
+          "Armor Cannon",
+          "Energy Ball",
+          "Sludge Bomb",
+          "Thunderbolt"
+        ],
+        "abilities": [
+          "Battle Armor"
+        ],
+        "teraTypes": [
+          "Fire",
+          "Steel"
+        ]
+      },
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Spikes",
+          "Thunder Wave",
+          "Taunt",
+          "Flash Cannon",
+          "Silver Wind",
+          "Giga Drain"
+        ],
+        "abilities": [
+          "Battle Armor"
+        ],
+        "teraTypes": [
+          "Water",
+          "Steel"
+        ]
+      }
+    ]
+  },
+  "insectqueen": {
+    "level": 84,
+    "sets": [
+      {
+        "role": "AV Pivot",
+        "movepool": [
+          "Leech Life",
+          "Poison Jab",
+          "U-turn",
+          "Stomping Tantrum",
+          "Play Rough",
+          "Egg Bomb",
+          "Fell Stinger"
+        ],
+        "abilities": [
+          "Queenly Majesty"
+        ],
+        "teraTypes": [
+          "Fairy",
+          "Ground"
+        ]
+      },
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Attack Order",
+          "Gunk Shot",
+          "Trailblaze",
+          "Leech Life",
+          "Stomping Tantrum",
+          "U-turn"
+        ],
+        "abilities": [
+          "Queenly Majesty"
+        ],
+        "teraTypes": [
+          "Bug",
+          "Ground"
+        ]
+      }
+    ]
+  },
+  "ryukpowered": {
+    "level": 87,
+    "sets": [
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Stealth Rock",
+          "Ceaseless Edge",
+          "Knock Off",
+          "Roar",
+          "Drain Punch",
+          "Stone Edge"
+        ],
+        "abilities": [
+          "Sand Stream",
+          "Rough Skin",
+          "Unnerve"
+        ],
+        "teraTypes": [
+          "Dark",
+          "Fighting"
+        ]
+      },
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Ceaseless Edge",
+          "Earthquake",
+          "Close Combat",
+          "Stone Edge",
+          "Trick",
+          "Sucker Punch",
+          "Iron Head"
+        ],
+        "abilities": [
+          "Sand Stream",
+          "Rough Skin",
+          "Unnerve"
+        ],
+        "teraTypes": [
+          "Dark",
+          "Ground"
+        ]
+      }
+    ]
   }
 }
