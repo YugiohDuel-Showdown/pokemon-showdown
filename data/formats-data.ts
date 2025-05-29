@@ -298,7 +298,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "OU",
 	},
 	darkmagiciangirl: {
-		tier: "LC",
+		tier: "NFE",
 	},
 	dmgirltdk: {
 		tier: "OU",
@@ -451,7 +451,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "OU",
 	},
 	gaiatfknight: {
-		tier: "LC",
+		tier: "NFE",
 	},
 	gaiaearth: {
 		tier: "OU",

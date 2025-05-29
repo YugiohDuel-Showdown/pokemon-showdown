@@ -1169,7 +1169,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		name: "Vorse Raider",
 		types: ["Dark"],
 		baseStats: { hp: 70, atk: 100, def: 75, spa: 80, spd: 70, spe: 70 },
-		abilities: { 0: "Insomnia", 1: "Oblivous", H: "Moxie" },
+		abilities: { 0: "Insomnia", 1: "Oblivious", H: "Moxie" },
 		heightm: 0,
 		weightkg: 110,
 		prevo: "Axe Raider",

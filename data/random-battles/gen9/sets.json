@@ -3214,5 +3214,491 @@
         ]
       }
     ]
+  },
+  "marshmallon": {
+    "level": 83,
+    "sets": [
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Belly Drum",
+          "Play Rough",
+          "Iron Head",
+          "Rest",
+          "Earthquake",
+          "Dual Wingbeat"
+        ],
+        "abilities": [
+          "Own Tempo",
+          "Gluttony"
+        ],
+        "teraTypes": [
+          "Steel",
+          "Water"
+        ]
+      },
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Wish",
+          "Will-O-Wisp",
+          "Dazzling Gleam",
+          "Disable",
+          "Earth Power",
+          "Sludge Bomb",
+          "Protect"
+        ],
+        "abilities": [
+          "Competitive",
+          "Gluttony"
+        ],
+        "teraTypes": [
+          "Steel",
+          "Ground"
+        ]
+      }
+    ]
+  },
+  "ojamaking": {
+    "level": 78,
+    "sets": [
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Bulk Up",
+          "Body Press",
+          "Ojama Delta Hurricane",
+          "Soft-Boiled",
+          "Earthquake"
+        ],
+        "abilities": [
+          "Unaware",
+          "Frisk",
+          "Normalize"
+        ],
+        "teraTypes": [
+          "Normal",
+          "Fighting"
+        ]
+      },
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Body Press",
+          "Fake Out",
+          "Taunt",
+          "Soft-Boiled",
+          "Defog",
+          "Body Slam",
+          "Explosion"
+        ],
+        "abilities": [
+          "Unaware",
+          "Frisk"
+        ],
+        "teraTypes": [
+          "Fighting",
+          "Normal"
+        ]
+      },
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Power Trick",
+          "Ojama Delta Hurricane",
+          "Close Combat",
+          "Trailblaze",
+          "Soft-Boiled",
+          "Earthquake",
+          "Rock Tomb"
+        ],
+        "abilities": [
+          "Unaware",
+          "Frisk"
+        ],
+        "teraTypes": [
+          "Fighting",
+          "Ground"
+        ]
+      }
+    ]
+  },
+  "mysticalelf": {
+    "level": 84,
+    "sets": [
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Calm Mind",
+          "Draining Kiss",
+          "Stored Power",
+          "Surf",
+          "Ice Beam",
+          "White Lightning",
+          "Mystic Power"
+        ],
+        "abilities": [
+          "Water Absorb"
+        ],
+        "teraTypes": [
+          "Psychic",
+          "Ground"
+        ]
+      },
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Heal Bell",
+          "Reflect",
+          "Light Screen",
+          "Mist Ball",
+          "Draining Kiss"
+        ],
+        "abilities": [
+          "Water Absorb"
+        ],
+        "teraTypes": [
+          "Fairy",
+          "Ground"
+        ]
+      }
+    ]
+  },
+  "flamecerberus": {
+    "level": 85,
+    "sets": [
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Raging Fury",
+          "Stomping Tantrum",
+          "Sucker Punch",
+          "Outrage",
+          "Iron Head",
+          "Thunder Fang"
+        ],
+        "abilities": [
+          "Hustle"
+        ],
+        "teraTypes": [
+          "Fire",
+          "Dark"
+        ]
+      },
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Bulk Up",
+          "Flame Charge",
+          "Knock Off",
+          "Sucker Punch",
+          "Zen Headbutt",
+          "Dragon Claw"
+        ],
+        "abilities": [
+          "Flame Body"
+        ],
+        "teraTypes": [
+          "Fire",
+          "Dark"
+        ]
+      }
+    ]
+  },
+  "vorseraider": {
+    "level": 81,
+    "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Swords Dance",
+          "Night Slash",
+          "Psycho Cut",
+          "Shadow Claw",
+          "Iron Head"
+        ],
+        "abilities": [
+          "Moxie"
+        ],
+        "teraTypes": [
+          "Ghost",
+          "Dark"
+        ]
+      }
+    ]
+  },
+  "wingeddragon": {
+    "level": 87,
+    "sets": [
+      {
+        "role": "Fast Attacker",
+        "movepool": [
+          "Flamethrower",
+          "Scald",
+          "Air Slash",
+          "Dragon Pulse",
+          "Hydro Steam"
+        ],
+        "abilities": [
+          "Stakeout",
+          "Blaze"
+        ],
+        "teraTypes": [
+          "Water",
+          "Flying"
+        ]
+      },
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Dragon Dance",
+          "Flare Blitz",
+          "Crunch",
+          "Dual Wingbeat",
+          "Dragon Claw",
+          "Thunder Fang"
+        ],
+        "abilities": [
+          "Blaze"
+        ],
+        "teraTypes": [
+          "Fire"
+        ]
+      }
+    ]
+  },
+  "darkmagiciangirl": {
+    "level": 85,
+    "sets": [
+      {
+        "role": "Fast Attacker",
+        "movepool": [
+          "Dark Magic Attack",
+          "Dark Burning Attack",
+          "Allure Voice",
+          "Psychic",
+          "Shadow Ball"
+        ],
+        "abilities": [
+          "Synchronize",
+          "Trace"
+        ],
+        "teraTypes": [
+          "Fairy",
+          "Psychic"
+        ]
+      },
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Calm Mind",
+          "Draining Kiss",
+          "Psyshock",
+          "Dark Pulse",
+          "Dark Burning Attack"
+        ],
+        "abilities": [
+          "Trace"
+        ],
+        "teraTypes": [
+          "Fairy"
+        ]
+      },
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Dark Magic Attack",
+          "Dark Burning Attack",
+          "Allure Voice",
+          "Psychic",
+          "Shadow Ball"
+        ],
+        "abilities": [
+          "Synchronize",
+          "Trace"
+        ],
+        "teraTypes": [
+          "Fairy",
+          "Psychic"
+        ]
+      }
+    ]
+  },
+  "dmgirltdk": {
+    "level": 80,
+    "sets": [
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Dragon Pulse",
+          "Psychic",
+          "Dark Magic Attack",
+          "Dark Burning Attack",
+          "Aura Sphere"
+        ],
+        "abilities": [
+          "Trace"
+        ],
+        "teraTypes": [
+          "Dragon",
+          "Fire"
+        ]
+      }
+    ]
+  },
+  "harpiesisters": {
+    "level": 81,
+    "sets": [
+      {
+        "role": "Fast Attacker",
+        "movepool": [
+          "Extreme Speed",
+          "Play Rough",
+          "Cyber Slash",
+          "Fire Lash",
+          "Power Whip"
+        ],
+        "abilities": [
+          "Sharpness"
+        ],
+        "teraTypes": [
+          "Normal",
+          "Flying"
+        ]
+      },
+      {
+        "role": "AV Pivot",
+        "movepool": [
+          "Extreme Speed",
+          "U-turn",
+          "Triple Slice",
+          "Triple Kick",
+          "Fire Lash"
+        ],
+        "abilities": [
+          "Sharpness"
+        ],
+        "teraTypes": [
+          "Normal",
+          "Flying"
+        ]
+      }
+    ]
+  },
+  "junkwarrior": {
+    "level": 82,
+    "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Bulk Up",
+          "Scrap Fist",
+          "Drain Punch",
+          "Supercell Slam",
+          "Rapid Spin",
+          "Ice Punch",
+          "Extreme Speed"
+        ],
+        "abilities": [
+          "Motor Drive",
+          "Battle Armor"
+        ],
+        "teraTypes": [
+          "Steel",
+          "Water"
+        ]
+      }
+    ]
+  },
+  "gaiatfknight": {
+    "level": 83,
+    "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Dragon Dance",
+          "Extreme Speed",
+          "Close Combat",
+          "Knock Off",
+          "Wild Charge",
+          "Spiral Spear",
+          "Fire Punch"
+        ],
+        "abilities": [
+          "Speed Boost",
+          "Hustle"
+        ],
+        "teraTypes": [
+          "Normal",
+          "Fighting"
+        ]
+      }
+    ]
+  },
+  "gaiaearth": {
+    "level": 75,
+    "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Dragon Dance",
+          "Extreme Speed",
+          "Headlong Rush",
+          "Close Combat",
+          "Wild Charge",
+          "Crunch"
+        ],
+        "abilities": [
+          "Speed Boost",
+          "Moxie"
+        ],
+        "teraTypes": [
+          "Normal",
+          "Fighting"
+        ]
+      },
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Bulk Up",
+          "Drain Punch",
+          "Knock Off",
+          "Earthquake",
+          "Spiral Spear",
+          "Fire Punch"
+        ],
+        "abilities": [
+          "Speed Boost"
+        ],
+        "teraTypes": [
+          "Fighting",
+          "Dark"
+        ]
+      }
+    ]
+  },
+  "darkcavalry": {
+    "level": 80,
+    "sets": [
+      {
+        "role": "AV Pivot",
+        "movepool": [
+          "Aura Sphere",
+          "Dark Pulse",
+          "Earth Power",
+          "Shadow Ball",
+          "Vacuum Wave",
+          "Razor Wind"
+        ],
+        "abilities": [
+          "Speed Boost",
+          "Grim Neigh"
+        ],
+        "teraTypes": [
+          "Normal",
+          "Fighting"
+        ]
+      }
+    ]
   }
 }
