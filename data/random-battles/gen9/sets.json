@@ -3700,5 +3700,285 @@
         ]
       }
     ]
-  }
+  },
+  "flamewingman": {
+    "level": 86,
+    "sets": [
+      {
+        "role": "Bulky Attacker",
+        "movepool": [
+          "Sky Scorcher",
+          "Brave Bird",
+          "Extreme Speed",
+          "Close Combat",
+          "Drain Punch",
+          "Scapegoat",
+          "Skyscraper"
+        ],
+        "abilities": [
+          "Intimidate"
+        ],
+        "teraTypes": [
+          "Fire",
+          "Normal"
+        ]
+      },
+      {
+        "role": "AV Pivot",
+        "movepool": [
+          "Heat Wave",
+          "Hurricane",
+          "Hyper Voice",
+          "Focus Blast",
+          "Overheat",
+          "Extreme Speed"
+        ],
+        "abilities": [
+          "Intimidate"
+        ],
+        "teraTypes": [
+          "Fire",
+          "Flying"
+        ]
+      }
+    ]
+  },
+  "illusionmgc": {
+    "level": 84,
+    "sets": [
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Calm Mind",
+          "Psychic",
+          "Shadow Ball",
+          "Dark Pulse",
+          "Dazzling Gleam",
+          "Thunderbolt"
+        ],
+        "abilities": [
+          "Illusion"
+        ],
+        "teraTypes": [
+          "Dark",
+          "Fairy"
+        ]
+      },
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Thunder Wave",
+          "Taunt",
+          "Hex",
+          "Emergency Teleport",
+          "Magic Coat",
+          "Hypnosis",
+          "Dazzling Gleam"
+        ],
+        "abilities": [
+          "Compound Eyes",
+          "Illusion"
+        ],
+        "teraTypes": [
+          "Ghost",
+          "Fairy"
+        ]
+      }
+    ]
+  },
+  "parrotdragon": {
+    "level": 87,
+    "sets": [
+      {
+        "role": "Fast Attacker",
+        "movepool": [
+          "Boomburst",
+          "Hurricane",
+          "Energy Ball",
+          "Dragon Pulse",
+          "Agility",
+          "Roost",
+          "U-turn"
+        ],
+        "abilities": [
+          "Sap Sipper"
+        ],
+        "teraTypes": [
+          "Normal",
+          "Dragon"
+        ]
+      },
+      {
+        "role": "Fast Support",
+        "movepool": [
+          "Aromatherapy",
+          "Tailwind",
+          "U-turn",
+          "Twin Twister",
+          "Roost",
+          "Encore",
+          "Energy Ball"
+        ],
+        "abilities": [
+          "Sap Sipper"
+        ],
+        "teraTypes": [
+          "Grass",
+          "Ground"
+        ]
+      }
+    ]
+  },
+  "tdtitan": {
+    "level": 77,
+    "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Coil",
+          "Bolt Strike",
+          "Iron Head",
+          "Scale Shot",
+          "Ice Fang",
+          "Drill Peck"
+        ],
+        "abilities": [
+          "Volt Absorb",
+          "Thunder Surge"
+        ],
+        "teraTypes": [
+          "Electric",
+          "Dragon"
+        ]
+      },
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Supercell Slam",
+          "Foul Play",
+          "Drill Run",
+          "Dual Wingbeat",
+          "Rock Slide",
+          "Psychic Fangs",
+          "Megahorn"
+        ],
+        "abilities": [
+          "Volt Absorb",
+          "Thunder Surge"
+        ],
+        "teraTypes": [
+          "Electric",
+          "Flying"
+        ]
+      }
+    ]
+  },
+  "heavymetalking": {
+    "level": 82,
+    "sets": [
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Overdrive",
+          "Boomburst",
+          "Allure Voice",
+          "Metal Sound",
+          "Vacuum Wave",
+          "Heat Wave"
+        ],
+        "abilities": [
+          "Punk Rock"
+        ],
+        "teraTypes": [
+          "Normal",
+          "Electric"
+        ]
+      }
+    ]
+  },
+  "slotmachine": {
+  "level": 81,
+  "sets": [
+      {
+        "role": "Bulky Setup",
+        "movepool": ["Acupressure", "Make It Rain", "Charge Beam", "Ice Beam", "Earth Power", "Thunderbolt"],
+        "abilities": ["Super Luck"],
+        "teraTypes": ["Ghost", "Electric"]
+      },
+{
+        "role": "Bulky Support",
+        "movepool": ["Encore", "Gyro Ball", "Knock Off", "Reflect", "Rock Slide", "Lucky Chant", "Pay Day"],
+        "abilities": ["Super Luck"],
+        "teraTypes": ["Steel", "Poison"]
+      }
+]
+},
+"rabidhorseman": {
+  "level": 84,
+  "sets": [
+      {
+        "role": "Fast Bulky Setup",
+        "movepool": ["Bulk Up", "Earthquake", "Double-Edge", "Head Smash", "Close Combat", "Fire Punch", "Wild Charge"],
+        "abilities": ["Rock Head", "Reckless"],
+        "teraTypes": ["Normal", "Rock"]
+      }
+]
+},
+"launcherspider": {
+  "level": 79,
+  "sets": [
+      {
+        "role": "AV Pivot",
+        "movepool": ["Bug Buzz", "Shock Rocket", "Electroweb", "Charge Beam", "Volt Switch", "Flash Cannon", "Giga Drain"],
+        "abilities": ["Battle Armor", "Flame Body", "Heatproof"],
+        "teraTypes": ["Water", "Electric"]
+      },
+{
+        "role": "Bulky Setup",
+        "movepool": ["Quiver Dance", "Giga Drain", "Flamethrower", "Bug Buzz", "Sludge Bomb", "Charge Beam"],
+        "abilities": ["Flame Body", "Battle Armor", "Heatproof"],
+        "teraTypes": ["Fire", "Bug"]
+      },
+ {
+        "role": "Bulky Support",
+        "movepool": ["Sticky Web", "Electroweb", "Spider Web", "Shock Rocket", "U-turn", "Infestation", "Spikes"],
+        "abilities": ["Heatproof", "Flame Body", "Battle Armor"],
+        "teraTypes": ["Bug", "Fire"]
+      }
+]
+},
+"mudballman": {
+  "level": 84,
+  "sets": [
+      {
+        "role": "Bulky Attacker",
+        "movepool": ["Clay Charge", "Body Press", "Iron Defense", "Rock Blast", "Gyro Ball", "Liquidation", "Skyscraper", "Ice Punch"],
+        "abilities": ["Sturdy", "Water Compaction"],
+        "teraTypes": ["Steel", "Fighting"]
+      },
+{
+        "role": "Bulky Support",
+        "movepool": ["Stealth Rock", "Iron Defense", "Body Press", "Earth Power", "Wasteland", "Hydro Pump", "Icy Wind"],
+        "abilities": ["Sturdy", "Water Compaction"],
+        "teraTypes": ["Fighting", "Ground"]
+      }
+]
+},
+"skulldice": {
+  "level": 90,
+  "sets": [
+      {
+        "role": "Bulky Setup",
+        "movepool": ["Reckless Greed", "Dark Pulse", "Shadow Ball", "Psychic", "Skull Dice", "Fake Out"],
+        "abilities": ["Oblivious"],
+        "teraTypes": ["Dark", "Poison"]
+      },
+{
+        "role": "Bulky Support",
+        "movepool": ["Spikes", "Skull Dice", "Knock Off", "Fake Out", "Perish Song", "Toxic Spikes", "Cut"],
+        "abilities": ["Oblivious"],
+        "teraTypes": ["Steel", "Poison"]
+      }
+]
+}
 }
