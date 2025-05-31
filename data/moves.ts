@@ -3190,7 +3190,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			if (stats.length) {
 				const randomStat = this.sample(stats);
 				const boost: SparseBoostsTable = {};
-				boost[randomStat] = this.random(1, 6) + 1;
+				boost[randomStat] = -(this.random(1, 6) + 1);
 				this.boost(boost, target);
 			} else {
 				return false;
