@@ -3129,7 +3129,6 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		itemUser: ["Parrot Dragon"],
 		num: 259,
 		gen: 8,
-		isNonstandard: "Past",
 	},
 	leftovers: {
 		name: "Leftovers",
