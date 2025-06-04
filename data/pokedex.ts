@@ -1471,7 +1471,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		gender: "M",
 		types: ["Normal"],
 		baseStats: { hp: 80, atk: 65, def: 80, spa: 40, spd: 75, spe: 60 },
-		abilities: { 0: "Royal Flash", H: "Rivalry" },
+		abilities: { 0: "Royal Flush", H: "Rivalry" },
 		heightm: 0,
 		weightkg: 70,
 		eggGroups: ["Monster", "Human-Like"],
