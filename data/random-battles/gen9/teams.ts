@@ -1251,7 +1251,7 @@ export class RandomTeams {
 		}
 		if (counter.get('Status') && (species.name === 'Latias' || species.name === 'Latios')) return 'Soul Dew';
 		if (species.id === 'scyther' && !isDoubles) return (isLead && !moves.has('uturn')) ? 'Eviolite' : 'Heavy-Duty Boots';
-		if (ability === 'Poison Heal' || ability === 'Quick Feet' || 'Toxic Boost') return 'Toxic Orb';
+		if (ability === 'Poison Heal' || ability === 'Quick Feet' || ability === 'Toxic Boost') return 'Toxic Orb';
 		if (species.nfe) {
 			if (['Wallbreaker'].includes(role)) return 'Eviomite';
 			else if (['Fast Attacker'].includes(role)) return 'Eviokite';
