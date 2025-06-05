@@ -4356,5 +4356,424 @@
         ]
       }
     ]
+  },
+  "legendaryfish2": {
+    "level": 81,
+    "sets": [
+      {
+        "role": "Fast Bulky Setup",
+        "movepool": [
+          "Legendary Ocean",
+          "Aqua Cutter",
+          "Anchor Shot",
+          "Drain Punch",
+          "Glacial Lance",
+          "Aqua Jet",
+          "Flip Turn"
+        ],
+        "abilities": [
+          "Swift Swim"
+        ],
+        "teraTypes": [
+          "Ice",
+          "Water"
+        ]
+      }
+    ]
+  },
+  "swordmaster": {
+    "level": 79,
+    "sets": [
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Protect",
+          "Close Combat",
+          "Bullet Punch",
+          "Meteor Mash",
+          "Fire Punch",
+          "Thunder Punch",
+          "Knock Off",
+          "Ice Punch"
+        ],
+        "abilities": [
+          "Guts"
+        ],
+        "teraTypes": [
+          "Fighting",
+          "Steel"
+        ]
+      },
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Swords Dance",
+          "Dragonic Attack",
+          "Close Combat",
+          "Ice Punch",
+          "Fire Punch",
+          "Thunder Punch",
+          "Meteor Mash"
+        ],
+        "abilities": [
+          "Sheer Force"
+        ],
+        "teraTypes": [
+          "Fighting",
+          "Steel"
+        ]
+      }
+    ]
+  },
+  "petenclown": {
+    "level": 82,
+    "sets": [
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Calm Mind",
+          "Dark Pulse",
+          "Future Sight",
+          "Shadow Ball",
+          "Dark Light"
+        ],
+        "abilities": [
+          "Magician",
+          "Pickpocket"
+        ],
+        "teraTypes": [
+          "Poison",
+          "Dark"
+        ]
+      },
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Nasty Plot",
+          "Dark Light",
+          "Psychic",
+          "Shadow Ball",
+          "Dark Pulse"
+        ],
+        "abilities": [
+          "Magician",
+          "Pickpocket"
+        ],
+        "teraTypes": [
+          "Dark",
+          "Psychic"
+        ]
+      }
+    ]
+  },
+  "cyslashharpie": {
+    "level": 80,
+    "sets": [
+      {
+        "role": "AV Pivot",
+        "movepool": [
+          "U-turn",
+          "Steel Wing",
+          "Fire Lash",
+          "Dual Wingbeat",
+          "Wild Charge"
+        ],
+        "abilities": [
+          "Magic Bounce",
+          "Battle Armor"
+        ],
+        "teraTypes": [
+          "Flying",
+          "Steel"
+        ]
+      },
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Hone Claws",
+          "Cyber Slash",
+          "X-Scissor",
+          "Shadow Claw",
+          "Night Slash",
+          "Cut"
+        ],
+        "abilities": [
+          "Sharpness"
+        ],
+        "teraTypes": [
+          "Flying"
+        ]
+      }
+    ]
+  },
+  "keldoprotector": {
+    "level": 80,
+    "sets": [
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Calm Mind",
+          "Dazzling Gleam",
+          "Flash Cannon",
+          "Psychic",
+          "Thunderbolt",
+          "Wish"
+        ],
+        "abilities": [
+          "Regenerator"
+        ],
+        "teraTypes": [
+          "Fairy",
+          "Steel"
+        ]
+      },
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Defog",
+          "Wish",
+          "Protect",
+          "Teleport",
+          "Dazzling Gleam",
+          "Flash Cannon",
+          "Psyshock"
+        ],
+        "abilities": [
+          "Regenerator"
+        ],
+        "teraTypes": [
+          "Steel",
+          "Psychic"
+        ]
+      }
+    ]
+  },
+  "harpiebro": {
+    "level": 82,
+    "sets": [
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Extreme Speed",
+          "Dual Wingbeat",
+          "Thunder Punch",
+          "Brick Break",
+          "Fire Punch"
+        ],
+        "abilities": [
+          "Guts"
+        ],
+        "teraTypes": [
+          "Normal",
+          "Fighting"
+        ]
+      },
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Cyber Slash",
+          "Cut",
+          "Body Slam",
+          "U-turn",
+          "Iron Head"
+        ],
+        "abilities": [
+          "Sharpness"
+        ],
+        "teraTypes": [
+          "Flying"
+        ]
+      }
+    ]
+  },
+  "harpiedragon": {
+    "level": 80,
+    "sets": [
+      {
+        "role": "Bulky Attacker",
+        "movepool": [
+          "Air Slash",
+          "Dragon Breath",
+          "Flamethrower",
+          "Thunderbolt",
+          "Hyper Beam",
+          "Roost"
+        ],
+        "abilities": [
+          "Flare Boost"
+        ],
+        "teraTypes": [
+          "Dragon",
+          "Fire"
+        ]
+      }
+    ]
+  },
+  "overtexqoatlus": {
+    "level": 86,
+    "sets": [
+      {
+        "role": "AV Pivot",
+        "movepool": [
+          "Beak Blast",
+          "Earthquake",
+          "Stone Edge",
+          "Iron Head",
+          "Seed Bomb",
+          "U-turn",
+          "Crunch"
+        ],
+        "abilities": [
+          "Sand Rush",
+          "Sand Spit"
+        ],
+        "teraTypes": [
+          "Water",
+          "Ground"
+        ]
+      },
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Stealth Rock",
+          "Spikes",
+          "Dragon Tail",
+          "Roost",
+          "Earthquake",
+          "U-turn",
+          "Super Fang"
+        ],
+        "abilities": [
+          "Sand Spit"
+        ],
+        "teraTypes": [
+          "Ground",
+          "Water"
+        ]
+      }
+    ]
+  },
+  "kingofd": {
+    "level": 82,
+    "sets": [
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Boomburst",
+          "Dragon Pulse",
+          "Charge Beam",
+          "Thunderbolt",
+          "Dark Pulse",
+          "Dazzling Gleam",
+          "Shadow Ball",
+          "Hyper Beam"
+        ],
+        "abilities": [
+          "Punk Rock",
+          "Galvanize"
+        ],
+        "teraTypes": [
+          "Electric",
+          "Normal"
+        ]
+      },
+      {
+        "role": "Fast Bulky Setup",
+        "movepool": [
+          "Dragon Dance",
+          "Skull Bash",
+          "Outrage",
+          "Wild Charge",
+          "Sucker Punch",
+          "Fire Punch",
+          "Cut"
+        ],
+        "abilities": [
+          "Galvanize"
+        ],
+        "teraTypes": [
+          "Electric",
+          "Dark"
+        ]
+      }
+    ]
+  },
+  "twinthunderd": {
+    "level": 81,
+    "sets": [
+      {
+        "role": "Bulky Attacker",
+        "movepool": [
+          "Coil",
+          "Supercell Slam",
+          "Drill Peck",
+          "Dragon Claw",
+          "Megahorn",
+          "Drill Run"
+        ],
+        "abilities": [
+          "Volt Absorb",
+          "Thunder Surge"
+        ],
+        "teraTypes": [
+          "Dragon",
+          "Flying"
+        ]
+      },
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Thunder Wave",
+          "Volt Switch",
+          "Psychic Fangs",
+          "Drill Peck",
+          "Crunch"
+        ],
+        "abilities": [
+          "Volt Absorb"
+        ],
+        "teraTypes": [
+          "Flying"
+        ]
+      }
+    ]
+  },
+  "maddogod": {
+    "level": 88,
+    "sets": [
+      {
+        "role": "Fast Attacker",
+        "movepool": [
+          "Sucker Punch",
+          "Raging Bull",
+          "Earthquake",
+          "Darkest Lariat",
+          "Knock Off"
+        ],
+        "abilities": [
+          "Intimidate"
+        ],
+        "teraTypes": [
+          "Poison"
+        ]
+      },
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Play Rough",
+          "Earthquake",
+          "Thrash",
+          "Darkest Lariat",
+          "Ice Punch"
+        ],
+        "abilities": [
+          "Beast Boost"
+        ],
+        "teraTypes": [
+          "Ground",
+          "Ice"
+        ]
+      }
+    ]
   }
 }

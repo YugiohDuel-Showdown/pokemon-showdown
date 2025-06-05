@@ -8377,7 +8377,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	xscissor: {
 		name: "X-Scissor",
-		shortDesc: "No additional effect.",
+		shortDesc: "High critical hit ratio.",
 	},
 	yawn: {
 		name: "Yawn",
