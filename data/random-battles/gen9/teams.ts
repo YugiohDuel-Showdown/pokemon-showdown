@@ -1258,7 +1258,7 @@ export class RandomTeams {
 			else return 'Eviolite';
 		}
 		if (species.nfe) return 'Eviolite';
-		if ((ability === 'Guts' || moves.has('facade')) && !moves.has('sleeptalk')) {
+		if ((ability === 'Guts' || ability === 'Flare Boost' || moves.has('facade')) && !moves.has('sleeptalk')) {
 			return (types.includes('Fire') || ability === 'Toxic Boost') ? 'Toxic Orb' : 'Flame Orb';
 		}
 		if (ability === 'Magic Guard' || (ability === 'Sheer Force' && counter.get('sheerforce'))) return 'Life Orb';
