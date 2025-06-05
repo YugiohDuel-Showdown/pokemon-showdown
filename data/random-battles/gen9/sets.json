@@ -4775,5 +4775,106 @@
         ]
       }
     ]
-  }
+  },
+  "ra": {
+    "level": 72,
+    "sets": [
+      {
+        "role": "Fast Attacker",
+        "movepool": [
+          "Fire Blast",
+          "Solar Beam",
+          "Air Slash",
+          "Thunderbolt",
+          "Charge Beam",
+          "Flash Cannon",
+          "Will-O-Wisp",
+          "Roost"
+        ],
+        "abilities": [
+          "Drought"
+        ],
+        "teraTypes": [
+          "Grass",
+          "Electric"
+        ]
+      },
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Dragon Dance",
+          "Flare Blitz",
+          "Brave Bird",
+          "Earthquake",
+          "Sunsteel Strike"
+        ],
+        "abilities": [
+          "Drought"
+        ],
+        "teraTypes": [
+          "Fire",
+          "Ground"
+        ]
+      }
+    ]
+  },
+  "hamon": {
+    "level": 72,
+    "sets": [
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Cerulean Skyfire",
+          "Shadow Ball",
+          "Earth Power",
+          "Flash Cannon",
+          "Thunderclap",
+          "Dragon Pulse"
+        ],
+        "abilities": [
+          "Lightning Rod"
+        ],
+        "teraTypes": [
+          "Ground",
+          "Dragon"
+        ]
+      },
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Bonemerang",
+          "Shadow Bone",
+          "Supercell Slam",
+          "Crunch",
+          "Dragon Claw",
+          "Poison Jab"
+        ],
+        "abilities": [
+          "Lightning Rod"
+        ],
+        "teraTypes": [
+          "Ground",
+          "Poison"
+        ]
+      }
+    ]
+  },
+  "exodiancr": {
+  "level": 72,
+  "sets": [
+      {
+        "role":  "Wallbreaker",
+        "movepool": ["Spirit Shackle", "Sucker Punch", "Focus Punch", "Thunder Punch", "Fire Punch", "Earthquake", "Zen Headbutt", "Trick"],
+        "abilities": ["Pressure"],
+        "teraTypes": ["Ghost", "Dark"]
+      },
+{
+        "role": "Fast Bulky Setup",
+        "movepool": ["Calm Mind", "Shadow Ball", "Aura Sphere", "Power Gem", "Psychic", "Curse"],
+        "abilities": ["Pressure"],
+        "teraTypes": ["Ghost", "Fighting"]
+      }
+]
+}
+
 }

@@ -18391,7 +18391,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			airslash: ["9L51", "9T"],
 			dragondance: ["9L55", "9T"],
 			dragonpulse: ["9L58", "9M"],
-			thundrforce: ["9L60", "9E"],
+			thunderforce: ["9L60", "9E"],
 			extremespeed: ["9L70"],
 			skyattack: ["9L80", "9T"],
 			endure: ["9E", "9M"],
