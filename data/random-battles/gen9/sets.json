@@ -4760,17 +4760,17 @@
       {
         "role": "Wallbreaker",
         "movepool": [
-          "Play Rough",
-          "Earthquake",
-          "Thrash",
-          "Darkest Lariat",
+          "Mega Punch",
+          "Fire Punch",
+          "Thunder Punch",
+          "Sucker Punch",
           "Ice Punch"
         ],
         "abilities": [
           "Beast Boost"
         ],
         "teraTypes": [
-          "Ground",
+          "Normal",
           "Ice"
         ]
       }
