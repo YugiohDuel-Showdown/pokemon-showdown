@@ -2075,7 +2075,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 	tdcolossus: {
 		num: 173,
 		name: "TD Colossus",
-		types: ["Electric", "Flying"],
+		types: ["Electric", "Dragon"],
 		baseStats: { hp: 110, atk: 80, def: 75, spa: 105, spd: 115, spe: 55 },
 		abilities: { 0: "Lightning Rod", 1: "Intimidate", H: "Thunder Surge" },
 		heightm: 0,
