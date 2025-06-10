@@ -2827,8 +2827,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pp: 10,
 		priority: 0,
 		flags: { protect: 1, reflectable: 1 },
-		onTryHit(source, target) {
-			if (target.runStatusImmunity('brn') || target.status !== null) return false;
+		onTryHit(pokemon) {
+			if (pokemon.runStatusImmunity('brn') || pokemon.status !== null) return false;
 		},
 		onHit(target, source) {
 			target.setStatus('brn');
