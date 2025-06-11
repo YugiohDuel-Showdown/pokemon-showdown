@@ -15906,7 +15906,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			embargo: ["9L25"],
 			crunch: ["9L28", "9E", "9T"],
 			razorwind: ["9L30"],
-			infrnoblast: ["9L34", "9E"],
+			infernoblast: ["9L34", "9E"],
 			drillpeck: ["9L40"],
 			mefirst: ["9L45"],
 			agility: ["9L50", "9T"],

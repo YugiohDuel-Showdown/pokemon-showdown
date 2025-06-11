@@ -661,6 +661,9 @@ export class RandomTeams {
 		if (species.id === 'camerupt') this.incompatibleMoves(moves, movePool, 'roar', 'willowisp');
 		// nothing else rolls these lol
 		if (species.id === 'coalossal') this.incompatibleMoves(moves, movePool, 'flamethrower', 'overheat');
+
+		// To force Rest on Sinsiter S
+		if (species.id === 'sinisters') this.incompatibleMoves(moves, movePool, 'rest', 'flamecharge');
 	}
 
 	// Checks for and removes incompatible moves, starting with the first move in movesA.

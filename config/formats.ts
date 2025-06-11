@@ -26,7 +26,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		desc: `Randomized teams of Monsters with sets that are generated to be competitively viable.`,
 		mod: 'gen9',
 		team: 'random',
-		ruleset: ['PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod'],
+		ruleset: ['PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod', 'Terastal Clause'],
 	},
 	{
 		name: "[Gen 9] Unrated Random Battle",
