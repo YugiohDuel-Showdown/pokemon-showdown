@@ -21163,7 +21163,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			zenheadbutt: ["9L30", "9T"],
 			guardswap: ["9L36"],
 			triattack: ["9L40"],
-			thundrstroke: ["9L48"],
+			thunderstroke: ["9L48"],
 			thunder: ["9L51", "9M"],
 			aeroblast: ["9L56"],
 			irondefense: ["9L63", "9T"],

@@ -2803,7 +2803,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			return move.basePower;
 		},
 		category: "Physical",
-		name: "Dragon Caputre Jar",
+		name: "Dragon Capture Jar",
 		pp: 20,
 		priority: 0,
 		flags: { protect: 1, mirror: 1 },
