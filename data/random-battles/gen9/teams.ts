@@ -1255,12 +1255,13 @@ export class RandomTeams {
 		if (counter.get('Status') && (species.name === 'Latias' || species.name === 'Latios')) return 'Soul Dew';
 		if (species.id === 'scyther' && !isDoubles) return (isLead && !moves.has('uturn')) ? 'Eviolite' : 'Heavy-Duty Boots';
 		if (ability === 'Poison Heal' || ability === 'Quick Feet' || ability === 'Toxic Boost') return 'Toxic Orb';
-		if (species.nfe) {
+		const speciesBst = species.baseStats.hp + species.baseStats.atk + species.baseStats.def + species.baseStats.spa +
+			species.baseStats.spd + species.baseStats.spe;
+		if (species.nfe && speciesBst < 450 && !['humanoidslime'].includes(species.id)) {
 			if (['Wallbreaker'].includes(role)) return 'Eviomite';
 			else if (['Fast Attacker'].includes(role)) return 'Eviokite';
 			else return 'Eviolite';
 		}
-		if (species.nfe) return 'Eviolite';
 		if ((ability === 'Guts' || ability === 'Flare Boost' || moves.has('facade')) && !moves.has('sleeptalk')) {
 			return (types.includes('Fire') || ability === 'Toxic Boost') ? 'Toxic Orb' : 'Flame Orb';
 		}

@@ -1217,12 +1217,12 @@
     ]
   },
   "skullmarron": {
-    "level": 76,
+    "level": 79,
     "sets": [
       {
         "role": "Setup Sweeper",
         "movepool": [
-          "No Retreat",
+          "Howl",
           "Shadow Bone",
           "Double-Edge",
           "Shadow Sneak",
@@ -1912,7 +1912,7 @@
         "movepool": [
           "Thunder Wave",
           "Defog",
-          "Secret Sword",
+          "Brick Break",
           "Play Rough",
           "Brick Break",
           "Mach Punch",
@@ -8141,7 +8141,7 @@
     ]
   },
   "fortresswhale": {
-    "level": 83,
+    "level": 86,
     "sets": [
       {
         "role": "Fast Attacker",

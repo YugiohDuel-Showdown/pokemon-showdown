@@ -21502,7 +21502,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			megahorn: ["9L46", "9T"],
 			explosion: ["9L50", "9M"],
 			blizzard: ["9L54", "9M"],
-			seastealtha: ["9L56"],
+			seastealthattack: ["9L56"],
 			waterspout: ["9L60"],
 			wavecrash: ["9L70"],
 			aquaring: ["9E"],
