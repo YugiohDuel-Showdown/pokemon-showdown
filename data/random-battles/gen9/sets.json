@@ -8532,5 +8532,27 @@
         ]
       }
     ]
+  },
+  "laundrydm": {
+    "level": 78,
+    "sets": [
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Liquidation",
+          "Dragon Claw",
+          "Dragon Dance",
+          "Dazzling Gleam",
+          "Tidy Up",
+          "Freeze-Dry"
+        ],
+        "abilities": [
+          "Zen Mode"
+        ],
+        "teraTypes": [
+          "Water"
+        ]
+      }
+    ]
   }
 }
