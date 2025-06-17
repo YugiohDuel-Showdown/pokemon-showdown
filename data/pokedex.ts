@@ -4539,7 +4539,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		name: "Rainbow Neos",
 		gender: "M",
 		types: ["Fighting", "Psychic"],
-		baseStats: { hp: 90, atk: 120, def: 90, spa: 125, spd: 80, spe: 105 },
+		baseStats: { hp: 90, atk: 120, def: 80, spa: 125, spd: 80, spe: 105 },
 		abilities: { "0": "Neuroforce" },
 		heightm: 0,
 		weightkg: 120,

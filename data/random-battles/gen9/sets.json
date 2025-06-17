@@ -208,7 +208,7 @@
     ]
   },
   "greatmoth": {
-    "level": 94,
+    "level": 90,
     "sets": [
       {
         "role": "Bulky Attacker",
@@ -1568,7 +1568,7 @@
     ]
   },
   "blazinginpachi": {
-    "level": 91,
+    "level": 86,
     "sets": [
       {
         "role": "Wallbreaker",
@@ -1605,7 +1605,7 @@
     ]
   },
   "charcoalinpachi": {
-    "level": 91,
+    "level": 86,
     "sets": [
       {
         "role": "Bulky Attacker",
@@ -4119,7 +4119,7 @@
     ]
   },
   "mokeyking": {
-    "level": 76,
+    "level": 79,
     "sets": [
       {
         "role": "Wallbreaker",
@@ -4593,7 +4593,7 @@
         "role": "Bulky Attacker",
         "movepool": [
           "Air Slash",
-          "Dragon Breath",
+          "Dragon Pulse",
           "Flamethrower",
           "Thunderbolt",
           "Hyper Beam",
@@ -8548,6 +8548,202 @@
         ],
         "abilities": [
           "Zen Mode"
+        ],
+        "teraTypes": [
+          "Water"
+        ]
+      }
+    ]
+  },
+  "drhades": {
+    "level": 81,
+    "sets": [
+      {
+        "role": "Bulky Attacker",
+        "movepool": [
+          "Order to Smash",
+          "Knock Off",
+          "Shadow Ball",
+          "Earth Power",
+          "Skill Drain"
+        ],
+        "abilities": [
+          "Overcoat",
+          "Dark Aura"
+        ],
+        "teraTypes": [
+          "Dark"
+        ]
+      },
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Glare",
+          "Order to Smash",
+          "Hex",
+          "Taunt"
+        ],
+        "abilities": [
+          "Pressure"
+        ],
+        "teraTypes": [
+          "Dark"
+        ]
+      }
+    ]
+  },
+  "honest": {
+    "level": 83,
+    "sets": [
+      {
+        "role": "Bulky Attacker",
+        "movepool": [
+          "Honest Cry",
+          "Psychic",
+          "Energy Ball",
+          "Dark Pulse",
+          "Air Slash"
+        ],
+        "abilities": [
+          "Honest Power"
+        ],
+        "teraTypes": [
+          "Fairy"
+        ]
+      }
+    ]
+  },
+  "clearvice": {
+    "level": 82,
+    "sets": [
+      {
+        "role": "Bulky Attacker",
+        "movepool": [
+          "Clear Stream",
+          "Dark Pulse",
+          "Thunderbolt",
+          "Mystical Fire",
+          "Air Slash",
+          "Hyper Voice"
+        ],
+        "abilities": [
+          "Protean"
+        ],
+        "teraTypes": [
+          "Dark"
+        ]
+      },
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Calm Mind",
+          "Clear Stream",
+          "Dark Pulse",
+          "Dragon Pulse",
+          "Earth Power",
+          "Thunderbolt"
+        ],
+        "abilities": [
+          "Clear Body"
+        ],
+        "teraTypes": [
+          "Dark"
+        ]
+      }
+    ]
+  },
+  "magicianobc": {
+    "level": 87,
+    "sets": [
+      {
+        "role": "Fast Attacker",
+        "movepool": [
+          "Psycho Boost",
+          "Chaos Scepter Blast",
+          "Thunderbolt",
+          "Power Gem",
+          "Focus Blast",
+          "Trick"
+        ],
+        "abilities": [
+          "Inner Focus"
+        ],
+        "teraTypes": [
+          "Dark"
+        ]
+      },
+      {
+        "role": "Fast Bulky Setup",
+        "movepool": [
+          "Calm Mind",
+          "Chaos Scepter Blast",
+          "Luster Purge",
+          "Thunderbolt",
+          "Power Gem"
+        ],
+        "abilities": [
+          "Inner Focus"
+        ],
+        "teraTypes": [
+          "Dark"
+        ]
+      }
+    ]
+  },
+  "ghostrick": {
+    "level": 88,
+    "sets": [
+      {
+        "role": "Fast Support",
+        "movepool": [
+          "Toxic",
+          "Trick",
+          "U-turn",
+          "Hex",
+          "Moonlight",
+          "Taunt"
+        ],
+        "abilities": [
+          "Prankster"
+        ],
+        "teraTypes": [
+          "Ghost"
+        ]
+      },
+      {
+        "role": "Fast Bulky Setup",
+        "movepool": [
+          "Calm Mind",
+          "Moonlight",
+          "Shadow Ball",
+          "Dazzling Gleam",
+          "Eerie Spell"
+        ],
+        "abilities": [
+          "Levitate",
+          "Prankster"
+        ],
+        "teraTypes": [
+          "Ghost"
+        ]
+      }
+    ]
+  },
+  "gameciel": {
+    "level": 85,
+    "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Shell Smash",
+          "Hydro Pump",
+          "Heavy Storm",
+          "Ice Beam",
+          "Earth Power"
+        ],
+        "abilities": [
+          "Strom Drain",
+          "Swift Swim"
         ],
         "teraTypes": [
           "Water"
