@@ -9555,54 +9555,194 @@
     ]
   },
   "rainbowdragon": {
-  "level": 77,
-  "sets": [
+    "level": 77,
+    "sets": [
       {
         "role": "Setup Sweeper",
-        "movepool": ["Dragon Dance", "Dragon Claw", "Psychic Fangs", "Rock Slide", "Crunch"],
-        "abilities": ["Air Lock"],
-        "teraTypes": ["Dragon"]
+        "movepool": [
+          "Dragon Dance",
+          "Dragon Claw",
+          "Psychic Fangs",
+          "Rock Slide",
+          "Crunch"
+        ],
+        "abilities": [
+          "Air Lock"
+        ],
+        "teraTypes": [
+          "Dragon"
+        ]
       },
-     {
-       "role": "Bulky Setup",
-       "movepool": ["Calm Mind", "Rainbow Refraction", "Psychic", "Heat Wave", "Thunderbolt"],
-       "abilities": ["Air Lock"],
-       "teraTypes": ["Psychic"]
-       }
-    ]
-},
-"darkjeroid": {
-  "level": 87,
-  "sets": [
-      {
-        "role":  "Wallbreaker",
-        "movepool": ["Poison Jab", "Knock Off", "Hone Claws", "Strength Sap", "X-Scissor"],
-        "abilities": ["Poison Touch"],
-        "teraTypes": ["Bug"]
-      },
-{
-        "role": "Bulky Support",
-        "movepool": ["Spikes", "Toxic Spikes", "Strength Sap", "Knock Off", "Cross Poison"],
-        "abilities": ["Poison Touch", "Sap Sipper"],
-        "teraTypes": ["Dark"]
-      }
-]
-},
-"rainbowneos": {
-  "level": 70,
-  "sets": [
       {
         "role": "Bulky Setup",
-        "movepool": ["Calm Mind", "Esper Wing", "Oblivion Wing", "Rainbow Refraction", "Aura Sphere", "Power Gem"],
-        "abilities": ["Neuroforce"],
-        "teraTypes": ["Fighting"]
-      },
-     {
-       "role": "Bulky Setup",
-       "movepool": ["Bulk Up", "Ice Punch", "Psycho Cut", "Neos Force", "Dragon Claw", "Earthquake"],
-       "abilities": ["Neuroforce"],
-       "teraTypes": ["Psychic"]
-       }
+        "movepool": [
+          "Calm Mind",
+          "Rainbow Refraction",
+          "Psychic",
+          "Heat Wave",
+          "Thunderbolt"
+        ],
+        "abilities": [
+          "Air Lock"
+        ],
+        "teraTypes": [
+          "Psychic"
+        ]
+      }
     ]
-}
+  },
+  "darkjeroid": {
+    "level": 87,
+    "sets": [
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Poison Jab",
+          "Knock Off",
+          "Hone Claws",
+          "Strength Sap",
+          "X-Scissor"
+        ],
+        "abilities": [
+          "Poison Touch"
+        ],
+        "teraTypes": [
+          "Bug"
+        ]
+      },
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Spikes",
+          "Toxic Spikes",
+          "Strength Sap",
+          "Knock Off",
+          "Cross Poison"
+        ],
+        "abilities": [
+          "Poison Touch",
+          "Sap Sipper"
+        ],
+        "teraTypes": [
+          "Dark"
+        ]
+      }
+    ]
+  },
+  "rainbowneos": {
+    "level": 70,
+    "sets": [
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Calm Mind",
+          "Esper Wing",
+          "Oblivion Wing",
+          "Rainbow Refraction",
+          "Aura Sphere",
+          "Power Gem"
+        ],
+        "abilities": [
+          "Neuroforce"
+        ],
+        "teraTypes": [
+          "Fighting"
+        ]
+      },
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Bulk Up",
+          "Ice Punch",
+          "Psycho Cut",
+          "Neos Force",
+          "Dragon Claw",
+          "Earthquake"
+        ],
+        "abilities": [
+          "Neuroforce"
+        ],
+        "teraTypes": [
+          "Psychic"
+        ]
+      }
+    ]
+  },
+  "hermos": {
+    "level": 76,
+    "sets": [
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Spikes",
+          "Thunder Wave",
+          "Dragon Tail",
+          "Taunt"
+        ],
+        "abilities": [
+          "Iron Barbs"
+        ],
+        "teraTypes": [
+          "Dragon"
+        ]
+      },
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Dragon Dance",
+          "Dragon Claw",
+          "Crunch",
+          "Earthquake",
+          "Iron Head",
+          "Superpower"
+        ],
+        "abilities": [
+          "Tough Claws"
+        ],
+        "teraTypes": [
+          "Dragon"
+        ]
+      }
+    ]
+  },
+  "mbserket": {
+    "level": 83,
+    "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Dragon Dance",
+          "Barb Barrage",
+          "X-Scissor",
+          "Razor Shell",
+          "X-Scissor",
+          "Rock Tomb"
+        ],
+        "abilities": [
+          "Moxie"
+        ],
+        "teraTypes": [
+          "Bug"
+        ]
+      },
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Spikes",
+          "Toxic",
+          "Dragon Tail",
+          "Leech Life",
+          "Protect",
+          "Crunch"
+        ],
+        "abilities": [
+          "Poison Point",
+          "Shell Armor"
+        ],
+        "teraTypes": [
+          "Dark"
+        ]
+      }
+    ]
+  }
 }
