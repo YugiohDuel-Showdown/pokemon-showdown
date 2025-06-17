@@ -9744,5 +9744,411 @@
         ]
       }
     ]
+  },
+  "timaeus": {
+    "level": 76,
+    "sets": [
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Dragon Pulse",
+          "Fire Blast",
+          "Thunder",
+          "Hurricane",
+          "Aura Sphere",
+          "Focus Blast",
+          "Earth Power",
+          "Ancient Power"
+        ],
+        "abilities": [
+          "Compound Eyes"
+        ],
+        "teraTypes": [
+          "Dragon"
+        ]
+      }
+    ]
+  },
+  "victorydragon": {
+    "level": 79,
+    "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Victory Dance",
+          "Dragon Claw",
+          "Earthquake",
+          "Iron Head",
+          "Brick Break"
+        ],
+        "abilities": [
+          "Good as Gold"
+        ],
+        "teraTypes": [
+          "Dragon"
+        ]
+      },
+      {
+        "role": "Bulky Attacker",
+        "movepool": [
+          "Draco Meteor",
+          "Aura Sphere",
+          "Flamethrower",
+          "Thunder",
+          "Air Slash",
+          "Earth Power"
+        ],
+        "abilities": [
+          "Victory Star"
+        ],
+        "teraTypes": [
+          "Dragon"
+        ]
+      }
+    ]
+  },
+  "judgeman": {
+    "level": 77,
+    "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Victory Dance",
+          "Majesty Slash",
+          "Giga Hammer",
+          "Precipice Blades",
+          "Pyro Ball",
+          "Galaxy Crush"
+        ],
+        "abilities": [
+          "Intimidate",
+          "Justified"
+        ],
+        "teraTypes": [
+          "Normal"
+        ]
+      },
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Victory Dance",
+          "Dragon Ascent",
+          "Glacial Lance",
+          "Glaive Rush",
+          "Headlong Rush",
+          "Close Combat",
+          "Chaos Blade",
+          "Spore"
+        ],
+        "abilities": [
+          "Intimidate",
+          "Unnerve"
+        ],
+        "teraTypes": [
+          "Normal"
+        ]
+      }
+    ]
+  },
+  "lightruler": {
+    "level": 80,
+    "sets": [
+      {
+        "role": "AV Pivot",
+        "movepool": [
+          "Moonblast",
+          "Dark Pulse",
+          "Photon Geyser",
+          "Thunderbolt",
+          "Shadow Ball",
+          "Earth Power",
+          "Energy Ball",
+          "Flash Cannon"
+        ],
+        "abilities": [
+          "Forewarn",
+          "Magic Guard"
+        ],
+        "teraTypes": [
+          "Fairy"
+        ]
+      },
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Reflect",
+          "Light Screen",
+          "Moonblast",
+          "Defog",
+          "Thunder Wave"
+        ],
+        "abilities": [
+          "Magic Guard"
+        ],
+        "teraTypes": [
+          "Fairy"
+        ]
+      }
+    ]
+  },
+  "darkruler": {
+    "level": 80,
+    "sets": [
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Photon Geyser",
+          "Darkest Lariat",
+          "Earthquake",
+          "Dragon Claw",
+          "Iron Head",
+          "Rock Slide",
+          "Shadow Claw",
+          "Thunder Punch"
+        ],
+        "abilities": [
+          "Forewarn",
+          "Full Metal Body"
+        ],
+        "teraTypes": [
+          "Dark"
+        ]
+      },
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Reflect",
+          "Light Screen",
+          "Knock Off",
+          "Defog",
+          "Thunder Wave"
+        ],
+        "abilities": [
+          "Full Metal Body"
+        ],
+        "teraTypes": [
+          "Dark"
+        ]
+      }
+    ]
+  },
+  "snowmaneater": {
+    "level": 83,
+    "sets": [
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Aurora Veil",
+          "Melting Ice",
+          "Taunt",
+          "Topsy-Turvy",
+          "Shadow Ball"
+        ],
+        "abilities": [
+          "Snow Warning"
+        ],
+        "teraTypes": [
+          "Ice"
+        ]
+      },
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "No Retreat",
+          "Melting Ice",
+          "Shadow Ball",
+          "Hyper Voice"
+        ],
+        "abilities": [
+          "Disguise"
+        ],
+        "teraTypes": [
+          "Ice"
+        ]
+      }
+    ]
+  },
+  "giantrex": {
+    "level": 83,
+    "sets": [
+      {
+        "role": "Fast Attacker",
+        "movepool": [
+          "Crunch",
+          "Fire Fang",
+          "Ice Fang",
+          "Thunder Fang",
+          "Scale Shot",
+          "Earthquake"
+        ],
+        "abilities": [
+          "Strong Jaw"
+        ],
+        "teraTypes": [
+          "Ground"
+        ]
+      },
+      {
+        "role": "AV Pivot",
+        "movepool": [
+          "U-turn",
+          "Headlong Rush",
+          "Rock Slide",
+          "Flame Charge"
+        ],
+        "abilities": [
+          "Anger Point"
+        ],
+        "teraTypes": [
+          "Ground"
+        ]
+      }
+    ]
+  },
+  "judgementd": {
+    "level": 85,
+    "sets": [
+      {
+        "role": "Wallbreaker",
+        "movepool": [
+          "Work Up",
+          "Judgment",
+          "Dragon Pulse",
+          "Light of Ruin",
+          "Lumina Crash",
+          "Roost"
+        ],
+        "abilities": [
+          "Early Bird",
+          "Justified"
+        ],
+        "teraTypes": [
+          "Fairy"
+        ]
+      },
+      {
+        "role": "AV Pivot",
+        "movepool": [
+          "Hurricane",
+          "Dragon Pulse",
+          "Thunderbolt",
+          "Lumina Crash",
+          "Judgment"
+        ],
+        "abilities": [
+          "Early Bird",
+          "Justified"
+        ],
+        "teraTypes": [
+          "Dragon"
+        ]
+      }
+    ]
+  },
+  "eldlich": {
+    "level": 82,
+    "sets": [
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Calm Mind",
+          "Make It Rain",
+          "Shadow Ball",
+          "Earth Power",
+          "Psychic"
+        ],
+        "abilities": [
+          "Good as Gold",
+          "Mummy"
+        ],
+        "teraTypes": [
+          "Steel"
+        ]
+      },
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Bulk Up",
+          "Rock Polish",
+          "Iron Head",
+          "Shadow Claw",
+          "Zen Headbutt",
+          "Earthquake",
+          "Ice Punch"
+        ],
+        "abilities": [
+          "Good as Gold",
+          "Mummy"
+        ],
+        "teraTypes": [
+          "Ground"
+        ]
+      }
+    ]
+  },
+  "dhplasma": {
+    "level": 81,
+    "sets": [
+      {
+        "role": "Bulky Attacker",
+        "movepool": [
+          "D - Shield",
+          "Paralyzing Pellet Barrage",
+          "Flamethrower",
+          "Toxic",
+          "Dark Pulse",
+          "Shadow Ball"
+        ],
+        "abilities": [
+          "Magma Armor",
+          "Stakeout"
+        ],
+        "teraTypes": [
+          "Fire"
+        ]
+      },
+      {
+        "role": "Bulky Attacker",
+        "movepool": [
+          "Overheat",
+          "Will-O-Wisp",
+          "Sludge Bomb",
+          "Hex",
+          "Taunt",
+          "Knock Off"
+        ],
+        "abilities": [
+          "Magma Armor",
+          "Stakeout"
+        ],
+        "teraTypes": [
+          "Poison"
+        ]
+      }
+    ]
+  },
+  "dreadmaster": {
+    "level": 83,
+    "sets": [
+      {
+        "role": "Bulky Setup",
+        "movepool": [
+          "Bulk Up",
+          "Close Combat",
+          "Knock Off",
+          "Earthquake",
+          "Spirit Shackle",
+          "Thunder Punch",
+          "Parting Shot"
+        ],
+        "abilities": [
+          "Sheer Force",
+          "Intimidate"
+        ],
+        "teraTypes": [
+          "Dark"
+        ]
+      }
+    ]
   }
 }
