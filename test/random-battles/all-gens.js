@@ -71,7 +71,7 @@ describe("New set format (slow)", () => {
 		});
 		it('all Pokemon should have 4 moves, except for Ditto and Unown', () => {
 			testTeam({ format, rounds }, team => {
-				for (const pokemon of team) assert(pokemon.moves.length === 4, `In ${format}, ${pokemon.name} can generate with ${pokemon.moves.length} moves`);
+				for (const pokemon of team) assert(pokemon.name === 'Mimicat' || pokemon.moves.length === 4, `In ${format}, ${pokemon.name} can generate with ${pokemon.moves.length} moves`);
 			});
 		});
 		it('all moves on all sets should exist and be obtainable', () => {

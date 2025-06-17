@@ -1203,38 +1203,32 @@ export class RandomTeams {
 			}
 			return this.sample(species.requiredItems);
 		}
-		if (['beaverw', 'spegasus', 'feralimp'].includes(species.id)) return 'Horn of the Unicorn';
+		if (['beaverw', 'feralimp'].includes(species.id)) return 'Horn of the Unicorn';
+		if (species.id === 'spegasus' && role === 'Fast Attacker') return 'Horn of the Unicorn';
 		if (['battleox', 'rabidhorseman', 'axeraider', 'vorseraider'].includes(species.id)) return 'Axe of Despair';
+		if (species.id === 'medabat') return 'Focus Sash';
 		if (species.id === 'parrotdragon') return 'Leek';
 		if (species.id === 'volcanicshell') return 'Everstone';
 		if (species.id === 'wingedkrb' && role === 'Wallbreaker') return 'Flame Orb';
 		if (species.id === 'coheart') return 'Heart Scale';
 		if (species.id === 'doradora' && role === "Bulky Attacker") return 'Eject Pack';
 		if (role === 'AV Pivot') return 'Assault Vest';
-		if (species.id === 'pikachu') return 'Light Ball';
-		if (species.id === 'regieleki') return 'Magnet';
 		if (species.id === 'maddogod' && role === "Wallbreaker") return 'Punching Glove';
 		if (types.includes('Normal') && moves.has('doubleedge') && moves.has('fakeout')) return 'Silk Scarf';
 		if (
-			species.id === 'froslass' || moves.has('populationbomb') ||
+			moves.has('populationbomb') ||
 			(ability === 'Hustle' && counter.get('setup') && !isDoubles && this.randomChance(1, 2))
 		) return 'Wide Lens';
-		if (species.id === 'smeargle' && !isDoubles) return 'Focus Sash';
-		if (moves.has('clangoroussoul') || (species.id === 'toxtricity' && moves.has('shiftgear'))) return 'Throat Spray';
+		if (moves.has('clangoroussoul') || moves.has('shiftgear')) return 'Throat Spray';
 		if (
 			(species.baseSpecies === 'Magearna' && role === 'Tera Blast user') ||
-			species.id === 'necrozmaduskmane' || (species.id === 'calyrexice' && isDoubles)
+			isDoubles
 		) return 'Weakness Policy';
 		if (['dragonenergy', 'lastrespects', 'waterspout'].some(m => moves.has(m))) return 'Choice Scarf';
 		if (
-			!isDoubles && (ability === 'Imposter' || (species.id === 'magnezone' && role === 'Fast Attacker'))
+			!isDoubles && (ability === 'Imposter' || role === 'Fast Attacker')
 		) return 'Choice Scarf';
-		if (species.id === 'rampardos' && (role === 'Fast Attacker' || isDoubles)) return 'Choice Scarf';
-		if (species.id === 'palkia' && counter.get('Special') < 4) return 'Lustrous Orb';
-		if (
-			moves.has('courtchange') ||
-			!isDoubles && (species.id === 'luvdisc' || (species.id === 'terapagos' && !moves.has('rest')))
-		) return 'Heavy-Duty Boots';
+		if (moves.has('courtchange')) return 'Heavy-Duty Boots';
 		if (moves.has('bellydrum') && moves.has('scapegoat')) return 'Salac Berry';
 		if (
 			['Cheek Pouch', 'Cud Chew', 'Harvest', 'Ripen'].some(m => ability === m) ||
@@ -1252,8 +1246,6 @@ export class RandomTeams {
 				return (counter.get('Physical') > counter.get('Special')) ? 'Choice Band' : 'Choice Specs';
 			}
 		}
-		if (counter.get('Status') && (species.name === 'Latias' || species.name === 'Latios')) return 'Soul Dew';
-		if (species.id === 'scyther' && !isDoubles) return (isLead && !moves.has('uturn')) ? 'Eviolite' : 'Heavy-Duty Boots';
 		if (ability === 'Poison Heal' || ability === 'Quick Feet' || ability === 'Toxic Boost') return 'Toxic Orb';
 		const speciesBst = species.baseStats.hp + species.baseStats.atk + species.baseStats.def + species.baseStats.spa +
 			species.baseStats.spd + species.baseStats.spe;
@@ -1277,17 +1269,12 @@ export class RandomTeams {
 		if (moves.has('acrobatics') && ability !== 'Protosynthesis') return '';
 		if (moves.has('auroraveil') || moves.has('lightscreen') && moves.has('reflect')) return 'Light Clay';
 		if (ability === 'Gluttony') return `${this.sample(['Aguav', 'Figy', 'Iapapa', 'Mago', 'Wiki'])} Berry`;
-		if (species.id === 'giratina' && !isDoubles && moves.has('rest') && !moves.has('sleeptalk')) return 'Leftovers';
 		if (
 			moves.has('rest') && !moves.has('sleeptalk') &&
 			ability !== 'Natural Cure' && ability !== 'Shed Skin'
 		) {
 			return 'Chesto Berry';
 		}
-		if (
-			species.id !== 'yanmega' &&
-			this.dex.getEffectiveness('Rock', species) >= 2 && (!types.includes('Flying') || !isDoubles)
-		) return 'Heavy-Duty Boots';
 	}
 
 	/** Item generation specific to Random Doubles */

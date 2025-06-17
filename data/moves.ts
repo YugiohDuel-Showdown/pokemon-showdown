@@ -2614,7 +2614,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: "Devil's Claw",
 		pp: 15,
 		priority: 0,
-		flags: { protect: 1, mirror: 1 },
+		flags: { protect: 1, mirror: 1, contact: 1 },
 		volatileStatus: 'perishsong',
 		target: "normal",
 		type: "Dark",
