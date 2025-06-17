@@ -8742,11 +8742,300 @@
           "Earth Power"
         ],
         "abilities": [
-          "Strom Drain",
+          "Storm Drain",
           "Swift Swim"
         ],
         "teraTypes": [
           "Water"
+        ]
+      }
+    ]
+  },
+  "dkabyss": {
+    "level": 85,
+    "sets": [
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Dire Claw",
+          "Dragon Claw",
+          "Hone Claws",
+          "Shadow Claw",
+          "Knock Off"
+        ],
+        "abilities": [
+          "Aura Break",
+          "Justified"
+        ],
+        "teraTypes": [
+          "Dark"
+        ]
+      },
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Dark Ruler No More",
+          "Call of the Haunted",
+          "Knock Off",
+          "Spikes"
+        ],
+        "abilities": [
+          "Aura Break"
+        ],
+        "teraTypes": [
+          "Dark"
+        ]
+      }
+    ]
+  },
+  "eyetyphoon": {
+    "level": 81,
+    "sets": [
+      {
+        "role": "Fast Support",
+        "movepool": [
+          "Tailwind",
+          "Hey Trunade",
+          "Surf",
+          "Thunderbolt",
+          "Frost Breath",
+          "Dazzling Gleam"
+        ],
+        "abilities": [
+          "Wind Rider",
+          "Cloud Nine"
+        ],
+        "teraTypes": [
+          "Water"
+        ]
+      },
+      {
+        "role": "Fast Attacker",
+        "movepool": [
+          "Water Spout",
+          "Heavy Storm",
+          "Thunderbolt",
+          "Ice Beam",
+          "Weather Ball",
+          "Cotton Spore"
+        ],
+        "abilities": [
+          "Storm Drain",
+          "Cloud Nine"
+        ],
+        "teraTypes": [
+          "Water"
+        ]
+      }
+    ]
+  },
+  "doomkraken": {
+    "level": 80,
+    "sets": [
+      {
+        "role": "Fast Support",
+        "movepool": [
+          "Parting Shot",
+          "Toxic",
+          "Shadow Ball",
+          "Ice Beam",
+          "Haze"
+        ],
+        "abilities": [
+          "Swift Swim",
+          "Sticky Hold"
+        ],
+        "teraTypes": [
+          "Water"
+        ]
+      },
+      {
+        "role": "Fast Attacker",
+        "movepool": [
+          "Shadow Ball",
+          "Giga Drain",
+          "Ice Beam",
+          "Hydro Pump",
+          "Doom Desire"
+        ],
+        "abilities": [
+          "Swift Swim"
+        ],
+        "teraTypes": [
+          "Water"
+        ]
+      }
+    ]
+  },
+  "bladedge": {
+    "level": 83,
+    "sets": [
+      {
+        "role": "Fast Attacker",
+        "movepool": [
+          "Giant Blade",
+          "Psycho Cut",
+          "Night Slash",
+          "Plasma Fists",
+          "Brick Break"
+        ],
+        "abilities": [
+          "Sharpness"
+        ],
+        "teraTypes": [
+          "Steel"
+        ]
+      }
+    ]
+  },
+  "maskbeast": {
+    "level": 84,
+    "sets": [
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Stealth Rock",
+          "Trick Room",
+          "Zen Headbutt",
+          "Iron Head",
+          "Earthquake"
+        ],
+        "abilities": [
+          "Cursed Body",
+          "Forewarn",
+          "Anticipation"
+        ],
+        "teraTypes": [
+          "Steel"
+        ]
+      },
+      {
+        "role": "Bulky Attacker",
+        "movepool": [
+          "Psycho Cut",
+          "Shadow Claw",
+          "Earthquake",
+          "Crunch",
+          "Trick",
+          "Rock Slide"
+        ],
+        "abilities": [
+          "Forewarn",
+          "Anticipation"
+        ],
+        "teraTypes": [
+          "Dark"
+        ]
+      }
+    ]
+  },
+  "plasmavice": {
+    "level": 83,
+    "sets": [
+      {
+        "role": "AV Pivot",
+        "movepool": [
+          "Giant Blade",
+          "Plasma Fists",
+          "Volt Switch",
+          "Brick Break",
+          "Fire Punch"
+        ],
+        "abilities": [
+          "Volt Absorb",
+          "Heatproof"
+        ],
+        "teraTypes": [
+          "Electric"
+        ]
+      },
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Bulk Up",
+          "Plasma Fists",
+          "Giant Blade",
+          "Close Combat"
+        ],
+        "abilities": [
+          "Volt Absorb"
+        ],
+        "teraTypes": [
+          "Electric"
+        ]
+      }
+    ]
+  },
+  "apophis": {
+    "level": 81,
+    "sets": [
+      {
+        "role": "Bulky Support",
+        "movepool": [
+          "Stealth Rocks",
+          "Spikes",
+          "Toxic",
+          "Earthquake",
+          "Poison Jab"
+        ],
+        "abilities": [
+          "Arena Trap"
+        ],
+        "teraTypes": [
+          "Poison"
+        ]
+      },
+      {
+        "role": "Setup Sweeper",
+        "movepool": [
+          "Coil",
+          "Gunk Shot",
+          "Earthquake",
+          "Power Whip",
+          "Stone Edge"
+        ],
+        "abilities": [
+          "Sand Stream"
+        ],
+        "teraTypes": [
+          "Poison"
+        ]
+      }
+    ]
+  },
+  "desgardius": {
+    "level": 84,
+    "sets": [
+      {
+        "role": "Bulky Attacker",
+        "movepool": [
+          "Stealth Rock",
+          "Dark Light",
+          "Earth Power",
+          "Shadow Ball",
+          "Memento"
+        ],
+        "abilities": [
+          "Sturdy"
+        ],
+        "teraTypes": [
+          "Ground"
+        ]
+      },
+      {
+        "role": "Bulky Attacker",
+        "movepool": [
+          "Earthquake",
+          "Knock Off",
+          "Stealth Rock",
+          "Psychic Fangs",
+          "Rock Slide"
+        ],
+        "abilities": [
+          "Sturdy"
+        ],
+        "teraTypes": [
+          "Ground"
         ]
       }
     ]
