@@ -1219,7 +1219,7 @@ export class RandomTeams {
 			moves.has('populationbomb') ||
 			(ability === 'Hustle' && counter.get('setup') && !isDoubles && this.randomChance(1, 2))
 		) return 'Wide Lens';
-		if (moves.has('clangoroussoul') || moves.has('shiftgear')) return 'Throat Spray';
+		if (moves.has('clangoroussoul')) return 'Throat Spray';
 		if (
 			(species.baseSpecies === 'Magearna' && role === 'Tera Blast user') ||
 			isDoubles
