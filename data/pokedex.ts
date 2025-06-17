@@ -2748,7 +2748,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 	toongeminielf: {
 		num: 229,
 		name: "Toon Gemini Elf",
-		gender: "M",
+		gender: "F",
 		types: ["Fairy", "Normal"],
 		baseStats: { hp: 80, atk: 95, def: 75, spa: 60, spd: 65, spe: 80 },
 		abilities: { "0": "Cute Charm", "1": "Parental Bond" },
