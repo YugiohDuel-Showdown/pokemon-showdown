@@ -72,6 +72,13 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		unbanlist: ['OU'],
 	},
 	{
+		name: "[Gen 9] UU",
+		mod: 'gen9',
+		ruleset: ['Standard', 'Sleep Moves Clause', '!Sleep Clause Mod', 'Terastal Clause'],
+		banlist: ['Uber', 'AG', 'OU', 'Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Razor Fang', 'Baton Pass', 'Last Respects', 'Shed Tail'],
+		unbanlist: ['UU'],
+	},
+	{
 		name: "[Gen 9] Ubers",
 		mod: 'gen9',
 		ruleset: ['Standard', 'Terastal Clause'],

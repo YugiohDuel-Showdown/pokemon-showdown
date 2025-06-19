@@ -4,7 +4,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	darkmagician: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	darksage: {
 		tier: "OU",
@@ -13,7 +13,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	redeyes: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	redeyesmetal: {
 		tier: "OU",
@@ -22,7 +22,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	blueeyes: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	beudragon: {
 		tier: "OU",
@@ -37,10 +37,10 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	larvaem: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	cocoonoe: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	greatmoth: {
 		tier: "OU",
@@ -61,7 +61,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	wingedkrb: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	wkurlv10: {
 		tier: "OU",
@@ -94,7 +94,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	flameswrd: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	dflarek: {
 		tier: "OU",
@@ -148,7 +148,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	chimera: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	chimaera: {
 		tier: "OU",
@@ -211,7 +211,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	lusterdragon2: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	diamondhd: {
 		tier: "OU",
@@ -220,7 +220,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	uraby: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	blacktyranno: {
 		tier: "OU",
@@ -262,7 +262,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	ojamaknight: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	ojamaking: {
 		tier: "OU",
@@ -298,7 +298,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "OU",
 	},
 	darkmagiciangirl: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	dmgirltdk: {
 		tier: "OU",
@@ -316,7 +316,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "OU",
 	},
 	cyberharpie: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	cyslashharpie: {
 		tier: "OU",
@@ -436,7 +436,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "OU",
 	},
 	maddogod: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	behemothking: {
 		tier: "OU",
@@ -451,7 +451,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "OU",
 	},
 	gaiatfknight: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	gaiaearth: {
 		tier: "OU",
@@ -463,7 +463,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	flamewingman: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	shiningwingman: {
 		tier: "OU",
@@ -472,7 +472,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	cyberbenten: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	cyberdakini: {
 		tier: "OU",
@@ -508,7 +508,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	twinthunderd: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	tdtitan: {
 		tier: "OU",
@@ -544,13 +544,13 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	vampirelord: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	vampgenesis: {
 		tier: "OU",
 	},
 	vampirelady: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	vampgrace: {
 		tier: "OU",
@@ -577,7 +577,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	humanoidslime: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	humanoiddrake: {
 		tier: "OU",
@@ -661,7 +661,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	xydragon: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	xyzdragon: {
 		tier: "OU",
@@ -769,7 +769,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	relinquish: {
-		tier: "NFE",
+		tier: "OU",
 	},
 	teyesrestrict: {
 		tier: "OU",
@@ -802,7 +802,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	horuslv6: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	horuslv8: {
 		tier: "OU",
@@ -817,7 +817,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "UU",
 	},
 	cybertwin: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	cyberend: {
 		tier: "OU",
@@ -835,7 +835,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	armdragonlv5: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	armdragonlv7: {
 		tier: "UU",
@@ -874,7 +874,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	snowdustd: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	whitenightd: {
 		tier: "OU",
@@ -907,7 +907,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	ggthunderwind: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	gateguardian: {
 		tier: "OU",
@@ -946,7 +946,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	aggolem: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	uaggolem: {
 		tier: "OU",
@@ -976,7 +976,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	heliosduo: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	heliostri: {
 		tier: "OU",
@@ -1180,7 +1180,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "UU",
 	},
 	yubelti: {
-		tier: "NFE",
+		tier: "UU",
 	},
 	yubelun: {
 		tier: "OU",
