@@ -77,9 +77,9 @@ export const commands: Chat.ChatCommands = {
 			const dateActual = `${month}/${day}`;
 
 			const urlActual = url.trim();
-			if (!/^https:\/\/www\.smogon\.com\/forums\/(threads|posts)\//.test(urlActual)) {
-				throw new Chat.ErrorMessage("Suspect test URLs must be Smogon threads or posts.");
-			}
+			// if (!/^https:\/\/www\.smogon\.com\/forums\/(threads|posts)\//.test(urlActual)) {
+			// 	throw new Chat.ErrorMessage("Suspect test URLs must be Smogon threads or posts.");
+			// }
 
 			const reqData: Record<string, number> = {};
 			if (!reqs.length) {
