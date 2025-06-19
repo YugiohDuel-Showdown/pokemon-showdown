@@ -112,7 +112,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "OU",
 	},
 	jerrybean: {
-		tier: "OU",
+		tier: "UU",
 	},
 	witchotbf: {
 		tier: "OU",
@@ -325,7 +325,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "OU",
 	},
 	harpiebro: {
-		tier: "OU",
+		tier: "UU",
 	},
 	harpiedragon: {
 		tier: "OU",
@@ -1066,22 +1066,22 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "OU",
 	},
 	archmirror: {
-		tier: "OU",
+		tier: "UU",
 	},
 	niwatori: {
-		tier: "OU",
+		tier: "UU",
 	},
 	thunderkid: {
-		tier: "OU",
+		tier: "UU",
 	},
 	spacemambo: {
-		tier: "OU",
+		tier: "UU",
 	},
 	mushroomman: {
-		tier: "OU",
+		tier: "UU",
 	},
 	medabat: {
-		tier: "OU",
+		tier: "UU",
 	},
 	bubbleman: {
 		tier: "LC",
