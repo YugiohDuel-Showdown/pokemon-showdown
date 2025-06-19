@@ -43,7 +43,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "UU",
 	},
 	greatmoth: {
-		tier: "OU",
+		tier: "UU",
 	},
 	pugmoth: {
 		tier: "OU",
