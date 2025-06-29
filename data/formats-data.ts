@@ -1120,7 +1120,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "OU",
 	},
 	rainbowneos: {
-		tier: "OU",
+		tier: "Uber",
 	},
 	ghostrick: {
 		tier: "OU",
