@@ -727,7 +727,7 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 		tier: "LC",
 	},
 	meteorblackd: {
-		tier: "OU",
+		tier: "Uber",
 	},
 	yatagarasu: {
 		tier: "OU",

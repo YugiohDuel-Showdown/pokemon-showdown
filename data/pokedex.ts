@@ -4453,9 +4453,9 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 	maskbeast: {
 		num: 367,
 		name: "Mask Beast",
-		types: ["Psychic"],
+		types: ["Psychic", "Rock"],
 		baseStats: { hp: 75, atk: 115, def: 95, spa: 75, spd: 80, spe: 60 },
-		abilities: { "0": "Forewarn", "1": "Anticipation", H: "Cursed Body" },
+		abilities: { "0": "Sand Rush", "1": "Anticipation", H: "Cursed Body" },
 		heightm: 0,
 		weightkg: 40,
 		prevo: "Tiki Elder",
