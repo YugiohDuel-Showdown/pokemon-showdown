@@ -97,7 +97,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		name: 'Dragon Sword',
 		pp: 10,
 		priority: 0,
-		onAfterHit(source, target, move) {
+		onAfterHit(target, source, move) {
+			
 			if (!source.hp) return;
 
 			if (target.hp) return;
