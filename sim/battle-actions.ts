@@ -1819,7 +1819,7 @@ export class BattleActions {
 			}
 		}
 
-		if (pokemon.status === 'blackflame' && move.category === 'Special') {
+		if (pokemon.status === 'blackflame' && move.category === 'Special' && !pokemon.hasAbility('guts')) {
 			if (this.battle.gen < 6 || move.id !== 'facade') {
 				baseDamage = this.battle.modify(baseDamage, 0.5);
 			}
