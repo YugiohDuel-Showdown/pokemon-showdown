@@ -861,7 +861,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priority: 0,
 		flags: { snatch: 1 },
 		boosts: { def: 1, spd: 1, spe: 1 },
-		target: "normal",
+		target: "self",
 		type: "Dark",
 	},
 	ultimatepound: {
