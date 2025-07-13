@@ -3119,6 +3119,9 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		flags: { bypasssub: 1, noassist: 1, failcopycat: 1 },
 		volatileStatus: 'blackpendant',
 		condition: {
+			onStart(pokemon) {
+				this.add('-start', pokemon, 'move: Black Pendant');
+			},
 			onFaint(target, source, effect) {
 				if (!source || !effect || target.isAlly(source)) return;
 				if (effect.effectType === 'Move' && !effect.flags['futuremove']) {
