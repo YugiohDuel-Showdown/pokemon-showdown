@@ -3118,9 +3118,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priority: 0,
 		flags: { bypasssub: 1, noassist: 1, failcopycat: 1 },
 		volatileStatus: 'blackpendant',
-		onPrepareHit(pokemon) {
-			return !pokemon.removeVolatile('blackpendant');
-		},
 		condition: {
 			onStart(pokemon) {
 				this.add('-singlemove', pokemon, 'Black Pendant');
@@ -3129,22 +3126,13 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 				if (!source || !effect || target.isAlly(source)) return;
 				if (effect.effectType === 'Move' && !effect.flags['futuremove']) {
 					if (source.volatiles['dynamax']) {
-						this.add('-hint', 'Dynamaxed Pokemon are immune to Black Pendant');
+						this.add('-hint', 'Dynamax Monsters are immune to Black Pendant.');
 						return;
 					}
 					this.add('-activate', target, 'move: Black Pendant');
-					source.damage(source.baseMaxhp / 4, target);
+					source.faint();
 				}
-			},
-			onBeforeMovePriority: -1,
-			onBeforeMove(pokemon, target, move) {
-				if (move.id === 'blackpendant') return;
-				this.debug('-removing Black Pendant before attack');
-				pokemon.removeVolatile('blackpendant');
-			},
-			onMoveAborted(pokemon, target, move) {
-				pokemon.removeVolatile('blackpendant');
-			},
+			}
 		},
 		boosts: {
 			spa: 1,
@@ -3357,7 +3345,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		onHit(target, source) {
 			target.addVolatile('partiallytrapped');
 		},
-		sideCondition: 'gravity',
+		pseudoWeather: 'gravity',
 		target: "allAdjacentFoes",
 		type: "Psychic",
 	},
