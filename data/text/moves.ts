@@ -594,7 +594,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	dshield: {
 		name: "D - Shield",
-		shortDesc: "Aside from protecting the user from attacks, this move raises the users D if the attack makes contact.",
+		shortDesc: "Aside from protecting the user from attacks, this move raises the user's Def if the attack makes contact.",
 	},
 	twintwister: {
 		name: "Twin Twister",
