@@ -336,8 +336,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	ectoplasmicfortification: {
 		name: "Ectoplasmic Fortification",
-		desc: "Raises the user's Special Attack and Special Defense by 1 stage. Recovers 1//16 of the user's max HP.",
-		shortDesc: "+1 Sp. Atk & +1 Sp. Def. Recovers 1/16 of max hp.",
+		desc: "Raises the user's Special Attack and Special Defense by 1 stage. Recovers 1/6 of the user's max HP.",
+		shortDesc: "+1 Sp. Atk & +1 Sp. Def. Recovers 1/6 of max hp.",
 	},
 	spellbindingcircle: {
 		name: "Spellbinding Circle",

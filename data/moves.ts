@@ -1250,7 +1250,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pp: 10,
 		priority: 0,
 		flags: { snatch: 1 },
-		heal: [1, 16],
+		heal: [1, 6],
 		boosts: {
 			spa: 1,
 			spd: 1,
