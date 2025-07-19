@@ -2872,10 +2872,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		boosts: {
 			atk: 1,
 		},
+		onTryHit(pokemon) {
+			if (pokemon.hp <= pokemon.maxhp / 3) return true;
+			return false;
+		},
 		onHit(pokemon) {
-			if (pokemon.hp <= pokemon.maxhp / 3) {
-				this.heal(pokemon.maxhp / 2, pokemon);
-			}
+			this.heal(pokemon.maxhp / 2, pokemon);
 		},
 		target: "self",
 		type: "Normal",
