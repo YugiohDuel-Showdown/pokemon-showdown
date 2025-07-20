@@ -3278,25 +3278,26 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pp: 5,
 		priority: 0,
 		flags: {},
-		onTryHit(source, target, move) {
-			if (!source.trySetStatus('tox')) {
-				return false;
-			}
-			const party = target.side.pokemon;
-			for (const pokemon of party) {
-				if (pokemon.hasAbility('Pastel Veil')) {
+		onTryHit(source) {
+			const targets = source.adjacentFoes();
+			for (const target of targets) {
+				if (!target.trySetStatus('tox')) return false;
+				if (target.allies().some(ally => ally.hasAbility('Pastel Veil'))) {
+					this.add('-immune', target, '[from] ability: Pastel Veil');
 					return false;
 				}
 			}
 		},
-		onHit(target, source, move) {
+		onHit(source) {
+			if (source.hp <= 1) return false;
 			this.directDamage(source.hp - 1);
-			const party = target.side.pokemon;
-			for (const pokemon of party) {
-				pokemon.trySetStatus('tox');
+
+			const targets = source.adjacentFoes();
+			for (const target of targets) {
+				target.trySetStatus('tox');
 			}
 		},
-		target: "allAdjacentFoes",
+		target: "self",
 		type: "Poison",
 	},
 	mysticpower: {
