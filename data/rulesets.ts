@@ -5,6 +5,80 @@ import type { Learnset } from "../sim/dex-species";
 // The list of formats is stored in config/formats.js
 export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 
+	// Custom Rulesets
+	////////////////////////////////////////////////////////////////////
+	datamod: {
+		effectType: 'Rule',
+		name: 'Data Mod',
+		desc: "When a new Monster switches in for the first time, information about its types, stats, and abilities is displayed to both players.",
+		onSwitchIn(pokemon) {
+			let species = this.dex.species.get(pokemon.species.name);
+			let switchedIn = this.effectState[`${species.name}`].switchedIn;
+			if (pokemon.illusion) {
+				species = this.dex.species.get(pokemon.illusion.species.name);
+				this.add('-start', pokemon, 'typechange', pokemon.illusion.getTypes(true).join('/'), '[silent]');
+				if (this.effectState[`${species.name}`].illusion.switchedIn) return;
+				this.effectState[`${species.name}`].illusion.switchedIn = true;
+			} else {
+				this.add('-start', pokemon, 'typechange', pokemon.getTypes(true).join('/'), '[silent]');
+				if (this.effectState[`${species.name}`].switchedIn) return;
+				this.effectState[`${species.name}`].switchedIn = true;
+			}
+			let abilities = species.abilities[0];
+			if (species.abilities[1]) {
+				abilities += ` / ${species.abilities[1]}`;
+			}
+			if (species.abilities['H']) {
+				abilities += ` / ${species.abilities['H']}`;
+			}
+			if (species.abilities['S']) {
+				abilities += ` / ${species.abilities['S']}`;
+			}
+			const baseStats = species.baseStats;
+			const type = species.types[0];
+			if (species.types[1]) {
+				const type2 = species.types[1];
+				this.add(`raw|<ul class="utilichart"><li class="result"><span class="col pokemonnamecol" style="white-space: nowrap">` + species.name + `</span> <span class="col typecol"><img src="https://${Config.routes.client}/sprites/types/${type}.png" alt="${type}" height="14" width="32"><img src="https://${Config.routes.client}/sprites/types/${type2}.png" alt="${type2}" height="14" width="32"></span> <span style="float: left ; min-height: 26px"><span class="col abilitycol">` + abilities + `</span><span class="col abilitycol"></span></span></li><li style="clear: both"></li></ul>`);
+			} else {
+				this.add(`raw|<ul class="utilichart"><li class="result"><span class="col pokemonnamecol" style="white-space: nowrap">` + species.name + `</span> <span class="col typecol"><img src="https://${Config.routes.client}/sprites/types/${type}.png" alt="${type}" height="14" width="32"></span> <span style="float: left ; min-height: 26px"><span class="col abilitycol">` + abilities + `</span><span class="col abilitycol"></span></span></li><li style="clear: both"></li></ul>`);
+			}
+			this.add(`raw|<ul class="utilichart"><li class="result"><span style="float: left ; min-height: 26px"><span class="col statcol"><em>HP</em><br>` + baseStats.hp + `</span> <span class="col statcol"><em>Atk</em><br>` + baseStats.atk + `</span> <span class="col statcol"><em>Def</em><br>` + baseStats.def + `</span> <span class="col statcol"><em>SpA</em><br>` + baseStats.spa + `</span> <span class="col statcol"><em>SpD</em><br>` + baseStats.spd + `</span> <span class="col statcol"><em>Spe</em><br>` + baseStats.spe + `</span> </span></li><li style="clear: both"></li></ul>`);
+		},
+		onDamagingHit(damage, target, source, move) {
+			if (target.hasAbility('illusion')) {
+				this.add('-start', target, 'typechange', target.getTypes(true).join('/'), '[silent]');
+				if (!this.effectState[`${target.species.name}`].switchedIn) {
+					this.effectState[`${target.species.name}`].switchedIn = true;
+					let species = this.dex.species.get(target.species.name);
+					let abilities = species.abilities[0];
+					if (species.abilities[1]) {
+						abilities += ` / ${ species.abilities[1]}`;
+					}
+					if (species.abilities['H']) {
+						abilities += ` / ${species.abilities['H']}`;
+					}
+					if (species.abilities['S']) {
+						abilities += ` / ${species.abilities['S']}`;
+					}
+					const baseStats = species.baseStats;
+					const type = species.types[0];
+					if (species.types[1]) {
+						const type2 = species.types[1];
+						this.add(`raw|<ul class="utilichart"><li class="result"><span class="col pokemonnamecol" style="white-space: nowrap">` + species.name + `</span> <span class="col typecol"><img src="https://${Config.routes.client}/sprites/types/${type}.png" alt="${type}" height="14" width="32"><img src="https://${Config.routes.client}/sprites/types/${type2}.png" alt="${type2}" height="14" width="32"></span> <span style="float: left ; min-height: 26px"><span class="col abilitycol">` + abilities + `</span><span class="col abilitycol"></span></span></li><li style="clear: both"></li></ul>`);
+					} else {
+						this.add(`raw|<ul class="utilichart"><li class="result"><span class="col pokemonnamecol" style="white-space: nowrap">` + species.name + `</span> <span class="col typecol"><img src="https://${Config.routes.client}/sprites/types/${type}.png" alt="${type}" height="14" width="32"></span> <span style="float: left ; min-height: 26px"><span class="col abilitycol">` + abilities + `</span><span class="col abilitycol"></span></span></li><li style="clear: both"></li></ul>`);
+					}
+					this.add(`raw|<ul class="utilichart"><li class="result"><span style="float: left ; min-height: 26px"><span class="col statcol"><em>HP</em><br>` + baseStats.hp + `</span> <span class="col statcol"><em>Atk</em><br>` + baseStats.atk + `</span> <span class="col statcol"><em>Def</em><br>` + baseStats.def + `</span> <span class="col statcol"><em>SpA</em><br>` + baseStats.spa + `</span> <span class="col statcol"><em>SpD</em><br>` + baseStats.spd + `</span> <span class="col statcol"><em>Spe</em><br>` + baseStats.spe + `</span> </span></li><li style="clear: both"></li></ul>`);
+				}
+			} else {
+				const types = target.baseSpecies.types;
+				if (target.getTypes().join() === types.join()) {
+					this.add('-end', target, 'typechange', '[silent]');
+				}
+			}
+		}
+	},
+
 	// Rulesets
 	///////////////////////////////////////////////////////////////////
 
