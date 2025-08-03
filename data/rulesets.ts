@@ -13,6 +13,9 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 		desc: "When a new Monster switches in for the first time, information about its types, stats, and abilities is displayed to both players.",
 		onSwitchIn(pokemon) {
 			let species = this.dex.species.get(pokemon.species.name);
+			if (!this.effectState[`${species.name}`].switchedIn) {
+				this.effectState[`${species.name}`].switchedIn = false;
+			}
 			let switchedIn = this.effectState[`${species.name}`].switchedIn;
 			if (pokemon.illusion) {
 				species = this.dex.species.get(pokemon.illusion.species.name);
