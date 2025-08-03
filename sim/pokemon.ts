@@ -1254,6 +1254,17 @@ export class Pokemon {
 			this.storedStats[statName] = pokemon.storedStats[statName];
 			if (this.modifiedStats) this.modifiedStats[statName] = pokemon.modifiedStats![statName]; // Gen 1: Copy modified stats.
 		}
+
+		const isExchange = effect?.effectType === 'Move' && effect.id === 'exchange';
+		if (isExchange) {
+			this.hp = pokemon.hp;
+			this.maxhp = pokemon.maxhp;
+			this.status = pokemon.status;
+			this.volatiles = pokemon.volatiles;
+			this.abilityState = pokemon.abilityState;
+			this.itemState = pokemon.itemState;
+			this.item = pokemon.item;
+		}
 		this.moveSlots = [];
 		this.hpType = (this.battle.gen >= 5 ? this.hpType : pokemon.hpType);
 		this.hpPower = (this.battle.gen >= 5 ? this.hpPower : pokemon.hpPower);
@@ -1266,8 +1277,8 @@ export class Pokemon {
 			this.moveSlots.push({
 				move: moveName,
 				id: moveSlot.id,
-				pp: moveSlot.maxpp === 1 ? 1 : 5,
-				maxpp: this.battle.gen >= 5 ? (moveSlot.maxpp === 1 ? 1 : 5) : moveSlot.maxpp,
+				pp: moveSlot.maxpp === 1 ? 1 : isExchange ? moveSlot.pp : 5,
+				maxpp: this.battle.gen >= 5 ? (moveSlot.maxpp === 1 ? 1 : isExchange ? moveSlot.maxpp : 5) : moveSlot.maxpp,
 				target: moveSlot.target,
 				disabled: false,
 				used: false,

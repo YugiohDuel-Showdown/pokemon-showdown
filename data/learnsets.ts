@@ -5069,6 +5069,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			stompingtantrum: ["9L32", "9T"],
 			attackorder: ["9L36"],
 			defendorder: ["9L36"],
+			toxicspikes: ['9L40', '9T'],
 			ordertosmash: ["9L42"],
 			bugbuzz: ["9L46", "9T"],
 			endeavor: ["9L52"],

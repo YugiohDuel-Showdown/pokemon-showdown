@@ -3295,6 +3295,9 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			const targets = source.adjacentFoes();
 			for (const target of targets) {
 				target.trySetStatus('tox');
+				for (const ally of target.allies()) {
+					ally.trySetStatus('tox');
+				}
 			}
 		},
 		target: "self",
@@ -3603,6 +3606,25 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		},
 		target: "normal",
 		type: "Fighting",
+	},
+	exchange: {
+		num: -1170,
+		accuracy: 100,
+		basePower: 0,
+		category: "Status",
+		name: "Exchange",
+		pp: 5,
+		priority: 0,
+		flags: { protect: 1, failcopycat: 1, failinstruct: 1 },
+		onHit(target, source, move) {
+			const userPokemon = source;
+			const targetPokemon = target;
+			if (!userPokemon.transformInto(targetPokemon, move)) return false;
+			if (!targetPokemon.transformInto(userPokemon, move)) return false;
+		},
+		secondary: null,
+		target: "normal",
+		type: "Normal",
 	},
 	// End of custom moves
 	"10000000voltthunderbolt": {
@@ -3916,7 +3938,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Fairy",
 	},
-	exchange: {
+	allyswitch: {
 		num: 502,
 		accuracy: true,
 		basePower: 0,

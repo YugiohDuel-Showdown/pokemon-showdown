@@ -933,8 +933,8 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Has a 100% chance to confuse the target if it had a stat stage raised this turn.",
 		shortDesc: "100% confuse target that had a stat rise this turn.",
 	},
-	exchange: {
-		name: "Exchange",
+	allyswitch: {
+		name: "Ally Switch",
 		desc: "The user swaps positions with its ally. Fails if the user is the only Pokemon on its side. This move has a 1/X chance of being successful, where X starts at 1 and triples each time this move is successfully used. X resets to 1 if this move fails or if the user's last move used is not Ally Switch.",
 		shortDesc: "User and ally swap positions; using again can fail.",
 		gen8: {
