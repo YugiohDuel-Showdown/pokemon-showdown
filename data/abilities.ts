@@ -44,15 +44,15 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	royalflush: {
 		onModifyAtk(atk, pokemon) {
-			const party = pokemon.side.pokemon.filter(ally => ally.species.id === "queensk" && ally.ability === "Royal Flush");
+			const party = pokemon.side.pokemon.filter(ally => ally.species.id === "queensknight" && ally.ability === "royalflush");
 			if (party.length > 0) return this.chainModify(1.5);
 		},
 		onModifyDef(def, pokemon) {
-			const party = pokemon.side.pokemon.filter(ally => ally.species.id === "kingsk" && ally.ability === "Royal Flush");
+			const party = pokemon.side.pokemon.filter(ally => ally.species.id === "kingsknight" && ally.ability === "royalflush");
 			if (party.length > 0) return this.chainModify(1.5);
 		},
 		onModifySpe(spe, pokemon) {
-			const party = pokemon.side.pokemon.filter(ally => ally.species.id === "jacksk" && ally.ability === "Royal Flush");
+			const party = pokemon.side.pokemon.filter(ally => ally.species.id === "jacksknight" && ally.ability === "royalflush");
 			if (party.length > 0) return this.chainModify(1.5);
 		},
 		flags: {},
