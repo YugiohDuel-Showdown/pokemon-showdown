@@ -17916,7 +17916,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			skyattack: ["9L53", "9T"],
 			thunderbolt: ["9L60", "9M"],
 			outrage: ["9L75", "9T"],
-			direclaw: ["9E"],
+			// direclaw: ["9E"], // Removed by Pokeduel
 			dragonclaw: ["9M"],
 			waterpulse: ["9M"],
 			roar: ["9M"],
