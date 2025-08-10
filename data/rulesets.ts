@@ -16,7 +16,6 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 	// 		if (!this.effectState[`${species.name}`].switchedIn) {
 	// 			this.effectState[`${species.name}`].switchedIn = false;
 	// 		}
-	// 		let switchedIn = this.effectState[`${species.name}`].switchedIn;
 	// 		if (pokemon.illusion) {
 	// 			species = this.dex.species.get(pokemon.illusion.species.name);
 	// 			this.add('-start', pokemon, 'typechange', pokemon.illusion.getTypes(true).join('/'), '[silent]');
@@ -55,7 +54,7 @@ export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 	// 				let species = this.dex.species.get(target.species.name);
 	// 				let abilities = species.abilities[0];
 	// 				if (species.abilities[1]) {
-	// 					abilities += ` / ${ species.abilities[1]}`;
+	// 					abilities += ` / ${species.abilities[1]}`;
 	// 				}
 	// 				if (species.abilities['H']) {
 	// 					abilities += ` / ${species.abilities['H']}`;

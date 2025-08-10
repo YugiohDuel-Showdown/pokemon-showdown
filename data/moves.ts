@@ -98,11 +98,8 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pp: 10,
 		priority: 0,
 		onAfterHit(target, source, move) {
-			
 			if (!source.hp) return;
-
 			if (target.hp) return;
-
 			if (!target.types.includes('Dragon')) return;
 
 			this.boost({ atk: 1 }, source);
@@ -3134,7 +3131,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 					this.add('-activate', target, 'move: Black Pendant');
 					this.damage(source.baseMaxhp / 4, source, target);
 				}
-			}
+			},
 		},
 		boosts: {
 			spa: 1,
@@ -3291,11 +3288,10 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		onHit(source) {
 			if (source.hp <= 1) return false;
 			this.directDamage(source.hp - 1);
-
 			const targets = source.adjacentFoes();
 			for (const target of targets) {
 				target.trySetStatus('tox');
-				for (const ally of target.allies()) {
+				for (const ally of target.side.pokemon) {
 					ally.trySetStatus('tox');
 				}
 			}
