@@ -4289,7 +4289,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		num: 353,
 		name: "Thunder Giant",
 		gender: "M",
-		types: ["Electric"],
+		types: ["Electric", "Ground"],
 		baseStats: { hp: 85, atk: 80, def: 65, spa: 100, spd: 70, spe: 50 },
 		abilities: { "0": "Static" },
 		heightm: 0,
