@@ -26,7 +26,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		desc: `Randomized teams of Monsters with sets that are generated to be competitively viable.`,
 		mod: 'gen9',
 		team: 'random',
-		ruleset: ['PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod', 'Terastal Clause'],
+		ruleset: ['PotD', 'Unobtainable', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod', 'Terastal Clause'],
 	},
 	{
 		name: "[Gen 9] Unrated Random Battle",
@@ -34,7 +34,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		team: 'random',
 		challengeShow: false,
 		rated: false,
-		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod'],
+		ruleset: ['Obtainable', 'Unobtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod'],
 	},
 	{
 		name: "[Gen 9] Free-For-All Random Battle",
@@ -43,7 +43,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		gameType: 'freeforall',
 		tournamentShow: false,
 		rated: false,
-		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod', 'Terastal Clause'],
+		ruleset: ['Obtainable', 'Unobtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod', 'Terastal Clause'],
 	},
 	{
 		name: "[Gen 9] Random Battle (Blitz)",
@@ -61,7 +61,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		rated: false,
 		ruleset: [
 			'Max Team Size = 3',
-			'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod', 'Terastal Clause',
+			'Obtainable', 'Unobtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod', 'Terastal Clause',
 		],
 	},
 	{
@@ -74,26 +74,26 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	{
 		name: "[Gen 9] UU",
 		mod: 'gen9',
-		ruleset: ['Standard', 'Sleep Moves Clause', '!Sleep Clause Mod', 'Terastal Clause'],
+		ruleset: ['Standard', 'Unobtainable', 'Sleep Moves Clause', '!Sleep Clause Mod', 'Terastal Clause'],
 		banlist: ['Uber', 'AG', 'OU', 'Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Razor Fang', 'Baton Pass', 'Last Respects', 'Shed Tail'],
 		unbanlist: ['UU'],
 	},
 	{
 		name: "[Gen 9] Ubers",
 		mod: 'gen9',
-		ruleset: ['Standard', 'Terastal Clause'],
+		ruleset: ['Standard', 'Unobtainable', 'Terastal Clause'],
 		banlist: ['AG', 'Moody', 'King\'s Rock', 'Razor Fang', 'Baton Pass', 'Last Respects'],
 	},
 	{
 		name: "[Gen 9] LC",
 		mod: "gen9",
-		ruleset: ['Little Cup', 'Standard', 'Terastal Clause'],
+		ruleset: ['Little Cup', 'Unobtainable', 'Standard', 'Terastal Clause'],
 		banlist: [],
 	},
 	{
 		name: '[Gen 9] Monotype',
 		mod: 'gen9',
-		ruleset: ['Standard', 'Evasion Abilities Clause', 'Same Type Clause', 'Terastal Clause'],
+		ruleset: ['Standard', 'Unobtainable', 'Evasion Abilities Clause', 'Same Type Clause', 'Terastal Clause'],
 	},
 	{
 		name: "[Gen 9] Custom Game",
@@ -101,7 +101,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		searchShow: false,
 		debug: true,
 		battle: { trunc: Math.trunc },
-		ruleset: ['Team Preview', 'Cancel Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max level = 9999', 'Default Level = 100', 'Terastal Clause'],
+		ruleset: ['Team Preview', 'Unobtainable', 'Cancel Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max level = 9999', 'Default Level = 100', 'Terastal Clause'],
 	},
 	{
 		section: "Draft",
