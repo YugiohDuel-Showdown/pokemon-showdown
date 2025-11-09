@@ -1542,7 +1542,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		pp: 10,
 		priority: 0,
 		flags: { nonsky: 1 },
-		terrain: 'zombieworld',
+		pseudoWeather: 'zombieworld',
 		condition: {
 			duration: 5,
 			durationCallback(source, effect) {

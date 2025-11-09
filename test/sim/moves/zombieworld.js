@@ -20,10 +20,10 @@ describe('Zombie World', () => {
 		]]);
 		for (let i = 0; i < 4; i++) {
 			battle.makeChoices();
-			assert(battle.field.isTerrain('zombieworld'));
+			assert(battle.field.pseudoWeather['zombieworld']);
 		}
 		battle.makeChoices('move sleeptalk', 'move sleeptalk');
-		assert(battle.field.isTerrain(''));
+		assert(battle.field.pseudoWeather['zombieworld'] === undefined);
 	});
 
 	it('should turn all monsters to ghost types on field', () => {
@@ -45,10 +45,10 @@ describe('Zombie World', () => {
 		]]);
 		for (let i = 0; i < 4; i++) {
 			battle.makeChoices();
-			assert(battle.field.isTerrain('zombieworld'));
+			assert(battle.field.pseudoWeather['zombieworld']);
 		}
 		battle.makeChoices('move sleeptalk', 'move sleeptalk');
-		assert(battle.field.isTerrain(''));
+		assert(battle.field.pseudoWeather['zombieworld'] === undefined);
 		assert.equal(battle.p1.active[0].getTypes().join(), 'Psychic');
 		assert.equal(battle.p2.active[0].getTypes().join(), 'Normal');
 	});
@@ -65,5 +65,21 @@ describe('Zombie World', () => {
 		const twizard = battle.p2.active[0];
 		const basePower = battle.runEvent('BasePower', dmgirl, twizard, move, move.basePower, true);
 		assert.equal(basePower, battle.modify(move.basePower, 1.1));
+	});
+
+	it('should apply the ghost type to the monster that is switching in', () => {
+		battle = common.createBattle([[
+			{ species: 'darkmagiciangirl', ability: 'mistysurge', moves: ['zombieworld', 'sleeptalk'] },
+			{ species: 'rescuecat', moves: ['sleeptalk'] },
+		], [
+			{ species: 'timewizard', moves: ['sleeptalk'] },
+		]]);
+		battle.makeChoices();
+		assert(battle.field.isTerrain('mistyterrain'));
+		assert.hasType(battle.p1.active[0], 'Ghost');
+		assert.hasType(battle.p2.active[0], 'Ghost');
+		battle.makeChoices('switch 2', 'move sleeptalk');
+		assert.hasType(battle.p1.active[0], 'Ghost');
+		assert.hasType(battle.p2.active[0], 'Ghost');
 	});
 });

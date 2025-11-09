@@ -94,6 +94,16 @@ assert.hasAbility = function (pokemon, ability, message) {
 	});
 };
 
+assert.hasType = function (pokemon, type, message) {
+	const types = pokemon.getTypes();
+	const expected = type;
+	if (types.includes(expected)) return;
+	throw new AssertionError({
+		message: message || `Expected ${pokemon} to have type ${expected}, not ${types.join(', ')}.`,
+		stackStartFn: assert.hasType,
+	});
+};
+
 assert.holdsItem = function (pokemon, message) {
 	if (pokemon.item) return;
 	throw new AssertionError({
