@@ -1,5 +1,4 @@
-/config/*
-!/config/avatars/**/*
+/config/config.js
 !/config/formats.ts
 /logs/**/*
 /test/modlogs
