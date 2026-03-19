@@ -1,0 +1,16 @@
+node_modules/
+dist/
+logs/
+*.log
+npm-debug.log
+.git/
+.gitignore
+config/config.js
+databases/*.db
+databases/*.db-shm
+databases/*.db-wal
+tmp/
+.idea/
+.vs/
+*.swp
+*.DS_Store
