@@ -5212,7 +5212,7 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			hurricane: ["9T"],
 		},
 	},
-	celticguardain: {
+	celticguardian: {
 		learnset: {
 			tackle: ["9L1"],
 			foresight: ["9L1"],
