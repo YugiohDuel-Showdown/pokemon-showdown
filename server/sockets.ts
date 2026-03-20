@@ -343,6 +343,14 @@ export class ServerStream extends Streams.ObjectReadWriteStream<string> {
 			const staticRequestHandler = (req: http.IncomingMessage, res: http.ServerResponse) => {
 				// console.log(`static rq: ${req.socket.remoteAddress}:${req.socket.remotePort} -> ${req.socket.localAddress}:${req.socket.localPort} - ${req.method} ${req.url} ${req.httpVersion} - ${req.rawHeaders.join('|')}`);
 				req.resume();
+				// node-static has a race condition where it calls res.writeHead() a second time
+				// from a ReadStream 'close' event after the response is already committed.
+				// Guard against this to prevent ERR_HTTP_HEADERS_SENT crashes.
+				const _writeHead = res.writeHead.bind(res);
+				(res as any).writeHead = function(statusCode: number, ...args: any[]) {
+					if (res.headersSent) return res;
+					return _writeHead(statusCode, ...args);
+				};
 				req.addListener('end', () => {
 					if (config.customhttpresponse?.(req, res)) {
 						return;
