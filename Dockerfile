@@ -13,7 +13,8 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install all dependencies including optional native modules
-RUN npm install --include=optional
+# --ignore-scripts skips postinstall (which runs "node build") since source isn't copied yet
+RUN npm install --include=optional --ignore-scripts
 
 # Copy the rest of the source
 COPY . .
