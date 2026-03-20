@@ -12,18 +12,23 @@ WORKDIR /app
 # Copy package files first for layer caching
 COPY package*.json ./
 
-# Install all dependencies including optional native modules
-# --ignore-scripts skips postinstall (which runs "node build") since source isn't copied yet
+# Install dependencies but skip scripts (postinstall runs "node build" which needs source)
 RUN npm install --include=optional --ignore-scripts
 
 # Copy the rest of the source
 COPY . .
+
+# Rebuild native modules (better-sqlite3, etc.) now that source and build tools are present
+RUN npm rebuild
 
 # Create config from example (can be overridden by mounting a custom config)
 RUN cp config/config-example.js config/config.js
 
 # Pre-build TypeScript so startup is fast
 RUN node build
+
+# Create logs directory expected by the server
+RUN mkdir -p logs
 
 EXPOSE 8000
 
