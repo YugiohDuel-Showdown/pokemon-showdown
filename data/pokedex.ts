@@ -3682,7 +3682,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		name: "Gate Guardian",
 		types: ["Electric", "Water"],
 		baseStats: { hp: 130, atk: 80, def: 80, spa: 105, spd: 75, spe: 55 },
-		abilities: { "0": "Static", H: "Aerilate" },
+		abilities: { "0": "Volt Absorb", H: "Aerilate" },
 		heightm: 0,
 		weightkg: 500,
 		prevo: "GG Thunder Wind",
@@ -4407,12 +4407,11 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		gender: "M",
 		types: ["Fire", "Water"],
 		baseStats: { hp: 100, atk: 70, def: 65, spa: 90, spd: 75, spe: 50 },
-		abilities: { "0": "Steam Engine", "1": "Water Bubble" },
+		abilities: { "0": "Steam Engine", "1": "Water Absorb" },
 		heightm: 0,
 		weightkg: 400,
 		prevo: "Bubbleman",
 		evoLevel: 30,
-
 		eggGroups: ["Monster", "Human Like"],
 	},
 	melchid4: {
