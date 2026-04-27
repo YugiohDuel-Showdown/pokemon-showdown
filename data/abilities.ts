@@ -4378,7 +4378,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	snowwarning: {
 		onStart(source) {
-			this.field.setWeather('snowscape');
+			this.field.setWeather('hail');
 		},
 		flags: {},
 		name: "Snow Warning",

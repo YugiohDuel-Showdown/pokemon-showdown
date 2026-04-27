@@ -6111,7 +6111,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		priorityChargeCallback(source) {
 			source.addVolatile('chillyreception');
 		},
-		weather: 'snowscape',
+		weather: 'hail',
 		selfSwitch: true,
 		secondary: null,
 		condition: {
@@ -11974,7 +11974,6 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
-
 		name: "Hail",
 		pp: 10,
 		priority: 0,
