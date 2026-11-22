@@ -1230,4 +1230,289 @@ export const FormatsData: import("../sim/dex-species").SpeciesFormatsDataTable =
 	hermos: {
 		tier: "OU",
 	},
+	kuribon: {
+		tier: "OU",
+	},
+	spherekuriboh: {
+		tier: "OU",
+	},
+	junkuriboh: {
+		tier: "OU",
+	},
+	woodremains: {
+		tier: "OU",
+	},
+	speedwarrior: {
+		tier: "OU",
+	},
+	junkspeeder: {
+		tier: "OU",
+	},
+	kingoftheferalimps: {
+		tier: "OU",
+	},
+	mukamuka: {
+		tier: "OU",
+	},
+	enragedmukamuka: {
+		tier: "OU",
+	},
+	quillbolthedgehog: {
+		tier: "OU",
+	},
+	anchorbolthedgehog: {
+		tier: "OU",
+	},
+	obnoxiouscelticguardian: {
+		tier: "OU",
+	},
+	spore: {
+		tier: "OU",
+	},
+	sporethefairyseed: {
+		tier: "OU",
+	},
+	blackwinggale: {
+		tier: "OU",
+	},
+	blackwingarmormaster: {
+		tier: "OU",
+	},
+	cockroachknight: {
+		tier: "OU",
+	},
+	insectknight: {
+		tier: "OU",
+	},
+	ultimatebaseballkid: {
+		tier: "OU",
+	},
+	revivalrose: {
+		tier: "OU",
+	},
+	regeneratingrose: {
+		tier: "OU",
+	},
+	rosetentacles: {
+		tier: "OU",
+	},
+	darkresonator: {
+		tier: "OU",
+	},
+	crimsonresonator: {
+		tier: "OU",
+	},
+	smallpiecegolem: {
+		tier: "OU",
+	},
+	mediumpiecegolem: {
+		tier: "OU",
+	},
+	bigpiecegolem: {
+		tier: "OU",
+	},
+	infernityarchfiend: {
+		tier: "OU",
+	},
+	infernitydoomarchfiend: {
+		tier: "OU",
+	},
+	crabturtle: {
+		tier: "OU",
+	},
+	junkdestroyer: {
+		tier: "OU",
+	},
+	junkarcher: {
+		tier: "OU",
+	},
+	nitrosynchron: {
+		tier: "OU",
+	},
+	nitrowarrior: {
+		tier: "OU",
+	},
+	turbosynchron: {
+		tier: "OU",
+	},
+	turbowarrior: {
+		tier: "OU",
+	},
+	roadsynchron: {
+		tier: "OU",
+	},
+	roadwarrior: {
+		tier: "OU",
+	},
+	quickdrawsynchron: {
+		tier: "OU",
+	},
+	leveleater: {
+		tier: "OU",
+	},
+	solitairemagician: {
+		tier: "OU",
+	},
+	fortuneladyevery: {
+		tier: "OU",
+	},
+	gracefuldice: {
+		tier: "OU",
+	},
+	lordpoison: {
+		tier: "OU",
+	},
+	gandora: {
+		tier: "OU",
+	},
+	warmworm: {
+		tier: "OU",
+	},
+	berserkgorilla: {
+		tier: "OU",
+	},
+	blueeyestoonultimatedragon: {
+		tier: "OU",
+	},
+	volcanicslicer: {
+		tier: "OU",
+	},
+	sunlightunicorn: {
+		tier: "OU",
+	},
+	montagedragon: {
+		tier: "OU",
+	},
+	formulasynchron: {
+		tier: "OU",
+	},
+	ambermammoth: {
+		tier: "OU",
+	},
+	emeraldtortoise: {
+		tier: "OU",
+	},
+	nightmarepenguin: {
+		tier: "OU",
+	},
+	reptilianneservant: {
+		tier: "OU",
+	},
+	dragonqueenoftragicending: {
+		tier: "OU",
+	},
+	darkdiviner: {
+		tier: "OU",
+	},
+	undergroundarachnid: {
+		tier: "OU",
+	},
+	frozenfitzgerald: {
+		tier: "OU",
+	},
+	zemantheapeking: {
+		tier: "OU",
+	},
+	darkflattop: {
+		tier: "OU",
+	},
+	hundredeyesdragon: {
+		tier: "OU",
+	},
+	supay: {
+		tier: "OU",
+	},
+	moondragonquilla: {
+		tier: "OU",
+	},
+	sundragoninti: {
+		tier: "OU",
+	},
+	ccapacapu: {
+		tier: "OU",
+	},
+	cusillu: {
+		tier: "OU",
+	},
+	ccarayhua: {
+		tier: "OU",
+	},
+	uru: {
+		tier: "OU",
+	},
+	chacuchallhua: {
+		tier: "OU",
+	},
+	asllapiscu: {
+		tier: "OU",
+	},
+	wiraqocharasca: {
+		tier: "OU",
+	},
+	debrisdragon: {
+		tier: "OU",
+	},
+	shootingstardragon: {
+		tier: "OU",
+	},
+	redrisingdragon: {
+		tier: "OU",
+	},
+	reddragonarchfiend: {
+		tier: "OU",
+	},
+	rednovadragon: {
+		tier: "OU",
+	},
+	redrosedragon: {
+		tier: "OU",
+	},
+	blackrosedragon: {
+		tier: "OU",
+	},
+	ruddyrosedragon: {
+		tier: "OU",
+	},
+	blackwingghibli: {
+		tier: "OU",
+	},
+	blackwingdragon: {
+		tier: "OU",
+	},
+	blackwingassaultdragon: {
+		tier: "OU",
+	},
+	fairydragon: {
+		tier: "OU",
+	},
+	ancientfairydragon: {
+		tier: "OU",
+	},
+	ancientpixiedragon: {
+		tier: "OU",
+	},
+	revolutionsynchron: {
+		tier: "OU",
+	},
+	powertooldragon: {
+		tier: "OU",
+	},
+	lifestreamdragon: {
+		tier: "OU",
+	},
+	majesticdragon: {
+		tier: "OU",
+	},
+	majesticstardragon: {
+		tier: "OU",
+	},
+	majesticreddragon: {
+		tier: "OU",
+	},
+	shootingquasardragon: {
+		tier: "OU",
+	},
+	crimsondragon: {
+		tier: "OU",
+	},
 };
